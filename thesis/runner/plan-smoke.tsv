@@ -1,0 +1,7 @@
+# Stage 2, step 7: one iteration per case, all four configurations. ~1 h.
+# Check: every tool starts, HMR works without full reload, build succeeds (exit=0 in runs-index.csv).
+SMOKE react-1k
+SMOKE react-5k
+SMOKE react-10k
+SMOKE react-1k-hub
+SMOKE react-10k-r1

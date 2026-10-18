@@ -9,14 +9,18 @@
     "build:rspack": "rspack build",
     "build:utoo": "cross-env NODE_ENV=production up build",
     "build:vite": "vite build",
+    "build:vite7": "node ../../node_modules/vite7/bin/vite.js --config vite7.config.mjs build",
     "build:webpack": "cross-env NODE_ENV=production webpack build --mode production",
+    "build:webpack-babel": "cross-env NODE_ENV=production webpack build --mode production --config webpack-babel.config.mjs",
     "start:farm": "farm start",
     "start:parcel": "parcel -p 3200 index.html",
     "start:rsbuild": "rsbuild dev",
     "start:rspack": "rspack serve",
     "start:utoo": "cross-env NODE_ENV=development up dev",
     "start:vite": "vite",
-    "start:webpack": "cross-env NODE_ENV=development webpack serve --mode development"
+    "start:vite7": "node ../../node_modules/vite7/bin/vite.js --config vite7.config.mjs",
+    "start:webpack": "cross-env NODE_ENV=development webpack serve --mode development",
+    "start:webpack-babel": "cross-env NODE_ENV=development webpack serve --mode development --config webpack-babel.config.mjs"
   },
   "dependencies": {
     "@iconify-icons/material-symbols": "^1.2.59",

@@ -8,6 +8,9 @@
     "test": "node --test scripts/memory.test.ts"
   },
   "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-react": "^7.27.1",
     "@farmfe/cli": "^1.0.5",
     "@farmfe/core": "1.7.11",
     "@farmfe/plugin-react": "^1.2.6",
@@ -33,6 +36,7 @@
     "@types/react-dom": "^19.3.0",
     "@utoo/pack-cli": "1.5.24-alpha.0",
     "@vitejs/plugin-react": "^6.1.1",
+    "babel-loader": "^10.0.0",
     "buffer": "^6.0.3",
     "cross-env": "^10.1.0",
     "esbuild": "^0.28.2",
@@ -54,8 +58,11 @@
     "rollup-plugin-swc3": "^0.12.1",
     "rslog": "^2.3.0",
     "swc-loader": "^0.2.7",
+    "terser-webpack-plugin": "^5.3.14",
     "typescript": "^7.0.2",
     "vite": "^8.3.0",
+    "vite7": "npm:vite@^7.1.0",
+    "vite7-plugin-react": "npm:@vitejs/plugin-react@^5.0.0",
     "webpack": "^5.111.1",
     "webpack-cli": "^7.2.3",
     "webpack-dev-server": "^5.2.6"

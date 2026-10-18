@@ -1,0 +1,5 @@
+# Series A — replication of the published upstream results. Run FIRST, then compare
+# ratios between webpack and Vite with the upstream README before starting plan-main.tsv.
+A react-1k
+A react-5k
+A react-10k

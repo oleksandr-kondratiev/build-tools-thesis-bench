@@ -10,3 +10,11 @@ dist-*
 tsconfig.tsbuildinfo
 
 results/
+results/
+thesis/**/tmp/
+thesis/analysis/.venv/
+thesis/analysis/__pycache__/
+*.env
+.env*
+cases/*-hub/
+cases/react-10k-r[0-9]*/

@@ -4,6 +4,8 @@ export const config = {
     'rsbuild',
     'vite',
     'webpack',
+    'webpack-babel',
+    'vite7',
     'farm',
     'parcel',
     'utoo',

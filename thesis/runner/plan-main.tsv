@@ -1,0 +1,14 @@
+# Series B, C, E, F (+ GC diagnostics). Run only after series A looks consistent.
+B react-1k
+B react-5k
+B react-10k
+C react-1k-hub
+C react-5k-hub
+C react-10k-hub
+E react-1k
+E react-5k
+E react-10k
+F react-5k
+F react-10k
+Fgc react-5k
+Fgc react-10k

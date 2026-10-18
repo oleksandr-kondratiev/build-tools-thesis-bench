@@ -6,6 +6,8 @@ export const config = {
     'rollup',
     'rolldown',
     'webpack',
+    'webpack-babel',
+    'vite7',
     'esbuild',
     'farm',
     'utoo',

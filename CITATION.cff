@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use these benchmark data or scripts, please cite them as below."
+title: "Bundle-based vs Native ESM build tools: benchmark data (webpack 5, Vite 7/8)"
+type: dataset
+authors:
+  - family-names: Kondratiev
+    given-names: Oleksandr
+license: MIT
+repository-code: "https://github.com/<github-user>/build-tools-thesis-bench"
+version: "1.0.0"
+date-released: "2026-11-30"
+keywords: [webpack, vite, rolldown, swc, hmr, benchmark, bundler]
+references:
+  - type: software
+    title: "Build Tools Comparison (rstackjs/build-tools-performance)"
+    repository-code: "https://github.com/rstackjs/build-tools-performance"
+    commit: "11e66c03b8dbe415c4e71a79f7f8fb9a4b0e04b2"
+    license: MIT

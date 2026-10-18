@@ -43,6 +43,8 @@ type BenchmarkConfig = {
   dev?: boolean;
   rootFile?: string;
   leafFile?: string;
+  // Thesis fork: non-component module imported by every component of one route.
+  hubFile?: string;
   timeouts?: Partial<typeof defaultTimeouts>;
 };
 
@@ -75,6 +77,14 @@ type NumericPerfMetricKey =
   | 'rootHmr'
   | 'leafHmr'
   | 'hmr'
+  | 'hubHmr'
+  | 'devColdReady'
+  | 'devHotReady'
+  | 'devColdPage'
+  | 'devHotPage'
+  | 'networkRequests'
+  | 'networkKB'
+  | 'allRoutesTime'
   | 'prodBuild'
   | 'prodHotBuild'
   | 'buildColdPeak'
@@ -83,6 +93,7 @@ type NumericPerfMetricKey =
 interface PerfMetrics extends Partial<Record<NumericPerfMetricKey, number>> {
   outputSize?: string;
   gzippedSize?: string;
+  brotliSize?: string;
 }
 
 type PerfResultMap = Partial<Record<string, PerfMetrics>>;
@@ -178,6 +189,7 @@ class BuildTool {
         '.parcel-cache',
         'node_modules/.cache',
         'node_modules/.vite',
+        'node_modules/.vite7',
         'node_modules/.farm',
         '.turbopack',
       ]) {
@@ -379,6 +391,30 @@ parseToolNames().forEach((name) => {
         }),
       );
       break;
+    case 'vite7':
+      buildTools.push(
+        new BuildTool({
+          name: 'Vite ' + require('vite7/package.json').version,
+          port: 5173,
+          startScript: 'start:vite7',
+          startedRegex: /ready in (\d+) (s|ms)/,
+          buildScript: 'build:vite7',
+          binFilePath: 'vite7/bin/vite.js',
+        }),
+      );
+      break;
+    case 'webpack-babel':
+      buildTools.push(
+        new BuildTool({
+          name: 'webpack ' + require('webpack/package.json').version + ' (Babel)',
+          port: 8080,
+          startScript: 'start:webpack-babel',
+          startedRegex: /compiled .+ in (.+) (s|ms)/,
+          buildScript: 'build:webpack-babel',
+          binFilePath: 'webpack-cli/bin/cli.js',
+        }),
+      );
+      break;
     case 'webpack':
       buildTools.push(
         new BuildTool({
@@ -459,6 +495,15 @@ if (
 ) {
   throw new Error('WARMUP_TIMES must be >= 0 and RUN_TIMES must be >= 1');
 }
+// Thesis fork: visit every lazy route after the first render (series E).
+const allRoutes = process.env.ALL_ROUTES === '1';
+const hubUpdates = 5;
+const routeIndex = path.join(srcDir, 'index.jsx');
+const routes = [
+  ...(fse.existsSync(routeIndex) ? readFileSync(routeIndex, 'utf8') : '').matchAll(
+    /path="(\/[^"]+)"/g,
+  ),
+].map((match) => match[1]);
 let iteration = 0;
 let currentAttempt = 1;
 const attempts: {
@@ -477,6 +522,10 @@ const metadata = {
   steadyIdleMs,
   steadyWindowMs,
   hmrUpdates: 10,
+  hubFile: config.hubFile,
+  hubHmrUpdates: config.hubFile ? hubUpdates : 0,
+  allRoutes,
+  gitSha: process.env.GIT_SHA,
   timeouts,
   maxAttempts: 2,
   measurements: ['timing', 'memory'],
@@ -656,7 +705,10 @@ async function runDevBenchmark(
   const { rootFile, leafFile } = config;
   if (!rootFile || !leafFile)
     throw new Error('Dev benchmarks require rootFile and leafFile');
-  const files = [rootFile, leafFile].map((file, index) => {
+  const devFiles = [rootFile, leafFile, config.hubFile].filter(
+    (file): file is string => Boolean(file),
+  );
+  const files = devFiles.map((file, index) => {
     const filePath = path.join(srcDir, file);
     const original = readFileSync(filePath, 'utf8');
     const marker = `benchmark-restored-${index}`;
@@ -697,7 +749,11 @@ async function runDevSession(
     succeeded: boolean;
     steady?: object;
     startupTime?: number;
+    readyTime?: number;
+    pageTime?: number;
     hmrTimes?: number[];
+    hubHmrTimes?: number[];
+    network?: object;
   };
   let onDisconnected: () => void;
   const failure = Promise.race([
@@ -741,6 +797,16 @@ async function runDevSession(
     page.on('error', (error) => logBrowser(`error: ${String(error)}`));
     const idle = (signal: AbortSignal) =>
       sessionPage.waitForNetworkIdle({ idleTime: 500, timeout: 0, signal });
+    // Requests and encoded (transferred) bytes, counted from the first goto.
+    const traffic = { requests: 0, bytes: 0 };
+    if (allRoutes) {
+      const cdp = await sessionPage.createCDPSession();
+      cdp.on('Network.requestWillBeSent', () => traffic.requests++);
+      cdp.on('Network.loadingFinished', (event) => {
+        traffic.bytes += event.encodedDataLength;
+      });
+      await cdp.send('Network.enable');
+    }
     const start = Date.now();
     const startupTime = await phase(
       'page load',
@@ -757,8 +823,50 @@ async function runDevSession(
         return startupTime;
       },
     );
-    if (measurement === 'timing')
+    if (measurement === 'timing') {
       metrics[cache === 'cold' ? 'devColdStart' : 'devHotStart'] = startupTime;
+      // T_ready: server readiness log line; T_page: first render after goto.
+      metrics[cache === 'cold' ? 'devColdReady' : 'devHotReady'] = time;
+      metrics[cache === 'cold' ? 'devColdPage' : 'devHotPage'] =
+        startupTime - time;
+    }
+    let network: object | undefined;
+    if (allRoutes && measurement === 'timing' && cache === 'cold') {
+      network = await phase('all routes', timeouts.page, async (signal) => {
+        const visited = [];
+        const started = Date.now();
+        for (const route of routes) {
+          const before = { ...traffic };
+          const routeStarted = Date.now();
+          await sessionPage.evaluate((to) => {
+            history.pushState({}, '', to);
+            dispatchEvent(new PopStateEvent('popstate'));
+          }, route);
+          await sessionPage.waitForFunction(
+            () => !document.body.innerText.includes('Loading...'),
+            { timeout: 0, signal },
+          );
+          await idle(signal);
+          visited.push({
+            route,
+            ms: Date.now() - routeStarted,
+            requests: traffic.requests - before.requests,
+            bytes: traffic.bytes - before.bytes,
+          });
+        }
+        const allRoutesTime = Date.now() - started;
+        await sessionPage.evaluate(() => {
+          history.pushState({}, '', '/');
+          dispatchEvent(new PopStateEvent('popstate'));
+        });
+        await idle(signal);
+        return { ...traffic, allRoutesTime, routes: visited };
+      });
+      const total = network as typeof traffic & { allRoutesTime: number };
+      metrics.networkRequests = total.requests;
+      metrics.networkKB = total.bytes / 1000;
+      metrics.allRoutesTime = total.allRoutesTime;
+    }
     let navigated = false;
     page.on('framenavigated', (frame) => {
       if (frame === sessionPage.mainFrame()) navigated = true;
@@ -794,7 +902,21 @@ async function runDevSession(
     // Warm timing sessions only measure startup; memory sessions need HMR load.
     const runHmr = cache === 'cold' || measurement === 'memory';
     const hmrTimes: number[] = [];
+    const hubHmrTimes: number[] = [];
     if (runHmr) {
+      if (config.hubFile) {
+        const hub = files[2];
+        for (let update = 0; update < hubUpdates; update++) {
+          const marker = `benchmark-hub-${cache}-${update}`;
+          hubHmrTimes.push(
+            await updateModule(
+              hub.path,
+              `${hub.baseline}\nconsole.log(${JSON.stringify(marker)}, Date.now());\n`,
+              marker,
+            ),
+          );
+        }
+      }
       for (let update = 0; update < 10; update++) {
         const file = files[update % 2];
         const marker = `benchmark-hmr-${cache}-${update}`;
@@ -811,6 +933,7 @@ async function runDevSession(
       metrics.rootHmr = median(hmrTimes.filter((_, index) => index % 2 === 0));
       metrics.leafHmr = median(hmrTimes.filter((_, index) => index % 2 === 1));
       metrics.hmr = (metrics.rootHmr + metrics.leafHmr) / 2;
+      if (hubHmrTimes.length) metrics.hubHmr = median(hubHmrTimes);
     }
     if (command.memory) {
       const steady = await phase(
@@ -828,7 +951,15 @@ async function runDevSession(
         `${buildTool.name} dev (${cache}, memory): steady ${(steady.bytes / 1024 ** 2).toFixed(1)} MiB, peak ${(peak / 1024 ** 2).toFixed(1)} MiB`,
       );
     } else {
-      details = { succeeded: false, startupTime, hmrTimes };
+      details = {
+        succeeded: false,
+        startupTime,
+        readyTime: time,
+        pageTime: startupTime - time,
+        hmrTimes,
+        hubHmrTimes,
+        network,
+      };
       logger.success(
         `${buildTool.name} dev (${cache}, timing): ${startupTime}ms`,
       );
@@ -1071,6 +1202,11 @@ if (runDev) {
         data: getData('devHotStart', 'ms'),
       },
       { title: 'HMR', data: getData('hmr', 'ms') },
+      { title: 'Ready (no cache)', data: getData('devColdReady', 'ms') },
+      { title: 'Page (no cache)', data: getData('devColdPage', 'ms') },
+      { title: 'Hub HMR', data: getData('hubHmr', 'ms') },
+      { title: 'Requests (all routes)', data: getData('networkRequests', '') },
+      { title: 'Transferred kB', data: getData('networkKB', 'kB') },
     ],
   });
 }
@@ -1086,6 +1222,7 @@ columnGroups.push({
       title: 'Gzipped size',
       data: getData('gzippedSize', 'kB'),
     },
+    { title: 'Brotli size', data: getData('brotliSize', 'kB') },
   ],
 });
 

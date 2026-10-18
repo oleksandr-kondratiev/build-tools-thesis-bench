@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.sh  text eol=lf
+*.png binary
+*.jpg binary
+*.webp binary
+# Large binary evidence (traces, HAR, archives) — enable Git LFS if you commit them:
+# *.trace.json filter=lfs diff=lfs merge=lfs -text
+# *.har        filter=lfs diff=lfs merge=lfs -text
+# *.tar.zst    filter=lfs diff=lfs merge=lfs -text

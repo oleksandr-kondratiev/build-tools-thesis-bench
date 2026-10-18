@@ -2,16 +2,18 @@
   "name": "popular-libs",
   "version": "0.0.0",
   "scripts": {
-    "build:rollup": "cross-env NODE_ENV=production rollup --config rollup.config.mjs",
-    "build:rolldown": "cross-env NODE_ENV=production rolldown build --config rolldown.config.mjs",
-    "build:parcel": "parcel build index.html",
-    "build:rspack": "rspack build",
-    "build:rsbuild": "rsbuild build",
-    "build:webpack": "cross-env NODE_ENV=production webpack build",
-    "build:utoo": "cross-env NODE_ENV=production up build",
+    "build:esbuild": "cross-env NODE_ENV=production node esbuild.mjs",
     "build:farm": "farm build",
+    "build:parcel": "parcel build index.html",
+    "build:rolldown": "cross-env NODE_ENV=production rolldown build --config rolldown.config.mjs",
+    "build:rollup": "cross-env NODE_ENV=production rollup --config rollup.config.mjs",
+    "build:rsbuild": "rsbuild build",
+    "build:rspack": "rspack build",
+    "build:utoo": "cross-env NODE_ENV=production up build",
     "build:vite": "vite build",
-    "build:esbuild": "cross-env NODE_ENV=production node esbuild.mjs"
+    "build:vite7": "node ../../node_modules/vite7/bin/vite.js --config vite7.config.mjs build",
+    "build:webpack": "cross-env NODE_ENV=production webpack build",
+    "build:webpack-babel": "cross-env NODE_ENV=production webpack build --config webpack-babel.config.mjs"
   },
   "dependencies": {
     "@floating-ui/dom": "^1.8.0",

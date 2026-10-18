@@ -1,0 +1,13 @@
+**/node_modules
+**/dist
+**/.cache
+**/.vite
+**/.parcel-cache
+.git
+results
+thesis/results
+thesis/data
+thesis/figures
+thesis/media
+thesis/logs
+thesis/env

@@ -2,6 +2,7 @@ import path from 'path';
 import fse from 'fs-extra';
 import glob from 'fast-glob';
 import { gzipSizeSync } from 'gzip-size';
+import { brotliCompressSync, constants } from 'node:zlib';
 
 export const N_A = 'N/A';
 
@@ -26,6 +27,7 @@ export async function getFileSizes(targetDir: string) {
   let files = await glob(convertPath(path.join(targetDir, '**/*')));
   let outputSize = 0;
   let gzippedSize = 0;
+  let brotliSize = 0;
 
   files = files.filter((file) => {
     return !(
@@ -40,6 +42,9 @@ export async function getFileSizes(targetDir: string) {
       fse.readFile(file, 'utf-8').then((content) => {
         outputSize += Buffer.byteLength(content);
         gzippedSize += gzipSizeSync(content);
+        brotliSize += brotliCompressSync(content, {
+          params: { [constants.BROTLI_PARAM_QUALITY]: 11 },
+        }).length;
       }),
     ),
   );
@@ -47,6 +52,7 @@ export async function getFileSizes(targetDir: string) {
   return {
     outputSize: formatFileSize(outputSize),
     gzippedSize: formatFileSize(gzippedSize),
+    brotliSize: formatFileSize(brotliSize),
   };
 }
 

@@ -1,0 +1,7 @@
+# Append these lines to the repository's root .gitignore
+results/
+thesis/**/tmp/
+thesis/analysis/.venv/
+thesis/analysis/__pycache__/
+*.env
+.env*
