@@ -61,7 +61,7 @@ FREE_GB="$(df -BG --output=avail "$ROOT" | tail -1 | tr -dc 0-9)"
 (( FREE_GB > 15 )) || { echo "!! less than 15 GB free on disk"; exit 4; }
 IMG_REV="$(docker image inspect "$IMAGE" --format '{{index .Config.Labels "org.opencontainers.image.revision"}}')"
 # Commits that only add results are fine; any change to benchmark sources since the build is not.
-SRC_PATHS=(scripts shared cases package.json pnpm-lock.yaml pnpm-workspace.yaml thesis/docker thesis/patches)
+SRC_PATHS=(scripts shared cases tools package.json pnpm-lock.yaml pnpm-workspace.yaml thesis/docker thesis/patches)
 if ! git -C "$ROOT" diff --quiet "$IMG_REV" HEAD -- "${SRC_PATHS[@]}" 2>/dev/null; then
   echo "!! benchmark sources changed since the image was built from ${IMG_REV:-?} — rebuild the image"
   [[ "${ALLOW_STALE_IMAGE:-0}" == "1" ]] || exit 5

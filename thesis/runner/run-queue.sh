@@ -12,11 +12,11 @@ ROOT="$(git rev-parse --show-toplevel)"
 LOG="$ROOT/thesis/logs/queue/$(basename "$PLAN" .tsv)-$(date -u +%Y%m%dT%H%M%SZ).log"
 mkdir -p "$(dirname "$LOG")"
 
-mapfile -t LINES < <(grep -vE '^\s*(#|$)' "$PLAN")
-TOTAL=${#LINES[@]}; N=0; FAILED=0
+mapfile -t PLAN_LINES < <(grep -vE '^\s*(#|$)' "$PLAN")
+TOTAL=${#PLAN_LINES[@]}; N=0; FAILED=0
 echo "queue $PLAN: $TOTAL runs, log: $LOG" | tee -a "$LOG"
 
-for line in "${LINES[@]}"; do
+for line in "${PLAN_LINES[@]}"; do
   N=$((N + 1))
   read -r SERIES CASE RUNS WARM <<<"$line"
   echo "[$(date -u +%FT%TZ)] ($N/$TOTAL) START $SERIES $CASE ${RUNS:-} ${WARM:-}" | tee -a "$LOG"

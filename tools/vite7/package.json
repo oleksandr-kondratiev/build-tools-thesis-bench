@@ -1,0 +1,11 @@
+{
+  "name": "thesis-vite7",
+  "private": true,
+  "type": "module",
+  "description": "Thesis fork: isolates Vite 7 + @vitejs/plugin-react 5 so the plugin's `vite` peer resolves to Vite 7, not the root Vite 8.",
+  "exports": "./index.mjs",
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^7.1.0"
+  }
+}

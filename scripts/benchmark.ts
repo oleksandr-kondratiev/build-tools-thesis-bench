@@ -394,12 +394,12 @@ parseToolNames().forEach((name) => {
     case 'vite7':
       buildTools.push(
         new BuildTool({
-          name: 'Vite ' + require('vite7/package.json').version,
+          name: 'Vite ' + require(path.join(process.cwd(), 'tools/vite7/node_modules/vite/package.json')).version,
           port: 5173,
           startScript: 'start:vite7',
           startedRegex: /ready in (\d+) (s|ms)/,
           buildScript: 'build:vite7',
-          binFilePath: 'vite7/bin/vite.js',
+          binFilePath: '../tools/vite7/node_modules/vite/bin/vite.js',
         }),
       );
       break;

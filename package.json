@@ -61,8 +61,6 @@
     "terser-webpack-plugin": "^5.3.14",
     "typescript": "^7.0.2",
     "vite": "^8.3.0",
-    "vite7": "npm:vite@^7.1.0",
-    "vite7-plugin-react": "npm:@vitejs/plugin-react@^5.0.0",
     "webpack": "^5.111.1",
     "webpack-cli": "^7.2.3",
     "webpack-dev-server": "^5.2.6"

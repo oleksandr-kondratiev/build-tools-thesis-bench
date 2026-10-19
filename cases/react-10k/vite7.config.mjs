@@ -1,6 +1,6 @@
 // @ts-check
 // V7 (thesis fork): Vite 7 (esbuild + Rollup) with @vitejs/plugin-react 5.
-import react from 'vite7-plugin-react';
+import react from '../../tools/vite7/index.mjs';
 import { targetVite } from '../../shared/constants.mjs';
 
 export default {

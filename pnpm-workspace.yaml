@@ -1,5 +1,6 @@
 packages:
   - cases/**
+  - tools/vite7
 
 autoInstallPeers: false
 
