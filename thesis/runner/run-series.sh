@@ -31,7 +31,7 @@ case "$SERIES" in
   D)   DIR=D-scaling;      DEF_TOOLS="$ALL4";        DEF_MEM=8g; DEF_RUNS=10; DEF_WARM=2; DEF_EXTRA="" ;;
   E)   DIR=E-network;      DEF_TOOLS="$ALL4";        DEF_MEM=8g; DEF_RUNS=20; DEF_WARM=2; DEF_EXTRA="ALL_ROUTES=1" ;;
   F)   DIR=F-stress-2g;    DEF_TOOLS="$ALL4";        DEF_MEM=2g; DEF_RUNS=5;  DEF_WARM=1; DEF_EXTRA="" ;;
-  Fgc) DIR=F-gc-trace;     DEF_TOOLS="$ALL4";        DEF_MEM=2g; DEF_RUNS=3;  DEF_WARM=0; DEF_EXTRA="NODE_OPTIONS=--trace-gc DEBUG=1" ;;
+  Fgc) DIR=F-gc-trace;     DEF_TOOLS="$ALL4";        DEF_MEM=2g; DEF_RUNS=3;  DEF_WARM=0; DEF_EXTRA="NODE_OPTIONS=--require=/bench/thesis/patches/trace-gc.cjs DEBUG=1" ;;
   G)   DIR=G-artifacts;    DEF_TOOLS="$ALL4";        DEF_MEM=8g; DEF_RUNS=5;  DEF_WARM=1; DEF_EXTRA="" ;;
   SMOKE) DIR=_smoke;       DEF_TOOLS="$ALL4";        DEF_MEM=8g; DEF_RUNS=1;  DEF_WARM=0; DEF_EXTRA="" ;;
   *) echo "unknown series '$SERIES' (A B C D E F Fgc G SMOKE)"; exit 2 ;;
