@@ -1,0 +1,1 @@
+{"tool":"webpack 5.111.1","phase":"dev-cold","iteration":21,"warmup":false,"measurement":"timing","succeeded":true,"startupTime":14311,"readyTime":13075,"pageTime":1236,"hmrTimes":[8262,2063,1697,1777,1884,1772,1847,1790,1960,1642],"hubHmrTimes":[],"attempt":1,"lastPhase":"HMR (benchmark-restored-1)","phaseElapsedMs":2137,"elapsedMs":58966,"exit":{"code":null,"signal":"SIGTERM"}}

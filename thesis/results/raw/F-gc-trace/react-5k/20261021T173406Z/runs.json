@@ -1,0 +1,65 @@
+[
+  {
+    "webpack 5.111.1 (Babel)": {
+      "devColdStart": 16686,
+      "devColdReady": 14480,
+      "devColdPage": 2206,
+      "rootHmr": 1017,
+      "leafHmr": 971,
+      "hmr": 994,
+      "devHotStart": 4808,
+      "devHotReady": 3833,
+      "devHotPage": 975,
+      "prodBuild": 23357,
+      "prodHotBuild": 3343,
+      "devColdSteady": 1611.50390625,
+      "devColdPeak": 1625.14453125,
+      "devHotSteady": 1418.7109375,
+      "devHotPeak": 1447.49609375,
+      "buildColdPeak": 1386.640625,
+      "buildHotPeak": 767.21875
+    }
+  },
+  {
+    "webpack 5.111.1 (Babel)": {
+      "devColdStart": 15416,
+      "devColdReady": 14361,
+      "devColdPage": 1055,
+      "rootHmr": 1037,
+      "leafHmr": 1003,
+      "hmr": 1020,
+      "devHotStart": 5574,
+      "devHotReady": 4543,
+      "devHotPage": 1031,
+      "prodBuild": 23208,
+      "prodHotBuild": 3278,
+      "devColdSteady": 1608.90234375,
+      "devColdPeak": 1636.8671875,
+      "devHotSteady": 1436.8125,
+      "devHotPeak": 1453.14453125,
+      "buildColdPeak": 1408.9609375,
+      "buildHotPeak": 757.3984375
+    }
+  },
+  {
+    "webpack 5.111.1 (Babel)": {
+      "devColdStart": 15572,
+      "devColdReady": 14524,
+      "devColdPage": 1048,
+      "rootHmr": 1070,
+      "leafHmr": 994,
+      "hmr": 1032,
+      "devHotStart": 5501,
+      "devHotReady": 4506,
+      "devHotPage": 995,
+      "prodBuild": 23558,
+      "prodHotBuild": 3342,
+      "devColdSteady": 1579.0625,
+      "devColdPeak": 1599.23828125,
+      "devHotSteady": 1403.28515625,
+      "devHotPeak": 1583.05078125,
+      "buildColdPeak": 1449.4765625,
+      "buildHotPeak": 761.7578125
+    }
+  }
+]

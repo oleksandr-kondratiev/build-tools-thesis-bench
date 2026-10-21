@@ -1,0 +1,16 @@
+{
+  "ServerVersion": "29.9.1",
+  "Driver": "overlayfs",
+  "CgroupDriver": "systemd",
+  "CgroupVersion": "2",
+  "KernelVersion": "7.0.0-1017-azure",
+  "OperatingSystem": "Ubuntu 24.04.5 LTS",
+  "Architecture": "x86_64",
+  "NCPU": 8,
+  "MemTotal": 33645174784,
+  "SecurityOptions": [
+    "name=apparmor,profile=default",
+    "name=seccomp,profile=builtin",
+    "name=cgroupns"
+  ]
+}

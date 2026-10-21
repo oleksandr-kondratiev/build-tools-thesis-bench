@@ -1,0 +1,1 @@
+{"tool":"webpack 5.111.1 (Babel)","phase":"build-cold","iteration":1,"warmup":true,"measurement":"timing","succeeded":true,"time":47093,"attempt":1,"lastPhase":"build","phaseElapsedMs":47089,"elapsedMs":47101,"exit":{"code":0,"signal":null}}

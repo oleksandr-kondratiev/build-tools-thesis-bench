@@ -1,0 +1,65 @@
+[
+  {
+    "webpack 5.111.1": {
+      "devColdStart": 10081,
+      "devColdReady": 8079,
+      "devColdPage": 2002,
+      "rootHmr": 902,
+      "leafHmr": 853,
+      "hmr": 877.5,
+      "devHotStart": 4834,
+      "devHotReady": 3773,
+      "devHotPage": 1061,
+      "prodBuild": 9332,
+      "prodHotBuild": 3254,
+      "devColdSteady": 1554.66015625,
+      "devColdPeak": 1574.81640625,
+      "devHotSteady": 1051.16796875,
+      "devHotPeak": 1434.87109375,
+      "buildColdPeak": 1267.1953125,
+      "buildHotPeak": 762.5859375
+    }
+  },
+  {
+    "webpack 5.111.1": {
+      "devColdStart": 9267,
+      "devColdReady": 8241,
+      "devColdPage": 1026,
+      "rootHmr": 940,
+      "leafHmr": 921,
+      "hmr": 930.5,
+      "devHotStart": 5428,
+      "devHotReady": 4393,
+      "devHotPage": 1035,
+      "prodBuild": 9247,
+      "prodHotBuild": 3268,
+      "devColdSteady": 1597.72265625,
+      "devColdPeak": 1626.2265625,
+      "devHotSteady": 1064.2421875,
+      "devHotPeak": 1565.6171875,
+      "buildColdPeak": 1259.35546875,
+      "buildHotPeak": 762.98046875
+    }
+  },
+  {
+    "webpack 5.111.1": {
+      "devColdStart": 8950,
+      "devColdReady": 7955,
+      "devColdPage": 995,
+      "rootHmr": 912,
+      "leafHmr": 918,
+      "hmr": 915,
+      "devHotStart": 5366,
+      "devHotReady": 4265,
+      "devHotPage": 1101,
+      "prodBuild": 9321,
+      "prodHotBuild": 3267,
+      "devColdSteady": 1582.30078125,
+      "devColdPeak": 1602.796875,
+      "devHotSteady": 1073.08203125,
+      "devHotPeak": 1441.41015625,
+      "buildColdPeak": 1261.12109375,
+      "buildHotPeak": 770.515625
+    }
+  }
+]

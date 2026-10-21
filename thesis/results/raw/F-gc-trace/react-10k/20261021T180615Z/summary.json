@@ -1,0 +1,222 @@
+{
+  "case": "react-10k",
+  "memoryKind": "RSS",
+  "sampleIntervalMs": 50,
+  "steadyIdleMs": 5000,
+  "steadyWindowMs": 2000,
+  "hmrUpdates": 10,
+  "hubHmrUpdates": 0,
+  "allRoutes": false,
+  "gitSha": "0bba055f91c0c63962082eea1409646dab56cfcd",
+  "timeouts": {
+    "startup": 60000,
+    "page": 60000,
+    "hmr": 60000,
+    "build": 180000,
+    "shutdown": 30000
+  },
+  "maxAttempts": 2,
+  "measurements": [
+    "timing",
+    "memory"
+  ],
+  "warmupTimes": 0,
+  "runTimes": 3,
+  "node": "v24.22.1",
+  "platform": "linux",
+  "release": "7.0.0-1017-azure",
+  "arch": "x64",
+  "cpus": 8,
+  "cpuModel": "AMD EPYC 9V74 80-Core Processor",
+  "totalMemory": 33645174784,
+  "attempts": [
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 1,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 1,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 1,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 1,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 2,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 2,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 2,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 2,
+      "attempt": 1,
+      "succeeded": true
+    }
+  ],
+  "tools": {
+    "Vite 7.3.7": {
+      "outputSize": "5147.2",
+      "gzippedSize": "1402.4",
+      "brotliSize": "1001.5",
+      "devColdStart": {
+        "median": 8468,
+        "min": 8390,
+        "max": 8534
+      },
+      "devColdReady": {
+        "median": 162,
+        "min": 161,
+        "max": 166
+      },
+      "devColdPage": {
+        "median": 8302,
+        "min": 8229,
+        "max": 8372
+      },
+      "rootHmr": {
+        "median": 18,
+        "min": 17,
+        "max": 19
+      },
+      "leafHmr": {
+        "median": 7,
+        "min": 7,
+        "max": 7
+      },
+      "hmr": {
+        "median": 12.5,
+        "min": 12,
+        "max": 13
+      },
+      "devHotStart": {
+        "median": 5160,
+        "min": 4852,
+        "max": 6105
+      },
+      "devHotReady": {
+        "median": 154,
+        "min": 152,
+        "max": 156
+      },
+      "devHotPage": {
+        "median": 5008,
+        "min": 4696,
+        "max": 5951
+      },
+      "prodBuild": {
+        "median": 10885,
+        "min": 10828,
+        "max": 11057
+      },
+      "prodHotBuild": {
+        "median": 10901,
+        "min": 10793,
+        "max": 11026
+      },
+      "devColdSteady": {
+        "median": 881.56640625,
+        "min": 857.69140625,
+        "max": 908.96875
+      },
+      "devColdPeak": {
+        "median": 881.56640625,
+        "min": 857.69140625,
+        "max": 909.21484375
+      },
+      "devHotSteady": {
+        "median": 353.328125,
+        "min": 346.62109375,
+        "max": 383.3359375
+      },
+      "devHotPeak": {
+        "median": 363.59375,
+        "min": 358.78515625,
+        "max": 391.7890625
+      },
+      "buildColdPeak": {
+        "median": 1351.6953125,
+        "min": 1340.6328125,
+        "max": 1372.890625
+      },
+      "buildHotPeak": {
+        "median": 1310.1171875,
+        "min": 1213.14453125,
+        "max": 1344.25390625
+      }
+    }
+  }
+}

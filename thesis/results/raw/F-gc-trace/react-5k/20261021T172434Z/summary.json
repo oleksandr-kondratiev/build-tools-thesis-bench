@@ -1,0 +1,222 @@
+{
+  "case": "react-5k",
+  "memoryKind": "RSS",
+  "sampleIntervalMs": 50,
+  "steadyIdleMs": 5000,
+  "steadyWindowMs": 2000,
+  "hmrUpdates": 10,
+  "hubHmrUpdates": 0,
+  "allRoutes": false,
+  "gitSha": "0bba055f91c0c63962082eea1409646dab56cfcd",
+  "timeouts": {
+    "startup": 60000,
+    "page": 60000,
+    "hmr": 60000,
+    "build": 180000,
+    "shutdown": 30000
+  },
+  "maxAttempts": 2,
+  "measurements": [
+    "timing",
+    "memory"
+  ],
+  "warmupTimes": 0,
+  "runTimes": 3,
+  "node": "v24.22.1",
+  "platform": "linux",
+  "release": "7.0.0-1017-azure",
+  "arch": "x64",
+  "cpus": 8,
+  "cpuModel": "AMD EPYC 9V74 80-Core Processor",
+  "totalMemory": 33645174784,
+  "attempts": [
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 1,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 1,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 1,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 1,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 2,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 2,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 2,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 2,
+      "attempt": 1,
+      "succeeded": true
+    }
+  ],
+  "tools": {
+    "webpack 5.111.1": {
+      "outputSize": "2710.7",
+      "gzippedSize": "682.1",
+      "brotliSize": "555.1",
+      "devColdStart": {
+        "median": 9267,
+        "min": 8950,
+        "max": 10081
+      },
+      "devColdReady": {
+        "median": 8079,
+        "min": 7955,
+        "max": 8241
+      },
+      "devColdPage": {
+        "median": 1026,
+        "min": 995,
+        "max": 2002
+      },
+      "rootHmr": {
+        "median": 912,
+        "min": 902,
+        "max": 940
+      },
+      "leafHmr": {
+        "median": 918,
+        "min": 853,
+        "max": 921
+      },
+      "hmr": {
+        "median": 915,
+        "min": 877.5,
+        "max": 930.5
+      },
+      "devHotStart": {
+        "median": 5366,
+        "min": 4834,
+        "max": 5428
+      },
+      "devHotReady": {
+        "median": 4265,
+        "min": 3773,
+        "max": 4393
+      },
+      "devHotPage": {
+        "median": 1061,
+        "min": 1035,
+        "max": 1101
+      },
+      "prodBuild": {
+        "median": 9321,
+        "min": 9247,
+        "max": 9332
+      },
+      "prodHotBuild": {
+        "median": 3267,
+        "min": 3254,
+        "max": 3268
+      },
+      "devColdSteady": {
+        "median": 1582.30078125,
+        "min": 1554.66015625,
+        "max": 1597.72265625
+      },
+      "devColdPeak": {
+        "median": 1602.796875,
+        "min": 1574.81640625,
+        "max": 1626.2265625
+      },
+      "devHotSteady": {
+        "median": 1064.2421875,
+        "min": 1051.16796875,
+        "max": 1073.08203125
+      },
+      "devHotPeak": {
+        "median": 1441.41015625,
+        "min": 1434.87109375,
+        "max": 1565.6171875
+      },
+      "buildColdPeak": {
+        "median": 1261.12109375,
+        "min": 1259.35546875,
+        "max": 1267.1953125
+      },
+      "buildHotPeak": {
+        "median": 762.98046875,
+        "min": 762.5859375,
+        "max": 770.515625
+      }
+    }
+  }
+}

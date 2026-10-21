@@ -1,0 +1,1804 @@
+{
+  "case": "react-10k-r1",
+  "memoryKind": "RSS",
+  "sampleIntervalMs": 50,
+  "steadyIdleMs": 5000,
+  "steadyWindowMs": 2000,
+  "hmrUpdates": 10,
+  "hubHmrUpdates": 0,
+  "allRoutes": false,
+  "gitSha": "99ef321f983e4896b96b93bb85ab271f6a434c5b",
+  "timeouts": {
+    "startup": 60000,
+    "page": 60000,
+    "hmr": 60000,
+    "build": 180000,
+    "shutdown": 30000
+  },
+  "maxAttempts": 2,
+  "measurements": [
+    "timing",
+    "memory"
+  ],
+  "warmupTimes": 2,
+  "runTimes": 10,
+  "node": "v24.22.0",
+  "platform": "linux",
+  "release": "7.0.0-1017-azure",
+  "arch": "x64",
+  "cpus": 8,
+  "cpuModel": "AMD EPYC 9V74 80-Core Processor",
+  "totalMemory": 33645174784,
+  "attempts": [
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 1,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 1,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 1,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 1,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 1,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 1,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 1,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 1,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 2,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 2,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 2,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 2,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 2,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 2,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 2,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 2,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 2,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 2,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 2,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 2,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 2,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 2,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 2,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 2,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 3,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 3,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 3,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 3,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 3,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 3,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 3,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 3,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 3,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 3,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 3,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 3,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 3,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 3,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 3,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 3,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 4,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 4,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 4,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 4,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 4,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 4,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 4,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 4,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 4,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 4,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 4,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 4,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 4,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 4,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 4,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 4,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 5,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 5,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 5,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 5,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 5,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 5,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 5,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 5,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 5,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 5,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 5,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 5,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 5,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 5,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 5,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 5,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 6,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 6,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 6,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 6,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 6,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 6,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 6,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 6,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 6,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 6,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 6,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 6,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 6,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 6,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 6,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 6,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 7,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 7,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 7,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 7,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 7,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 7,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 7,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 7,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 7,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 7,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 7,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 7,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 7,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 7,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 7,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 7,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 8,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 8,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 8,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 8,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 8,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 8,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 8,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 8,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 8,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 8,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 8,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 8,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 8,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 8,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 8,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 8,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 9,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 9,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 9,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 9,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 9,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 9,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 9,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 9,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 9,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 9,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 9,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 9,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 9,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 9,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 9,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 9,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 10,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 10,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 10,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 10,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 10,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 10,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 10,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 10,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 10,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 10,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 10,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 10,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 10,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 10,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 10,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 10,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 11,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 11,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 11,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 11,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 11,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 11,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 11,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 11,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 11,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 11,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 11,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 11,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 11,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 11,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 11,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 11,
+      "attempt": 1,
+      "succeeded": true
+    }
+  ],
+  "tools": {
+    "webpack 5.111.1": {
+      "outputSize": "748.7",
+      "gzippedSize": "212.8",
+      "brotliSize": "165.4",
+      "devColdStart": {
+        "median": 3533,
+        "min": 3509,
+        "max": 3557
+      },
+      "devColdReady": {
+        "median": 2501.5,
+        "min": 2466,
+        "max": 2523
+      },
+      "devColdPage": {
+        "median": 1036,
+        "min": 1017,
+        "max": 1054
+      },
+      "rootHmr": {
+        "median": 235.5,
+        "min": 230,
+        "max": 250
+      },
+      "leafHmr": {
+        "median": 232.5,
+        "min": 229,
+        "max": 248
+      },
+      "hmr": {
+        "median": 234,
+        "min": 229.5,
+        "max": 244
+      },
+      "devHotStart": {
+        "median": 2539,
+        "min": 2509,
+        "max": 2611
+      },
+      "devHotReady": {
+        "median": 1478,
+        "min": 1471,
+        "max": 1528
+      },
+      "devHotPage": {
+        "median": 1062,
+        "min": 1035,
+        "max": 1083
+      },
+      "prodBuild": {
+        "median": 3043.5,
+        "min": 3017,
+        "max": 3063
+      },
+      "prodHotBuild": {
+        "median": 1124,
+        "min": 1110,
+        "max": 1134
+      },
+      "devColdSteady": {
+        "median": 886.712890625,
+        "min": 843.91015625,
+        "max": 913.40625
+      },
+      "devColdPeak": {
+        "median": 893.837890625,
+        "min": 850.93359375,
+        "max": 922.9609375
+      },
+      "devHotSteady": {
+        "median": 805.96484375,
+        "min": 792.453125,
+        "max": 808.15625
+      },
+      "devHotPeak": {
+        "median": 824.8984375,
+        "min": 821.96875,
+        "max": 832.671875
+      },
+      "buildColdPeak": {
+        "median": 643.953125,
+        "min": 617.93359375,
+        "max": 668.52734375
+      },
+      "buildHotPeak": {
+        "median": 438.2421875,
+        "min": 415.78515625,
+        "max": 446.875
+      }
+    },
+    "webpack 5.111.1 (Babel)": {
+      "outputSize": "750.3",
+      "gzippedSize": "212.1",
+      "brotliSize": "165.2",
+      "devColdStart": {
+        "median": 4934,
+        "min": 4905,
+        "max": 5037
+      },
+      "devColdReady": {
+        "median": 3882,
+        "min": 3844,
+        "max": 3929
+      },
+      "devColdPage": {
+        "median": 1059,
+        "min": 1027,
+        "max": 1123
+      },
+      "rootHmr": {
+        "median": 234,
+        "min": 224,
+        "max": 240
+      },
+      "leafHmr": {
+        "median": 227,
+        "min": 220,
+        "max": 239
+      },
+      "hmr": {
+        "median": 231.75,
+        "min": 222,
+        "max": 237.5
+      },
+      "devHotStart": {
+        "median": 2521,
+        "min": 2477,
+        "max": 2805
+      },
+      "devHotReady": {
+        "median": 1463,
+        "min": 1440,
+        "max": 1748
+      },
+      "devHotPage": {
+        "median": 1052.5,
+        "min": 1023,
+        "max": 1093
+      },
+      "prodBuild": {
+        "median": 28573.5,
+        "min": 27416,
+        "max": 29017
+      },
+      "prodHotBuild": {
+        "median": 1134.5,
+        "min": 1128,
+        "max": 1164
+      },
+      "devColdSteady": {
+        "median": 894.333984375,
+        "min": 866.75,
+        "max": 949.28125
+      },
+      "devColdPeak": {
+        "median": 899.607421875,
+        "min": 874.6171875,
+        "max": 955.4375
+      },
+      "devHotSteady": {
+        "median": 857.427734375,
+        "min": 828.12109375,
+        "max": 866.82421875
+      },
+      "devHotPeak": {
+        "median": 860.044921875,
+        "min": 830.39453125,
+        "max": 866.828125
+      },
+      "buildColdPeak": {
+        "median": 839.451171875,
+        "min": 833.28125,
+        "max": 1216.49609375
+      },
+      "buildHotPeak": {
+        "median": 433.091796875,
+        "min": 427.578125,
+        "max": 442.19921875
+      }
+    },
+    "Vite 8.3.0": {
+      "outputSize": "747.1",
+      "gzippedSize": "212.3",
+      "brotliSize": "165.1",
+      "devColdStart": {
+        "median": 5257.5,
+        "min": 4955,
+        "max": 5952
+      },
+      "devColdReady": {
+        "median": 158,
+        "min": 156,
+        "max": 159
+      },
+      "devColdPage": {
+        "median": 5099,
+        "min": 4799,
+        "max": 5795
+      },
+      "rootHmr": {
+        "median": 16,
+        "min": 15,
+        "max": 17
+      },
+      "leafHmr": {
+        "median": 6,
+        "min": 6,
+        "max": 8
+      },
+      "hmr": {
+        "median": 11,
+        "min": 10.5,
+        "max": 12
+      },
+      "devHotStart": {
+        "median": 3725.5,
+        "min": 3608,
+        "max": 3994
+      },
+      "devHotReady": {
+        "median": 150,
+        "min": 147,
+        "max": 151
+      },
+      "devHotPage": {
+        "median": 3577,
+        "min": 3458,
+        "max": 3843
+      },
+      "prodBuild": {
+        "median": 373,
+        "min": 369,
+        "max": 379
+      },
+      "prodHotBuild": {
+        "median": 373,
+        "min": 370,
+        "max": 383
+      },
+      "devColdSteady": {
+        "median": 617.13671875,
+        "min": 580.8828125,
+        "max": 627.00390625
+      },
+      "devColdPeak": {
+        "median": 617.13671875,
+        "min": 580.8828125,
+        "max": 627.01953125
+      },
+      "devHotSteady": {
+        "median": 402.1328125,
+        "min": 397.5546875,
+        "max": 415.484375
+      },
+      "devHotPeak": {
+        "median": 402.361328125,
+        "min": 397.5546875,
+        "max": 415.484375
+      },
+      "buildColdPeak": {
+        "median": 407.90234375,
+        "min": 398.3359375,
+        "max": 421.14453125
+      },
+      "buildHotPeak": {
+        "median": 406.794921875,
+        "min": 395.54296875,
+        "max": 418.53515625
+      }
+    },
+    "Vite 7.3.7": {
+      "outputSize": "740.3",
+      "gzippedSize": "213.6",
+      "brotliSize": "166.5",
+      "devColdStart": {
+        "median": 5832,
+        "min": 5730,
+        "max": 6498
+      },
+      "devColdReady": {
+        "median": 130,
+        "min": 129,
+        "max": 134
+      },
+      "devColdPage": {
+        "median": 5702,
+        "min": 5600,
+        "max": 6365
+      },
+      "rootHmr": {
+        "median": 17,
+        "min": 17,
+        "max": 18
+      },
+      "leafHmr": {
+        "median": 7,
+        "min": 7,
+        "max": 8
+      },
+      "hmr": {
+        "median": 12.25,
+        "min": 12,
+        "max": 12.5
+      },
+      "devHotStart": {
+        "median": 4310.5,
+        "min": 4173,
+        "max": 4562
+      },
+      "devHotReady": {
+        "median": 122,
+        "min": 122,
+        "max": 125
+      },
+      "devHotPage": {
+        "median": 4186.5,
+        "min": 4051,
+        "max": 4440
+      },
+      "prodBuild": {
+        "median": 2017,
+        "min": 2001,
+        "max": 2044
+      },
+      "prodHotBuild": {
+        "median": 2027.5,
+        "min": 2005,
+        "max": 2084
+      },
+      "devColdSteady": {
+        "median": 509.1015625,
+        "min": 453.93359375,
+        "max": 521.81640625
+      },
+      "devColdPeak": {
+        "median": 513.86328125,
+        "min": 501.5078125,
+        "max": 521.81640625
+      },
+      "devHotSteady": {
+        "median": 406.625,
+        "min": 384.99609375,
+        "max": 436.75390625
+      },
+      "devHotPeak": {
+        "median": 419.75,
+        "min": 392.08984375,
+        "max": 446.83984375
+      },
+      "buildColdPeak": {
+        "median": 537.646484375,
+        "min": 519.5546875,
+        "max": 544.3203125
+      },
+      "buildHotPeak": {
+        "median": 534.39453125,
+        "min": 520.109375,
+        "max": 552.12890625
+      }
+    }
+  }
+}

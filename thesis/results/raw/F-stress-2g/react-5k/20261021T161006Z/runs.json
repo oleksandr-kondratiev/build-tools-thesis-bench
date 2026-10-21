@@ -1,0 +1,122 @@
+[
+  {
+    "webpack 5.111.1": {
+      "devColdStart": 9906,
+      "devColdReady": 7890,
+      "devColdPage": 2016,
+      "rootHmr": 869,
+      "leafHmr": 858,
+      "hmr": 863.5,
+      "devHotStart": 4774,
+      "devHotReady": 3743,
+      "devHotPage": 1031,
+      "prodBuild": 9215,
+      "prodHotBuild": 3239
+    }
+  },
+  {
+    "webpack 5.111.1": {
+      "devColdStart": 8866,
+      "devColdReady": 7922,
+      "devColdPage": 944,
+      "rootHmr": 901,
+      "leafHmr": 911,
+      "hmr": 906,
+      "devHotStart": 5304,
+      "devHotReady": 4195,
+      "devHotPage": 1109,
+      "prodBuild": 9190,
+      "prodHotBuild": 3205,
+      "devColdSteady": 1576.3046875,
+      "devColdPeak": 1610.63671875,
+      "devHotSteady": 1435.79296875,
+      "devHotPeak": 1536.98046875,
+      "buildColdPeak": 1274.21875,
+      "buildHotPeak": 760.1875
+    }
+  },
+  {
+    "webpack 5.111.1": {
+      "devColdStart": 9243,
+      "devColdReady": 8215,
+      "devColdPage": 1028,
+      "rootHmr": 883,
+      "leafHmr": 922,
+      "hmr": 902.5,
+      "devHotStart": 5352,
+      "devHotReady": 4240,
+      "devHotPage": 1112,
+      "prodBuild": 9301,
+      "prodHotBuild": 3241,
+      "devColdSteady": 1637.0390625,
+      "devColdPeak": 1651.265625,
+      "devHotSteady": 1046.41796875,
+      "devHotPeak": 1429.6796875,
+      "buildColdPeak": 1235.44140625,
+      "buildHotPeak": 769.01953125
+    }
+  },
+  {
+    "webpack 5.111.1": {
+      "devColdStart": 8920,
+      "devColdReady": 7912,
+      "devColdPage": 1008,
+      "rootHmr": 916,
+      "leafHmr": 900,
+      "hmr": 908,
+      "devHotStart": 5372,
+      "devHotReady": 4285,
+      "devHotPage": 1087,
+      "prodBuild": 9074,
+      "prodHotBuild": 3282,
+      "devColdSteady": 1618.7578125,
+      "devColdPeak": 1631.9453125,
+      "devHotSteady": 1057.89453125,
+      "devHotPeak": 1419.79296875,
+      "buildColdPeak": 1276.609375,
+      "buildHotPeak": 743.9375
+    }
+  },
+  {
+    "webpack 5.111.1": {
+      "devColdStart": 8932,
+      "devColdReady": 7924,
+      "devColdPage": 1008,
+      "rootHmr": 906,
+      "leafHmr": 950,
+      "hmr": 928,
+      "devHotStart": 5268,
+      "devHotReady": 4271,
+      "devHotPage": 997,
+      "prodBuild": 9260,
+      "prodHotBuild": 3233,
+      "devColdSteady": 1623.98046875,
+      "devColdPeak": 1640.5703125,
+      "devHotSteady": 1057.93359375,
+      "devHotPeak": 1476.82421875,
+      "buildColdPeak": 1246.3828125,
+      "buildHotPeak": 776.1875
+    }
+  },
+  {
+    "webpack 5.111.1": {
+      "devColdStart": 8911,
+      "devColdReady": 7891,
+      "devColdPage": 1020,
+      "rootHmr": 908,
+      "leafHmr": 902,
+      "hmr": 905,
+      "devHotStart": 5310,
+      "devHotReady": 4201,
+      "devHotPage": 1109,
+      "prodBuild": 9292,
+      "prodHotBuild": 3271,
+      "devColdSteady": 1603.9296875,
+      "devColdPeak": 1621.60546875,
+      "devHotSteady": 1402.640625,
+      "devHotPeak": 1516.55859375,
+      "buildColdPeak": 1261.41015625,
+      "buildHotPeak": 753.05078125
+    }
+  }
+]

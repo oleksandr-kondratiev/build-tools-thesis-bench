@@ -1,0 +1,297 @@
+Scope: all 19 workspace projects
+✓ Lockfile passes supply-chain policies (verified 41m ago)
+Progress: resolved 0, reused 724, downloaded 2, added 0
+Progress: resolved 0, reused 920, downloaded 2, added 0
+Progress: resolved 0, reused 927, downloaded 2, added 0
+Progress: resolved 0, reused 957, downloaded 5, added 0
+[WARN] 4 deprecated subdependencies found: basic-ftp@5.1.0, intersection-observer@0.12.2, stable@0.1.8, uuid@8.3.2
+Already up to date
+Progress: resolved 0, reused 963, downloaded 5, added 0, done
+.../node_modules/puppeteer postinstall$ node install.mjs
+.../node_modules/puppeteer postinstall: **INFO** Skipping downloading browsers as instructed.
+.../node_modules/puppeteer postinstall: Done
+[WARN] Issues with peer dependencies found. Run "pnpm peers check" to list them.
+Done in 6.7s using pnpm v12.5.1
+$ node ./scripts/benchmark.ts
+info    Setup bin file for Vite 8.3.0 (vite/bin/vite.js)
+info    Memory: process-tree RSS; raw results: /results
+info    Vite 8.3.0: timing pass
+start   Running start command: start:vite
+success Vite 8.3.0 dev (cold, timing): 3902ms
+start   Running start command: start:vite
+success Vite 8.3.0 dev (warm, timing): 3268ms
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built in 731ms
+success Vite 8.3.0 output size: 2541.6kB
+success Vite 8.3.0 gzipped size: 693.4kB
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built with cache in 706ms
+info    Vite 8.3.0: timing pass
+start   Running start command: start:vite
+success Vite 8.3.0 dev (cold, timing): 4052ms
+start   Running start command: start:vite
+success Vite 8.3.0 dev (warm, timing): 2398ms
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built in 705ms
+success Vite 8.3.0 output size: 2541.6kB
+success Vite 8.3.0 gzipped size: 693.4kB
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built with cache in 707ms
+info    Vite 8.3.0: memory pass
+start   Running start command: start:vite
+success Vite 8.3.0 dev (cold, memory): steady 792.0 MiB, peak 792.0 MiB
+start   Running start command: start:vite
+success Vite 8.3.0 dev (warm, memory): steady 312.6 MiB, peak 312.6 MiB
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built in 724ms
+success Vite 8.3.0 output size: 2541.6kB
+success Vite 8.3.0 gzipped size: 693.4kB
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built with cache in 725ms
+info    Vite 8.3.0: timing pass
+start   Running start command: start:vite
+success Vite 8.3.0 dev (cold, timing): 3999ms
+start   Running start command: start:vite
+success Vite 8.3.0 dev (warm, timing): 2341ms
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built in 704ms
+success Vite 8.3.0 output size: 2541.6kB
+success Vite 8.3.0 gzipped size: 693.4kB
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built with cache in 697ms
+info    Vite 8.3.0: memory pass
+start   Running start command: start:vite
+success Vite 8.3.0 dev (cold, memory): steady 754.3 MiB, peak 812.5 MiB
+start   Running start command: start:vite
+success Vite 8.3.0 dev (warm, memory): steady 306.2 MiB, peak 306.2 MiB
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built in 717ms
+success Vite 8.3.0 output size: 2541.6kB
+success Vite 8.3.0 gzipped size: 693.4kB
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built with cache in 728ms
+info    Vite 8.3.0: timing pass
+start   Running start command: start:vite
+success Vite 8.3.0 dev (cold, timing): 3934ms
+start   Running start command: start:vite
+success Vite 8.3.0 dev (warm, timing): 2373ms
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built in 704ms
+success Vite 8.3.0 output size: 2541.6kB
+success Vite 8.3.0 gzipped size: 693.4kB
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built with cache in 704ms
+info    Vite 8.3.0: memory pass
+start   Running start command: start:vite
+success Vite 8.3.0 dev (cold, memory): steady 766.4 MiB, peak 786.9 MiB
+start   Running start command: start:vite
+success Vite 8.3.0 dev (warm, memory): steady 316.5 MiB, peak 316.5 MiB
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built in 715ms
+success Vite 8.3.0 output size: 2541.6kB
+success Vite 8.3.0 gzipped size: 693.4kB
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built with cache in 723ms
+info    Vite 8.3.0: timing pass
+start   Running start command: start:vite
+success Vite 8.3.0 dev (cold, timing): 3966ms
+start   Running start command: start:vite
+success Vite 8.3.0 dev (warm, timing): 2318ms
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built in 705ms
+success Vite 8.3.0 output size: 2541.6kB
+success Vite 8.3.0 gzipped size: 693.4kB
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built with cache in 696ms
+info    Vite 8.3.0: memory pass
+start   Running start command: start:vite
+success Vite 8.3.0 dev (cold, memory): steady 764.1 MiB, peak 783.1 MiB
+start   Running start command: start:vite
+success Vite 8.3.0 dev (warm, memory): steady 299.2 MiB, peak 299.2 MiB
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built in 724ms
+success Vite 8.3.0 output size: 2541.6kB
+success Vite 8.3.0 gzipped size: 693.4kB
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built with cache in 716ms
+info    Vite 8.3.0: timing pass
+start   Running start command: start:vite
+success Vite 8.3.0 dev (cold, timing): 4041ms
+start   Running start command: start:vite
+success Vite 8.3.0 dev (warm, timing): 2341ms
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built in 704ms
+success Vite 8.3.0 output size: 2541.6kB
+success Vite 8.3.0 gzipped size: 693.4kB
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built with cache in 707ms
+info    Vite 8.3.0: memory pass
+start   Running start command: start:vite
+success Vite 8.3.0 dev (cold, memory): steady 780.4 MiB, peak 781.9 MiB
+start   Running start command: start:vite
+success Vite 8.3.0 dev (warm, memory): steady 320.4 MiB, peak 320.4 MiB
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built in 717ms
+success Vite 8.3.0 output size: 2541.6kB
+success Vite 8.3.0 gzipped size: 693.4kB
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built with cache in 723ms
+
+success Benchmark finished!
+
+Development metrics:
+
+| Name       | Startup (no cache) | Startup (with cache) | HMR    | Ready (no cache) | Page (no cache) |
+| ---------- | ------------------ | -------------------- | ------ | ---------------- | --------------- |
+| Vite 8.3.0 | 3999ms🥇           | 2341ms🥇             | 10ms🥇 | 161ms🥇          | 3838ms🥇        |
+
+Build metrics:
+
+| Name       | Build (no cache) | Build (with cache) | Output size | Gzipped size | Brotli size |
+| ---------- | ---------------- | ------------------ | ----------- | ------------ | ----------- |
+| Vite 8.3.0 | 704ms🥇          | 704ms🥇            | 2541.6kB🥇  | 693.4kB🥇    | 538.1kB🥇   |
+
+Dev memory (MiB):
+
+| Name       | Steady (no cache) | Steady (with cache) | Peak (no cache) | Peak (with cache) |
+| ---------- | ----------------- | ------------------- | --------------- | ----------------- |
+| Vite 8.3.0 | 766.4🥇           | 312.6🥇             | 786.9🥇         | 312.6🥇           |
+
+Build memory (MiB):
+
+| Name       | Peak (no cache) | Peak (with cache) |
+| ---------- | --------------- | ----------------- |
+| Vite 8.3.0 | 856.0🥇         | 848.4🥇           |
+

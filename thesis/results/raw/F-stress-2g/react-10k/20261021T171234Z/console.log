@@ -1,0 +1,298 @@
+Scope: all 19 workspace projects
+✓ Lockfile passes supply-chain policies (verified 1h ago)
+Progress: resolved 0, reused 739, downloaded 0, added 0
+Progress: resolved 0, reused 870, downloaded 2, added 0
+Progress: resolved 0, reused 925, downloaded 2, added 0
+Progress: resolved 0, reused 943, downloaded 5, added 0
+Progress: resolved 0, reused 957, downloaded 5, added 0
+[WARN] 4 deprecated subdependencies found: basic-ftp@5.1.0, intersection-observer@0.12.2, stable@0.1.8, uuid@8.3.2
+Already up to date
+Progress: resolved 0, reused 963, downloaded 5, added 0, done
+.../node_modules/puppeteer postinstall$ node install.mjs
+.../node_modules/puppeteer postinstall: **INFO** Skipping downloading browsers as instructed.
+.../node_modules/puppeteer postinstall: Done
+[WARN] Issues with peer dependencies found. Run "pnpm peers check" to list them.
+Done in 10.5s using pnpm v12.5.1
+$ node ./scripts/benchmark.ts
+info    Setup bin file for Vite 7.3.7 (vite/bin/vite.js)
+info    Memory: process-tree RSS; raw results: /results
+info    Vite 7.3.7: timing pass
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (cold, timing): 8318ms
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (warm, timing): 6144ms
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built in 11055ms
+success Vite 7.3.7 output size: 5147.2kB
+success Vite 7.3.7 gzipped size: 1402.4kB
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built with cache in 11093ms
+info    Vite 7.3.7: timing pass
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (cold, timing): 8529ms
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (warm, timing): 4998ms
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built in 11113ms
+success Vite 7.3.7 output size: 5147.2kB
+success Vite 7.3.7 gzipped size: 1402.4kB
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built with cache in 10815ms
+info    Vite 7.3.7: memory pass
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (cold, memory): steady 480.1 MiB, peak 825.5 MiB
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (warm, memory): steady 340.4 MiB, peak 354.3 MiB
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built in 10993ms
+success Vite 7.3.7 output size: 5147.2kB
+success Vite 7.3.7 gzipped size: 1402.4kB
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built with cache in 11304ms
+info    Vite 7.3.7: timing pass
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (cold, timing): 8696ms
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (warm, timing): 4995ms
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built in 11049ms
+success Vite 7.3.7 output size: 5147.2kB
+success Vite 7.3.7 gzipped size: 1402.4kB
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built with cache in 11038ms
+info    Vite 7.3.7: memory pass
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (cold, memory): steady 778.9 MiB, peak 815.8 MiB
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (warm, memory): steady 340.3 MiB, peak 352.5 MiB
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built in 11224ms
+success Vite 7.3.7 output size: 5147.2kB
+success Vite 7.3.7 gzipped size: 1402.4kB
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built with cache in 11185ms
+info    Vite 7.3.7: timing pass
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (cold, timing): 8380ms
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (warm, timing): 4878ms
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built in 10674ms
+success Vite 7.3.7 output size: 5147.2kB
+success Vite 7.3.7 gzipped size: 1402.4kB
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built with cache in 10940ms
+info    Vite 7.3.7: memory pass
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (cold, memory): steady 857.5 MiB, peak 857.5 MiB
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (warm, memory): steady 338.6 MiB, peak 350.4 MiB
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built in 11482ms
+success Vite 7.3.7 output size: 5147.2kB
+success Vite 7.3.7 gzipped size: 1402.4kB
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built with cache in 11211ms
+info    Vite 7.3.7: timing pass
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (cold, timing): 8635ms
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (warm, timing): 5157ms
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built in 10900ms
+success Vite 7.3.7 output size: 5147.2kB
+success Vite 7.3.7 gzipped size: 1402.4kB
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built with cache in 10886ms
+info    Vite 7.3.7: memory pass
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (cold, memory): steady 945.1 MiB, peak 945.1 MiB
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (warm, memory): steady 346.8 MiB, peak 353.8 MiB
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built in 11365ms
+success Vite 7.3.7 output size: 5147.2kB
+success Vite 7.3.7 gzipped size: 1402.4kB
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built with cache in 11145ms
+info    Vite 7.3.7: timing pass
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (cold, timing): 8539ms
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (warm, timing): 5114ms
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built in 10826ms
+success Vite 7.3.7 output size: 5147.2kB
+success Vite 7.3.7 gzipped size: 1402.4kB
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built with cache in 11117ms
+info    Vite 7.3.7: memory pass
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (cold, memory): steady 867.1 MiB, peak 867.1 MiB
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (warm, memory): steady 350.7 MiB, peak 360.4 MiB
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built in 10916ms
+success Vite 7.3.7 output size: 5147.2kB
+success Vite 7.3.7 gzipped size: 1402.4kB
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built with cache in 11179ms
+
+success Benchmark finished!
+
+Development metrics:
+
+| Name       | Startup (no cache) | Startup (with cache) | HMR    | Ready (no cache) | Page (no cache) |
+| ---------- | ------------------ | -------------------- | ------ | ---------------- | --------------- |
+| Vite 7.3.7 | 8539ms🥇           | 4998ms🥇             | 13ms🥇 | 133ms🥇          | 8404ms🥇        |
+
+Build metrics:
+
+| Name       | Build (no cache) | Build (with cache) | Output size | Gzipped size | Brotli size |
+| ---------- | ---------------- | ------------------ | ----------- | ------------ | ----------- |
+| Vite 7.3.7 | 10900ms🥇        | 10940ms🥇          | 5147.2kB🥇  | 1402.4kB🥇   | 1001.5kB🥇  |
+
+Dev memory (MiB):
+
+| Name       | Steady (no cache) | Steady (with cache) | Peak (no cache) | Peak (with cache) |
+| ---------- | ----------------- | ------------------- | --------------- | ----------------- |
+| Vite 7.3.7 | 857.5🥇           | 340.4🥇             | 857.5🥇         | 353.8🥇           |
+
+Build memory (MiB):
+
+| Name       | Peak (no cache) | Peak (with cache) |
+| ---------- | --------------- | ----------------- |
+| Vite 7.3.7 | 1370.4🥇        | 1360.0🥇          |
+

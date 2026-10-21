@@ -1,0 +1,2488 @@
+[
+  {
+    "name": "performance-compare",
+    "version": "0.0.0",
+    "path": "/bench",
+    "private": false,
+    "devDependencies": {
+      "@babel/core": {
+        "from": "@babel/core",
+        "version": "7.29.7",
+        "resolved": "https://registry.npmjs.org/@babel/core/-/core-7.29.7.tgz",
+        "path": "/bench/node_modules/.pnpm/@babel+core@7.29.7_supports-color@8.1.1/node_modules/@babel/core"
+      },
+      "@babel/preset-env": {
+        "from": "@babel/preset-env",
+        "version": "7.29.7",
+        "resolved": "https://registry.npmjs.org/@babel/preset-env/-/preset-env-7.29.7.tgz",
+        "path": "/bench/node_modules/.pnpm/@babel+preset-env@7.29.7_@babel+core@7.29.7_supports-color@8.1.1__supports-color@8.1.1/node_modules/@babel/preset-env"
+      },
+      "@babel/preset-react": {
+        "from": "@babel/preset-react",
+        "version": "7.29.7",
+        "resolved": "https://registry.npmjs.org/@babel/preset-react/-/preset-react-7.29.7.tgz",
+        "path": "/bench/node_modules/.pnpm/@babel+preset-react@7.29.7_@babel+core@7.29.7_supports-color@8.1.1__supports-color@8.1.1/node_modules/@babel/preset-react"
+      },
+      "@farmfe/cli": {
+        "from": "@farmfe/cli",
+        "version": "1.0.5",
+        "resolved": "https://registry.npmjs.org/@farmfe/cli/-/cli-1.0.5.tgz",
+        "path": "/bench/node_modules/.pnpm/@farmfe+cli@1.0.5/node_modules/@farmfe/cli"
+      },
+      "@farmfe/core": {
+        "from": "@farmfe/core",
+        "version": "1.7.11",
+        "resolved": "https://registry.npmjs.org/@farmfe/core/-/core-1.7.11.tgz",
+        "path": "/bench/node_modules/.pnpm/@farmfe+core@1.7.11_@types+node@24.13.6_supports-color@8.1.1/node_modules/@farmfe/core"
+      },
+      "@farmfe/plugin-react": {
+        "from": "@farmfe/plugin-react",
+        "version": "1.2.6",
+        "resolved": "https://registry.npmjs.org/@farmfe/plugin-react/-/plugin-react-1.2.6.tgz",
+        "path": "/bench/node_modules/.pnpm/@farmfe+plugin-react@1.2.6/node_modules/@farmfe/plugin-react"
+      },
+      "@parcel/config-default": {
+        "from": "@parcel/config-default",
+        "version": "2.16.4",
+        "resolved": "https://registry.npmjs.org/@parcel/config-default/-/config-default-2.16.4.tgz",
+        "path": "/bench/node_modules/.pnpm/@parcel+config-default@2.16.4_@parcel+core@2.16.4_@swc+helpers@0.5.23__@swc+helpers@0.5.23/node_modules/@parcel/config-default"
+      },
+      "@pmmmwh/react-refresh-webpack-plugin": {
+        "from": "@pmmmwh/react-refresh-webpack-plugin",
+        "version": "0.6.3",
+        "resolved": "https://registry.npmjs.org/@pmmmwh/react-refresh-webpack-plugin/-/react-refresh-webpack-plugin-0.6.3.tgz",
+        "path": "/bench/node_modules/.pnpm/@pmmmwh+react-refresh-webpack-plugin@0.6.3_react-refresh@0.19.0_type-fest@5.8.0_webpack-dev-server@5.2.6_webpack@5.111.1/node_modules/@pmmmwh/react-refresh-webpack-plugin"
+      },
+      "@rollup/plugin-alias": {
+        "from": "@rollup/plugin-alias",
+        "version": "6.0.0",
+        "resolved": "https://registry.npmjs.org/@rollup/plugin-alias/-/plugin-alias-6.0.0.tgz",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-alias@6.0.0_rollup@4.63.4/node_modules/@rollup/plugin-alias"
+      },
+      "@rollup/plugin-commonjs": {
+        "from": "@rollup/plugin-commonjs",
+        "version": "29.0.3",
+        "resolved": "https://registry.npmjs.org/@rollup/plugin-commonjs/-/plugin-commonjs-29.0.3.tgz",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-commonjs@29.0.3_rollup@4.63.4/node_modules/@rollup/plugin-commonjs"
+      },
+      "@rollup/plugin-html": {
+        "from": "@rollup/plugin-html",
+        "version": "2.0.0",
+        "resolved": "https://registry.npmjs.org/@rollup/plugin-html/-/plugin-html-2.0.0.tgz",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-html@2.0.0_rollup@4.63.4/node_modules/@rollup/plugin-html"
+      },
+      "@rollup/plugin-json": {
+        "from": "@rollup/plugin-json",
+        "version": "6.1.0",
+        "resolved": "https://registry.npmjs.org/@rollup/plugin-json/-/plugin-json-6.1.0.tgz",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-json@6.1.0_rollup@4.63.4/node_modules/@rollup/plugin-json"
+      },
+      "@rollup/plugin-node-resolve": {
+        "from": "@rollup/plugin-node-resolve",
+        "version": "16.0.3",
+        "resolved": "https://registry.npmjs.org/@rollup/plugin-node-resolve/-/plugin-node-resolve-16.0.3.tgz",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-node-resolve@16.0.3_rollup@4.63.4/node_modules/@rollup/plugin-node-resolve"
+      },
+      "@rollup/plugin-replace": {
+        "from": "@rollup/plugin-replace",
+        "version": "6.0.3",
+        "resolved": "https://registry.npmjs.org/@rollup/plugin-replace/-/plugin-replace-6.0.3.tgz",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-replace@6.0.3_rollup@4.63.4/node_modules/@rollup/plugin-replace"
+      },
+      "@rsbuild/core": {
+        "from": "@rsbuild/core",
+        "version": "2.2.9",
+        "resolved": "https://registry.npmjs.org/@rsbuild/core/-/core-2.2.9.tgz",
+        "path": "/bench/node_modules/.pnpm/@rsbuild+core@2.2.9_core-js@3.48.0/node_modules/@rsbuild/core"
+      },
+      "@rsbuild/plugin-react": {
+        "from": "@rsbuild/plugin-react",
+        "version": "2.1.0",
+        "resolved": "https://registry.npmjs.org/@rsbuild/plugin-react/-/plugin-react-2.1.0.tgz",
+        "path": "/bench/node_modules/.pnpm/@rsbuild+plugin-react@2.1.0_@rsbuild+core@2.2.9_core-js@3.48.0__@rspack+core@2.2.7_@swc+helpers@0.5.23_/node_modules/@rsbuild/plugin-react"
+      },
+      "@rsdoctor/rspack-plugin": {
+        "from": "@rsdoctor/rspack-plugin",
+        "version": "1.6.4",
+        "resolved": "https://registry.npmjs.org/@rsdoctor/rspack-plugin/-/rspack-plugin-1.6.4.tgz",
+        "path": "/bench/node_modules/.pnpm/@rsdoctor+rspack-plugin@1.6.4_@emnapi+core@1.11.3_@emnapi+runtime@1.11.3_@rsbuild+core@_8a2ae1bb63c3da290a98e089a04dd930/node_modules/@rsdoctor/rspack-plugin"
+      },
+      "@rspack/cli": {
+        "from": "@rspack/cli",
+        "version": "2.2.7",
+        "resolved": "https://registry.npmjs.org/@rspack/cli/-/cli-2.2.7.tgz",
+        "path": "/bench/node_modules/.pnpm/@rspack+cli@2.2.7_@rspack+core@2.2.7_@swc+helpers@0.5.23__@rspack+dev-server@2.2.1_@rsp_633430ea937b838b296c9e7be49a4f58/node_modules/@rspack/cli"
+      },
+      "@rspack/core": {
+        "from": "@rspack/core",
+        "version": "2.2.7",
+        "resolved": "https://registry.npmjs.org/@rspack/core/-/core-2.2.7.tgz",
+        "path": "/bench/node_modules/.pnpm/@rspack+core@2.2.7_@swc+helpers@0.5.23/node_modules/@rspack/core"
+      },
+      "@rspack/dev-server": {
+        "from": "@rspack/dev-server",
+        "version": "2.2.1",
+        "resolved": "https://registry.npmjs.org/@rspack/dev-server/-/dev-server-2.2.1.tgz",
+        "path": "/bench/node_modules/.pnpm/@rspack+dev-server@2.2.1_@rspack+core@2.2.7_@swc+helpers@0.5.23__selfsigned@5.5.0/node_modules/@rspack/dev-server"
+      },
+      "@rspack/plugin-react-refresh": {
+        "from": "@rspack/plugin-react-refresh",
+        "version": "2.0.2",
+        "resolved": "https://registry.npmjs.org/@rspack/plugin-react-refresh/-/plugin-react-refresh-2.0.2.tgz",
+        "path": "/bench/node_modules/.pnpm/@rspack+plugin-react-refresh@2.0.2_@rspack+core@2.2.7_@swc+helpers@0.5.23__react-refresh@0.19.0/node_modules/@rspack/plugin-react-refresh"
+      },
+      "@swc/core": {
+        "from": "@swc/core",
+        "version": "1.16.2",
+        "resolved": "https://registry.npmjs.org/@swc/core/-/core-1.16.2.tgz",
+        "path": "/bench/node_modules/.pnpm/@swc+core@1.16.2_@swc+helpers@0.5.23/node_modules/@swc/core"
+      },
+      "@types/fs-extra": {
+        "from": "@types/fs-extra",
+        "version": "11.0.4",
+        "resolved": "https://registry.npmjs.org/@types/fs-extra/-/fs-extra-11.0.4.tgz",
+        "path": "/bench/node_modules/.pnpm/@types+fs-extra@11.0.4/node_modules/@types/fs-extra"
+      },
+      "@types/node": {
+        "from": "@types/node",
+        "version": "24.13.6",
+        "resolved": "https://registry.npmjs.org/@types/node/-/node-24.13.6.tgz",
+        "path": "/bench/node_modules/.pnpm/@types+node@24.13.6/node_modules/@types/node"
+      },
+      "@types/react": {
+        "from": "@types/react",
+        "version": "19.3.0",
+        "resolved": "https://registry.npmjs.org/@types/react/-/react-19.3.0.tgz",
+        "path": "/bench/node_modules/.pnpm/@types+react@19.3.0/node_modules/@types/react"
+      },
+      "@types/react-dom": {
+        "from": "@types/react-dom",
+        "version": "19.3.0",
+        "resolved": "https://registry.npmjs.org/@types/react-dom/-/react-dom-19.3.0.tgz",
+        "path": "/bench/node_modules/.pnpm/@types+react-dom@19.3.0_@types+react@19.3.0/node_modules/@types/react-dom"
+      },
+      "@utoo/pack-cli": {
+        "from": "@utoo/pack-cli",
+        "version": "1.5.24-alpha.0",
+        "resolved": "https://registry.npmjs.org/@utoo/pack-cli/-/pack-cli-1.5.24-alpha.0.tgz",
+        "path": "/bench/node_modules/.pnpm/@utoo+pack-cli@1.5.24-alpha.0_postcss@8.5.28/node_modules/@utoo/pack-cli"
+      },
+      "@vitejs/plugin-react": {
+        "from": "@vitejs/plugin-react",
+        "version": "6.1.1",
+        "resolved": "https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.1.1.tgz",
+        "path": "/bench/node_modules/.pnpm/@vitejs+plugin-react@6.1.1_vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2_/node_modules/@vitejs/plugin-react"
+      },
+      "babel-loader": {
+        "from": "babel-loader",
+        "version": "10.1.1",
+        "resolved": "https://registry.npmjs.org/babel-loader/-/babel-loader-10.1.1.tgz",
+        "path": "/bench/node_modules/.pnpm/babel-loader@10.1.1_@babel+core@7.29.7_supports-color@8.1.1__@rspack+core@2.2.7_@swc+helpers@0.5.23__webpack@5.111.1/node_modules/babel-loader"
+      },
+      "buffer": {
+        "from": "buffer",
+        "version": "6.0.3",
+        "resolved": "https://registry.npmjs.org/buffer/-/buffer-6.0.3.tgz",
+        "path": "/bench/node_modules/.pnpm/buffer@6.0.3/node_modules/buffer"
+      },
+      "cross-env": {
+        "from": "cross-env",
+        "version": "10.1.0",
+        "resolved": "https://registry.npmjs.org/cross-env/-/cross-env-10.1.0.tgz",
+        "path": "/bench/node_modules/.pnpm/cross-env@10.1.0/node_modules/cross-env"
+      },
+      "esbuild": {
+        "from": "esbuild",
+        "version": "0.28.2",
+        "resolved": "https://registry.npmjs.org/esbuild/-/esbuild-0.28.2.tgz",
+        "path": "/bench/node_modules/.pnpm/esbuild@0.28.2/node_modules/esbuild"
+      },
+      "fast-glob": {
+        "from": "fast-glob",
+        "version": "3.3.3",
+        "resolved": "https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.3.tgz",
+        "path": "/bench/node_modules/.pnpm/fast-glob@3.3.3/node_modules/fast-glob"
+      },
+      "fs-extra": {
+        "from": "fs-extra",
+        "version": "11.4.0",
+        "resolved": "https://registry.npmjs.org/fs-extra/-/fs-extra-11.4.0.tgz",
+        "path": "/bench/node_modules/.pnpm/fs-extra@11.4.0/node_modules/fs-extra"
+      },
+      "gzip-size": {
+        "from": "gzip-size",
+        "version": "7.0.0",
+        "resolved": "https://registry.npmjs.org/gzip-size/-/gzip-size-7.0.0.tgz",
+        "path": "/bench/node_modules/.pnpm/gzip-size@7.0.0/node_modules/gzip-size"
+      },
+      "markdown-table": {
+        "from": "markdown-table",
+        "version": "3.0.4",
+        "resolved": "https://registry.npmjs.org/markdown-table/-/markdown-table-3.0.4.tgz",
+        "path": "/bench/node_modules/.pnpm/markdown-table@3.0.4/node_modules/markdown-table"
+      },
+      "minimizer-webpack-plugin": {
+        "from": "minimizer-webpack-plugin",
+        "version": "5.11.0",
+        "resolved": "https://registry.npmjs.org/minimizer-webpack-plugin/-/minimizer-webpack-plugin-5.11.0.tgz",
+        "path": "/bench/node_modules/.pnpm/minimizer-webpack-plugin@5.11.0_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_po_2dd93d0799bc67e01437a6caf75185bd/node_modules/minimizer-webpack-plugin"
+      },
+      "parcel": {
+        "from": "parcel",
+        "version": "2.16.4",
+        "resolved": "https://registry.npmjs.org/parcel/-/parcel-2.16.4.tgz",
+        "path": "/bench/node_modules/.pnpm/parcel@2.16.4_@swc+helpers@0.5.23/node_modules/parcel"
+      },
+      "picocolors": {
+        "from": "picocolors",
+        "version": "1.1.1",
+        "resolved": "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz",
+        "path": "/bench/node_modules/.pnpm/picocolors@1.1.1/node_modules/picocolors"
+      },
+      "postcss": {
+        "from": "postcss",
+        "version": "8.5.28",
+        "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.5.28.tgz",
+        "path": "/bench/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss"
+      },
+      "postcss-url": {
+        "from": "postcss-url",
+        "version": "10.1.4",
+        "resolved": "https://registry.npmjs.org/postcss-url/-/postcss-url-10.1.4.tgz",
+        "path": "/bench/node_modules/.pnpm/postcss-url@10.1.4_postcss@8.5.28/node_modules/postcss-url"
+      },
+      "prettier": {
+        "from": "prettier",
+        "version": "3.9.8",
+        "resolved": "https://registry.npmjs.org/prettier/-/prettier-3.9.8.tgz",
+        "path": "/bench/node_modules/.pnpm/prettier@3.9.8/node_modules/prettier"
+      },
+      "puppeteer": {
+        "from": "puppeteer",
+        "version": "24.31.0",
+        "resolved": "https://registry.npmjs.org/puppeteer/-/puppeteer-24.31.0.tgz",
+        "path": "/bench/node_modules/.pnpm/puppeteer@24.31.0_supports-color@8.1.1_typescript@7.0.2/node_modules/puppeteer"
+      },
+      "react-refresh": {
+        "from": "react-refresh",
+        "version": "0.19.0",
+        "resolved": "https://registry.npmjs.org/react-refresh/-/react-refresh-0.19.0.tgz",
+        "path": "/bench/node_modules/.pnpm/react-refresh@0.19.0/node_modules/react-refresh"
+      },
+      "rolldown": {
+        "from": "rolldown",
+        "version": "1.2.9",
+        "resolved": "https://registry.npmjs.org/rolldown/-/rolldown-1.2.9.tgz",
+        "path": "/bench/node_modules/.pnpm/rolldown@1.2.9/node_modules/rolldown"
+      },
+      "rollup": {
+        "from": "rollup",
+        "version": "4.63.4",
+        "resolved": "https://registry.npmjs.org/rollup/-/rollup-4.63.4.tgz",
+        "path": "/bench/node_modules/.pnpm/rollup@4.63.4/node_modules/rollup"
+      },
+      "rollup-plugin-postcss": {
+        "from": "rollup-plugin-postcss",
+        "version": "4.0.2",
+        "resolved": "https://registry.npmjs.org/rollup-plugin-postcss/-/rollup-plugin-postcss-4.0.2.tgz",
+        "path": "/bench/node_modules/.pnpm/rollup-plugin-postcss@4.0.2_postcss@8.5.28/node_modules/rollup-plugin-postcss"
+      },
+      "rollup-plugin-swc3": {
+        "from": "rollup-plugin-swc3",
+        "version": "0.12.1",
+        "resolved": "https://registry.npmjs.org/rollup-plugin-swc3/-/rollup-plugin-swc3-0.12.1.tgz",
+        "path": "/bench/node_modules/.pnpm/rollup-plugin-swc3@0.12.1_@swc+core@1.16.2_@swc+helpers@0.5.23__rollup@4.63.4/node_modules/rollup-plugin-swc3"
+      },
+      "rslog": {
+        "from": "rslog",
+        "version": "2.3.0",
+        "resolved": "https://registry.npmjs.org/rslog/-/rslog-2.3.0.tgz",
+        "path": "/bench/node_modules/.pnpm/rslog@2.3.0/node_modules/rslog"
+      },
+      "swc-loader": {
+        "from": "swc-loader",
+        "version": "0.2.7",
+        "resolved": "https://registry.npmjs.org/swc-loader/-/swc-loader-0.2.7.tgz",
+        "path": "/bench/node_modules/.pnpm/swc-loader@0.2.7_@swc+core@1.16.2_@swc+helpers@0.5.23__webpack@5.111.1/node_modules/swc-loader"
+      },
+      "terser-webpack-plugin": {
+        "from": "terser-webpack-plugin",
+        "version": "5.6.1",
+        "resolved": "https://registry.npmjs.org/terser-webpack-plugin/-/terser-webpack-plugin-5.6.1.tgz",
+        "path": "/bench/node_modules/.pnpm/terser-webpack-plugin@5.6.1_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_postcs_46a59b687f3458378a8fe60762f41a01/node_modules/terser-webpack-plugin"
+      },
+      "typescript": {
+        "from": "typescript",
+        "version": "7.0.2",
+        "resolved": "https://registry.npmjs.org/typescript/-/typescript-7.0.2.tgz",
+        "path": "/bench/node_modules/.pnpm/typescript@7.0.2/node_modules/typescript"
+      },
+      "vite": {
+        "from": "vite",
+        "version": "8.3.0",
+        "resolved": "https://registry.npmjs.org/vite/-/vite-8.3.0.tgz",
+        "path": "/bench/node_modules/.pnpm/vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2/node_modules/vite"
+      },
+      "vite7": {
+        "from": "vite",
+        "version": "7.3.7",
+        "resolved": "https://registry.npmjs.org/vite/-/vite-7.3.7.tgz",
+        "path": "/bench/node_modules/.pnpm/vite@7.3.7_@types+node@24.13.6_lightningcss@1.33.0_terser@5.51.2/node_modules/vite"
+      },
+      "vite7-plugin-react": {
+        "from": "@vitejs/plugin-react",
+        "version": "5.2.0",
+        "resolved": "https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-5.2.0.tgz",
+        "path": "/bench/node_modules/.pnpm/@vitejs+plugin-react@5.2.0_supports-color@8.1.1_vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2_/node_modules/@vitejs/plugin-react"
+      },
+      "webpack": {
+        "from": "webpack",
+        "version": "5.111.1",
+        "resolved": "https://registry.npmjs.org/webpack/-/webpack-5.111.1.tgz",
+        "path": "/bench/node_modules/.pnpm/webpack@5.111.1_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_postcss@8.5.28__cs_2b009bd7def8968cc24e86c55532b3fb/node_modules/webpack"
+      },
+      "webpack-cli": {
+        "from": "webpack-cli",
+        "version": "7.2.3",
+        "resolved": "https://registry.npmjs.org/webpack-cli/-/webpack-cli-7.2.3.tgz",
+        "path": "/bench/node_modules/.pnpm/webpack-cli@7.2.3_js-yaml@4.1.1_json5@2.2.3_webpack-dev-server@5.2.6_webpack@5.111.1/node_modules/webpack-cli"
+      },
+      "webpack-dev-server": {
+        "from": "webpack-dev-server",
+        "version": "5.2.6",
+        "resolved": "https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-5.2.6.tgz",
+        "path": "/bench/node_modules/.pnpm/webpack-dev-server@5.2.6_debug@4.4.3_supports-color@8.1.1__supports-color@8.1.1_webpack-cli@7.2.3_webpack@5.111.1/node_modules/webpack-dev-server"
+      }
+    }
+  },
+  {
+    "name": "popular-libs",
+    "version": "0.0.0",
+    "path": "/bench/cases/popular-libs",
+    "private": false,
+    "dependencies": {
+      "@floating-ui/dom": {
+        "from": "@floating-ui/dom",
+        "version": "1.8.0",
+        "resolved": "https://registry.npmjs.org/@floating-ui/dom/-/dom-1.8.0.tgz",
+        "path": "/bench/node_modules/.pnpm/@floating-ui+dom@1.8.0/node_modules/@floating-ui/dom"
+      },
+      "@headlessui/react": {
+        "from": "@headlessui/react",
+        "version": "2.2.10",
+        "resolved": "https://registry.npmjs.org/@headlessui/react/-/react-2.2.10.tgz",
+        "path": "/bench/node_modules/.pnpm/@headlessui+react@2.2.10_react-dom@19.3.0_react@19.3.0__react@19.3.0/node_modules/@headlessui/react"
+      },
+      "@headlessui/vue": {
+        "from": "@headlessui/vue",
+        "version": "1.7.23",
+        "resolved": "https://registry.npmjs.org/@headlessui/vue/-/vue-1.7.23.tgz",
+        "path": "/bench/node_modules/.pnpm/@headlessui+vue@1.7.23_vue@3.5.43_typescript@7.0.2_/node_modules/@headlessui/vue"
+      },
+      "@heroicons/react": {
+        "from": "@heroicons/react",
+        "version": "2.2.0",
+        "resolved": "https://registry.npmjs.org/@heroicons/react/-/react-2.2.0.tgz",
+        "path": "/bench/node_modules/.pnpm/@heroicons+react@2.2.0_react@19.3.0/node_modules/@heroicons/react"
+      },
+      "@heroicons/vue": {
+        "from": "@heroicons/vue",
+        "version": "2.2.0",
+        "resolved": "https://registry.npmjs.org/@heroicons/vue/-/vue-2.2.0.tgz",
+        "path": "/bench/node_modules/.pnpm/@heroicons+vue@2.2.0_vue@3.5.43_typescript@7.0.2_/node_modules/@heroicons/vue"
+      },
+      "@radix-ui/react-slot": {
+        "from": "@radix-ui/react-slot",
+        "version": "1.3.3",
+        "resolved": "https://registry.npmjs.org/@radix-ui/react-slot/-/react-slot-1.3.3.tgz",
+        "path": "/bench/node_modules/.pnpm/@radix-ui+react-slot@1.3.3_@types+react@19.3.0_react@19.3.0/node_modules/@radix-ui/react-slot"
+      },
+      "@reduxjs/toolkit": {
+        "from": "@reduxjs/toolkit",
+        "version": "2.12.0",
+        "resolved": "https://registry.npmjs.org/@reduxjs/toolkit/-/toolkit-2.12.0.tgz",
+        "path": "/bench/node_modules/.pnpm/@reduxjs+toolkit@2.12.0_react@19.3.0/node_modules/@reduxjs/toolkit"
+      },
+      "@tanstack/react-query": {
+        "from": "@tanstack/react-query",
+        "version": "5.103.2",
+        "resolved": "https://registry.npmjs.org/@tanstack/react-query/-/react-query-5.103.2.tgz",
+        "path": "/bench/node_modules/.pnpm/@tanstack+react-query@5.103.2_react@19.3.0/node_modules/@tanstack/react-query"
+      },
+      "@vueuse/core": {
+        "from": "@vueuse/core",
+        "version": "15.0.0",
+        "resolved": "https://registry.npmjs.org/@vueuse/core/-/core-15.0.0.tgz",
+        "path": "/bench/node_modules/.pnpm/@vueuse+core@15.0.0_vue@3.5.43_typescript@7.0.2_/node_modules/@vueuse/core"
+      },
+      "axios": {
+        "from": "axios",
+        "version": "1.20.0",
+        "resolved": "https://registry.npmjs.org/axios/-/axios-1.20.0.tgz",
+        "path": "/bench/node_modules/.pnpm/axios@1.20.0_debug@4.4.3_supports-color@8.1.1__supports-color@8.1.1/node_modules/axios"
+      },
+      "class-variance-authority": {
+        "from": "class-variance-authority",
+        "version": "0.7.1",
+        "resolved": "https://registry.npmjs.org/class-variance-authority/-/class-variance-authority-0.7.1.tgz",
+        "path": "/bench/node_modules/.pnpm/class-variance-authority@0.7.1/node_modules/class-variance-authority"
+      },
+      "clsx": {
+        "from": "clsx",
+        "version": "2.1.1",
+        "resolved": "https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz",
+        "path": "/bench/node_modules/.pnpm/clsx@2.1.1/node_modules/clsx"
+      },
+      "d3-array": {
+        "from": "d3-array",
+        "version": "3.2.4",
+        "resolved": "https://registry.npmjs.org/d3-array/-/d3-array-3.2.4.tgz",
+        "path": "/bench/node_modules/.pnpm/d3-array@3.2.4/node_modules/d3-array"
+      },
+      "d3-scale": {
+        "from": "d3-scale",
+        "version": "4.0.2",
+        "resolved": "https://registry.npmjs.org/d3-scale/-/d3-scale-4.0.2.tgz",
+        "path": "/bench/node_modules/.pnpm/d3-scale@4.0.2/node_modules/d3-scale"
+      },
+      "date-fns": {
+        "from": "date-fns",
+        "version": "4.4.0",
+        "resolved": "https://registry.npmjs.org/date-fns/-/date-fns-4.4.0.tgz",
+        "path": "/bench/node_modules/.pnpm/date-fns@4.4.0/node_modules/date-fns"
+      },
+      "dayjs": {
+        "from": "dayjs",
+        "version": "1.11.23",
+        "resolved": "https://registry.npmjs.org/dayjs/-/dayjs-1.11.23.tgz",
+        "path": "/bench/node_modules/.pnpm/dayjs@1.11.23/node_modules/dayjs"
+      },
+      "dexie": {
+        "from": "dexie",
+        "version": "4.4.6",
+        "resolved": "https://registry.npmjs.org/dexie/-/dexie-4.4.6.tgz",
+        "path": "/bench/node_modules/.pnpm/dexie@4.4.6/node_modules/dexie"
+      },
+      "framer-motion": {
+        "from": "framer-motion",
+        "version": "13.4.0",
+        "resolved": "https://registry.npmjs.org/framer-motion/-/framer-motion-13.4.0.tgz",
+        "path": "/bench/node_modules/.pnpm/framer-motion@13.4.0_react-dom@19.3.0_react@19.3.0__react@19.3.0/node_modules/framer-motion"
+      },
+      "fuse.js": {
+        "from": "fuse.js",
+        "version": "7.5.0",
+        "resolved": "https://registry.npmjs.org/fuse.js/-/fuse.js-7.5.0.tgz",
+        "path": "/bench/node_modules/.pnpm/fuse.js@7.5.0/node_modules/fuse.js"
+      },
+      "i18next": {
+        "from": "i18next",
+        "version": "26.4.2",
+        "resolved": "https://registry.npmjs.org/i18next/-/i18next-26.4.2.tgz",
+        "path": "/bench/node_modules/.pnpm/i18next@26.4.2_typescript@7.0.2/node_modules/i18next"
+      },
+      "idb": {
+        "from": "idb",
+        "version": "8.0.3",
+        "resolved": "https://registry.npmjs.org/idb/-/idb-8.0.3.tgz",
+        "path": "/bench/node_modules/.pnpm/idb@8.0.3/node_modules/idb"
+      },
+      "immer": {
+        "from": "immer",
+        "version": "11.1.18",
+        "resolved": "https://registry.npmjs.org/immer/-/immer-11.1.18.tgz",
+        "path": "/bench/node_modules/.pnpm/immer@11.1.18/node_modules/immer"
+      },
+      "jotai": {
+        "from": "jotai",
+        "version": "3.0.0",
+        "resolved": "https://registry.npmjs.org/jotai/-/jotai-3.0.0.tgz",
+        "path": "/bench/node_modules/.pnpm/jotai@3.0.0_@types+react@19.3.0_react@19.3.0/node_modules/jotai"
+      },
+      "ky": {
+        "from": "ky",
+        "version": "2.1.0",
+        "resolved": "https://registry.npmjs.org/ky/-/ky-2.1.0.tgz",
+        "path": "/bench/node_modules/.pnpm/ky@2.1.0/node_modules/ky"
+      },
+      "lit": {
+        "from": "lit",
+        "version": "3.3.3",
+        "resolved": "https://registry.npmjs.org/lit/-/lit-3.3.3.tgz",
+        "path": "/bench/node_modules/.pnpm/lit@3.3.3/node_modules/lit"
+      },
+      "lodash-es": {
+        "from": "lodash-es",
+        "version": "4.18.1",
+        "resolved": "https://registry.npmjs.org/lodash-es/-/lodash-es-4.18.1.tgz",
+        "path": "/bench/node_modules/.pnpm/lodash-es@4.18.1/node_modules/lodash-es"
+      },
+      "lucide-react": {
+        "from": "lucide-react",
+        "version": "1.47.0",
+        "resolved": "https://registry.npmjs.org/lucide-react/-/lucide-react-1.47.0.tgz",
+        "path": "/bench/node_modules/.pnpm/lucide-react@1.47.0_react@19.3.0/node_modules/lucide-react"
+      },
+      "mitt": {
+        "from": "mitt",
+        "version": "3.0.1",
+        "resolved": "https://registry.npmjs.org/mitt/-/mitt-3.0.1.tgz",
+        "path": "/bench/node_modules/.pnpm/mitt@3.0.1/node_modules/mitt"
+      },
+      "mobx": {
+        "from": "mobx",
+        "version": "7.0.3",
+        "resolved": "https://registry.npmjs.org/mobx/-/mobx-7.0.3.tgz",
+        "path": "/bench/node_modules/.pnpm/mobx@7.0.3/node_modules/mobx"
+      },
+      "nanoid": {
+        "from": "nanoid",
+        "version": "5.1.16",
+        "resolved": "https://registry.npmjs.org/nanoid/-/nanoid-5.1.16.tgz",
+        "path": "/bench/node_modules/.pnpm/nanoid@5.1.16/node_modules/nanoid"
+      },
+      "pinia": {
+        "from": "pinia",
+        "version": "4.0.3",
+        "resolved": "https://registry.npmjs.org/pinia/-/pinia-4.0.3.tgz",
+        "path": "/bench/node_modules/.pnpm/pinia@4.0.3_@vue+devtools-api@8.1.5_typescript@7.0.2_vue@3.5.43_typescript@7.0.2_/node_modules/pinia"
+      },
+      "preact": {
+        "from": "preact",
+        "version": "10.29.8",
+        "resolved": "https://registry.npmjs.org/preact/-/preact-10.29.8.tgz",
+        "path": "/bench/node_modules/.pnpm/preact@10.29.8/node_modules/preact"
+      },
+      "query-string": {
+        "from": "query-string",
+        "version": "9.5.1",
+        "resolved": "https://registry.npmjs.org/query-string/-/query-string-9.5.1.tgz",
+        "path": "/bench/node_modules/.pnpm/query-string@9.5.1/node_modules/query-string"
+      },
+      "react": {
+        "from": "react",
+        "version": "19.3.0",
+        "resolved": "https://registry.npmjs.org/react/-/react-19.3.0.tgz",
+        "path": "/bench/node_modules/.pnpm/react@19.3.0/node_modules/react"
+      },
+      "react-dom": {
+        "from": "react-dom",
+        "version": "19.3.0",
+        "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-19.3.0.tgz",
+        "path": "/bench/node_modules/.pnpm/react-dom@19.3.0_react@19.3.0/node_modules/react-dom"
+      },
+      "react-hook-form": {
+        "from": "react-hook-form",
+        "version": "7.88.0",
+        "resolved": "https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.88.0.tgz",
+        "path": "/bench/node_modules/.pnpm/react-hook-form@7.88.0_react@19.3.0/node_modules/react-hook-form"
+      },
+      "react-i18next": {
+        "from": "react-i18next",
+        "version": "17.0.15",
+        "resolved": "https://registry.npmjs.org/react-i18next/-/react-i18next-17.0.15.tgz",
+        "path": "/bench/node_modules/.pnpm/react-i18next@17.0.15_i18next@26.4.2_typescript@7.0.2__react-dom@19.3.0_react@19.3.0__react@19.3.0_typescript@7.0.2/node_modules/react-i18next"
+      },
+      "react-router-dom": {
+        "from": "react-router-dom",
+        "version": "7.18.4",
+        "resolved": "https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.18.4.tgz",
+        "path": "/bench/node_modules/.pnpm/react-router-dom@7.18.4_react-dom@19.3.0_react@19.3.0__react@19.3.0/node_modules/react-router-dom"
+      },
+      "remeda": {
+        "from": "remeda",
+        "version": "2.50.0",
+        "resolved": "https://registry.npmjs.org/remeda/-/remeda-2.50.0.tgz",
+        "path": "/bench/node_modules/.pnpm/remeda@2.50.0/node_modules/remeda"
+      },
+      "rxjs": {
+        "from": "rxjs",
+        "version": "7.8.2",
+        "resolved": "https://registry.npmjs.org/rxjs/-/rxjs-7.8.2.tgz",
+        "path": "/bench/node_modules/.pnpm/rxjs@7.8.2/node_modules/rxjs"
+      },
+      "solid-js": {
+        "from": "solid-js",
+        "version": "1.9.15",
+        "resolved": "https://registry.npmjs.org/solid-js/-/solid-js-1.9.15.tgz",
+        "path": "/bench/node_modules/.pnpm/solid-js@1.9.15/node_modules/solid-js"
+      },
+      "swiper": {
+        "from": "swiper",
+        "version": "14.2.0",
+        "resolved": "https://registry.npmjs.org/swiper/-/swiper-14.2.0.tgz",
+        "path": "/bench/node_modules/.pnpm/swiper@14.2.0/node_modules/swiper"
+      },
+      "swr": {
+        "from": "swr",
+        "version": "2.5.1",
+        "resolved": "https://registry.npmjs.org/swr/-/swr-2.5.1.tgz",
+        "path": "/bench/node_modules/.pnpm/swr@2.5.1_react@19.3.0/node_modules/swr"
+      },
+      "tailwind-merge": {
+        "from": "tailwind-merge",
+        "version": "3.7.0",
+        "resolved": "https://registry.npmjs.org/tailwind-merge/-/tailwind-merge-3.7.0.tgz",
+        "path": "/bench/node_modules/.pnpm/tailwind-merge@3.7.0/node_modules/tailwind-merge"
+      },
+      "three": {
+        "from": "three",
+        "version": "0.186.0",
+        "resolved": "https://registry.npmjs.org/three/-/three-0.186.0.tgz",
+        "path": "/bench/node_modules/.pnpm/three@0.186.0/node_modules/three"
+      },
+      "valtio": {
+        "from": "valtio",
+        "version": "2.3.2",
+        "resolved": "https://registry.npmjs.org/valtio/-/valtio-2.3.2.tgz",
+        "path": "/bench/node_modules/.pnpm/valtio@2.3.2_@types+react@19.3.0_react@19.3.0/node_modules/valtio"
+      },
+      "vue": {
+        "from": "vue",
+        "version": "3.5.43",
+        "resolved": "https://registry.npmjs.org/vue/-/vue-3.5.43.tgz",
+        "path": "/bench/node_modules/.pnpm/vue@3.5.43_typescript@7.0.2/node_modules/vue"
+      },
+      "vue-i18n": {
+        "from": "vue-i18n",
+        "version": "11.4.12",
+        "resolved": "https://registry.npmjs.org/vue-i18n/-/vue-i18n-11.4.12.tgz",
+        "path": "/bench/node_modules/.pnpm/vue-i18n@11.4.12_vue@3.5.43_typescript@7.0.2_/node_modules/vue-i18n"
+      },
+      "vue-router": {
+        "from": "vue-router",
+        "version": "5.3.1",
+        "resolved": "https://registry.npmjs.org/vue-router/-/vue-router-5.3.1.tgz",
+        "path": "/bench/node_modules/.pnpm/vue-router@5.3.1_@farmfe+core@1.7.11_@types+node@24.13.6_supports-color@8.1.1__@rspack+_ed8ebe53789cc76cc85bbebdd21c926f/node_modules/vue-router"
+      },
+      "xstate": {
+        "from": "xstate",
+        "version": "5.33.2",
+        "resolved": "https://registry.npmjs.org/xstate/-/xstate-5.33.2.tgz",
+        "path": "/bench/node_modules/.pnpm/xstate@5.33.2/node_modules/xstate"
+      },
+      "zod": {
+        "from": "zod",
+        "version": "4.6.5",
+        "resolved": "https://registry.npmjs.org/zod/-/zod-4.6.5.tgz",
+        "path": "/bench/node_modules/.pnpm/zod@4.6.5/node_modules/zod"
+      },
+      "zustand": {
+        "from": "zustand",
+        "version": "5.0.15",
+        "resolved": "https://registry.npmjs.org/zustand/-/zustand-5.0.15.tgz",
+        "path": "/bench/node_modules/.pnpm/zustand@5.0.15_@types+react@19.3.0_immer@11.1.18_react@19.3.0_use-sync-external-store@1.6.0_react@19.3.0_/node_modules/zustand"
+      }
+    },
+    "unsavedDependencies": {
+      "@babel/core": {
+        "from": "@babel/core",
+        "version": "link:../../node_modules/.pnpm/@babel+core@7.29.7_supports-color@8.1.1/node_modules/@babel/core",
+        "path": "/bench/node_modules/.pnpm/@babel+core@7.29.7_supports-color@8.1.1/node_modules/@babel/core"
+      },
+      "@babel/preset-env": {
+        "from": "@babel/preset-env",
+        "version": "link:../../node_modules/.pnpm/@babel+preset-env@7.29.7_@babel+core@7.29.7_supports-color@8.1.1__supports-color@8.1.1/node_modules/@babel/preset-env",
+        "path": "/bench/node_modules/.pnpm/@babel+preset-env@7.29.7_@babel+core@7.29.7_supports-color@8.1.1__supports-color@8.1.1/node_modules/@babel/preset-env"
+      },
+      "@babel/preset-react": {
+        "from": "@babel/preset-react",
+        "version": "link:../../node_modules/.pnpm/@babel+preset-react@7.29.7_@babel+core@7.29.7_supports-color@8.1.1__supports-color@8.1.1/node_modules/@babel/preset-react",
+        "path": "/bench/node_modules/.pnpm/@babel+preset-react@7.29.7_@babel+core@7.29.7_supports-color@8.1.1__supports-color@8.1.1/node_modules/@babel/preset-react"
+      },
+      "@farmfe/cli": {
+        "from": "@farmfe/cli",
+        "version": "link:../../node_modules/.pnpm/@farmfe+cli@1.0.5/node_modules/@farmfe/cli",
+        "path": "/bench/node_modules/.pnpm/@farmfe+cli@1.0.5/node_modules/@farmfe/cli"
+      },
+      "@farmfe/core": {
+        "from": "@farmfe/core",
+        "version": "link:../../node_modules/.pnpm/@farmfe+core@1.7.11_@types+node@24.13.6_supports-color@8.1.1/node_modules/@farmfe/core",
+        "path": "/bench/node_modules/.pnpm/@farmfe+core@1.7.11_@types+node@24.13.6_supports-color@8.1.1/node_modules/@farmfe/core"
+      },
+      "@farmfe/plugin-react": {
+        "from": "@farmfe/plugin-react",
+        "version": "link:../../node_modules/.pnpm/@farmfe+plugin-react@1.2.6/node_modules/@farmfe/plugin-react",
+        "path": "/bench/node_modules/.pnpm/@farmfe+plugin-react@1.2.6/node_modules/@farmfe/plugin-react"
+      },
+      "@parcel/config-default": {
+        "from": "@parcel/config-default",
+        "version": "link:../../node_modules/.pnpm/@parcel+config-default@2.16.4_@parcel+core@2.16.4_@swc+helpers@0.5.23__@swc+helpers@0.5.23/node_modules/@parcel/config-default",
+        "path": "/bench/node_modules/.pnpm/@parcel+config-default@2.16.4_@parcel+core@2.16.4_@swc+helpers@0.5.23__@swc+helpers@0.5.23/node_modules/@parcel/config-default"
+      },
+      "@pmmmwh/react-refresh-webpack-plugin": {
+        "from": "@pmmmwh/react-refresh-webpack-plugin",
+        "version": "link:../../node_modules/.pnpm/@pmmmwh+react-refresh-webpack-plugin@0.6.3_react-refresh@0.19.0_type-fest@5.8.0_webpack-dev-server@5.2.6_webpack@5.111.1/node_modules/@pmmmwh/react-refresh-webpack-plugin",
+        "path": "/bench/node_modules/.pnpm/@pmmmwh+react-refresh-webpack-plugin@0.6.3_react-refresh@0.19.0_type-fest@5.8.0_webpack-dev-server@5.2.6_webpack@5.111.1/node_modules/@pmmmwh/react-refresh-webpack-plugin"
+      },
+      "@rollup/plugin-alias": {
+        "from": "@rollup/plugin-alias",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-alias@6.0.0_rollup@4.63.4/node_modules/@rollup/plugin-alias",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-alias@6.0.0_rollup@4.63.4/node_modules/@rollup/plugin-alias"
+      },
+      "@rollup/plugin-commonjs": {
+        "from": "@rollup/plugin-commonjs",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-commonjs@29.0.3_rollup@4.63.4/node_modules/@rollup/plugin-commonjs",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-commonjs@29.0.3_rollup@4.63.4/node_modules/@rollup/plugin-commonjs"
+      },
+      "@rollup/plugin-html": {
+        "from": "@rollup/plugin-html",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-html@2.0.0_rollup@4.63.4/node_modules/@rollup/plugin-html",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-html@2.0.0_rollup@4.63.4/node_modules/@rollup/plugin-html"
+      },
+      "@rollup/plugin-json": {
+        "from": "@rollup/plugin-json",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-json@6.1.0_rollup@4.63.4/node_modules/@rollup/plugin-json",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-json@6.1.0_rollup@4.63.4/node_modules/@rollup/plugin-json"
+      },
+      "@rollup/plugin-node-resolve": {
+        "from": "@rollup/plugin-node-resolve",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-node-resolve@16.0.3_rollup@4.63.4/node_modules/@rollup/plugin-node-resolve",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-node-resolve@16.0.3_rollup@4.63.4/node_modules/@rollup/plugin-node-resolve"
+      },
+      "@rollup/plugin-replace": {
+        "from": "@rollup/plugin-replace",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-replace@6.0.3_rollup@4.63.4/node_modules/@rollup/plugin-replace",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-replace@6.0.3_rollup@4.63.4/node_modules/@rollup/plugin-replace"
+      },
+      "@rsbuild/core": {
+        "from": "@rsbuild/core",
+        "version": "link:../../node_modules/.pnpm/@rsbuild+core@2.2.9_core-js@3.48.0/node_modules/@rsbuild/core",
+        "path": "/bench/node_modules/.pnpm/@rsbuild+core@2.2.9_core-js@3.48.0/node_modules/@rsbuild/core"
+      },
+      "@rsbuild/plugin-react": {
+        "from": "@rsbuild/plugin-react",
+        "version": "link:../../node_modules/.pnpm/@rsbuild+plugin-react@2.1.0_@rsbuild+core@2.2.9_core-js@3.48.0__@rspack+core@2.2.7_@swc+helpers@0.5.23_/node_modules/@rsbuild/plugin-react",
+        "path": "/bench/node_modules/.pnpm/@rsbuild+plugin-react@2.1.0_@rsbuild+core@2.2.9_core-js@3.48.0__@rspack+core@2.2.7_@swc+helpers@0.5.23_/node_modules/@rsbuild/plugin-react"
+      },
+      "@rsdoctor/rspack-plugin": {
+        "from": "@rsdoctor/rspack-plugin",
+        "version": "link:../../node_modules/.pnpm/@rsdoctor+rspack-plugin@1.6.4_@emnapi+core@1.11.3_@emnapi+runtime@1.11.3_@rsbuild+core@_8a2ae1bb63c3da290a98e089a04dd930/node_modules/@rsdoctor/rspack-plugin",
+        "path": "/bench/node_modules/.pnpm/@rsdoctor+rspack-plugin@1.6.4_@emnapi+core@1.11.3_@emnapi+runtime@1.11.3_@rsbuild+core@_8a2ae1bb63c3da290a98e089a04dd930/node_modules/@rsdoctor/rspack-plugin"
+      },
+      "@rspack/cli": {
+        "from": "@rspack/cli",
+        "version": "link:../../node_modules/.pnpm/@rspack+cli@2.2.7_@rspack+core@2.2.7_@swc+helpers@0.5.23__@rspack+dev-server@2.2.1_@rsp_633430ea937b838b296c9e7be49a4f58/node_modules/@rspack/cli",
+        "path": "/bench/node_modules/.pnpm/@rspack+cli@2.2.7_@rspack+core@2.2.7_@swc+helpers@0.5.23__@rspack+dev-server@2.2.1_@rsp_633430ea937b838b296c9e7be49a4f58/node_modules/@rspack/cli"
+      },
+      "@rspack/core": {
+        "from": "@rspack/core",
+        "version": "link:../../node_modules/.pnpm/@rspack+core@2.2.7_@swc+helpers@0.5.23/node_modules/@rspack/core",
+        "path": "/bench/node_modules/.pnpm/@rspack+core@2.2.7_@swc+helpers@0.5.23/node_modules/@rspack/core"
+      },
+      "@rspack/dev-server": {
+        "from": "@rspack/dev-server",
+        "version": "link:../../node_modules/.pnpm/@rspack+dev-server@2.2.1_@rspack+core@2.2.7_@swc+helpers@0.5.23__selfsigned@5.5.0/node_modules/@rspack/dev-server",
+        "path": "/bench/node_modules/.pnpm/@rspack+dev-server@2.2.1_@rspack+core@2.2.7_@swc+helpers@0.5.23__selfsigned@5.5.0/node_modules/@rspack/dev-server"
+      },
+      "@rspack/plugin-react-refresh": {
+        "from": "@rspack/plugin-react-refresh",
+        "version": "link:../../node_modules/.pnpm/@rspack+plugin-react-refresh@2.0.2_@rspack+core@2.2.7_@swc+helpers@0.5.23__react-refresh@0.19.0/node_modules/@rspack/plugin-react-refresh",
+        "path": "/bench/node_modules/.pnpm/@rspack+plugin-react-refresh@2.0.2_@rspack+core@2.2.7_@swc+helpers@0.5.23__react-refresh@0.19.0/node_modules/@rspack/plugin-react-refresh"
+      },
+      "@swc/core": {
+        "from": "@swc/core",
+        "version": "link:../../node_modules/.pnpm/@swc+core@1.16.2_@swc+helpers@0.5.23/node_modules/@swc/core",
+        "path": "/bench/node_modules/.pnpm/@swc+core@1.16.2_@swc+helpers@0.5.23/node_modules/@swc/core"
+      },
+      "@types/fs-extra": {
+        "from": "@types/fs-extra",
+        "version": "link:../../node_modules/.pnpm/@types+fs-extra@11.0.4/node_modules/@types/fs-extra",
+        "path": "/bench/node_modules/.pnpm/@types+fs-extra@11.0.4/node_modules/@types/fs-extra"
+      },
+      "@types/node": {
+        "from": "@types/node",
+        "version": "link:../../node_modules/.pnpm/@types+node@24.13.6/node_modules/@types/node",
+        "path": "/bench/node_modules/.pnpm/@types+node@24.13.6/node_modules/@types/node"
+      },
+      "@types/react": {
+        "from": "@types/react",
+        "version": "link:../../node_modules/.pnpm/@types+react@19.3.0/node_modules/@types/react",
+        "path": "/bench/node_modules/.pnpm/@types+react@19.3.0/node_modules/@types/react"
+      },
+      "@types/react-dom": {
+        "from": "@types/react-dom",
+        "version": "link:../../node_modules/.pnpm/@types+react-dom@19.3.0_@types+react@19.3.0/node_modules/@types/react-dom",
+        "path": "/bench/node_modules/.pnpm/@types+react-dom@19.3.0_@types+react@19.3.0/node_modules/@types/react-dom"
+      },
+      "@utoo/pack-cli": {
+        "from": "@utoo/pack-cli",
+        "version": "link:../../node_modules/.pnpm/@utoo+pack-cli@1.5.24-alpha.0_postcss@8.5.28/node_modules/@utoo/pack-cli",
+        "path": "/bench/node_modules/.pnpm/@utoo+pack-cli@1.5.24-alpha.0_postcss@8.5.28/node_modules/@utoo/pack-cli"
+      },
+      "@vitejs/plugin-react": {
+        "from": "@vitejs/plugin-react",
+        "version": "link:../../node_modules/.pnpm/@vitejs+plugin-react@6.1.1_vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2_/node_modules/@vitejs/plugin-react",
+        "path": "/bench/node_modules/.pnpm/@vitejs+plugin-react@6.1.1_vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2_/node_modules/@vitejs/plugin-react"
+      },
+      "babel-loader": {
+        "from": "babel-loader",
+        "version": "link:../../node_modules/.pnpm/babel-loader@10.1.1_@babel+core@7.29.7_supports-color@8.1.1__@rspack+core@2.2.7_@swc+helpers@0.5.23__webpack@5.111.1/node_modules/babel-loader",
+        "path": "/bench/node_modules/.pnpm/babel-loader@10.1.1_@babel+core@7.29.7_supports-color@8.1.1__@rspack+core@2.2.7_@swc+helpers@0.5.23__webpack@5.111.1/node_modules/babel-loader"
+      },
+      "buffer": {
+        "from": "buffer",
+        "version": "link:../../node_modules/.pnpm/buffer@6.0.3/node_modules/buffer",
+        "path": "/bench/node_modules/.pnpm/buffer@6.0.3/node_modules/buffer"
+      },
+      "cross-env": {
+        "from": "cross-env",
+        "version": "link:../../node_modules/.pnpm/cross-env@10.1.0/node_modules/cross-env",
+        "path": "/bench/node_modules/.pnpm/cross-env@10.1.0/node_modules/cross-env"
+      },
+      "esbuild": {
+        "from": "esbuild",
+        "version": "link:../../node_modules/.pnpm/esbuild@0.28.2/node_modules/esbuild",
+        "path": "/bench/node_modules/.pnpm/esbuild@0.28.2/node_modules/esbuild"
+      },
+      "fast-glob": {
+        "from": "fast-glob",
+        "version": "link:../../node_modules/.pnpm/fast-glob@3.3.3/node_modules/fast-glob",
+        "path": "/bench/node_modules/.pnpm/fast-glob@3.3.3/node_modules/fast-glob"
+      },
+      "fs-extra": {
+        "from": "fs-extra",
+        "version": "link:../../node_modules/.pnpm/fs-extra@11.4.0/node_modules/fs-extra",
+        "path": "/bench/node_modules/.pnpm/fs-extra@11.4.0/node_modules/fs-extra"
+      },
+      "gzip-size": {
+        "from": "gzip-size",
+        "version": "link:../../node_modules/.pnpm/gzip-size@7.0.0/node_modules/gzip-size",
+        "path": "/bench/node_modules/.pnpm/gzip-size@7.0.0/node_modules/gzip-size"
+      },
+      "markdown-table": {
+        "from": "markdown-table",
+        "version": "link:../../node_modules/.pnpm/markdown-table@3.0.4/node_modules/markdown-table",
+        "path": "/bench/node_modules/.pnpm/markdown-table@3.0.4/node_modules/markdown-table"
+      },
+      "minimizer-webpack-plugin": {
+        "from": "minimizer-webpack-plugin",
+        "version": "link:../../node_modules/.pnpm/minimizer-webpack-plugin@5.11.0_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_po_2dd93d0799bc67e01437a6caf75185bd/node_modules/minimizer-webpack-plugin",
+        "path": "/bench/node_modules/.pnpm/minimizer-webpack-plugin@5.11.0_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_po_2dd93d0799bc67e01437a6caf75185bd/node_modules/minimizer-webpack-plugin"
+      },
+      "parcel": {
+        "from": "parcel",
+        "version": "link:../../node_modules/.pnpm/parcel@2.16.4_@swc+helpers@0.5.23/node_modules/parcel",
+        "path": "/bench/node_modules/.pnpm/parcel@2.16.4_@swc+helpers@0.5.23/node_modules/parcel"
+      },
+      "picocolors": {
+        "from": "picocolors",
+        "version": "link:../../node_modules/.pnpm/picocolors@1.1.1/node_modules/picocolors",
+        "path": "/bench/node_modules/.pnpm/picocolors@1.1.1/node_modules/picocolors"
+      },
+      "postcss": {
+        "from": "postcss",
+        "version": "link:../../node_modules/.pnpm/postcss@8.5.28/node_modules/postcss",
+        "path": "/bench/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss"
+      },
+      "postcss-url": {
+        "from": "postcss-url",
+        "version": "link:../../node_modules/.pnpm/postcss-url@10.1.4_postcss@8.5.28/node_modules/postcss-url",
+        "path": "/bench/node_modules/.pnpm/postcss-url@10.1.4_postcss@8.5.28/node_modules/postcss-url"
+      },
+      "prettier": {
+        "from": "prettier",
+        "version": "link:../../node_modules/.pnpm/prettier@3.9.8/node_modules/prettier",
+        "path": "/bench/node_modules/.pnpm/prettier@3.9.8/node_modules/prettier"
+      },
+      "puppeteer": {
+        "from": "puppeteer",
+        "version": "link:../../node_modules/.pnpm/puppeteer@24.31.0_supports-color@8.1.1_typescript@7.0.2/node_modules/puppeteer",
+        "path": "/bench/node_modules/.pnpm/puppeteer@24.31.0_supports-color@8.1.1_typescript@7.0.2/node_modules/puppeteer"
+      },
+      "react-refresh": {
+        "from": "react-refresh",
+        "version": "link:../../node_modules/.pnpm/react-refresh@0.19.0/node_modules/react-refresh",
+        "path": "/bench/node_modules/.pnpm/react-refresh@0.19.0/node_modules/react-refresh"
+      },
+      "rolldown": {
+        "from": "rolldown",
+        "version": "link:../../node_modules/.pnpm/rolldown@1.2.9/node_modules/rolldown",
+        "path": "/bench/node_modules/.pnpm/rolldown@1.2.9/node_modules/rolldown"
+      },
+      "rollup": {
+        "from": "rollup",
+        "version": "link:../../node_modules/.pnpm/rollup@4.63.4/node_modules/rollup",
+        "path": "/bench/node_modules/.pnpm/rollup@4.63.4/node_modules/rollup"
+      },
+      "rollup-plugin-postcss": {
+        "from": "rollup-plugin-postcss",
+        "version": "link:../../node_modules/.pnpm/rollup-plugin-postcss@4.0.2_postcss@8.5.28/node_modules/rollup-plugin-postcss",
+        "path": "/bench/node_modules/.pnpm/rollup-plugin-postcss@4.0.2_postcss@8.5.28/node_modules/rollup-plugin-postcss"
+      },
+      "rollup-plugin-swc3": {
+        "from": "rollup-plugin-swc3",
+        "version": "link:../../node_modules/.pnpm/rollup-plugin-swc3@0.12.1_@swc+core@1.16.2_@swc+helpers@0.5.23__rollup@4.63.4/node_modules/rollup-plugin-swc3",
+        "path": "/bench/node_modules/.pnpm/rollup-plugin-swc3@0.12.1_@swc+core@1.16.2_@swc+helpers@0.5.23__rollup@4.63.4/node_modules/rollup-plugin-swc3"
+      },
+      "rslog": {
+        "from": "rslog",
+        "version": "link:../../node_modules/.pnpm/rslog@2.3.0/node_modules/rslog",
+        "path": "/bench/node_modules/.pnpm/rslog@2.3.0/node_modules/rslog"
+      },
+      "swc-loader": {
+        "from": "swc-loader",
+        "version": "link:../../node_modules/.pnpm/swc-loader@0.2.7_@swc+core@1.16.2_@swc+helpers@0.5.23__webpack@5.111.1/node_modules/swc-loader",
+        "path": "/bench/node_modules/.pnpm/swc-loader@0.2.7_@swc+core@1.16.2_@swc+helpers@0.5.23__webpack@5.111.1/node_modules/swc-loader"
+      },
+      "terser-webpack-plugin": {
+        "from": "terser-webpack-plugin",
+        "version": "link:../../node_modules/.pnpm/terser-webpack-plugin@5.6.1_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_postcs_46a59b687f3458378a8fe60762f41a01/node_modules/terser-webpack-plugin",
+        "path": "/bench/node_modules/.pnpm/terser-webpack-plugin@5.6.1_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_postcs_46a59b687f3458378a8fe60762f41a01/node_modules/terser-webpack-plugin"
+      },
+      "typescript": {
+        "from": "typescript",
+        "version": "link:../../node_modules/.pnpm/typescript@7.0.2/node_modules/typescript",
+        "path": "/bench/node_modules/.pnpm/typescript@7.0.2/node_modules/typescript"
+      },
+      "vite": {
+        "from": "vite",
+        "version": "link:../../node_modules/.pnpm/vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2/node_modules/vite",
+        "path": "/bench/node_modules/.pnpm/vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2/node_modules/vite"
+      },
+      "vite7": {
+        "from": "vite7",
+        "version": "link:../../node_modules/.pnpm/vite@7.3.7_@types+node@24.13.6_lightningcss@1.33.0_terser@5.51.2/node_modules/vite",
+        "path": "/bench/node_modules/.pnpm/vite@7.3.7_@types+node@24.13.6_lightningcss@1.33.0_terser@5.51.2/node_modules/vite"
+      },
+      "vite7-plugin-react": {
+        "from": "vite7-plugin-react",
+        "version": "link:../../node_modules/.pnpm/@vitejs+plugin-react@5.2.0_supports-color@8.1.1_vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2_/node_modules/@vitejs/plugin-react",
+        "path": "/bench/node_modules/.pnpm/@vitejs+plugin-react@5.2.0_supports-color@8.1.1_vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2_/node_modules/@vitejs/plugin-react"
+      },
+      "webpack": {
+        "from": "webpack",
+        "version": "link:../../node_modules/.pnpm/webpack@5.111.1_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_postcss@8.5.28__cs_2b009bd7def8968cc24e86c55532b3fb/node_modules/webpack",
+        "path": "/bench/node_modules/.pnpm/webpack@5.111.1_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_postcss@8.5.28__cs_2b009bd7def8968cc24e86c55532b3fb/node_modules/webpack"
+      },
+      "webpack-cli": {
+        "from": "webpack-cli",
+        "version": "link:../../node_modules/.pnpm/webpack-cli@7.2.3_js-yaml@4.1.1_json5@2.2.3_webpack-dev-server@5.2.6_webpack@5.111.1/node_modules/webpack-cli",
+        "path": "/bench/node_modules/.pnpm/webpack-cli@7.2.3_js-yaml@4.1.1_json5@2.2.3_webpack-dev-server@5.2.6_webpack@5.111.1/node_modules/webpack-cli"
+      },
+      "webpack-dev-server": {
+        "from": "webpack-dev-server",
+        "version": "link:../../node_modules/.pnpm/webpack-dev-server@5.2.6_debug@4.4.3_supports-color@8.1.1__supports-color@8.1.1_webpack-cli@7.2.3_webpack@5.111.1/node_modules/webpack-dev-server",
+        "path": "/bench/node_modules/.pnpm/webpack-dev-server@5.2.6_debug@4.4.3_supports-color@8.1.1__supports-color@8.1.1_webpack-cli@7.2.3_webpack@5.111.1/node_modules/webpack-dev-server"
+      }
+    }
+  },
+  {
+    "name": "react-10k",
+    "version": "0.0.0",
+    "path": "/bench/cases/react-10k",
+    "private": false,
+    "dependencies": {
+      "@iconify-icons/material-symbols": {
+        "from": "@iconify-icons/material-symbols",
+        "version": "1.2.59",
+        "resolved": "https://registry.npmjs.org/@iconify-icons/material-symbols/-/material-symbols-1.2.59.tgz",
+        "path": "/bench/node_modules/.pnpm/@iconify-icons+material-symbols@1.2.59/node_modules/@iconify-icons/material-symbols"
+      },
+      "@iconify/react": {
+        "from": "@iconify/react",
+        "version": "6.0.2",
+        "resolved": "https://registry.npmjs.org/@iconify/react/-/react-6.0.2.tgz",
+        "path": "/bench/node_modules/.pnpm/@iconify+react@6.0.2_react@19.3.0/node_modules/@iconify/react"
+      },
+      "react": {
+        "from": "react",
+        "version": "19.3.0",
+        "resolved": "https://registry.npmjs.org/react/-/react-19.3.0.tgz",
+        "path": "/bench/node_modules/.pnpm/react@19.3.0/node_modules/react"
+      },
+      "react-dom": {
+        "from": "react-dom",
+        "version": "19.3.0",
+        "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-19.3.0.tgz",
+        "path": "/bench/node_modules/.pnpm/react-dom@19.3.0_react@19.3.0/node_modules/react-dom"
+      },
+      "react-router-dom": {
+        "from": "react-router-dom",
+        "version": "7.18.4",
+        "resolved": "https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.18.4.tgz",
+        "path": "/bench/node_modules/.pnpm/react-router-dom@7.18.4_react-dom@19.3.0_react@19.3.0__react@19.3.0/node_modules/react-router-dom"
+      }
+    },
+    "unsavedDependencies": {
+      "@babel/core": {
+        "from": "@babel/core",
+        "version": "link:../../node_modules/.pnpm/@babel+core@7.29.7_supports-color@8.1.1/node_modules/@babel/core",
+        "path": "/bench/node_modules/.pnpm/@babel+core@7.29.7_supports-color@8.1.1/node_modules/@babel/core"
+      },
+      "@babel/preset-env": {
+        "from": "@babel/preset-env",
+        "version": "link:../../node_modules/.pnpm/@babel+preset-env@7.29.7_@babel+core@7.29.7_supports-color@8.1.1__supports-color@8.1.1/node_modules/@babel/preset-env",
+        "path": "/bench/node_modules/.pnpm/@babel+preset-env@7.29.7_@babel+core@7.29.7_supports-color@8.1.1__supports-color@8.1.1/node_modules/@babel/preset-env"
+      },
+      "@babel/preset-react": {
+        "from": "@babel/preset-react",
+        "version": "link:../../node_modules/.pnpm/@babel+preset-react@7.29.7_@babel+core@7.29.7_supports-color@8.1.1__supports-color@8.1.1/node_modules/@babel/preset-react",
+        "path": "/bench/node_modules/.pnpm/@babel+preset-react@7.29.7_@babel+core@7.29.7_supports-color@8.1.1__supports-color@8.1.1/node_modules/@babel/preset-react"
+      },
+      "@farmfe/cli": {
+        "from": "@farmfe/cli",
+        "version": "link:../../node_modules/.pnpm/@farmfe+cli@1.0.5/node_modules/@farmfe/cli",
+        "path": "/bench/node_modules/.pnpm/@farmfe+cli@1.0.5/node_modules/@farmfe/cli"
+      },
+      "@farmfe/core": {
+        "from": "@farmfe/core",
+        "version": "link:../../node_modules/.pnpm/@farmfe+core@1.7.11_@types+node@24.13.6_supports-color@8.1.1/node_modules/@farmfe/core",
+        "path": "/bench/node_modules/.pnpm/@farmfe+core@1.7.11_@types+node@24.13.6_supports-color@8.1.1/node_modules/@farmfe/core"
+      },
+      "@farmfe/plugin-react": {
+        "from": "@farmfe/plugin-react",
+        "version": "link:../../node_modules/.pnpm/@farmfe+plugin-react@1.2.6/node_modules/@farmfe/plugin-react",
+        "path": "/bench/node_modules/.pnpm/@farmfe+plugin-react@1.2.6/node_modules/@farmfe/plugin-react"
+      },
+      "@parcel/config-default": {
+        "from": "@parcel/config-default",
+        "version": "link:../../node_modules/.pnpm/@parcel+config-default@2.16.4_@parcel+core@2.16.4_@swc+helpers@0.5.23__@swc+helpers@0.5.23/node_modules/@parcel/config-default",
+        "path": "/bench/node_modules/.pnpm/@parcel+config-default@2.16.4_@parcel+core@2.16.4_@swc+helpers@0.5.23__@swc+helpers@0.5.23/node_modules/@parcel/config-default"
+      },
+      "@pmmmwh/react-refresh-webpack-plugin": {
+        "from": "@pmmmwh/react-refresh-webpack-plugin",
+        "version": "link:../../node_modules/.pnpm/@pmmmwh+react-refresh-webpack-plugin@0.6.3_react-refresh@0.19.0_type-fest@5.8.0_webpack-dev-server@5.2.6_webpack@5.111.1/node_modules/@pmmmwh/react-refresh-webpack-plugin",
+        "path": "/bench/node_modules/.pnpm/@pmmmwh+react-refresh-webpack-plugin@0.6.3_react-refresh@0.19.0_type-fest@5.8.0_webpack-dev-server@5.2.6_webpack@5.111.1/node_modules/@pmmmwh/react-refresh-webpack-plugin"
+      },
+      "@rollup/plugin-alias": {
+        "from": "@rollup/plugin-alias",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-alias@6.0.0_rollup@4.63.4/node_modules/@rollup/plugin-alias",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-alias@6.0.0_rollup@4.63.4/node_modules/@rollup/plugin-alias"
+      },
+      "@rollup/plugin-commonjs": {
+        "from": "@rollup/plugin-commonjs",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-commonjs@29.0.3_rollup@4.63.4/node_modules/@rollup/plugin-commonjs",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-commonjs@29.0.3_rollup@4.63.4/node_modules/@rollup/plugin-commonjs"
+      },
+      "@rollup/plugin-html": {
+        "from": "@rollup/plugin-html",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-html@2.0.0_rollup@4.63.4/node_modules/@rollup/plugin-html",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-html@2.0.0_rollup@4.63.4/node_modules/@rollup/plugin-html"
+      },
+      "@rollup/plugin-json": {
+        "from": "@rollup/plugin-json",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-json@6.1.0_rollup@4.63.4/node_modules/@rollup/plugin-json",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-json@6.1.0_rollup@4.63.4/node_modules/@rollup/plugin-json"
+      },
+      "@rollup/plugin-node-resolve": {
+        "from": "@rollup/plugin-node-resolve",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-node-resolve@16.0.3_rollup@4.63.4/node_modules/@rollup/plugin-node-resolve",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-node-resolve@16.0.3_rollup@4.63.4/node_modules/@rollup/plugin-node-resolve"
+      },
+      "@rollup/plugin-replace": {
+        "from": "@rollup/plugin-replace",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-replace@6.0.3_rollup@4.63.4/node_modules/@rollup/plugin-replace",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-replace@6.0.3_rollup@4.63.4/node_modules/@rollup/plugin-replace"
+      },
+      "@rsbuild/core": {
+        "from": "@rsbuild/core",
+        "version": "link:../../node_modules/.pnpm/@rsbuild+core@2.2.9_core-js@3.48.0/node_modules/@rsbuild/core",
+        "path": "/bench/node_modules/.pnpm/@rsbuild+core@2.2.9_core-js@3.48.0/node_modules/@rsbuild/core"
+      },
+      "@rsbuild/plugin-react": {
+        "from": "@rsbuild/plugin-react",
+        "version": "link:../../node_modules/.pnpm/@rsbuild+plugin-react@2.1.0_@rsbuild+core@2.2.9_core-js@3.48.0__@rspack+core@2.2.7_@swc+helpers@0.5.23_/node_modules/@rsbuild/plugin-react",
+        "path": "/bench/node_modules/.pnpm/@rsbuild+plugin-react@2.1.0_@rsbuild+core@2.2.9_core-js@3.48.0__@rspack+core@2.2.7_@swc+helpers@0.5.23_/node_modules/@rsbuild/plugin-react"
+      },
+      "@rsdoctor/rspack-plugin": {
+        "from": "@rsdoctor/rspack-plugin",
+        "version": "link:../../node_modules/.pnpm/@rsdoctor+rspack-plugin@1.6.4_@emnapi+core@1.11.3_@emnapi+runtime@1.11.3_@rsbuild+core@_8a2ae1bb63c3da290a98e089a04dd930/node_modules/@rsdoctor/rspack-plugin",
+        "path": "/bench/node_modules/.pnpm/@rsdoctor+rspack-plugin@1.6.4_@emnapi+core@1.11.3_@emnapi+runtime@1.11.3_@rsbuild+core@_8a2ae1bb63c3da290a98e089a04dd930/node_modules/@rsdoctor/rspack-plugin"
+      },
+      "@rspack/cli": {
+        "from": "@rspack/cli",
+        "version": "link:../../node_modules/.pnpm/@rspack+cli@2.2.7_@rspack+core@2.2.7_@swc+helpers@0.5.23__@rspack+dev-server@2.2.1_@rsp_633430ea937b838b296c9e7be49a4f58/node_modules/@rspack/cli",
+        "path": "/bench/node_modules/.pnpm/@rspack+cli@2.2.7_@rspack+core@2.2.7_@swc+helpers@0.5.23__@rspack+dev-server@2.2.1_@rsp_633430ea937b838b296c9e7be49a4f58/node_modules/@rspack/cli"
+      },
+      "@rspack/core": {
+        "from": "@rspack/core",
+        "version": "link:../../node_modules/.pnpm/@rspack+core@2.2.7_@swc+helpers@0.5.23/node_modules/@rspack/core",
+        "path": "/bench/node_modules/.pnpm/@rspack+core@2.2.7_@swc+helpers@0.5.23/node_modules/@rspack/core"
+      },
+      "@rspack/dev-server": {
+        "from": "@rspack/dev-server",
+        "version": "link:../../node_modules/.pnpm/@rspack+dev-server@2.2.1_@rspack+core@2.2.7_@swc+helpers@0.5.23__selfsigned@5.5.0/node_modules/@rspack/dev-server",
+        "path": "/bench/node_modules/.pnpm/@rspack+dev-server@2.2.1_@rspack+core@2.2.7_@swc+helpers@0.5.23__selfsigned@5.5.0/node_modules/@rspack/dev-server"
+      },
+      "@rspack/plugin-react-refresh": {
+        "from": "@rspack/plugin-react-refresh",
+        "version": "link:../../node_modules/.pnpm/@rspack+plugin-react-refresh@2.0.2_@rspack+core@2.2.7_@swc+helpers@0.5.23__react-refresh@0.19.0/node_modules/@rspack/plugin-react-refresh",
+        "path": "/bench/node_modules/.pnpm/@rspack+plugin-react-refresh@2.0.2_@rspack+core@2.2.7_@swc+helpers@0.5.23__react-refresh@0.19.0/node_modules/@rspack/plugin-react-refresh"
+      },
+      "@swc/core": {
+        "from": "@swc/core",
+        "version": "link:../../node_modules/.pnpm/@swc+core@1.16.2_@swc+helpers@0.5.23/node_modules/@swc/core",
+        "path": "/bench/node_modules/.pnpm/@swc+core@1.16.2_@swc+helpers@0.5.23/node_modules/@swc/core"
+      },
+      "@types/fs-extra": {
+        "from": "@types/fs-extra",
+        "version": "link:../../node_modules/.pnpm/@types+fs-extra@11.0.4/node_modules/@types/fs-extra",
+        "path": "/bench/node_modules/.pnpm/@types+fs-extra@11.0.4/node_modules/@types/fs-extra"
+      },
+      "@types/node": {
+        "from": "@types/node",
+        "version": "link:../../node_modules/.pnpm/@types+node@24.13.6/node_modules/@types/node",
+        "path": "/bench/node_modules/.pnpm/@types+node@24.13.6/node_modules/@types/node"
+      },
+      "@types/react": {
+        "from": "@types/react",
+        "version": "link:../../node_modules/.pnpm/@types+react@19.3.0/node_modules/@types/react",
+        "path": "/bench/node_modules/.pnpm/@types+react@19.3.0/node_modules/@types/react"
+      },
+      "@types/react-dom": {
+        "from": "@types/react-dom",
+        "version": "link:../../node_modules/.pnpm/@types+react-dom@19.3.0_@types+react@19.3.0/node_modules/@types/react-dom",
+        "path": "/bench/node_modules/.pnpm/@types+react-dom@19.3.0_@types+react@19.3.0/node_modules/@types/react-dom"
+      },
+      "@utoo/pack-cli": {
+        "from": "@utoo/pack-cli",
+        "version": "link:../../node_modules/.pnpm/@utoo+pack-cli@1.5.24-alpha.0_postcss@8.5.28/node_modules/@utoo/pack-cli",
+        "path": "/bench/node_modules/.pnpm/@utoo+pack-cli@1.5.24-alpha.0_postcss@8.5.28/node_modules/@utoo/pack-cli"
+      },
+      "@vitejs/plugin-react": {
+        "from": "@vitejs/plugin-react",
+        "version": "link:../../node_modules/.pnpm/@vitejs+plugin-react@6.1.1_vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2_/node_modules/@vitejs/plugin-react",
+        "path": "/bench/node_modules/.pnpm/@vitejs+plugin-react@6.1.1_vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2_/node_modules/@vitejs/plugin-react"
+      },
+      "babel-loader": {
+        "from": "babel-loader",
+        "version": "link:../../node_modules/.pnpm/babel-loader@10.1.1_@babel+core@7.29.7_supports-color@8.1.1__@rspack+core@2.2.7_@swc+helpers@0.5.23__webpack@5.111.1/node_modules/babel-loader",
+        "path": "/bench/node_modules/.pnpm/babel-loader@10.1.1_@babel+core@7.29.7_supports-color@8.1.1__@rspack+core@2.2.7_@swc+helpers@0.5.23__webpack@5.111.1/node_modules/babel-loader"
+      },
+      "buffer": {
+        "from": "buffer",
+        "version": "link:../../node_modules/.pnpm/buffer@6.0.3/node_modules/buffer",
+        "path": "/bench/node_modules/.pnpm/buffer@6.0.3/node_modules/buffer"
+      },
+      "cross-env": {
+        "from": "cross-env",
+        "version": "link:../../node_modules/.pnpm/cross-env@10.1.0/node_modules/cross-env",
+        "path": "/bench/node_modules/.pnpm/cross-env@10.1.0/node_modules/cross-env"
+      },
+      "esbuild": {
+        "from": "esbuild",
+        "version": "link:../../node_modules/.pnpm/esbuild@0.28.2/node_modules/esbuild",
+        "path": "/bench/node_modules/.pnpm/esbuild@0.28.2/node_modules/esbuild"
+      },
+      "fast-glob": {
+        "from": "fast-glob",
+        "version": "link:../../node_modules/.pnpm/fast-glob@3.3.3/node_modules/fast-glob",
+        "path": "/bench/node_modules/.pnpm/fast-glob@3.3.3/node_modules/fast-glob"
+      },
+      "fs-extra": {
+        "from": "fs-extra",
+        "version": "link:../../node_modules/.pnpm/fs-extra@11.4.0/node_modules/fs-extra",
+        "path": "/bench/node_modules/.pnpm/fs-extra@11.4.0/node_modules/fs-extra"
+      },
+      "gzip-size": {
+        "from": "gzip-size",
+        "version": "link:../../node_modules/.pnpm/gzip-size@7.0.0/node_modules/gzip-size",
+        "path": "/bench/node_modules/.pnpm/gzip-size@7.0.0/node_modules/gzip-size"
+      },
+      "markdown-table": {
+        "from": "markdown-table",
+        "version": "link:../../node_modules/.pnpm/markdown-table@3.0.4/node_modules/markdown-table",
+        "path": "/bench/node_modules/.pnpm/markdown-table@3.0.4/node_modules/markdown-table"
+      },
+      "minimizer-webpack-plugin": {
+        "from": "minimizer-webpack-plugin",
+        "version": "link:../../node_modules/.pnpm/minimizer-webpack-plugin@5.11.0_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_po_2dd93d0799bc67e01437a6caf75185bd/node_modules/minimizer-webpack-plugin",
+        "path": "/bench/node_modules/.pnpm/minimizer-webpack-plugin@5.11.0_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_po_2dd93d0799bc67e01437a6caf75185bd/node_modules/minimizer-webpack-plugin"
+      },
+      "parcel": {
+        "from": "parcel",
+        "version": "link:../../node_modules/.pnpm/parcel@2.16.4_@swc+helpers@0.5.23/node_modules/parcel",
+        "path": "/bench/node_modules/.pnpm/parcel@2.16.4_@swc+helpers@0.5.23/node_modules/parcel"
+      },
+      "picocolors": {
+        "from": "picocolors",
+        "version": "link:../../node_modules/.pnpm/picocolors@1.1.1/node_modules/picocolors",
+        "path": "/bench/node_modules/.pnpm/picocolors@1.1.1/node_modules/picocolors"
+      },
+      "postcss": {
+        "from": "postcss",
+        "version": "link:../../node_modules/.pnpm/postcss@8.5.28/node_modules/postcss",
+        "path": "/bench/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss"
+      },
+      "postcss-url": {
+        "from": "postcss-url",
+        "version": "link:../../node_modules/.pnpm/postcss-url@10.1.4_postcss@8.5.28/node_modules/postcss-url",
+        "path": "/bench/node_modules/.pnpm/postcss-url@10.1.4_postcss@8.5.28/node_modules/postcss-url"
+      },
+      "prettier": {
+        "from": "prettier",
+        "version": "link:../../node_modules/.pnpm/prettier@3.9.8/node_modules/prettier",
+        "path": "/bench/node_modules/.pnpm/prettier@3.9.8/node_modules/prettier"
+      },
+      "puppeteer": {
+        "from": "puppeteer",
+        "version": "link:../../node_modules/.pnpm/puppeteer@24.31.0_supports-color@8.1.1_typescript@7.0.2/node_modules/puppeteer",
+        "path": "/bench/node_modules/.pnpm/puppeteer@24.31.0_supports-color@8.1.1_typescript@7.0.2/node_modules/puppeteer"
+      },
+      "react-refresh": {
+        "from": "react-refresh",
+        "version": "link:../../node_modules/.pnpm/react-refresh@0.19.0/node_modules/react-refresh",
+        "path": "/bench/node_modules/.pnpm/react-refresh@0.19.0/node_modules/react-refresh"
+      },
+      "rolldown": {
+        "from": "rolldown",
+        "version": "link:../../node_modules/.pnpm/rolldown@1.2.9/node_modules/rolldown",
+        "path": "/bench/node_modules/.pnpm/rolldown@1.2.9/node_modules/rolldown"
+      },
+      "rollup": {
+        "from": "rollup",
+        "version": "link:../../node_modules/.pnpm/rollup@4.63.4/node_modules/rollup",
+        "path": "/bench/node_modules/.pnpm/rollup@4.63.4/node_modules/rollup"
+      },
+      "rollup-plugin-postcss": {
+        "from": "rollup-plugin-postcss",
+        "version": "link:../../node_modules/.pnpm/rollup-plugin-postcss@4.0.2_postcss@8.5.28/node_modules/rollup-plugin-postcss",
+        "path": "/bench/node_modules/.pnpm/rollup-plugin-postcss@4.0.2_postcss@8.5.28/node_modules/rollup-plugin-postcss"
+      },
+      "rollup-plugin-swc3": {
+        "from": "rollup-plugin-swc3",
+        "version": "link:../../node_modules/.pnpm/rollup-plugin-swc3@0.12.1_@swc+core@1.16.2_@swc+helpers@0.5.23__rollup@4.63.4/node_modules/rollup-plugin-swc3",
+        "path": "/bench/node_modules/.pnpm/rollup-plugin-swc3@0.12.1_@swc+core@1.16.2_@swc+helpers@0.5.23__rollup@4.63.4/node_modules/rollup-plugin-swc3"
+      },
+      "rslog": {
+        "from": "rslog",
+        "version": "link:../../node_modules/.pnpm/rslog@2.3.0/node_modules/rslog",
+        "path": "/bench/node_modules/.pnpm/rslog@2.3.0/node_modules/rslog"
+      },
+      "swc-loader": {
+        "from": "swc-loader",
+        "version": "link:../../node_modules/.pnpm/swc-loader@0.2.7_@swc+core@1.16.2_@swc+helpers@0.5.23__webpack@5.111.1/node_modules/swc-loader",
+        "path": "/bench/node_modules/.pnpm/swc-loader@0.2.7_@swc+core@1.16.2_@swc+helpers@0.5.23__webpack@5.111.1/node_modules/swc-loader"
+      },
+      "terser-webpack-plugin": {
+        "from": "terser-webpack-plugin",
+        "version": "link:../../node_modules/.pnpm/terser-webpack-plugin@5.6.1_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_postcs_46a59b687f3458378a8fe60762f41a01/node_modules/terser-webpack-plugin",
+        "path": "/bench/node_modules/.pnpm/terser-webpack-plugin@5.6.1_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_postcs_46a59b687f3458378a8fe60762f41a01/node_modules/terser-webpack-plugin"
+      },
+      "typescript": {
+        "from": "typescript",
+        "version": "link:../../node_modules/.pnpm/typescript@7.0.2/node_modules/typescript",
+        "path": "/bench/node_modules/.pnpm/typescript@7.0.2/node_modules/typescript"
+      },
+      "vite": {
+        "from": "vite",
+        "version": "link:../../node_modules/.pnpm/vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2/node_modules/vite",
+        "path": "/bench/node_modules/.pnpm/vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2/node_modules/vite"
+      },
+      "vite7": {
+        "from": "vite7",
+        "version": "link:../../node_modules/.pnpm/vite@7.3.7_@types+node@24.13.6_lightningcss@1.33.0_terser@5.51.2/node_modules/vite",
+        "path": "/bench/node_modules/.pnpm/vite@7.3.7_@types+node@24.13.6_lightningcss@1.33.0_terser@5.51.2/node_modules/vite"
+      },
+      "vite7-plugin-react": {
+        "from": "vite7-plugin-react",
+        "version": "link:../../node_modules/.pnpm/@vitejs+plugin-react@5.2.0_supports-color@8.1.1_vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2_/node_modules/@vitejs/plugin-react",
+        "path": "/bench/node_modules/.pnpm/@vitejs+plugin-react@5.2.0_supports-color@8.1.1_vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2_/node_modules/@vitejs/plugin-react"
+      },
+      "webpack": {
+        "from": "webpack",
+        "version": "link:../../node_modules/.pnpm/webpack@5.111.1_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_postcss@8.5.28__cs_2b009bd7def8968cc24e86c55532b3fb/node_modules/webpack",
+        "path": "/bench/node_modules/.pnpm/webpack@5.111.1_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_postcss@8.5.28__cs_2b009bd7def8968cc24e86c55532b3fb/node_modules/webpack"
+      },
+      "webpack-cli": {
+        "from": "webpack-cli",
+        "version": "link:../../node_modules/.pnpm/webpack-cli@7.2.3_js-yaml@4.1.1_json5@2.2.3_webpack-dev-server@5.2.6_webpack@5.111.1/node_modules/webpack-cli",
+        "path": "/bench/node_modules/.pnpm/webpack-cli@7.2.3_js-yaml@4.1.1_json5@2.2.3_webpack-dev-server@5.2.6_webpack@5.111.1/node_modules/webpack-cli"
+      },
+      "webpack-dev-server": {
+        "from": "webpack-dev-server",
+        "version": "link:../../node_modules/.pnpm/webpack-dev-server@5.2.6_debug@4.4.3_supports-color@8.1.1__supports-color@8.1.1_webpack-cli@7.2.3_webpack@5.111.1/node_modules/webpack-dev-server",
+        "path": "/bench/node_modules/.pnpm/webpack-dev-server@5.2.6_debug@4.4.3_supports-color@8.1.1__supports-color@8.1.1_webpack-cli@7.2.3_webpack@5.111.1/node_modules/webpack-dev-server"
+      }
+    }
+  },
+  {
+    "name": "react-10k-hub",
+    "version": "0.0.0",
+    "path": "/bench/cases/react-10k-hub",
+    "private": true
+  },
+  {
+    "name": "react-10k-r1",
+    "version": "0.0.0",
+    "path": "/bench/cases/react-10k-r1",
+    "private": true
+  },
+  {
+    "name": "react-10k-r2",
+    "version": "0.0.0",
+    "path": "/bench/cases/react-10k-r2",
+    "private": true
+  },
+  {
+    "name": "react-10k-r3",
+    "version": "0.0.0",
+    "path": "/bench/cases/react-10k-r3",
+    "private": true
+  },
+  {
+    "name": "react-10k-r4",
+    "version": "0.0.0",
+    "path": "/bench/cases/react-10k-r4",
+    "private": true
+  },
+  {
+    "name": "react-10k-r5",
+    "version": "0.0.0",
+    "path": "/bench/cases/react-10k-r5",
+    "private": true
+  },
+  {
+    "name": "react-10k-r6",
+    "version": "0.0.0",
+    "path": "/bench/cases/react-10k-r6",
+    "private": true
+  },
+  {
+    "name": "react-10k-r7",
+    "version": "0.0.0",
+    "path": "/bench/cases/react-10k-r7",
+    "private": true
+  },
+  {
+    "name": "react-10k-r8",
+    "version": "0.0.0",
+    "path": "/bench/cases/react-10k-r8",
+    "private": true
+  },
+  {
+    "name": "react-10k-r9",
+    "version": "0.0.0",
+    "path": "/bench/cases/react-10k-r9",
+    "private": true
+  },
+  {
+    "name": "react-1k",
+    "version": "0.0.0",
+    "path": "/bench/cases/react-1k",
+    "private": false,
+    "dependencies": {
+      "@iconify-icons/material-symbols": {
+        "from": "@iconify-icons/material-symbols",
+        "version": "1.2.59",
+        "resolved": "https://registry.npmjs.org/@iconify-icons/material-symbols/-/material-symbols-1.2.59.tgz",
+        "path": "/bench/node_modules/.pnpm/@iconify-icons+material-symbols@1.2.59/node_modules/@iconify-icons/material-symbols"
+      },
+      "@iconify/react": {
+        "from": "@iconify/react",
+        "version": "6.0.2",
+        "resolved": "https://registry.npmjs.org/@iconify/react/-/react-6.0.2.tgz",
+        "path": "/bench/node_modules/.pnpm/@iconify+react@6.0.2_react@19.3.0/node_modules/@iconify/react"
+      },
+      "react": {
+        "from": "react",
+        "version": "19.3.0",
+        "resolved": "https://registry.npmjs.org/react/-/react-19.3.0.tgz",
+        "path": "/bench/node_modules/.pnpm/react@19.3.0/node_modules/react"
+      },
+      "react-dom": {
+        "from": "react-dom",
+        "version": "19.3.0",
+        "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-19.3.0.tgz",
+        "path": "/bench/node_modules/.pnpm/react-dom@19.3.0_react@19.3.0/node_modules/react-dom"
+      },
+      "react-router-dom": {
+        "from": "react-router-dom",
+        "version": "7.18.4",
+        "resolved": "https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.18.4.tgz",
+        "path": "/bench/node_modules/.pnpm/react-router-dom@7.18.4_react-dom@19.3.0_react@19.3.0__react@19.3.0/node_modules/react-router-dom"
+      }
+    },
+    "unsavedDependencies": {
+      "@babel/core": {
+        "from": "@babel/core",
+        "version": "link:../../node_modules/.pnpm/@babel+core@7.29.7_supports-color@8.1.1/node_modules/@babel/core",
+        "path": "/bench/node_modules/.pnpm/@babel+core@7.29.7_supports-color@8.1.1/node_modules/@babel/core"
+      },
+      "@babel/preset-env": {
+        "from": "@babel/preset-env",
+        "version": "link:../../node_modules/.pnpm/@babel+preset-env@7.29.7_@babel+core@7.29.7_supports-color@8.1.1__supports-color@8.1.1/node_modules/@babel/preset-env",
+        "path": "/bench/node_modules/.pnpm/@babel+preset-env@7.29.7_@babel+core@7.29.7_supports-color@8.1.1__supports-color@8.1.1/node_modules/@babel/preset-env"
+      },
+      "@babel/preset-react": {
+        "from": "@babel/preset-react",
+        "version": "link:../../node_modules/.pnpm/@babel+preset-react@7.29.7_@babel+core@7.29.7_supports-color@8.1.1__supports-color@8.1.1/node_modules/@babel/preset-react",
+        "path": "/bench/node_modules/.pnpm/@babel+preset-react@7.29.7_@babel+core@7.29.7_supports-color@8.1.1__supports-color@8.1.1/node_modules/@babel/preset-react"
+      },
+      "@farmfe/cli": {
+        "from": "@farmfe/cli",
+        "version": "link:../../node_modules/.pnpm/@farmfe+cli@1.0.5/node_modules/@farmfe/cli",
+        "path": "/bench/node_modules/.pnpm/@farmfe+cli@1.0.5/node_modules/@farmfe/cli"
+      },
+      "@farmfe/core": {
+        "from": "@farmfe/core",
+        "version": "link:../../node_modules/.pnpm/@farmfe+core@1.7.11_@types+node@24.13.6_supports-color@8.1.1/node_modules/@farmfe/core",
+        "path": "/bench/node_modules/.pnpm/@farmfe+core@1.7.11_@types+node@24.13.6_supports-color@8.1.1/node_modules/@farmfe/core"
+      },
+      "@farmfe/plugin-react": {
+        "from": "@farmfe/plugin-react",
+        "version": "link:../../node_modules/.pnpm/@farmfe+plugin-react@1.2.6/node_modules/@farmfe/plugin-react",
+        "path": "/bench/node_modules/.pnpm/@farmfe+plugin-react@1.2.6/node_modules/@farmfe/plugin-react"
+      },
+      "@parcel/config-default": {
+        "from": "@parcel/config-default",
+        "version": "link:../../node_modules/.pnpm/@parcel+config-default@2.16.4_@parcel+core@2.16.4_@swc+helpers@0.5.23__@swc+helpers@0.5.23/node_modules/@parcel/config-default",
+        "path": "/bench/node_modules/.pnpm/@parcel+config-default@2.16.4_@parcel+core@2.16.4_@swc+helpers@0.5.23__@swc+helpers@0.5.23/node_modules/@parcel/config-default"
+      },
+      "@pmmmwh/react-refresh-webpack-plugin": {
+        "from": "@pmmmwh/react-refresh-webpack-plugin",
+        "version": "link:../../node_modules/.pnpm/@pmmmwh+react-refresh-webpack-plugin@0.6.3_react-refresh@0.19.0_type-fest@5.8.0_webpack-dev-server@5.2.6_webpack@5.111.1/node_modules/@pmmmwh/react-refresh-webpack-plugin",
+        "path": "/bench/node_modules/.pnpm/@pmmmwh+react-refresh-webpack-plugin@0.6.3_react-refresh@0.19.0_type-fest@5.8.0_webpack-dev-server@5.2.6_webpack@5.111.1/node_modules/@pmmmwh/react-refresh-webpack-plugin"
+      },
+      "@rollup/plugin-alias": {
+        "from": "@rollup/plugin-alias",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-alias@6.0.0_rollup@4.63.4/node_modules/@rollup/plugin-alias",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-alias@6.0.0_rollup@4.63.4/node_modules/@rollup/plugin-alias"
+      },
+      "@rollup/plugin-commonjs": {
+        "from": "@rollup/plugin-commonjs",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-commonjs@29.0.3_rollup@4.63.4/node_modules/@rollup/plugin-commonjs",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-commonjs@29.0.3_rollup@4.63.4/node_modules/@rollup/plugin-commonjs"
+      },
+      "@rollup/plugin-html": {
+        "from": "@rollup/plugin-html",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-html@2.0.0_rollup@4.63.4/node_modules/@rollup/plugin-html",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-html@2.0.0_rollup@4.63.4/node_modules/@rollup/plugin-html"
+      },
+      "@rollup/plugin-json": {
+        "from": "@rollup/plugin-json",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-json@6.1.0_rollup@4.63.4/node_modules/@rollup/plugin-json",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-json@6.1.0_rollup@4.63.4/node_modules/@rollup/plugin-json"
+      },
+      "@rollup/plugin-node-resolve": {
+        "from": "@rollup/plugin-node-resolve",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-node-resolve@16.0.3_rollup@4.63.4/node_modules/@rollup/plugin-node-resolve",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-node-resolve@16.0.3_rollup@4.63.4/node_modules/@rollup/plugin-node-resolve"
+      },
+      "@rollup/plugin-replace": {
+        "from": "@rollup/plugin-replace",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-replace@6.0.3_rollup@4.63.4/node_modules/@rollup/plugin-replace",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-replace@6.0.3_rollup@4.63.4/node_modules/@rollup/plugin-replace"
+      },
+      "@rsbuild/core": {
+        "from": "@rsbuild/core",
+        "version": "link:../../node_modules/.pnpm/@rsbuild+core@2.2.9_core-js@3.48.0/node_modules/@rsbuild/core",
+        "path": "/bench/node_modules/.pnpm/@rsbuild+core@2.2.9_core-js@3.48.0/node_modules/@rsbuild/core"
+      },
+      "@rsbuild/plugin-react": {
+        "from": "@rsbuild/plugin-react",
+        "version": "link:../../node_modules/.pnpm/@rsbuild+plugin-react@2.1.0_@rsbuild+core@2.2.9_core-js@3.48.0__@rspack+core@2.2.7_@swc+helpers@0.5.23_/node_modules/@rsbuild/plugin-react",
+        "path": "/bench/node_modules/.pnpm/@rsbuild+plugin-react@2.1.0_@rsbuild+core@2.2.9_core-js@3.48.0__@rspack+core@2.2.7_@swc+helpers@0.5.23_/node_modules/@rsbuild/plugin-react"
+      },
+      "@rsdoctor/rspack-plugin": {
+        "from": "@rsdoctor/rspack-plugin",
+        "version": "link:../../node_modules/.pnpm/@rsdoctor+rspack-plugin@1.6.4_@emnapi+core@1.11.3_@emnapi+runtime@1.11.3_@rsbuild+core@_8a2ae1bb63c3da290a98e089a04dd930/node_modules/@rsdoctor/rspack-plugin",
+        "path": "/bench/node_modules/.pnpm/@rsdoctor+rspack-plugin@1.6.4_@emnapi+core@1.11.3_@emnapi+runtime@1.11.3_@rsbuild+core@_8a2ae1bb63c3da290a98e089a04dd930/node_modules/@rsdoctor/rspack-plugin"
+      },
+      "@rspack/cli": {
+        "from": "@rspack/cli",
+        "version": "link:../../node_modules/.pnpm/@rspack+cli@2.2.7_@rspack+core@2.2.7_@swc+helpers@0.5.23__@rspack+dev-server@2.2.1_@rsp_633430ea937b838b296c9e7be49a4f58/node_modules/@rspack/cli",
+        "path": "/bench/node_modules/.pnpm/@rspack+cli@2.2.7_@rspack+core@2.2.7_@swc+helpers@0.5.23__@rspack+dev-server@2.2.1_@rsp_633430ea937b838b296c9e7be49a4f58/node_modules/@rspack/cli"
+      },
+      "@rspack/core": {
+        "from": "@rspack/core",
+        "version": "link:../../node_modules/.pnpm/@rspack+core@2.2.7_@swc+helpers@0.5.23/node_modules/@rspack/core",
+        "path": "/bench/node_modules/.pnpm/@rspack+core@2.2.7_@swc+helpers@0.5.23/node_modules/@rspack/core"
+      },
+      "@rspack/dev-server": {
+        "from": "@rspack/dev-server",
+        "version": "link:../../node_modules/.pnpm/@rspack+dev-server@2.2.1_@rspack+core@2.2.7_@swc+helpers@0.5.23__selfsigned@5.5.0/node_modules/@rspack/dev-server",
+        "path": "/bench/node_modules/.pnpm/@rspack+dev-server@2.2.1_@rspack+core@2.2.7_@swc+helpers@0.5.23__selfsigned@5.5.0/node_modules/@rspack/dev-server"
+      },
+      "@rspack/plugin-react-refresh": {
+        "from": "@rspack/plugin-react-refresh",
+        "version": "link:../../node_modules/.pnpm/@rspack+plugin-react-refresh@2.0.2_@rspack+core@2.2.7_@swc+helpers@0.5.23__react-refresh@0.19.0/node_modules/@rspack/plugin-react-refresh",
+        "path": "/bench/node_modules/.pnpm/@rspack+plugin-react-refresh@2.0.2_@rspack+core@2.2.7_@swc+helpers@0.5.23__react-refresh@0.19.0/node_modules/@rspack/plugin-react-refresh"
+      },
+      "@swc/core": {
+        "from": "@swc/core",
+        "version": "link:../../node_modules/.pnpm/@swc+core@1.16.2_@swc+helpers@0.5.23/node_modules/@swc/core",
+        "path": "/bench/node_modules/.pnpm/@swc+core@1.16.2_@swc+helpers@0.5.23/node_modules/@swc/core"
+      },
+      "@types/fs-extra": {
+        "from": "@types/fs-extra",
+        "version": "link:../../node_modules/.pnpm/@types+fs-extra@11.0.4/node_modules/@types/fs-extra",
+        "path": "/bench/node_modules/.pnpm/@types+fs-extra@11.0.4/node_modules/@types/fs-extra"
+      },
+      "@types/node": {
+        "from": "@types/node",
+        "version": "link:../../node_modules/.pnpm/@types+node@24.13.6/node_modules/@types/node",
+        "path": "/bench/node_modules/.pnpm/@types+node@24.13.6/node_modules/@types/node"
+      },
+      "@types/react": {
+        "from": "@types/react",
+        "version": "link:../../node_modules/.pnpm/@types+react@19.3.0/node_modules/@types/react",
+        "path": "/bench/node_modules/.pnpm/@types+react@19.3.0/node_modules/@types/react"
+      },
+      "@types/react-dom": {
+        "from": "@types/react-dom",
+        "version": "link:../../node_modules/.pnpm/@types+react-dom@19.3.0_@types+react@19.3.0/node_modules/@types/react-dom",
+        "path": "/bench/node_modules/.pnpm/@types+react-dom@19.3.0_@types+react@19.3.0/node_modules/@types/react-dom"
+      },
+      "@utoo/pack-cli": {
+        "from": "@utoo/pack-cli",
+        "version": "link:../../node_modules/.pnpm/@utoo+pack-cli@1.5.24-alpha.0_postcss@8.5.28/node_modules/@utoo/pack-cli",
+        "path": "/bench/node_modules/.pnpm/@utoo+pack-cli@1.5.24-alpha.0_postcss@8.5.28/node_modules/@utoo/pack-cli"
+      },
+      "@vitejs/plugin-react": {
+        "from": "@vitejs/plugin-react",
+        "version": "link:../../node_modules/.pnpm/@vitejs+plugin-react@6.1.1_vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2_/node_modules/@vitejs/plugin-react",
+        "path": "/bench/node_modules/.pnpm/@vitejs+plugin-react@6.1.1_vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2_/node_modules/@vitejs/plugin-react"
+      },
+      "babel-loader": {
+        "from": "babel-loader",
+        "version": "link:../../node_modules/.pnpm/babel-loader@10.1.1_@babel+core@7.29.7_supports-color@8.1.1__@rspack+core@2.2.7_@swc+helpers@0.5.23__webpack@5.111.1/node_modules/babel-loader",
+        "path": "/bench/node_modules/.pnpm/babel-loader@10.1.1_@babel+core@7.29.7_supports-color@8.1.1__@rspack+core@2.2.7_@swc+helpers@0.5.23__webpack@5.111.1/node_modules/babel-loader"
+      },
+      "buffer": {
+        "from": "buffer",
+        "version": "link:../../node_modules/.pnpm/buffer@6.0.3/node_modules/buffer",
+        "path": "/bench/node_modules/.pnpm/buffer@6.0.3/node_modules/buffer"
+      },
+      "cross-env": {
+        "from": "cross-env",
+        "version": "link:../../node_modules/.pnpm/cross-env@10.1.0/node_modules/cross-env",
+        "path": "/bench/node_modules/.pnpm/cross-env@10.1.0/node_modules/cross-env"
+      },
+      "esbuild": {
+        "from": "esbuild",
+        "version": "link:../../node_modules/.pnpm/esbuild@0.28.2/node_modules/esbuild",
+        "path": "/bench/node_modules/.pnpm/esbuild@0.28.2/node_modules/esbuild"
+      },
+      "fast-glob": {
+        "from": "fast-glob",
+        "version": "link:../../node_modules/.pnpm/fast-glob@3.3.3/node_modules/fast-glob",
+        "path": "/bench/node_modules/.pnpm/fast-glob@3.3.3/node_modules/fast-glob"
+      },
+      "fs-extra": {
+        "from": "fs-extra",
+        "version": "link:../../node_modules/.pnpm/fs-extra@11.4.0/node_modules/fs-extra",
+        "path": "/bench/node_modules/.pnpm/fs-extra@11.4.0/node_modules/fs-extra"
+      },
+      "gzip-size": {
+        "from": "gzip-size",
+        "version": "link:../../node_modules/.pnpm/gzip-size@7.0.0/node_modules/gzip-size",
+        "path": "/bench/node_modules/.pnpm/gzip-size@7.0.0/node_modules/gzip-size"
+      },
+      "markdown-table": {
+        "from": "markdown-table",
+        "version": "link:../../node_modules/.pnpm/markdown-table@3.0.4/node_modules/markdown-table",
+        "path": "/bench/node_modules/.pnpm/markdown-table@3.0.4/node_modules/markdown-table"
+      },
+      "minimizer-webpack-plugin": {
+        "from": "minimizer-webpack-plugin",
+        "version": "link:../../node_modules/.pnpm/minimizer-webpack-plugin@5.11.0_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_po_2dd93d0799bc67e01437a6caf75185bd/node_modules/minimizer-webpack-plugin",
+        "path": "/bench/node_modules/.pnpm/minimizer-webpack-plugin@5.11.0_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_po_2dd93d0799bc67e01437a6caf75185bd/node_modules/minimizer-webpack-plugin"
+      },
+      "parcel": {
+        "from": "parcel",
+        "version": "link:../../node_modules/.pnpm/parcel@2.16.4_@swc+helpers@0.5.23/node_modules/parcel",
+        "path": "/bench/node_modules/.pnpm/parcel@2.16.4_@swc+helpers@0.5.23/node_modules/parcel"
+      },
+      "picocolors": {
+        "from": "picocolors",
+        "version": "link:../../node_modules/.pnpm/picocolors@1.1.1/node_modules/picocolors",
+        "path": "/bench/node_modules/.pnpm/picocolors@1.1.1/node_modules/picocolors"
+      },
+      "postcss": {
+        "from": "postcss",
+        "version": "link:../../node_modules/.pnpm/postcss@8.5.28/node_modules/postcss",
+        "path": "/bench/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss"
+      },
+      "postcss-url": {
+        "from": "postcss-url",
+        "version": "link:../../node_modules/.pnpm/postcss-url@10.1.4_postcss@8.5.28/node_modules/postcss-url",
+        "path": "/bench/node_modules/.pnpm/postcss-url@10.1.4_postcss@8.5.28/node_modules/postcss-url"
+      },
+      "prettier": {
+        "from": "prettier",
+        "version": "link:../../node_modules/.pnpm/prettier@3.9.8/node_modules/prettier",
+        "path": "/bench/node_modules/.pnpm/prettier@3.9.8/node_modules/prettier"
+      },
+      "puppeteer": {
+        "from": "puppeteer",
+        "version": "link:../../node_modules/.pnpm/puppeteer@24.31.0_supports-color@8.1.1_typescript@7.0.2/node_modules/puppeteer",
+        "path": "/bench/node_modules/.pnpm/puppeteer@24.31.0_supports-color@8.1.1_typescript@7.0.2/node_modules/puppeteer"
+      },
+      "react-refresh": {
+        "from": "react-refresh",
+        "version": "link:../../node_modules/.pnpm/react-refresh@0.19.0/node_modules/react-refresh",
+        "path": "/bench/node_modules/.pnpm/react-refresh@0.19.0/node_modules/react-refresh"
+      },
+      "rolldown": {
+        "from": "rolldown",
+        "version": "link:../../node_modules/.pnpm/rolldown@1.2.9/node_modules/rolldown",
+        "path": "/bench/node_modules/.pnpm/rolldown@1.2.9/node_modules/rolldown"
+      },
+      "rollup": {
+        "from": "rollup",
+        "version": "link:../../node_modules/.pnpm/rollup@4.63.4/node_modules/rollup",
+        "path": "/bench/node_modules/.pnpm/rollup@4.63.4/node_modules/rollup"
+      },
+      "rollup-plugin-postcss": {
+        "from": "rollup-plugin-postcss",
+        "version": "link:../../node_modules/.pnpm/rollup-plugin-postcss@4.0.2_postcss@8.5.28/node_modules/rollup-plugin-postcss",
+        "path": "/bench/node_modules/.pnpm/rollup-plugin-postcss@4.0.2_postcss@8.5.28/node_modules/rollup-plugin-postcss"
+      },
+      "rollup-plugin-swc3": {
+        "from": "rollup-plugin-swc3",
+        "version": "link:../../node_modules/.pnpm/rollup-plugin-swc3@0.12.1_@swc+core@1.16.2_@swc+helpers@0.5.23__rollup@4.63.4/node_modules/rollup-plugin-swc3",
+        "path": "/bench/node_modules/.pnpm/rollup-plugin-swc3@0.12.1_@swc+core@1.16.2_@swc+helpers@0.5.23__rollup@4.63.4/node_modules/rollup-plugin-swc3"
+      },
+      "rslog": {
+        "from": "rslog",
+        "version": "link:../../node_modules/.pnpm/rslog@2.3.0/node_modules/rslog",
+        "path": "/bench/node_modules/.pnpm/rslog@2.3.0/node_modules/rslog"
+      },
+      "swc-loader": {
+        "from": "swc-loader",
+        "version": "link:../../node_modules/.pnpm/swc-loader@0.2.7_@swc+core@1.16.2_@swc+helpers@0.5.23__webpack@5.111.1/node_modules/swc-loader",
+        "path": "/bench/node_modules/.pnpm/swc-loader@0.2.7_@swc+core@1.16.2_@swc+helpers@0.5.23__webpack@5.111.1/node_modules/swc-loader"
+      },
+      "terser-webpack-plugin": {
+        "from": "terser-webpack-plugin",
+        "version": "link:../../node_modules/.pnpm/terser-webpack-plugin@5.6.1_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_postcs_46a59b687f3458378a8fe60762f41a01/node_modules/terser-webpack-plugin",
+        "path": "/bench/node_modules/.pnpm/terser-webpack-plugin@5.6.1_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_postcs_46a59b687f3458378a8fe60762f41a01/node_modules/terser-webpack-plugin"
+      },
+      "typescript": {
+        "from": "typescript",
+        "version": "link:../../node_modules/.pnpm/typescript@7.0.2/node_modules/typescript",
+        "path": "/bench/node_modules/.pnpm/typescript@7.0.2/node_modules/typescript"
+      },
+      "vite": {
+        "from": "vite",
+        "version": "link:../../node_modules/.pnpm/vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2/node_modules/vite",
+        "path": "/bench/node_modules/.pnpm/vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2/node_modules/vite"
+      },
+      "vite7": {
+        "from": "vite7",
+        "version": "link:../../node_modules/.pnpm/vite@7.3.7_@types+node@24.13.6_lightningcss@1.33.0_terser@5.51.2/node_modules/vite",
+        "path": "/bench/node_modules/.pnpm/vite@7.3.7_@types+node@24.13.6_lightningcss@1.33.0_terser@5.51.2/node_modules/vite"
+      },
+      "vite7-plugin-react": {
+        "from": "vite7-plugin-react",
+        "version": "link:../../node_modules/.pnpm/@vitejs+plugin-react@5.2.0_supports-color@8.1.1_vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2_/node_modules/@vitejs/plugin-react",
+        "path": "/bench/node_modules/.pnpm/@vitejs+plugin-react@5.2.0_supports-color@8.1.1_vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2_/node_modules/@vitejs/plugin-react"
+      },
+      "webpack": {
+        "from": "webpack",
+        "version": "link:../../node_modules/.pnpm/webpack@5.111.1_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_postcss@8.5.28__cs_2b009bd7def8968cc24e86c55532b3fb/node_modules/webpack",
+        "path": "/bench/node_modules/.pnpm/webpack@5.111.1_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_postcss@8.5.28__cs_2b009bd7def8968cc24e86c55532b3fb/node_modules/webpack"
+      },
+      "webpack-cli": {
+        "from": "webpack-cli",
+        "version": "link:../../node_modules/.pnpm/webpack-cli@7.2.3_js-yaml@4.1.1_json5@2.2.3_webpack-dev-server@5.2.6_webpack@5.111.1/node_modules/webpack-cli",
+        "path": "/bench/node_modules/.pnpm/webpack-cli@7.2.3_js-yaml@4.1.1_json5@2.2.3_webpack-dev-server@5.2.6_webpack@5.111.1/node_modules/webpack-cli"
+      },
+      "webpack-dev-server": {
+        "from": "webpack-dev-server",
+        "version": "link:../../node_modules/.pnpm/webpack-dev-server@5.2.6_debug@4.4.3_supports-color@8.1.1__supports-color@8.1.1_webpack-cli@7.2.3_webpack@5.111.1/node_modules/webpack-dev-server",
+        "path": "/bench/node_modules/.pnpm/webpack-dev-server@5.2.6_debug@4.4.3_supports-color@8.1.1__supports-color@8.1.1_webpack-cli@7.2.3_webpack@5.111.1/node_modules/webpack-dev-server"
+      }
+    }
+  },
+  {
+    "name": "react-1k-hub",
+    "version": "0.0.0",
+    "path": "/bench/cases/react-1k-hub",
+    "private": true
+  },
+  {
+    "name": "react-5k",
+    "version": "0.0.0",
+    "path": "/bench/cases/react-5k",
+    "private": false,
+    "dependencies": {
+      "@iconify-icons/material-symbols": {
+        "from": "@iconify-icons/material-symbols",
+        "version": "1.2.59",
+        "resolved": "https://registry.npmjs.org/@iconify-icons/material-symbols/-/material-symbols-1.2.59.tgz",
+        "path": "/bench/node_modules/.pnpm/@iconify-icons+material-symbols@1.2.59/node_modules/@iconify-icons/material-symbols"
+      },
+      "@iconify/react": {
+        "from": "@iconify/react",
+        "version": "6.0.2",
+        "resolved": "https://registry.npmjs.org/@iconify/react/-/react-6.0.2.tgz",
+        "path": "/bench/node_modules/.pnpm/@iconify+react@6.0.2_react@19.3.0/node_modules/@iconify/react"
+      },
+      "react": {
+        "from": "react",
+        "version": "19.3.0",
+        "resolved": "https://registry.npmjs.org/react/-/react-19.3.0.tgz",
+        "path": "/bench/node_modules/.pnpm/react@19.3.0/node_modules/react"
+      },
+      "react-dom": {
+        "from": "react-dom",
+        "version": "19.3.0",
+        "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-19.3.0.tgz",
+        "path": "/bench/node_modules/.pnpm/react-dom@19.3.0_react@19.3.0/node_modules/react-dom"
+      },
+      "react-router-dom": {
+        "from": "react-router-dom",
+        "version": "7.18.4",
+        "resolved": "https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.18.4.tgz",
+        "path": "/bench/node_modules/.pnpm/react-router-dom@7.18.4_react-dom@19.3.0_react@19.3.0__react@19.3.0/node_modules/react-router-dom"
+      }
+    },
+    "unsavedDependencies": {
+      "@babel/core": {
+        "from": "@babel/core",
+        "version": "link:../../node_modules/.pnpm/@babel+core@7.29.7_supports-color@8.1.1/node_modules/@babel/core",
+        "path": "/bench/node_modules/.pnpm/@babel+core@7.29.7_supports-color@8.1.1/node_modules/@babel/core"
+      },
+      "@babel/preset-env": {
+        "from": "@babel/preset-env",
+        "version": "link:../../node_modules/.pnpm/@babel+preset-env@7.29.7_@babel+core@7.29.7_supports-color@8.1.1__supports-color@8.1.1/node_modules/@babel/preset-env",
+        "path": "/bench/node_modules/.pnpm/@babel+preset-env@7.29.7_@babel+core@7.29.7_supports-color@8.1.1__supports-color@8.1.1/node_modules/@babel/preset-env"
+      },
+      "@babel/preset-react": {
+        "from": "@babel/preset-react",
+        "version": "link:../../node_modules/.pnpm/@babel+preset-react@7.29.7_@babel+core@7.29.7_supports-color@8.1.1__supports-color@8.1.1/node_modules/@babel/preset-react",
+        "path": "/bench/node_modules/.pnpm/@babel+preset-react@7.29.7_@babel+core@7.29.7_supports-color@8.1.1__supports-color@8.1.1/node_modules/@babel/preset-react"
+      },
+      "@farmfe/cli": {
+        "from": "@farmfe/cli",
+        "version": "link:../../node_modules/.pnpm/@farmfe+cli@1.0.5/node_modules/@farmfe/cli",
+        "path": "/bench/node_modules/.pnpm/@farmfe+cli@1.0.5/node_modules/@farmfe/cli"
+      },
+      "@farmfe/core": {
+        "from": "@farmfe/core",
+        "version": "link:../../node_modules/.pnpm/@farmfe+core@1.7.11_@types+node@24.13.6_supports-color@8.1.1/node_modules/@farmfe/core",
+        "path": "/bench/node_modules/.pnpm/@farmfe+core@1.7.11_@types+node@24.13.6_supports-color@8.1.1/node_modules/@farmfe/core"
+      },
+      "@farmfe/plugin-react": {
+        "from": "@farmfe/plugin-react",
+        "version": "link:../../node_modules/.pnpm/@farmfe+plugin-react@1.2.6/node_modules/@farmfe/plugin-react",
+        "path": "/bench/node_modules/.pnpm/@farmfe+plugin-react@1.2.6/node_modules/@farmfe/plugin-react"
+      },
+      "@parcel/config-default": {
+        "from": "@parcel/config-default",
+        "version": "link:../../node_modules/.pnpm/@parcel+config-default@2.16.4_@parcel+core@2.16.4_@swc+helpers@0.5.23__@swc+helpers@0.5.23/node_modules/@parcel/config-default",
+        "path": "/bench/node_modules/.pnpm/@parcel+config-default@2.16.4_@parcel+core@2.16.4_@swc+helpers@0.5.23__@swc+helpers@0.5.23/node_modules/@parcel/config-default"
+      },
+      "@pmmmwh/react-refresh-webpack-plugin": {
+        "from": "@pmmmwh/react-refresh-webpack-plugin",
+        "version": "link:../../node_modules/.pnpm/@pmmmwh+react-refresh-webpack-plugin@0.6.3_react-refresh@0.19.0_type-fest@5.8.0_webpack-dev-server@5.2.6_webpack@5.111.1/node_modules/@pmmmwh/react-refresh-webpack-plugin",
+        "path": "/bench/node_modules/.pnpm/@pmmmwh+react-refresh-webpack-plugin@0.6.3_react-refresh@0.19.0_type-fest@5.8.0_webpack-dev-server@5.2.6_webpack@5.111.1/node_modules/@pmmmwh/react-refresh-webpack-plugin"
+      },
+      "@rollup/plugin-alias": {
+        "from": "@rollup/plugin-alias",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-alias@6.0.0_rollup@4.63.4/node_modules/@rollup/plugin-alias",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-alias@6.0.0_rollup@4.63.4/node_modules/@rollup/plugin-alias"
+      },
+      "@rollup/plugin-commonjs": {
+        "from": "@rollup/plugin-commonjs",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-commonjs@29.0.3_rollup@4.63.4/node_modules/@rollup/plugin-commonjs",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-commonjs@29.0.3_rollup@4.63.4/node_modules/@rollup/plugin-commonjs"
+      },
+      "@rollup/plugin-html": {
+        "from": "@rollup/plugin-html",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-html@2.0.0_rollup@4.63.4/node_modules/@rollup/plugin-html",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-html@2.0.0_rollup@4.63.4/node_modules/@rollup/plugin-html"
+      },
+      "@rollup/plugin-json": {
+        "from": "@rollup/plugin-json",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-json@6.1.0_rollup@4.63.4/node_modules/@rollup/plugin-json",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-json@6.1.0_rollup@4.63.4/node_modules/@rollup/plugin-json"
+      },
+      "@rollup/plugin-node-resolve": {
+        "from": "@rollup/plugin-node-resolve",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-node-resolve@16.0.3_rollup@4.63.4/node_modules/@rollup/plugin-node-resolve",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-node-resolve@16.0.3_rollup@4.63.4/node_modules/@rollup/plugin-node-resolve"
+      },
+      "@rollup/plugin-replace": {
+        "from": "@rollup/plugin-replace",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-replace@6.0.3_rollup@4.63.4/node_modules/@rollup/plugin-replace",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-replace@6.0.3_rollup@4.63.4/node_modules/@rollup/plugin-replace"
+      },
+      "@rsbuild/core": {
+        "from": "@rsbuild/core",
+        "version": "link:../../node_modules/.pnpm/@rsbuild+core@2.2.9_core-js@3.48.0/node_modules/@rsbuild/core",
+        "path": "/bench/node_modules/.pnpm/@rsbuild+core@2.2.9_core-js@3.48.0/node_modules/@rsbuild/core"
+      },
+      "@rsbuild/plugin-react": {
+        "from": "@rsbuild/plugin-react",
+        "version": "link:../../node_modules/.pnpm/@rsbuild+plugin-react@2.1.0_@rsbuild+core@2.2.9_core-js@3.48.0__@rspack+core@2.2.7_@swc+helpers@0.5.23_/node_modules/@rsbuild/plugin-react",
+        "path": "/bench/node_modules/.pnpm/@rsbuild+plugin-react@2.1.0_@rsbuild+core@2.2.9_core-js@3.48.0__@rspack+core@2.2.7_@swc+helpers@0.5.23_/node_modules/@rsbuild/plugin-react"
+      },
+      "@rsdoctor/rspack-plugin": {
+        "from": "@rsdoctor/rspack-plugin",
+        "version": "link:../../node_modules/.pnpm/@rsdoctor+rspack-plugin@1.6.4_@emnapi+core@1.11.3_@emnapi+runtime@1.11.3_@rsbuild+core@_8a2ae1bb63c3da290a98e089a04dd930/node_modules/@rsdoctor/rspack-plugin",
+        "path": "/bench/node_modules/.pnpm/@rsdoctor+rspack-plugin@1.6.4_@emnapi+core@1.11.3_@emnapi+runtime@1.11.3_@rsbuild+core@_8a2ae1bb63c3da290a98e089a04dd930/node_modules/@rsdoctor/rspack-plugin"
+      },
+      "@rspack/cli": {
+        "from": "@rspack/cli",
+        "version": "link:../../node_modules/.pnpm/@rspack+cli@2.2.7_@rspack+core@2.2.7_@swc+helpers@0.5.23__@rspack+dev-server@2.2.1_@rsp_633430ea937b838b296c9e7be49a4f58/node_modules/@rspack/cli",
+        "path": "/bench/node_modules/.pnpm/@rspack+cli@2.2.7_@rspack+core@2.2.7_@swc+helpers@0.5.23__@rspack+dev-server@2.2.1_@rsp_633430ea937b838b296c9e7be49a4f58/node_modules/@rspack/cli"
+      },
+      "@rspack/core": {
+        "from": "@rspack/core",
+        "version": "link:../../node_modules/.pnpm/@rspack+core@2.2.7_@swc+helpers@0.5.23/node_modules/@rspack/core",
+        "path": "/bench/node_modules/.pnpm/@rspack+core@2.2.7_@swc+helpers@0.5.23/node_modules/@rspack/core"
+      },
+      "@rspack/dev-server": {
+        "from": "@rspack/dev-server",
+        "version": "link:../../node_modules/.pnpm/@rspack+dev-server@2.2.1_@rspack+core@2.2.7_@swc+helpers@0.5.23__selfsigned@5.5.0/node_modules/@rspack/dev-server",
+        "path": "/bench/node_modules/.pnpm/@rspack+dev-server@2.2.1_@rspack+core@2.2.7_@swc+helpers@0.5.23__selfsigned@5.5.0/node_modules/@rspack/dev-server"
+      },
+      "@rspack/plugin-react-refresh": {
+        "from": "@rspack/plugin-react-refresh",
+        "version": "link:../../node_modules/.pnpm/@rspack+plugin-react-refresh@2.0.2_@rspack+core@2.2.7_@swc+helpers@0.5.23__react-refresh@0.19.0/node_modules/@rspack/plugin-react-refresh",
+        "path": "/bench/node_modules/.pnpm/@rspack+plugin-react-refresh@2.0.2_@rspack+core@2.2.7_@swc+helpers@0.5.23__react-refresh@0.19.0/node_modules/@rspack/plugin-react-refresh"
+      },
+      "@swc/core": {
+        "from": "@swc/core",
+        "version": "link:../../node_modules/.pnpm/@swc+core@1.16.2_@swc+helpers@0.5.23/node_modules/@swc/core",
+        "path": "/bench/node_modules/.pnpm/@swc+core@1.16.2_@swc+helpers@0.5.23/node_modules/@swc/core"
+      },
+      "@types/fs-extra": {
+        "from": "@types/fs-extra",
+        "version": "link:../../node_modules/.pnpm/@types+fs-extra@11.0.4/node_modules/@types/fs-extra",
+        "path": "/bench/node_modules/.pnpm/@types+fs-extra@11.0.4/node_modules/@types/fs-extra"
+      },
+      "@types/node": {
+        "from": "@types/node",
+        "version": "link:../../node_modules/.pnpm/@types+node@24.13.6/node_modules/@types/node",
+        "path": "/bench/node_modules/.pnpm/@types+node@24.13.6/node_modules/@types/node"
+      },
+      "@types/react": {
+        "from": "@types/react",
+        "version": "link:../../node_modules/.pnpm/@types+react@19.3.0/node_modules/@types/react",
+        "path": "/bench/node_modules/.pnpm/@types+react@19.3.0/node_modules/@types/react"
+      },
+      "@types/react-dom": {
+        "from": "@types/react-dom",
+        "version": "link:../../node_modules/.pnpm/@types+react-dom@19.3.0_@types+react@19.3.0/node_modules/@types/react-dom",
+        "path": "/bench/node_modules/.pnpm/@types+react-dom@19.3.0_@types+react@19.3.0/node_modules/@types/react-dom"
+      },
+      "@utoo/pack-cli": {
+        "from": "@utoo/pack-cli",
+        "version": "link:../../node_modules/.pnpm/@utoo+pack-cli@1.5.24-alpha.0_postcss@8.5.28/node_modules/@utoo/pack-cli",
+        "path": "/bench/node_modules/.pnpm/@utoo+pack-cli@1.5.24-alpha.0_postcss@8.5.28/node_modules/@utoo/pack-cli"
+      },
+      "@vitejs/plugin-react": {
+        "from": "@vitejs/plugin-react",
+        "version": "link:../../node_modules/.pnpm/@vitejs+plugin-react@6.1.1_vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2_/node_modules/@vitejs/plugin-react",
+        "path": "/bench/node_modules/.pnpm/@vitejs+plugin-react@6.1.1_vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2_/node_modules/@vitejs/plugin-react"
+      },
+      "babel-loader": {
+        "from": "babel-loader",
+        "version": "link:../../node_modules/.pnpm/babel-loader@10.1.1_@babel+core@7.29.7_supports-color@8.1.1__@rspack+core@2.2.7_@swc+helpers@0.5.23__webpack@5.111.1/node_modules/babel-loader",
+        "path": "/bench/node_modules/.pnpm/babel-loader@10.1.1_@babel+core@7.29.7_supports-color@8.1.1__@rspack+core@2.2.7_@swc+helpers@0.5.23__webpack@5.111.1/node_modules/babel-loader"
+      },
+      "buffer": {
+        "from": "buffer",
+        "version": "link:../../node_modules/.pnpm/buffer@6.0.3/node_modules/buffer",
+        "path": "/bench/node_modules/.pnpm/buffer@6.0.3/node_modules/buffer"
+      },
+      "cross-env": {
+        "from": "cross-env",
+        "version": "link:../../node_modules/.pnpm/cross-env@10.1.0/node_modules/cross-env",
+        "path": "/bench/node_modules/.pnpm/cross-env@10.1.0/node_modules/cross-env"
+      },
+      "esbuild": {
+        "from": "esbuild",
+        "version": "link:../../node_modules/.pnpm/esbuild@0.28.2/node_modules/esbuild",
+        "path": "/bench/node_modules/.pnpm/esbuild@0.28.2/node_modules/esbuild"
+      },
+      "fast-glob": {
+        "from": "fast-glob",
+        "version": "link:../../node_modules/.pnpm/fast-glob@3.3.3/node_modules/fast-glob",
+        "path": "/bench/node_modules/.pnpm/fast-glob@3.3.3/node_modules/fast-glob"
+      },
+      "fs-extra": {
+        "from": "fs-extra",
+        "version": "link:../../node_modules/.pnpm/fs-extra@11.4.0/node_modules/fs-extra",
+        "path": "/bench/node_modules/.pnpm/fs-extra@11.4.0/node_modules/fs-extra"
+      },
+      "gzip-size": {
+        "from": "gzip-size",
+        "version": "link:../../node_modules/.pnpm/gzip-size@7.0.0/node_modules/gzip-size",
+        "path": "/bench/node_modules/.pnpm/gzip-size@7.0.0/node_modules/gzip-size"
+      },
+      "markdown-table": {
+        "from": "markdown-table",
+        "version": "link:../../node_modules/.pnpm/markdown-table@3.0.4/node_modules/markdown-table",
+        "path": "/bench/node_modules/.pnpm/markdown-table@3.0.4/node_modules/markdown-table"
+      },
+      "minimizer-webpack-plugin": {
+        "from": "minimizer-webpack-plugin",
+        "version": "link:../../node_modules/.pnpm/minimizer-webpack-plugin@5.11.0_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_po_2dd93d0799bc67e01437a6caf75185bd/node_modules/minimizer-webpack-plugin",
+        "path": "/bench/node_modules/.pnpm/minimizer-webpack-plugin@5.11.0_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_po_2dd93d0799bc67e01437a6caf75185bd/node_modules/minimizer-webpack-plugin"
+      },
+      "parcel": {
+        "from": "parcel",
+        "version": "link:../../node_modules/.pnpm/parcel@2.16.4_@swc+helpers@0.5.23/node_modules/parcel",
+        "path": "/bench/node_modules/.pnpm/parcel@2.16.4_@swc+helpers@0.5.23/node_modules/parcel"
+      },
+      "picocolors": {
+        "from": "picocolors",
+        "version": "link:../../node_modules/.pnpm/picocolors@1.1.1/node_modules/picocolors",
+        "path": "/bench/node_modules/.pnpm/picocolors@1.1.1/node_modules/picocolors"
+      },
+      "postcss": {
+        "from": "postcss",
+        "version": "link:../../node_modules/.pnpm/postcss@8.5.28/node_modules/postcss",
+        "path": "/bench/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss"
+      },
+      "postcss-url": {
+        "from": "postcss-url",
+        "version": "link:../../node_modules/.pnpm/postcss-url@10.1.4_postcss@8.5.28/node_modules/postcss-url",
+        "path": "/bench/node_modules/.pnpm/postcss-url@10.1.4_postcss@8.5.28/node_modules/postcss-url"
+      },
+      "prettier": {
+        "from": "prettier",
+        "version": "link:../../node_modules/.pnpm/prettier@3.9.8/node_modules/prettier",
+        "path": "/bench/node_modules/.pnpm/prettier@3.9.8/node_modules/prettier"
+      },
+      "puppeteer": {
+        "from": "puppeteer",
+        "version": "link:../../node_modules/.pnpm/puppeteer@24.31.0_supports-color@8.1.1_typescript@7.0.2/node_modules/puppeteer",
+        "path": "/bench/node_modules/.pnpm/puppeteer@24.31.0_supports-color@8.1.1_typescript@7.0.2/node_modules/puppeteer"
+      },
+      "react-refresh": {
+        "from": "react-refresh",
+        "version": "link:../../node_modules/.pnpm/react-refresh@0.19.0/node_modules/react-refresh",
+        "path": "/bench/node_modules/.pnpm/react-refresh@0.19.0/node_modules/react-refresh"
+      },
+      "rolldown": {
+        "from": "rolldown",
+        "version": "link:../../node_modules/.pnpm/rolldown@1.2.9/node_modules/rolldown",
+        "path": "/bench/node_modules/.pnpm/rolldown@1.2.9/node_modules/rolldown"
+      },
+      "rollup": {
+        "from": "rollup",
+        "version": "link:../../node_modules/.pnpm/rollup@4.63.4/node_modules/rollup",
+        "path": "/bench/node_modules/.pnpm/rollup@4.63.4/node_modules/rollup"
+      },
+      "rollup-plugin-postcss": {
+        "from": "rollup-plugin-postcss",
+        "version": "link:../../node_modules/.pnpm/rollup-plugin-postcss@4.0.2_postcss@8.5.28/node_modules/rollup-plugin-postcss",
+        "path": "/bench/node_modules/.pnpm/rollup-plugin-postcss@4.0.2_postcss@8.5.28/node_modules/rollup-plugin-postcss"
+      },
+      "rollup-plugin-swc3": {
+        "from": "rollup-plugin-swc3",
+        "version": "link:../../node_modules/.pnpm/rollup-plugin-swc3@0.12.1_@swc+core@1.16.2_@swc+helpers@0.5.23__rollup@4.63.4/node_modules/rollup-plugin-swc3",
+        "path": "/bench/node_modules/.pnpm/rollup-plugin-swc3@0.12.1_@swc+core@1.16.2_@swc+helpers@0.5.23__rollup@4.63.4/node_modules/rollup-plugin-swc3"
+      },
+      "rslog": {
+        "from": "rslog",
+        "version": "link:../../node_modules/.pnpm/rslog@2.3.0/node_modules/rslog",
+        "path": "/bench/node_modules/.pnpm/rslog@2.3.0/node_modules/rslog"
+      },
+      "swc-loader": {
+        "from": "swc-loader",
+        "version": "link:../../node_modules/.pnpm/swc-loader@0.2.7_@swc+core@1.16.2_@swc+helpers@0.5.23__webpack@5.111.1/node_modules/swc-loader",
+        "path": "/bench/node_modules/.pnpm/swc-loader@0.2.7_@swc+core@1.16.2_@swc+helpers@0.5.23__webpack@5.111.1/node_modules/swc-loader"
+      },
+      "terser-webpack-plugin": {
+        "from": "terser-webpack-plugin",
+        "version": "link:../../node_modules/.pnpm/terser-webpack-plugin@5.6.1_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_postcs_46a59b687f3458378a8fe60762f41a01/node_modules/terser-webpack-plugin",
+        "path": "/bench/node_modules/.pnpm/terser-webpack-plugin@5.6.1_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_postcs_46a59b687f3458378a8fe60762f41a01/node_modules/terser-webpack-plugin"
+      },
+      "typescript": {
+        "from": "typescript",
+        "version": "link:../../node_modules/.pnpm/typescript@7.0.2/node_modules/typescript",
+        "path": "/bench/node_modules/.pnpm/typescript@7.0.2/node_modules/typescript"
+      },
+      "vite": {
+        "from": "vite",
+        "version": "link:../../node_modules/.pnpm/vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2/node_modules/vite",
+        "path": "/bench/node_modules/.pnpm/vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2/node_modules/vite"
+      },
+      "vite7": {
+        "from": "vite7",
+        "version": "link:../../node_modules/.pnpm/vite@7.3.7_@types+node@24.13.6_lightningcss@1.33.0_terser@5.51.2/node_modules/vite",
+        "path": "/bench/node_modules/.pnpm/vite@7.3.7_@types+node@24.13.6_lightningcss@1.33.0_terser@5.51.2/node_modules/vite"
+      },
+      "vite7-plugin-react": {
+        "from": "vite7-plugin-react",
+        "version": "link:../../node_modules/.pnpm/@vitejs+plugin-react@5.2.0_supports-color@8.1.1_vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2_/node_modules/@vitejs/plugin-react",
+        "path": "/bench/node_modules/.pnpm/@vitejs+plugin-react@5.2.0_supports-color@8.1.1_vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2_/node_modules/@vitejs/plugin-react"
+      },
+      "webpack": {
+        "from": "webpack",
+        "version": "link:../../node_modules/.pnpm/webpack@5.111.1_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_postcss@8.5.28__cs_2b009bd7def8968cc24e86c55532b3fb/node_modules/webpack",
+        "path": "/bench/node_modules/.pnpm/webpack@5.111.1_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_postcss@8.5.28__cs_2b009bd7def8968cc24e86c55532b3fb/node_modules/webpack"
+      },
+      "webpack-cli": {
+        "from": "webpack-cli",
+        "version": "link:../../node_modules/.pnpm/webpack-cli@7.2.3_js-yaml@4.1.1_json5@2.2.3_webpack-dev-server@5.2.6_webpack@5.111.1/node_modules/webpack-cli",
+        "path": "/bench/node_modules/.pnpm/webpack-cli@7.2.3_js-yaml@4.1.1_json5@2.2.3_webpack-dev-server@5.2.6_webpack@5.111.1/node_modules/webpack-cli"
+      },
+      "webpack-dev-server": {
+        "from": "webpack-dev-server",
+        "version": "link:../../node_modules/.pnpm/webpack-dev-server@5.2.6_debug@4.4.3_supports-color@8.1.1__supports-color@8.1.1_webpack-cli@7.2.3_webpack@5.111.1/node_modules/webpack-dev-server",
+        "path": "/bench/node_modules/.pnpm/webpack-dev-server@5.2.6_debug@4.4.3_supports-color@8.1.1__supports-color@8.1.1_webpack-cli@7.2.3_webpack@5.111.1/node_modules/webpack-dev-server"
+      }
+    }
+  },
+  {
+    "name": "react-5k-hub",
+    "version": "0.0.0",
+    "path": "/bench/cases/react-5k-hub",
+    "private": true
+  },
+  {
+    "name": "ui-libraries",
+    "version": "0.0.0",
+    "path": "/bench/cases/ui-components",
+    "private": false,
+    "dependencies": {
+      "@arco-design/web-react": {
+        "from": "@arco-design/web-react",
+        "version": "2.66.16",
+        "resolved": "https://registry.npmjs.org/@arco-design/web-react/-/web-react-2.66.16.tgz",
+        "path": "/bench/node_modules/.pnpm/@arco-design+web-react@2.66.16_@types+react@19.3.0_react-dom@19.3.0_react@19.3.0__react@19.3.0/node_modules/@arco-design/web-react"
+      },
+      "@chakra-ui/react": {
+        "from": "@chakra-ui/react",
+        "version": "3.37.0",
+        "resolved": "https://registry.npmjs.org/@chakra-ui/react/-/react-3.37.0.tgz",
+        "path": "/bench/node_modules/.pnpm/@chakra-ui+react@3.37.0_@emotion+react@11.14.0_@types+react@19.3.0_react@19.3.0_support_4b51b30724940a81bec405d8a55a4e3d/node_modules/@chakra-ui/react"
+      },
+      "@coreui/react": {
+        "from": "@coreui/react",
+        "version": "5.13.0",
+        "resolved": "https://registry.npmjs.org/@coreui/react/-/react-5.13.0.tgz",
+        "path": "/bench/node_modules/.pnpm/@coreui+react@5.13.0_react-dom@19.3.0_react@19.3.0__react@19.3.0/node_modules/@coreui/react"
+      },
+      "@emotion/react": {
+        "from": "@emotion/react",
+        "version": "11.14.0",
+        "resolved": "https://registry.npmjs.org/@emotion/react/-/react-11.14.0.tgz",
+        "path": "/bench/node_modules/.pnpm/@emotion+react@11.14.0_@types+react@19.3.0_react@19.3.0_supports-color@8.1.1/node_modules/@emotion/react"
+      },
+      "@emotion/styled": {
+        "from": "@emotion/styled",
+        "version": "11.14.1",
+        "resolved": "https://registry.npmjs.org/@emotion/styled/-/styled-11.14.1.tgz",
+        "path": "/bench/node_modules/.pnpm/@emotion+styled@11.14.1_@emotion+react@11.14.0_@types+react@19.3.0_react@19.3.0_support_85713c009f97e208deeba0d6a7fad970/node_modules/@emotion/styled"
+      },
+      "@fluentui/react": {
+        "from": "@fluentui/react",
+        "version": "8.125.7",
+        "resolved": "https://registry.npmjs.org/@fluentui/react/-/react-8.125.7.tgz",
+        "path": "/bench/node_modules/.pnpm/@fluentui+react@8.125.7_@types+react-dom@19.3.0_@types+react@19.3.0__@types+react@19.3._ad66ef82e8bbf1916ff0f9cb179f522d/node_modules/@fluentui/react"
+      },
+      "@headlessui/react": {
+        "from": "@headlessui/react",
+        "version": "2.2.10",
+        "resolved": "https://registry.npmjs.org/@headlessui/react/-/react-2.2.10.tgz",
+        "path": "/bench/node_modules/.pnpm/@headlessui+react@2.2.10_react-dom@19.3.0_react@19.3.0__react@19.3.0/node_modules/@headlessui/react"
+      },
+      "@mantine/core": {
+        "from": "@mantine/core",
+        "version": "9.6.2",
+        "resolved": "https://registry.npmjs.org/@mantine/core/-/core-9.6.2.tgz",
+        "path": "/bench/node_modules/.pnpm/@mantine+core@9.6.2_@mantine+hooks@9.6.2_react@19.3.0__@types+react@19.3.0_react-dom@19.3.0_react@19.3.0__react@19.3.0/node_modules/@mantine/core"
+      },
+      "@mantine/hooks": {
+        "from": "@mantine/hooks",
+        "version": "9.6.2",
+        "resolved": "https://registry.npmjs.org/@mantine/hooks/-/hooks-9.6.2.tgz",
+        "path": "/bench/node_modules/.pnpm/@mantine+hooks@9.6.2_react@19.3.0/node_modules/@mantine/hooks"
+      },
+      "@mui/material": {
+        "from": "@mui/material",
+        "version": "9.4.0",
+        "resolved": "https://registry.npmjs.org/@mui/material/-/material-9.4.0.tgz",
+        "path": "/bench/node_modules/.pnpm/@mui+material@9.4.0_@emotion+react@11.14.0_@types+react@19.3.0_react@19.3.0_supports-co_303e6b1a3bb71530bab967033185e6f4/node_modules/@mui/material"
+      },
+      "@radix-ui/themes": {
+        "from": "@radix-ui/themes",
+        "version": "3.3.0",
+        "resolved": "https://registry.npmjs.org/@radix-ui/themes/-/themes-3.3.0.tgz",
+        "path": "/bench/node_modules/.pnpm/@radix-ui+themes@3.3.0_@types+react-dom@19.3.0_@types+react@19.3.0__@types+react@19.3.0_1c623bb51a030255b0d99874b928c030/node_modules/@radix-ui/themes"
+      },
+      "ant-design-vue": {
+        "from": "ant-design-vue",
+        "version": "4.2.6",
+        "resolved": "https://registry.npmjs.org/ant-design-vue/-/ant-design-vue-4.2.6.tgz",
+        "path": "/bench/node_modules/.pnpm/ant-design-vue@4.2.6_vue@3.5.43_typescript@7.0.2_/node_modules/ant-design-vue"
+      },
+      "antd": {
+        "from": "antd",
+        "version": "6.6.5",
+        "resolved": "https://registry.npmjs.org/antd/-/antd-6.6.5.tgz",
+        "path": "/bench/node_modules/.pnpm/antd@6.6.5_date-fns@4.4.0_react-dom@19.3.0_react@19.3.0__react@19.3.0/node_modules/antd"
+      },
+      "antd-mobile": {
+        "from": "antd-mobile",
+        "version": "5.43.0",
+        "resolved": "https://registry.npmjs.org/antd-mobile/-/antd-mobile-5.43.0.tgz",
+        "path": "/bench/node_modules/.pnpm/antd-mobile@5.43.0_react-dom@19.3.0_react@19.3.0__react@19.3.0/node_modules/antd-mobile"
+      },
+      "element-plus": {
+        "from": "element-plus",
+        "version": "2.14.6",
+        "resolved": "https://registry.npmjs.org/element-plus/-/element-plus-2.14.6.tgz",
+        "path": "/bench/node_modules/.pnpm/element-plus@2.14.6_vue@3.5.43_typescript@7.0.2_/node_modules/element-plus"
+      },
+      "naive-ui": {
+        "from": "naive-ui",
+        "version": "2.45.3",
+        "resolved": "https://registry.npmjs.org/naive-ui/-/naive-ui-2.45.3.tgz",
+        "path": "/bench/node_modules/.pnpm/naive-ui@2.45.3_vue@3.5.43_typescript@7.0.2_/node_modules/naive-ui"
+      },
+      "primereact": {
+        "from": "primereact",
+        "version": "11.1.0",
+        "resolved": "https://registry.npmjs.org/primereact/-/primereact-11.1.0.tgz",
+        "path": "/bench/node_modules/.pnpm/primereact@11.1.0_react-dom@19.3.0_react@19.3.0__react@19.3.0/node_modules/primereact"
+      },
+      "primevue": {
+        "from": "primevue",
+        "version": "5.0.1",
+        "resolved": "https://registry.npmjs.org/primevue/-/primevue-5.0.1.tgz",
+        "path": "/bench/node_modules/.pnpm/primevue@5.0.1_vue@3.5.43_typescript@7.0.2_/node_modules/primevue"
+      },
+      "react": {
+        "from": "react",
+        "version": "19.3.0",
+        "resolved": "https://registry.npmjs.org/react/-/react-19.3.0.tgz",
+        "path": "/bench/node_modules/.pnpm/react@19.3.0/node_modules/react"
+      },
+      "react-bootstrap": {
+        "from": "react-bootstrap",
+        "version": "2.10.10",
+        "resolved": "https://registry.npmjs.org/react-bootstrap/-/react-bootstrap-2.10.10.tgz",
+        "path": "/bench/node_modules/.pnpm/react-bootstrap@2.10.10_@types+react@19.3.0_react-dom@19.3.0_react@19.3.0__react@19.3.0/node_modules/react-bootstrap"
+      },
+      "react-dom": {
+        "from": "react-dom",
+        "version": "19.3.0",
+        "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-19.3.0.tgz",
+        "path": "/bench/node_modules/.pnpm/react-dom@19.3.0_react@19.3.0/node_modules/react-dom"
+      },
+      "rsuite": {
+        "from": "rsuite",
+        "version": "6.2.4",
+        "resolved": "https://registry.npmjs.org/rsuite/-/rsuite-6.2.4.tgz",
+        "path": "/bench/node_modules/.pnpm/rsuite@6.2.4_@types+react@19.3.0_react-dom@19.3.0_react@19.3.0__react@19.3.0/node_modules/rsuite"
+      },
+      "styled-components": {
+        "from": "styled-components",
+        "version": "6.5.3",
+        "resolved": "https://registry.npmjs.org/styled-components/-/styled-components-6.5.3.tgz",
+        "path": "/bench/node_modules/.pnpm/styled-components@6.5.3_react-dom@19.3.0_react@19.3.0__react@19.3.0/node_modules/styled-components"
+      },
+      "vant": {
+        "from": "vant",
+        "version": "4.10.2",
+        "resolved": "https://registry.npmjs.org/vant/-/vant-4.10.2.tgz",
+        "path": "/bench/node_modules/.pnpm/vant@4.10.2_vue@3.5.43_typescript@7.0.2_/node_modules/vant"
+      },
+      "vue": {
+        "from": "vue",
+        "version": "3.5.43",
+        "resolved": "https://registry.npmjs.org/vue/-/vue-3.5.43.tgz",
+        "path": "/bench/node_modules/.pnpm/vue@3.5.43_typescript@7.0.2/node_modules/vue"
+      },
+      "vuetify": {
+        "from": "vuetify",
+        "version": "4.2.1",
+        "resolved": "https://registry.npmjs.org/vuetify/-/vuetify-4.2.1.tgz",
+        "path": "/bench/node_modules/.pnpm/vuetify@4.2.1_@ant-design+colors@8.0.1_@floating-ui+dom@1.8.0_typescript@7.0.2_vue-i18n_07c3206eb2571a5553d78e42bdcf928e/node_modules/vuetify"
+      }
+    },
+    "unsavedDependencies": {
+      "@babel/core": {
+        "from": "@babel/core",
+        "version": "link:../../node_modules/.pnpm/@babel+core@7.29.7_supports-color@8.1.1/node_modules/@babel/core",
+        "path": "/bench/node_modules/.pnpm/@babel+core@7.29.7_supports-color@8.1.1/node_modules/@babel/core"
+      },
+      "@babel/preset-env": {
+        "from": "@babel/preset-env",
+        "version": "link:../../node_modules/.pnpm/@babel+preset-env@7.29.7_@babel+core@7.29.7_supports-color@8.1.1__supports-color@8.1.1/node_modules/@babel/preset-env",
+        "path": "/bench/node_modules/.pnpm/@babel+preset-env@7.29.7_@babel+core@7.29.7_supports-color@8.1.1__supports-color@8.1.1/node_modules/@babel/preset-env"
+      },
+      "@babel/preset-react": {
+        "from": "@babel/preset-react",
+        "version": "link:../../node_modules/.pnpm/@babel+preset-react@7.29.7_@babel+core@7.29.7_supports-color@8.1.1__supports-color@8.1.1/node_modules/@babel/preset-react",
+        "path": "/bench/node_modules/.pnpm/@babel+preset-react@7.29.7_@babel+core@7.29.7_supports-color@8.1.1__supports-color@8.1.1/node_modules/@babel/preset-react"
+      },
+      "@farmfe/cli": {
+        "from": "@farmfe/cli",
+        "version": "link:../../node_modules/.pnpm/@farmfe+cli@1.0.5/node_modules/@farmfe/cli",
+        "path": "/bench/node_modules/.pnpm/@farmfe+cli@1.0.5/node_modules/@farmfe/cli"
+      },
+      "@farmfe/core": {
+        "from": "@farmfe/core",
+        "version": "link:../../node_modules/.pnpm/@farmfe+core@1.7.11_@types+node@24.13.6_supports-color@8.1.1/node_modules/@farmfe/core",
+        "path": "/bench/node_modules/.pnpm/@farmfe+core@1.7.11_@types+node@24.13.6_supports-color@8.1.1/node_modules/@farmfe/core"
+      },
+      "@farmfe/plugin-react": {
+        "from": "@farmfe/plugin-react",
+        "version": "link:../../node_modules/.pnpm/@farmfe+plugin-react@1.2.6/node_modules/@farmfe/plugin-react",
+        "path": "/bench/node_modules/.pnpm/@farmfe+plugin-react@1.2.6/node_modules/@farmfe/plugin-react"
+      },
+      "@parcel/config-default": {
+        "from": "@parcel/config-default",
+        "version": "link:../../node_modules/.pnpm/@parcel+config-default@2.16.4_@parcel+core@2.16.4_@swc+helpers@0.5.23__@swc+helpers@0.5.23/node_modules/@parcel/config-default",
+        "path": "/bench/node_modules/.pnpm/@parcel+config-default@2.16.4_@parcel+core@2.16.4_@swc+helpers@0.5.23__@swc+helpers@0.5.23/node_modules/@parcel/config-default"
+      },
+      "@pmmmwh/react-refresh-webpack-plugin": {
+        "from": "@pmmmwh/react-refresh-webpack-plugin",
+        "version": "link:../../node_modules/.pnpm/@pmmmwh+react-refresh-webpack-plugin@0.6.3_react-refresh@0.19.0_type-fest@5.8.0_webpack-dev-server@5.2.6_webpack@5.111.1/node_modules/@pmmmwh/react-refresh-webpack-plugin",
+        "path": "/bench/node_modules/.pnpm/@pmmmwh+react-refresh-webpack-plugin@0.6.3_react-refresh@0.19.0_type-fest@5.8.0_webpack-dev-server@5.2.6_webpack@5.111.1/node_modules/@pmmmwh/react-refresh-webpack-plugin"
+      },
+      "@rollup/plugin-alias": {
+        "from": "@rollup/plugin-alias",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-alias@6.0.0_rollup@4.63.4/node_modules/@rollup/plugin-alias",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-alias@6.0.0_rollup@4.63.4/node_modules/@rollup/plugin-alias"
+      },
+      "@rollup/plugin-commonjs": {
+        "from": "@rollup/plugin-commonjs",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-commonjs@29.0.3_rollup@4.63.4/node_modules/@rollup/plugin-commonjs",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-commonjs@29.0.3_rollup@4.63.4/node_modules/@rollup/plugin-commonjs"
+      },
+      "@rollup/plugin-html": {
+        "from": "@rollup/plugin-html",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-html@2.0.0_rollup@4.63.4/node_modules/@rollup/plugin-html",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-html@2.0.0_rollup@4.63.4/node_modules/@rollup/plugin-html"
+      },
+      "@rollup/plugin-json": {
+        "from": "@rollup/plugin-json",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-json@6.1.0_rollup@4.63.4/node_modules/@rollup/plugin-json",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-json@6.1.0_rollup@4.63.4/node_modules/@rollup/plugin-json"
+      },
+      "@rollup/plugin-node-resolve": {
+        "from": "@rollup/plugin-node-resolve",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-node-resolve@16.0.3_rollup@4.63.4/node_modules/@rollup/plugin-node-resolve",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-node-resolve@16.0.3_rollup@4.63.4/node_modules/@rollup/plugin-node-resolve"
+      },
+      "@rollup/plugin-replace": {
+        "from": "@rollup/plugin-replace",
+        "version": "link:../../node_modules/.pnpm/@rollup+plugin-replace@6.0.3_rollup@4.63.4/node_modules/@rollup/plugin-replace",
+        "path": "/bench/node_modules/.pnpm/@rollup+plugin-replace@6.0.3_rollup@4.63.4/node_modules/@rollup/plugin-replace"
+      },
+      "@rsbuild/core": {
+        "from": "@rsbuild/core",
+        "version": "link:../../node_modules/.pnpm/@rsbuild+core@2.2.9_core-js@3.48.0/node_modules/@rsbuild/core",
+        "path": "/bench/node_modules/.pnpm/@rsbuild+core@2.2.9_core-js@3.48.0/node_modules/@rsbuild/core"
+      },
+      "@rsbuild/plugin-react": {
+        "from": "@rsbuild/plugin-react",
+        "version": "link:../../node_modules/.pnpm/@rsbuild+plugin-react@2.1.0_@rsbuild+core@2.2.9_core-js@3.48.0__@rspack+core@2.2.7_@swc+helpers@0.5.23_/node_modules/@rsbuild/plugin-react",
+        "path": "/bench/node_modules/.pnpm/@rsbuild+plugin-react@2.1.0_@rsbuild+core@2.2.9_core-js@3.48.0__@rspack+core@2.2.7_@swc+helpers@0.5.23_/node_modules/@rsbuild/plugin-react"
+      },
+      "@rsdoctor/rspack-plugin": {
+        "from": "@rsdoctor/rspack-plugin",
+        "version": "link:../../node_modules/.pnpm/@rsdoctor+rspack-plugin@1.6.4_@emnapi+core@1.11.3_@emnapi+runtime@1.11.3_@rsbuild+core@_8a2ae1bb63c3da290a98e089a04dd930/node_modules/@rsdoctor/rspack-plugin",
+        "path": "/bench/node_modules/.pnpm/@rsdoctor+rspack-plugin@1.6.4_@emnapi+core@1.11.3_@emnapi+runtime@1.11.3_@rsbuild+core@_8a2ae1bb63c3da290a98e089a04dd930/node_modules/@rsdoctor/rspack-plugin"
+      },
+      "@rspack/cli": {
+        "from": "@rspack/cli",
+        "version": "link:../../node_modules/.pnpm/@rspack+cli@2.2.7_@rspack+core@2.2.7_@swc+helpers@0.5.23__@rspack+dev-server@2.2.1_@rsp_633430ea937b838b296c9e7be49a4f58/node_modules/@rspack/cli",
+        "path": "/bench/node_modules/.pnpm/@rspack+cli@2.2.7_@rspack+core@2.2.7_@swc+helpers@0.5.23__@rspack+dev-server@2.2.1_@rsp_633430ea937b838b296c9e7be49a4f58/node_modules/@rspack/cli"
+      },
+      "@rspack/core": {
+        "from": "@rspack/core",
+        "version": "link:../../node_modules/.pnpm/@rspack+core@2.2.7_@swc+helpers@0.5.23/node_modules/@rspack/core",
+        "path": "/bench/node_modules/.pnpm/@rspack+core@2.2.7_@swc+helpers@0.5.23/node_modules/@rspack/core"
+      },
+      "@rspack/dev-server": {
+        "from": "@rspack/dev-server",
+        "version": "link:../../node_modules/.pnpm/@rspack+dev-server@2.2.1_@rspack+core@2.2.7_@swc+helpers@0.5.23__selfsigned@5.5.0/node_modules/@rspack/dev-server",
+        "path": "/bench/node_modules/.pnpm/@rspack+dev-server@2.2.1_@rspack+core@2.2.7_@swc+helpers@0.5.23__selfsigned@5.5.0/node_modules/@rspack/dev-server"
+      },
+      "@rspack/plugin-react-refresh": {
+        "from": "@rspack/plugin-react-refresh",
+        "version": "link:../../node_modules/.pnpm/@rspack+plugin-react-refresh@2.0.2_@rspack+core@2.2.7_@swc+helpers@0.5.23__react-refresh@0.19.0/node_modules/@rspack/plugin-react-refresh",
+        "path": "/bench/node_modules/.pnpm/@rspack+plugin-react-refresh@2.0.2_@rspack+core@2.2.7_@swc+helpers@0.5.23__react-refresh@0.19.0/node_modules/@rspack/plugin-react-refresh"
+      },
+      "@swc/core": {
+        "from": "@swc/core",
+        "version": "link:../../node_modules/.pnpm/@swc+core@1.16.2_@swc+helpers@0.5.23/node_modules/@swc/core",
+        "path": "/bench/node_modules/.pnpm/@swc+core@1.16.2_@swc+helpers@0.5.23/node_modules/@swc/core"
+      },
+      "@types/fs-extra": {
+        "from": "@types/fs-extra",
+        "version": "link:../../node_modules/.pnpm/@types+fs-extra@11.0.4/node_modules/@types/fs-extra",
+        "path": "/bench/node_modules/.pnpm/@types+fs-extra@11.0.4/node_modules/@types/fs-extra"
+      },
+      "@types/node": {
+        "from": "@types/node",
+        "version": "link:../../node_modules/.pnpm/@types+node@24.13.6/node_modules/@types/node",
+        "path": "/bench/node_modules/.pnpm/@types+node@24.13.6/node_modules/@types/node"
+      },
+      "@types/react": {
+        "from": "@types/react",
+        "version": "link:../../node_modules/.pnpm/@types+react@19.3.0/node_modules/@types/react",
+        "path": "/bench/node_modules/.pnpm/@types+react@19.3.0/node_modules/@types/react"
+      },
+      "@types/react-dom": {
+        "from": "@types/react-dom",
+        "version": "link:../../node_modules/.pnpm/@types+react-dom@19.3.0_@types+react@19.3.0/node_modules/@types/react-dom",
+        "path": "/bench/node_modules/.pnpm/@types+react-dom@19.3.0_@types+react@19.3.0/node_modules/@types/react-dom"
+      },
+      "@utoo/pack-cli": {
+        "from": "@utoo/pack-cli",
+        "version": "link:../../node_modules/.pnpm/@utoo+pack-cli@1.5.24-alpha.0_postcss@8.5.28/node_modules/@utoo/pack-cli",
+        "path": "/bench/node_modules/.pnpm/@utoo+pack-cli@1.5.24-alpha.0_postcss@8.5.28/node_modules/@utoo/pack-cli"
+      },
+      "@vitejs/plugin-react": {
+        "from": "@vitejs/plugin-react",
+        "version": "link:../../node_modules/.pnpm/@vitejs+plugin-react@6.1.1_vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2_/node_modules/@vitejs/plugin-react",
+        "path": "/bench/node_modules/.pnpm/@vitejs+plugin-react@6.1.1_vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2_/node_modules/@vitejs/plugin-react"
+      },
+      "babel-loader": {
+        "from": "babel-loader",
+        "version": "link:../../node_modules/.pnpm/babel-loader@10.1.1_@babel+core@7.29.7_supports-color@8.1.1__@rspack+core@2.2.7_@swc+helpers@0.5.23__webpack@5.111.1/node_modules/babel-loader",
+        "path": "/bench/node_modules/.pnpm/babel-loader@10.1.1_@babel+core@7.29.7_supports-color@8.1.1__@rspack+core@2.2.7_@swc+helpers@0.5.23__webpack@5.111.1/node_modules/babel-loader"
+      },
+      "buffer": {
+        "from": "buffer",
+        "version": "link:../../node_modules/.pnpm/buffer@6.0.3/node_modules/buffer",
+        "path": "/bench/node_modules/.pnpm/buffer@6.0.3/node_modules/buffer"
+      },
+      "cross-env": {
+        "from": "cross-env",
+        "version": "link:../../node_modules/.pnpm/cross-env@10.1.0/node_modules/cross-env",
+        "path": "/bench/node_modules/.pnpm/cross-env@10.1.0/node_modules/cross-env"
+      },
+      "esbuild": {
+        "from": "esbuild",
+        "version": "link:../../node_modules/.pnpm/esbuild@0.28.2/node_modules/esbuild",
+        "path": "/bench/node_modules/.pnpm/esbuild@0.28.2/node_modules/esbuild"
+      },
+      "fast-glob": {
+        "from": "fast-glob",
+        "version": "link:../../node_modules/.pnpm/fast-glob@3.3.3/node_modules/fast-glob",
+        "path": "/bench/node_modules/.pnpm/fast-glob@3.3.3/node_modules/fast-glob"
+      },
+      "fs-extra": {
+        "from": "fs-extra",
+        "version": "link:../../node_modules/.pnpm/fs-extra@11.4.0/node_modules/fs-extra",
+        "path": "/bench/node_modules/.pnpm/fs-extra@11.4.0/node_modules/fs-extra"
+      },
+      "gzip-size": {
+        "from": "gzip-size",
+        "version": "link:../../node_modules/.pnpm/gzip-size@7.0.0/node_modules/gzip-size",
+        "path": "/bench/node_modules/.pnpm/gzip-size@7.0.0/node_modules/gzip-size"
+      },
+      "markdown-table": {
+        "from": "markdown-table",
+        "version": "link:../../node_modules/.pnpm/markdown-table@3.0.4/node_modules/markdown-table",
+        "path": "/bench/node_modules/.pnpm/markdown-table@3.0.4/node_modules/markdown-table"
+      },
+      "minimizer-webpack-plugin": {
+        "from": "minimizer-webpack-plugin",
+        "version": "link:../../node_modules/.pnpm/minimizer-webpack-plugin@5.11.0_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_po_2dd93d0799bc67e01437a6caf75185bd/node_modules/minimizer-webpack-plugin",
+        "path": "/bench/node_modules/.pnpm/minimizer-webpack-plugin@5.11.0_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_po_2dd93d0799bc67e01437a6caf75185bd/node_modules/minimizer-webpack-plugin"
+      },
+      "parcel": {
+        "from": "parcel",
+        "version": "link:../../node_modules/.pnpm/parcel@2.16.4_@swc+helpers@0.5.23/node_modules/parcel",
+        "path": "/bench/node_modules/.pnpm/parcel@2.16.4_@swc+helpers@0.5.23/node_modules/parcel"
+      },
+      "picocolors": {
+        "from": "picocolors",
+        "version": "link:../../node_modules/.pnpm/picocolors@1.1.1/node_modules/picocolors",
+        "path": "/bench/node_modules/.pnpm/picocolors@1.1.1/node_modules/picocolors"
+      },
+      "postcss": {
+        "from": "postcss",
+        "version": "link:../../node_modules/.pnpm/postcss@8.5.28/node_modules/postcss",
+        "path": "/bench/node_modules/.pnpm/postcss@8.5.28/node_modules/postcss"
+      },
+      "postcss-url": {
+        "from": "postcss-url",
+        "version": "link:../../node_modules/.pnpm/postcss-url@10.1.4_postcss@8.5.28/node_modules/postcss-url",
+        "path": "/bench/node_modules/.pnpm/postcss-url@10.1.4_postcss@8.5.28/node_modules/postcss-url"
+      },
+      "prettier": {
+        "from": "prettier",
+        "version": "link:../../node_modules/.pnpm/prettier@3.9.8/node_modules/prettier",
+        "path": "/bench/node_modules/.pnpm/prettier@3.9.8/node_modules/prettier"
+      },
+      "puppeteer": {
+        "from": "puppeteer",
+        "version": "link:../../node_modules/.pnpm/puppeteer@24.31.0_supports-color@8.1.1_typescript@7.0.2/node_modules/puppeteer",
+        "path": "/bench/node_modules/.pnpm/puppeteer@24.31.0_supports-color@8.1.1_typescript@7.0.2/node_modules/puppeteer"
+      },
+      "react-refresh": {
+        "from": "react-refresh",
+        "version": "link:../../node_modules/.pnpm/react-refresh@0.19.0/node_modules/react-refresh",
+        "path": "/bench/node_modules/.pnpm/react-refresh@0.19.0/node_modules/react-refresh"
+      },
+      "rolldown": {
+        "from": "rolldown",
+        "version": "link:../../node_modules/.pnpm/rolldown@1.2.9/node_modules/rolldown",
+        "path": "/bench/node_modules/.pnpm/rolldown@1.2.9/node_modules/rolldown"
+      },
+      "rollup": {
+        "from": "rollup",
+        "version": "link:../../node_modules/.pnpm/rollup@4.63.4/node_modules/rollup",
+        "path": "/bench/node_modules/.pnpm/rollup@4.63.4/node_modules/rollup"
+      },
+      "rollup-plugin-postcss": {
+        "from": "rollup-plugin-postcss",
+        "version": "link:../../node_modules/.pnpm/rollup-plugin-postcss@4.0.2_postcss@8.5.28/node_modules/rollup-plugin-postcss",
+        "path": "/bench/node_modules/.pnpm/rollup-plugin-postcss@4.0.2_postcss@8.5.28/node_modules/rollup-plugin-postcss"
+      },
+      "rollup-plugin-swc3": {
+        "from": "rollup-plugin-swc3",
+        "version": "link:../../node_modules/.pnpm/rollup-plugin-swc3@0.12.1_@swc+core@1.16.2_@swc+helpers@0.5.23__rollup@4.63.4/node_modules/rollup-plugin-swc3",
+        "path": "/bench/node_modules/.pnpm/rollup-plugin-swc3@0.12.1_@swc+core@1.16.2_@swc+helpers@0.5.23__rollup@4.63.4/node_modules/rollup-plugin-swc3"
+      },
+      "rslog": {
+        "from": "rslog",
+        "version": "link:../../node_modules/.pnpm/rslog@2.3.0/node_modules/rslog",
+        "path": "/bench/node_modules/.pnpm/rslog@2.3.0/node_modules/rslog"
+      },
+      "swc-loader": {
+        "from": "swc-loader",
+        "version": "link:../../node_modules/.pnpm/swc-loader@0.2.7_@swc+core@1.16.2_@swc+helpers@0.5.23__webpack@5.111.1/node_modules/swc-loader",
+        "path": "/bench/node_modules/.pnpm/swc-loader@0.2.7_@swc+core@1.16.2_@swc+helpers@0.5.23__webpack@5.111.1/node_modules/swc-loader"
+      },
+      "terser-webpack-plugin": {
+        "from": "terser-webpack-plugin",
+        "version": "link:../../node_modules/.pnpm/terser-webpack-plugin@5.6.1_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_postcs_46a59b687f3458378a8fe60762f41a01/node_modules/terser-webpack-plugin",
+        "path": "/bench/node_modules/.pnpm/terser-webpack-plugin@5.6.1_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_postcs_46a59b687f3458378a8fe60762f41a01/node_modules/terser-webpack-plugin"
+      },
+      "typescript": {
+        "from": "typescript",
+        "version": "link:../../node_modules/.pnpm/typescript@7.0.2/node_modules/typescript",
+        "path": "/bench/node_modules/.pnpm/typescript@7.0.2/node_modules/typescript"
+      },
+      "vite": {
+        "from": "vite",
+        "version": "link:../../node_modules/.pnpm/vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2/node_modules/vite",
+        "path": "/bench/node_modules/.pnpm/vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2/node_modules/vite"
+      },
+      "vite7": {
+        "from": "vite7",
+        "version": "link:../../node_modules/.pnpm/vite@7.3.7_@types+node@24.13.6_lightningcss@1.33.0_terser@5.51.2/node_modules/vite",
+        "path": "/bench/node_modules/.pnpm/vite@7.3.7_@types+node@24.13.6_lightningcss@1.33.0_terser@5.51.2/node_modules/vite"
+      },
+      "vite7-plugin-react": {
+        "from": "vite7-plugin-react",
+        "version": "link:../../node_modules/.pnpm/@vitejs+plugin-react@5.2.0_supports-color@8.1.1_vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2_/node_modules/@vitejs/plugin-react",
+        "path": "/bench/node_modules/.pnpm/@vitejs+plugin-react@5.2.0_supports-color@8.1.1_vite@8.3.0_@types+node@24.13.6_esbuild@0.28.2_terser@5.51.2_/node_modules/@vitejs/plugin-react"
+      },
+      "webpack": {
+        "from": "webpack",
+        "version": "link:../../node_modules/.pnpm/webpack@5.111.1_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_postcss@8.5.28__cs_2b009bd7def8968cc24e86c55532b3fb/node_modules/webpack",
+        "path": "/bench/node_modules/.pnpm/webpack@5.111.1_@swc+core@1.16.2_@swc+helpers@0.5.23__cssnano@5.1.15_postcss@8.5.28__cs_2b009bd7def8968cc24e86c55532b3fb/node_modules/webpack"
+      },
+      "webpack-cli": {
+        "from": "webpack-cli",
+        "version": "link:../../node_modules/.pnpm/webpack-cli@7.2.3_js-yaml@4.1.1_json5@2.2.3_webpack-dev-server@5.2.6_webpack@5.111.1/node_modules/webpack-cli",
+        "path": "/bench/node_modules/.pnpm/webpack-cli@7.2.3_js-yaml@4.1.1_json5@2.2.3_webpack-dev-server@5.2.6_webpack@5.111.1/node_modules/webpack-cli"
+      },
+      "webpack-dev-server": {
+        "from": "webpack-dev-server",
+        "version": "link:../../node_modules/.pnpm/webpack-dev-server@5.2.6_debug@4.4.3_supports-color@8.1.1__supports-color@8.1.1_webpack-cli@7.2.3_webpack@5.111.1/node_modules/webpack-dev-server",
+        "path": "/bench/node_modules/.pnpm/webpack-dev-server@5.2.6_debug@4.4.3_supports-color@8.1.1__supports-color@8.1.1_webpack-cli@7.2.3_webpack@5.111.1/node_modules/webpack-dev-server"
+      }
+    }
+  }
+]

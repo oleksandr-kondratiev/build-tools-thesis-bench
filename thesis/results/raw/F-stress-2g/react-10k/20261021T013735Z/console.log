@@ -1,0 +1,106 @@
+Update available! 12.5.1 → 12.14.0.
+Changelog: https://pnpm.io/v/12.14.0
+To update, run: curl -fsSL https://get.pnpm.io/install.sh | sh -
+Scope: all 19 workspace projects
+✓ Lockfile passes supply-chain policies (verified 1d ago)
+Progress: resolved 0, reused 454, downloaded 0, added 0
+Progress: resolved 0, reused 857, downloaded 0, added 0
+Progress: resolved 0, reused 915, downloaded 2, added 0
+Progress: resolved 0, reused 927, downloaded 2, added 0
+Progress: resolved 0, reused 963, downloaded 5, added 0
+[WARN] 4 deprecated subdependencies found: basic-ftp@5.1.0, intersection-observer@0.12.2, stable@0.1.8, uuid@8.3.2
+Already up to date
+Progress: resolved 0, reused 963, downloaded 5, added 0, done
+.../node_modules/puppeteer postinstall$ node install.mjs
+.../node_modules/puppeteer postinstall: **INFO** Skipping downloading browsers as instructed.
+.../node_modules/puppeteer postinstall: Done
+[WARN] Issues with peer dependencies found. Run "pnpm peers check" to list them.
+Done in 8.6s using pnpm v12.5.1
+$ node ./scripts/benchmark.ts
+info    Setup bin file for webpack 5.111.1 (webpack-cli/bin/cli.js)
+info    Setup bin file for webpack 5.111.1 (Babel) (webpack-cli/bin/cli.js)
+info    Setup bin file for Vite 8.3.0 (vite/bin/vite.js)
+info    Setup bin file for Vite 7.3.7 (vite/bin/vite.js)
+info    Memory: process-tree RSS; raw results: /results
+info    Vite 7.3.7: timing pass
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (cold, timing): 7880ms
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (warm, timing): 5719ms
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built in 11200ms
+success Vite 7.3.7 output size: 5147.2kB
+success Vite 7.3.7 gzipped size: 1402.4kB
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built with cache in 11286ms
+info    webpack 5.111.1 (Babel): timing pass
+start   Running start command: start:webpack-babel
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-10k/public' directory
+
+stderr: 
+<--- Last few GCs --->
+
+[413:0x37a61000]    30056 ms: Scavenge (interleaved) 978.5 (1025.8) -> 974.1 (1033.2) MB, pooled: 0 MB, 1.46 / 0.00 ms  (average mu = 0.240, current mu = 0.149) allocation failure; 
+[413:0x37a61000]    30436 ms: Mark-Compact 984.0 (1035.3) -> 974.2 (1019.3) MB, pooled: 17 MB, 365.46 / 0.00 ms  (average mu = 0.153, current mu = 0.055) allocation failure; scavenge might not succeed
+
+
+stderr: FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+
+stderr: ----- Native stack trace -----
+
+
+stderr:  1: 0x942e80  [webpack]
+
+stderr:  2: 0x75f71e node::OOMErrorHandler(char const*, v8::OOMDetails const&) [webpack]
+
+stderr:  3: 0xc98c20  [webpack]
+
+stderr:  4: 0xc98d0f  [webpack]
+
+stderr:  5: 0xf3c5e5  [webpack]
+
+stderr:  6: 0xf3c612  [webpack]
+
+stderr:  7: 0xf3c90a  [webpack]
+
+stderr:  8: 0xf4d60a  [webpack]
+
+stderr:  9: 0xf519b0  [webpack]
+
+stderr: 10: 0x19ef441  [webpack]
+
+warn    webpack 5.111.1 (Babel) timing dev attempt 1 failed: Error: Server exited during startup: {"code":1,"signal":null}
+file:///bench/scripts/benchmark.ts:274
+          throw new ErrorType(
+                ^
+
+Error: Server exited during startup: {"code":1,"signal":null}
+    at file:///bench/scripts/benchmark.ts:274:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async runPhase (file:///bench/scripts/benchmark-utils.ts:42:12)
+    at async commandPhase (file:///bench/scripts/benchmark.ts:591:12)
+    at async BuildTool.startServer (file:///bench/scripts/benchmark.ts:251:20)
+    at async runDevSession (file:///bench/scripts/benchmark.ts:746:29)
+    at async runDevBenchmark (file:///bench/scripts/benchmark.ts:729:5)
+    at async attempts.push (file:///bench/scripts/benchmark.ts:1083:15)
+    at async runWithRetry (file:///bench/scripts/benchmark-utils.ts:60:14)
+    at async benchAllCases (file:///bench/scripts/benchmark.ts:1077:24)
+
+Node.js v24.22.0
+[ELIFECYCLE] Command failed with exit code 1.

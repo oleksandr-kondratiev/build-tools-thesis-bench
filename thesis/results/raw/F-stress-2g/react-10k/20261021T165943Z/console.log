@@ -1,0 +1,79 @@
+Scope: all 19 workspace projects
+✓ Lockfile passes supply-chain policies (verified 57m ago)
+Progress: resolved 0, reused 635, downloaded 2, added 0
+Progress: resolved 0, reused 870, downloaded 2, added 0
+Progress: resolved 0, reused 925, downloaded 2, added 0
+Progress: resolved 0, reused 936, downloaded 3, added 0
+Progress: resolved 0, reused 957, downloaded 5, added 0
+[WARN] 4 deprecated subdependencies found: basic-ftp@5.1.0, intersection-observer@0.12.2, stable@0.1.8, uuid@8.3.2
+Already up to date
+Progress: resolved 0, reused 963, downloaded 5, added 0, done
+.../node_modules/puppeteer postinstall$ node install.mjs
+.../node_modules/puppeteer postinstall: **INFO** Skipping downloading browsers as instructed.
+.../node_modules/puppeteer postinstall: Done
+[WARN] Issues with peer dependencies found. Run "pnpm peers check" to list them.
+Done in 9.2s using pnpm v12.5.1
+$ node ./scripts/benchmark.ts
+info    Setup bin file for webpack 5.111.1 (webpack-cli/bin/cli.js)
+info    Memory: process-tree RSS; raw results: /results
+info    webpack 5.111.1: timing pass
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-10k/public' directory
+
+stderr: <i> [webpack-dev-middleware] wait until bundle finished: /
+
+stderr: 
+<--- Last few GCs --->
+
+[272:0x27d74000]    21792 ms: Scavenge (interleaved) 992.1 (1024.2) -> 991.0 (1032.2) MB, pooled: 0 MB, 11.68 / 0.00 ms  (average mu = 0.217, current mu = 0.004) allocation failure; 
+[272:0x27d74000]    22160 ms: Mark-Compact 999.7 (1032.8) -> 994.9 (1035.9) MB, pooled: 1 MB, 353.86 / 0.00 ms  (average mu = 0.179, current mu = 0.137) allocation failure; scavenge might not succeed
+
+
+stderr: FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+
+stderr: ----- Native stack trace -----
+
+
+stderr:  1: 0x942e80  [webpack]
+
+stderr:  2: 0x75f71e node::OOMErrorHandler(char const*, v8::OOMDetails const&) [webpack]
+
+stderr:  3: 0xc9a1e0  [webpack]
+
+stderr:  4: 0xc9a2cf  [webpack]
+
+stderr:  5: 0xf3dba5  [webpack]
+
+stderr:  6: 0xf3dbd2  [webpack]
+
+stderr:  7: 0xf3deca  [webpack]
+
+stderr:  8: 0xf4ebca  [webpack]
+
+stderr:  9: 0xf52f70  [webpack]
+
+stderr: 10: 0x19f0c41  [webpack]
+
+warn    webpack 5.111.1 timing dev attempt 1 failed: Error: net::ERR_CONNECTION_REFUSED at http://localhost:8080
+file:///bench/node_modules/.pnpm/puppeteer-core@24.31.0_supports-color@8.1.1/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/Frame.js:180
+                        ? new Error(`${response.errorText} at ${url}`)
+                          ^
+
+Error: net::ERR_CONNECTION_REFUSED at http://localhost:8080
+    at navigate (file:///bench/node_modules/.pnpm/puppeteer-core@24.31.0_supports-color@8.1.1/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/Frame.js:180:27)
+    at async Deferred.race (file:///bench/node_modules/.pnpm/puppeteer-core@24.31.0_supports-color@8.1.1/node_modules/puppeteer-core/lib/esm/puppeteer/util/Deferred.js:33:20)
+    at async CdpFrame.goto (file:///bench/node_modules/.pnpm/puppeteer-core@24.31.0_supports-color@8.1.1/node_modules/puppeteer-core/lib/esm/puppeteer/cdp/Frame.js:146:25)
+    at async CdpPage.goto (file:///bench/node_modules/.pnpm/puppeteer-core@24.31.0_supports-color@8.1.1/node_modules/puppeteer-core/lib/esm/puppeteer/api/Page.js:568:20)
+    at async file:///bench/scripts/benchmark.ts:815:9
+    at async runPhase (file:///bench/scripts/benchmark-utils.ts:42:12)
+    at async commandPhase (file:///bench/scripts/benchmark.ts:591:12)
+    at async runDevSession (file:///bench/scripts/benchmark.ts:811:25)
+    at async runDevBenchmark (file:///bench/scripts/benchmark.ts:729:5)
+    at async attempts.push (file:///bench/scripts/benchmark.ts:1083:15)
+
+Node.js v24.22.1
+[ELIFECYCLE] Command failed with exit code 1.

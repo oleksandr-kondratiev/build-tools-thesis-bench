@@ -1,0 +1,122 @@
+[
+  {
+    "Vite 8.3.0": {
+      "devColdStart": 3902,
+      "devColdReady": 166,
+      "devColdPage": 3736,
+      "rootHmr": 12,
+      "leafHmr": 7,
+      "hmr": 9.5,
+      "devHotStart": 3268,
+      "devHotReady": 154,
+      "devHotPage": 3114,
+      "prodBuild": 731,
+      "prodHotBuild": 706
+    }
+  },
+  {
+    "Vite 8.3.0": {
+      "devColdStart": 4052,
+      "devColdReady": 162,
+      "devColdPage": 3890,
+      "rootHmr": 14,
+      "leafHmr": 6,
+      "hmr": 10,
+      "devHotStart": 2398,
+      "devHotReady": 153,
+      "devHotPage": 2245,
+      "prodBuild": 705,
+      "prodHotBuild": 707,
+      "devColdSteady": 791.97265625,
+      "devColdPeak": 791.97265625,
+      "devHotSteady": 312.625,
+      "devHotPeak": 312.625,
+      "buildColdPeak": 870.73828125,
+      "buildHotPeak": 862.1484375
+    }
+  },
+  {
+    "Vite 8.3.0": {
+      "devColdStart": 3999,
+      "devColdReady": 161,
+      "devColdPage": 3838,
+      "rootHmr": 13,
+      "leafHmr": 7,
+      "hmr": 10,
+      "devHotStart": 2341,
+      "devHotReady": 151,
+      "devHotPage": 2190,
+      "prodBuild": 704,
+      "prodHotBuild": 697,
+      "devColdSteady": 754.2578125,
+      "devColdPeak": 812.51953125,
+      "devHotSteady": 306.1640625,
+      "devHotPeak": 306.1640625,
+      "buildColdPeak": 856.02734375,
+      "buildHotPeak": 848.36328125
+    }
+  },
+  {
+    "Vite 8.3.0": {
+      "devColdStart": 3934,
+      "devColdReady": 159,
+      "devColdPage": 3775,
+      "rootHmr": 13,
+      "leafHmr": 7,
+      "hmr": 10,
+      "devHotStart": 2373,
+      "devHotReady": 154,
+      "devHotPage": 2219,
+      "prodBuild": 704,
+      "prodHotBuild": 704,
+      "devColdSteady": 766.39453125,
+      "devColdPeak": 786.94921875,
+      "devHotSteady": 316.4765625,
+      "devHotPeak": 316.4765625,
+      "buildColdPeak": 861.25390625,
+      "buildHotPeak": 847.16015625
+    }
+  },
+  {
+    "Vite 8.3.0": {
+      "devColdStart": 3966,
+      "devColdReady": 162,
+      "devColdPage": 3804,
+      "rootHmr": 13,
+      "leafHmr": 7,
+      "hmr": 10,
+      "devHotStart": 2318,
+      "devHotReady": 150,
+      "devHotPage": 2168,
+      "prodBuild": 705,
+      "prodHotBuild": 696,
+      "devColdSteady": 764.1484375,
+      "devColdPeak": 783.0546875,
+      "devHotSteady": 299.15625,
+      "devHotPeak": 299.15625,
+      "buildColdPeak": 852.60546875,
+      "buildHotPeak": 846.69921875
+    }
+  },
+  {
+    "Vite 8.3.0": {
+      "devColdStart": 4041,
+      "devColdReady": 161,
+      "devColdPage": 3880,
+      "rootHmr": 13,
+      "leafHmr": 6,
+      "hmr": 9.5,
+      "devHotStart": 2341,
+      "devHotReady": 152,
+      "devHotPage": 2189,
+      "prodBuild": 704,
+      "prodHotBuild": 707,
+      "devColdSteady": 780.390625,
+      "devColdPeak": 781.9375,
+      "devHotSteady": 320.421875,
+      "devHotPeak": 320.421875,
+      "buildColdPeak": 842.81640625,
+      "buildHotPeak": 865.56640625
+    }
+  }
+]

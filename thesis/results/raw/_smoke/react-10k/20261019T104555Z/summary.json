@@ -1,0 +1,524 @@
+{
+  "case": "react-10k",
+  "memoryKind": "RSS",
+  "sampleIntervalMs": 50,
+  "steadyIdleMs": 5000,
+  "steadyWindowMs": 2000,
+  "hmrUpdates": 10,
+  "hubHmrUpdates": 0,
+  "allRoutes": false,
+  "gitSha": "99ef321f983e4896b96b93bb85ab271f6a434c5b",
+  "timeouts": {
+    "startup": 60000,
+    "page": 60000,
+    "hmr": 60000,
+    "build": 180000,
+    "shutdown": 30000
+  },
+  "maxAttempts": 2,
+  "measurements": [
+    "timing",
+    "memory"
+  ],
+  "warmupTimes": 0,
+  "runTimes": 1,
+  "node": "v24.22.0",
+  "platform": "linux",
+  "release": "7.0.0-1017-azure",
+  "arch": "x64",
+  "cpus": 8,
+  "cpuModel": "AMD EPYC 9V74 80-Core Processor",
+  "totalMemory": 33645174784,
+  "attempts": [
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    }
+  ],
+  "tools": {
+    "webpack 5.111.1": {
+      "outputSize": "5638.3",
+      "gzippedSize": "1361.1",
+      "brotliSize": "1044.0",
+      "devColdStart": {
+        "median": 16588,
+        "min": 16588,
+        "max": 16588
+      },
+      "devColdReady": {
+        "median": 13516,
+        "min": 13516,
+        "max": 13516
+      },
+      "devColdPage": {
+        "median": 3072,
+        "min": 3072,
+        "max": 3072
+      },
+      "rootHmr": {
+        "median": 1782,
+        "min": 1782,
+        "max": 1782
+      },
+      "leafHmr": {
+        "median": 1654,
+        "min": 1654,
+        "max": 1654
+      },
+      "hmr": {
+        "median": 1718,
+        "min": 1718,
+        "max": 1718
+      },
+      "devHotStart": {
+        "median": 7608,
+        "min": 7608,
+        "max": 7608
+      },
+      "devHotReady": {
+        "median": 6384,
+        "min": 6384,
+        "max": 6384
+      },
+      "devHotPage": {
+        "median": 1224,
+        "min": 1224,
+        "max": 1224
+      },
+      "prodBuild": {
+        "median": 16638,
+        "min": 16638,
+        "max": 16638
+      },
+      "prodHotBuild": {
+        "median": 5498,
+        "min": 5498,
+        "max": 5498
+      },
+      "devColdSteady": {
+        "median": 2623.1640625,
+        "min": 2623.1640625,
+        "max": 2623.1640625
+      },
+      "devColdPeak": {
+        "median": 2732.2890625,
+        "min": 2732.2890625,
+        "max": 2732.2890625
+      },
+      "devHotSteady": {
+        "median": 2515.703125,
+        "min": 2515.703125,
+        "max": 2515.703125
+      },
+      "devHotPeak": {
+        "median": 2579.70703125,
+        "min": 2579.70703125,
+        "max": 2579.70703125
+      },
+      "buildColdPeak": {
+        "median": 2226.50390625,
+        "min": 2226.50390625,
+        "max": 2226.50390625
+      },
+      "buildHotPeak": {
+        "median": 1536.82421875,
+        "min": 1536.82421875,
+        "max": 1536.82421875
+      }
+    },
+    "webpack 5.111.1 (Babel)": {
+      "outputSize": "5658.9",
+      "gzippedSize": "1343.4",
+      "brotliSize": "1040.6",
+      "devColdStart": {
+        "median": 25533,
+        "min": 25533,
+        "max": 25533
+      },
+      "devColdReady": {
+        "median": 24302,
+        "min": 24302,
+        "max": 24302
+      },
+      "devColdPage": {
+        "median": 1231,
+        "min": 1231,
+        "max": 1231
+      },
+      "rootHmr": {
+        "median": 1868,
+        "min": 1868,
+        "max": 1868
+      },
+      "leafHmr": {
+        "median": 1937,
+        "min": 1937,
+        "max": 1937
+      },
+      "hmr": {
+        "median": 1902.5,
+        "min": 1902.5,
+        "max": 1902.5
+      },
+      "devHotStart": {
+        "median": 7899,
+        "min": 7899,
+        "max": 7899
+      },
+      "devHotReady": {
+        "median": 6663,
+        "min": 6663,
+        "max": 6663
+      },
+      "devHotPage": {
+        "median": 1236,
+        "min": 1236,
+        "max": 1236
+      },
+      "prodBuild": {
+        "median": 48953,
+        "min": 48953,
+        "max": 48953
+      },
+      "prodHotBuild": {
+        "median": 5679,
+        "min": 5679,
+        "max": 5679
+      },
+      "devColdSteady": {
+        "median": 2619.02734375,
+        "min": 2619.02734375,
+        "max": 2619.02734375
+      },
+      "devColdPeak": {
+        "median": 2775.41015625,
+        "min": 2775.41015625,
+        "max": 2775.41015625
+      },
+      "devHotSteady": {
+        "median": 2507.421875,
+        "min": 2507.421875,
+        "max": 2507.421875
+      },
+      "devHotPeak": {
+        "median": 2595.12109375,
+        "min": 2595.12109375,
+        "max": 2595.12109375
+      },
+      "buildColdPeak": {
+        "median": 2504.76953125,
+        "min": 2504.76953125,
+        "max": 2504.76953125
+      },
+      "buildHotPeak": {
+        "median": 1516.05859375,
+        "min": 1516.05859375,
+        "max": 1516.05859375
+      }
+    },
+    "Vite 8.3.0": {
+      "outputSize": "5232.3",
+      "gzippedSize": "1407.1",
+      "brotliSize": "1000.2",
+      "devColdStart": {
+        "median": 6308,
+        "min": 6308,
+        "max": 6308
+      },
+      "devColdReady": {
+        "median": 166,
+        "min": 166,
+        "max": 166
+      },
+      "devColdPage": {
+        "median": 6142,
+        "min": 6142,
+        "max": 6142
+      },
+      "rootHmr": {
+        "median": 16,
+        "min": 16,
+        "max": 16
+      },
+      "leafHmr": {
+        "median": 6,
+        "min": 6,
+        "max": 6
+      },
+      "hmr": {
+        "median": 11,
+        "min": 11,
+        "max": 11
+      },
+      "devHotStart": {
+        "median": 5215,
+        "min": 5215,
+        "max": 5215
+      },
+      "devHotReady": {
+        "median": 156,
+        "min": 156,
+        "max": 156
+      },
+      "devHotPage": {
+        "median": 5059,
+        "min": 5059,
+        "max": 5059
+      },
+      "prodBuild": {
+        "median": 1202,
+        "min": 1202,
+        "max": 1202
+      },
+      "prodHotBuild": {
+        "median": 1186,
+        "min": 1186,
+        "max": 1186
+      },
+      "devColdSteady": {
+        "median": 1296.6640625,
+        "min": 1296.6640625,
+        "max": 1296.6640625
+      },
+      "devColdPeak": {
+        "median": 1317.07421875,
+        "min": 1317.07421875,
+        "max": 1317.07421875
+      },
+      "devHotSteady": {
+        "median": 453.82421875,
+        "min": 453.82421875,
+        "max": 453.82421875
+      },
+      "devHotPeak": {
+        "median": 453.82421875,
+        "min": 453.82421875,
+        "max": 453.82421875
+      },
+      "buildColdPeak": {
+        "median": 1376.4375,
+        "min": 1376.4375,
+        "max": 1376.4375
+      },
+      "buildHotPeak": {
+        "median": 1394.05078125,
+        "min": 1394.05078125,
+        "max": 1394.05078125
+      }
+    },
+    "Vite 7.3.7": {
+      "outputSize": "5147.2",
+      "gzippedSize": "1402.4",
+      "brotliSize": "1001.5",
+      "devColdStart": {
+        "median": 8122,
+        "min": 8122,
+        "max": 8122
+      },
+      "devColdReady": {
+        "median": 137,
+        "min": 137,
+        "max": 137
+      },
+      "devColdPage": {
+        "median": 7985,
+        "min": 7985,
+        "max": 7985
+      },
+      "rootHmr": {
+        "median": 19,
+        "min": 19,
+        "max": 19
+      },
+      "leafHmr": {
+        "median": 7,
+        "min": 7,
+        "max": 7
+      },
+      "hmr": {
+        "median": 13,
+        "min": 13,
+        "max": 13
+      },
+      "devHotStart": {
+        "median": 5662,
+        "min": 5662,
+        "max": 5662
+      },
+      "devHotReady": {
+        "median": 126,
+        "min": 126,
+        "max": 126
+      },
+      "devHotPage": {
+        "median": 5536,
+        "min": 5536,
+        "max": 5536
+      },
+      "prodBuild": {
+        "median": 10728,
+        "min": 10728,
+        "max": 10728
+      },
+      "prodHotBuild": {
+        "median": 10833,
+        "min": 10833,
+        "max": 10833
+      },
+      "devColdSteady": {
+        "median": 1029.96875,
+        "min": 1029.96875,
+        "max": 1029.96875
+      },
+      "devColdPeak": {
+        "median": 1029.96875,
+        "min": 1029.96875,
+        "max": 1029.96875
+      },
+      "devHotSteady": {
+        "median": 447.10546875,
+        "min": 447.10546875,
+        "max": 447.10546875
+      },
+      "devHotPeak": {
+        "median": 457.5859375,
+        "min": 457.5859375,
+        "max": 457.5859375
+      },
+      "buildColdPeak": {
+        "median": 1612.3125,
+        "min": 1612.3125,
+        "max": 1612.3125
+      },
+      "buildHotPeak": {
+        "median": 1430.7578125,
+        "min": 1430.7578125,
+        "max": 1430.7578125
+      }
+    }
+  }
+}

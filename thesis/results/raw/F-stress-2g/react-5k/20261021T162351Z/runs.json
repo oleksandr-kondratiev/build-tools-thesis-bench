@@ -1,0 +1,122 @@
+[
+  {
+    "webpack 5.111.1 (Babel)": {
+      "devColdStart": 16445,
+      "devColdReady": 14283,
+      "devColdPage": 2162,
+      "rootHmr": 1024,
+      "leafHmr": 932,
+      "hmr": 978,
+      "devHotStart": 4770,
+      "devHotReady": 3723,
+      "devHotPage": 1047,
+      "prodBuild": 23054,
+      "prodHotBuild": 3313
+    }
+  },
+  {
+    "webpack 5.111.1 (Babel)": {
+      "devColdStart": 15255,
+      "devColdReady": 14244,
+      "devColdPage": 1011,
+      "rootHmr": 1101,
+      "leafHmr": 1066,
+      "hmr": 1083.5,
+      "devHotStart": 5556,
+      "devHotReady": 4553,
+      "devHotPage": 1003,
+      "prodBuild": 23757,
+      "prodHotBuild": 3279,
+      "devColdSteady": 1623.76171875,
+      "devColdPeak": 1641.48046875,
+      "devHotSteady": 1076.5234375,
+      "devHotPeak": 1483.046875,
+      "buildColdPeak": 1466.53515625,
+      "buildHotPeak": 784.390625
+    }
+  },
+  {
+    "webpack 5.111.1 (Babel)": {
+      "devColdStart": 15328,
+      "devColdReady": 14301,
+      "devColdPage": 1027,
+      "rootHmr": 1048,
+      "leafHmr": 1012,
+      "hmr": 1030,
+      "devHotStart": 5544,
+      "devHotReady": 4477,
+      "devHotPage": 1067,
+      "prodBuild": 23458,
+      "prodHotBuild": 3329,
+      "devColdSteady": 1585.96484375,
+      "devColdPeak": 1608.37890625,
+      "devHotSteady": 1522.71875,
+      "devHotPeak": 1565.56640625,
+      "buildColdPeak": 1384.125,
+      "buildHotPeak": 754.02734375
+    }
+  },
+  {
+    "webpack 5.111.1 (Babel)": {
+      "devColdStart": 15177,
+      "devColdReady": 14142,
+      "devColdPage": 1035,
+      "rootHmr": 1023,
+      "leafHmr": 1057,
+      "hmr": 1040,
+      "devHotStart": 5466,
+      "devHotReady": 4457,
+      "devHotPage": 1009,
+      "prodBuild": 23882,
+      "prodHotBuild": 3327,
+      "devColdSteady": 1591.34375,
+      "devColdPeak": 1608.53515625,
+      "devHotSteady": 1417.0234375,
+      "devHotPeak": 1451.46875,
+      "buildColdPeak": 1431.3359375,
+      "buildHotPeak": 754.0625
+    }
+  },
+  {
+    "webpack 5.111.1 (Babel)": {
+      "devColdStart": 15358,
+      "devColdReady": 14305,
+      "devColdPage": 1053,
+      "rootHmr": 1061,
+      "leafHmr": 1031,
+      "hmr": 1046,
+      "devHotStart": 5606,
+      "devHotReady": 4565,
+      "devHotPage": 1041,
+      "prodBuild": 23691,
+      "prodHotBuild": 3295,
+      "devColdSteady": 1635.3125,
+      "devColdPeak": 1656.2109375,
+      "devHotSteady": 1395.8515625,
+      "devHotPeak": 1607.62109375,
+      "buildColdPeak": 1468.765625,
+      "buildHotPeak": 795.85546875
+    }
+  },
+  {
+    "webpack 5.111.1 (Babel)": {
+      "devColdStart": 15248,
+      "devColdReady": 14061,
+      "devColdPage": 1187,
+      "rootHmr": 1108,
+      "leafHmr": 1048,
+      "hmr": 1078,
+      "devHotStart": 5628,
+      "devHotReady": 4593,
+      "devHotPage": 1035,
+      "prodBuild": 23848,
+      "prodHotBuild": 3278,
+      "devColdSteady": 1581.1953125,
+      "devColdPeak": 1589.90625,
+      "devHotSteady": 1417.140625,
+      "devHotPeak": 1457.5859375,
+      "buildColdPeak": 1467.87890625,
+      "buildHotPeak": 748.09765625
+    }
+  }
+]

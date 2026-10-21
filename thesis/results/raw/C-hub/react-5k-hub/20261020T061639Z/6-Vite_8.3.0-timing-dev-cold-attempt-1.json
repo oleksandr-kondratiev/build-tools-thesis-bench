@@ -1,0 +1,1 @@
+{"tool":"Vite 8.3.0","phase":"dev-cold","iteration":6,"warmup":false,"measurement":"timing","succeeded":true,"startupTime":4176,"readyTime":156,"pageTime":4020,"hmrTimes":[12,6,13,7,13,6,14,57,13,7],"hubHmrTimes":[1276,674,1246,1256,1241],"attempt":1,"lastPhase":"HMR (benchmark-restored-2)","phaseElapsedMs":2439,"elapsedMs":21726,"exit":{"code":null,"signal":"SIGTERM"}}

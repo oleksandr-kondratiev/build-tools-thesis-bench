@@ -1,0 +1,15 @@
+{"case":"react-1k","modules_total":2508,"modules_src":1503,"modules_node_modules":1005,"edges_reasons":19489,"webpack":"5.111.1"}
+{"case":"react-5k","modules_total":9108,"modules_src":5003,"modules_node_modules":4105,"edges_reasons":60998,"webpack":"5.111.1"}
+{"case":"react-10k","modules_total":19107,"modules_src":10002,"modules_node_modules":9105,"edges_reasons":125981,"webpack":"5.111.1"}
+{"case":"react-10k-r1","modules_total":2008,"modules_src":1003,"modules_node_modules":1005,"edges_reasons":13465,"webpack":"5.111.1"}
+{"case":"react-10k-r2","modules_total":3908,"modules_src":2003,"modules_node_modules":1905,"edges_reasons":25968,"webpack":"5.111.1"}
+{"case":"react-10k-r3","modules_total":5808,"modules_src":3003,"modules_node_modules":2805,"edges_reasons":38471,"webpack":"5.111.1"}
+{"case":"react-10k-r4","modules_total":7708,"modules_src":4003,"modules_node_modules":3705,"edges_reasons":50974,"webpack":"5.111.1"}
+{"case":"react-10k-r5","modules_total":9608,"modules_src":5003,"modules_node_modules":4605,"edges_reasons":63477,"webpack":"5.111.1"}
+{"case":"react-10k-r6","modules_total":11508,"modules_src":6003,"modules_node_modules":5505,"edges_reasons":75980,"webpack":"5.111.1"}
+{"case":"react-10k-r7","modules_total":13408,"modules_src":7003,"modules_node_modules":6405,"edges_reasons":88483,"webpack":"5.111.1"}
+{"case":"react-10k-r8","modules_total":15308,"modules_src":8003,"modules_node_modules":7305,"edges_reasons":100986,"webpack":"5.111.1"}
+{"case":"react-10k-r9","modules_total":19107,"modules_src":10002,"modules_node_modules":9105,"edges_reasons":125981,"webpack":"5.111.1"}
+{"case":"react-1k-hub","modules_total":2509,"modules_src":1504,"modules_node_modules":1005,"edges_reasons":21491,"webpack":"5.111.1"}
+{"case":"react-5k-hub","modules_total":9109,"modules_src":5004,"modules_node_modules":4105,"edges_reasons":62250,"webpack":"5.111.1"}
+{"case":"react-10k-hub","modules_total":19108,"modules_src":10003,"modules_node_modules":9105,"edges_reasons":127983,"webpack":"5.111.1"}

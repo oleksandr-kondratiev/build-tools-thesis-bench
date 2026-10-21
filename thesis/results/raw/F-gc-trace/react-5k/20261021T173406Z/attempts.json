@@ -1,0 +1,107 @@
+[
+  {
+    "tool": "webpack 5.111.1 (Babel)",
+    "measurement": "timing",
+    "unit": "dev",
+    "iteration": 0,
+    "attempt": 1,
+    "succeeded": true
+  },
+  {
+    "tool": "webpack 5.111.1 (Babel)",
+    "measurement": "timing",
+    "unit": "build",
+    "iteration": 0,
+    "attempt": 1,
+    "succeeded": true
+  },
+  {
+    "tool": "webpack 5.111.1 (Babel)",
+    "measurement": "memory",
+    "unit": "dev",
+    "iteration": 0,
+    "attempt": 1,
+    "succeeded": true
+  },
+  {
+    "tool": "webpack 5.111.1 (Babel)",
+    "measurement": "memory",
+    "unit": "build",
+    "iteration": 0,
+    "attempt": 1,
+    "succeeded": true
+  },
+  {
+    "tool": "webpack 5.111.1 (Babel)",
+    "measurement": "timing",
+    "unit": "dev",
+    "iteration": 1,
+    "attempt": 1,
+    "succeeded": true
+  },
+  {
+    "tool": "webpack 5.111.1 (Babel)",
+    "measurement": "timing",
+    "unit": "build",
+    "iteration": 1,
+    "attempt": 1,
+    "succeeded": true
+  },
+  {
+    "tool": "webpack 5.111.1 (Babel)",
+    "measurement": "memory",
+    "unit": "dev",
+    "iteration": 1,
+    "attempt": 1,
+    "succeeded": true
+  },
+  {
+    "tool": "webpack 5.111.1 (Babel)",
+    "measurement": "memory",
+    "unit": "build",
+    "iteration": 1,
+    "attempt": 1,
+    "succeeded": true
+  },
+  {
+    "tool": "webpack 5.111.1 (Babel)",
+    "measurement": "timing",
+    "unit": "dev",
+    "iteration": 2,
+    "attempt": 1,
+    "succeeded": true
+  },
+  {
+    "tool": "webpack 5.111.1 (Babel)",
+    "measurement": "timing",
+    "unit": "build",
+    "iteration": 2,
+    "attempt": 1,
+    "succeeded": true
+  },
+  {
+    "tool": "webpack 5.111.1 (Babel)",
+    "measurement": "memory",
+    "unit": "dev",
+    "iteration": 2,
+    "attempt": 1,
+    "succeeded": false,
+    "error": "Error: Dev server exited: {\"code\":1,\"signal\":null}"
+  },
+  {
+    "tool": "webpack 5.111.1 (Babel)",
+    "measurement": "memory",
+    "unit": "dev",
+    "iteration": 2,
+    "attempt": 2,
+    "succeeded": true
+  },
+  {
+    "tool": "webpack 5.111.1 (Babel)",
+    "measurement": "memory",
+    "unit": "build",
+    "iteration": 2,
+    "attempt": 1,
+    "succeeded": true
+  }
+]

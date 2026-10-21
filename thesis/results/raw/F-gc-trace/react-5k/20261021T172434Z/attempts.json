@@ -1,0 +1,98 @@
+[
+  {
+    "tool": "webpack 5.111.1",
+    "measurement": "timing",
+    "unit": "dev",
+    "iteration": 0,
+    "attempt": 1,
+    "succeeded": true
+  },
+  {
+    "tool": "webpack 5.111.1",
+    "measurement": "timing",
+    "unit": "build",
+    "iteration": 0,
+    "attempt": 1,
+    "succeeded": true
+  },
+  {
+    "tool": "webpack 5.111.1",
+    "measurement": "memory",
+    "unit": "dev",
+    "iteration": 0,
+    "attempt": 1,
+    "succeeded": true
+  },
+  {
+    "tool": "webpack 5.111.1",
+    "measurement": "memory",
+    "unit": "build",
+    "iteration": 0,
+    "attempt": 1,
+    "succeeded": true
+  },
+  {
+    "tool": "webpack 5.111.1",
+    "measurement": "timing",
+    "unit": "dev",
+    "iteration": 1,
+    "attempt": 1,
+    "succeeded": true
+  },
+  {
+    "tool": "webpack 5.111.1",
+    "measurement": "timing",
+    "unit": "build",
+    "iteration": 1,
+    "attempt": 1,
+    "succeeded": true
+  },
+  {
+    "tool": "webpack 5.111.1",
+    "measurement": "memory",
+    "unit": "dev",
+    "iteration": 1,
+    "attempt": 1,
+    "succeeded": true
+  },
+  {
+    "tool": "webpack 5.111.1",
+    "measurement": "memory",
+    "unit": "build",
+    "iteration": 1,
+    "attempt": 1,
+    "succeeded": true
+  },
+  {
+    "tool": "webpack 5.111.1",
+    "measurement": "timing",
+    "unit": "dev",
+    "iteration": 2,
+    "attempt": 1,
+    "succeeded": true
+  },
+  {
+    "tool": "webpack 5.111.1",
+    "measurement": "timing",
+    "unit": "build",
+    "iteration": 2,
+    "attempt": 1,
+    "succeeded": true
+  },
+  {
+    "tool": "webpack 5.111.1",
+    "measurement": "memory",
+    "unit": "dev",
+    "iteration": 2,
+    "attempt": 1,
+    "succeeded": true
+  },
+  {
+    "tool": "webpack 5.111.1",
+    "measurement": "memory",
+    "unit": "build",
+    "iteration": 2,
+    "attempt": 1,
+    "succeeded": true
+  }
+]

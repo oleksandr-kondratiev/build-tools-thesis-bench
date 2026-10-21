@@ -1,0 +1,2368 @@
+[8:0x323b8000]       34 ms: Scavenge 6.2 (7.1) -> 5.7 (8.1) MB, pooled: 0 MB, 0.51 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[8:0x323b8000]       43 ms: Scavenge 6.6 (8.1) -> 6.2 (10.6) MB, pooled: 0 MB, 0.60 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+Scope: all 19 workspace projects
+✓ Lockfile passes supply-chain policies (verified 1h ago)
+Progress: resolved 0, reused 869, downloaded 2, added 0
+Progress: resolved 0, reused 930, downloaded 2, added 0
+Progress: resolved 0, reused 957, downloaded 5, added 0
+[WARN] 4 deprecated subdependencies found: basic-ftp@5.1.0, intersection-observer@0.12.2, stable@0.1.8, uuid@8.3.2
+Already up to date
+Progress: resolved 0, reused 963, downloaded 5, added 0, done
+.../node_modules/puppeteer postinstall$ node install.mjs
+.../node_modules/puppeteer postinstall: [115:0x1f366000]       29 ms: Scavenge 5.7 (6.6) -> 5.2 (7.6) MB, pooled: 0 MB, 0.45 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+.../node_modules/puppeteer postinstall: [115:0x1f366000]       47 ms: Scavenge 6.4 (8.3) -> 6.2 (10.6) MB, pooled: 0 MB, 0.60 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+.../node_modules/puppeteer postinstall: [115:0x1f366000]       73 ms: Scavenge 9.0 (12.1) -> 8.0 (12.3) MB, pooled: 0 MB, 0.50 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+.../node_modules/puppeteer postinstall: [115:0x1f366000]       86 ms: Scavenge 9.6 (12.6) -> 8.7 (17.6) MB, pooled: 0 MB, 0.74 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+.../node_modules/puppeteer postinstall: **INFO** Skipping downloading browsers as instructed.
+.../node_modules/puppeteer postinstall: Done
+[WARN] Issues with peer dependencies found. Run "pnpm peers check" to list them.
+Done in 6.5s using pnpm v12.5.1
+$ node ./scripts/benchmark.ts
+[133:0x33723000]       71 ms: Scavenge 9.2 (10.2) -> 8.8 (11.2) MB, pooled: 0 MB, 0.49 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[133:0x33723000]       78 ms: Scavenge 9.6 (11.4) -> 9.2 (14.2) MB, pooled: 0 MB, 0.59 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[133:0x33723000]       96 ms: Scavenge 11.6 (14.9) -> 10.4 (15.4) MB, pooled: 0 MB, 0.27 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[133:0x33723000]      107 ms: Scavenge 11.9 (15.4) -> 10.9 (16.2) MB, pooled: 0 MB, 0.34 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[133:0x33723000]      117 ms: Scavenge 12.7 (16.2) -> 11.4 (20.7) MB, pooled: 0 MB, 0.47 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[133:0x33723000]      175 ms: Mark-Compact 17.7 (23.7) -> 14.2 (24.7) MB, pooled: 0 MB, 1.32 / 0.00 ms  (+ 0.1 ms in 7 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 6 ms) (average mu = 0.992, current mu = 0.992) finalize incremental marking via stack guard; GC in old space requested
+[133:0x33723000]      207 ms: Scavenge 19.1 (24.7) -> 16.4 (24.7) MB, pooled: 0 MB, 0.37 / 0.00 ms  (average mu = 0.992, current mu = 0.992) allocation failure; 
+[133:0x33723000]      237 ms: Scavenge 19.6 (25.2) -> 17.6 (34.7) MB, pooled: 0 MB, 1.12 / 0.00 ms  (average mu = 0.992, current mu = 0.992) allocation failure; 
+info    Setup bin file for Vite 8.3.0 (vite/bin/vite.js)
+info    Memory: process-tree RSS; raw results: /results
+info    Vite 8.3.0: timing pass
+start   Running start command: start:vite
+Benchmark Start Time: 1792605725514
+
+[242:0x3261d000]       53 ms: Scavenge 6.4 (7.6) -> 5.9 (8.6) MB, pooled: 0 MB, 0.47 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[242:0x3261d000]       64 ms: Scavenge 6.8 (8.6) -> 6.5 (11.1) MB, pooled: 0 MB, 0.53 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[242:0x3261d000]      101 ms: Scavenge 10.0 (12.5) -> 9.1 (13.0) MB, pooled: 0 MB, 0.43 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[242:0x3261d000]      120 ms: Scavenge 11.2 (14.0) -> 10.5 (19.0) MB, pooled: 0 MB, 0.78 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[242:0x3261d000]      156 ms: Scavenge 14.4 (20.0) -> 13.0 (20.8) MB, pooled: 0 MB, 0.68 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+
+[242:0x3261d000]      168 ms: Mark-Compact 13.4 (20.8) -> 12.2 (22.0) MB, pooled: 0 MB, 1.50 / 0.00 ms  (+ 2.4 ms in 80 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 7 ms) (average mu = 0.977, current mu = 0.977) finalize incremental marking via task; GC in old space requested
+
+
+  VITE v8.3.0  ready in 194 ms
+
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+[242:0x3261d000]      220 ms: Scavenge 19.9 (25.9) -> 15.0 (31.7) MB, pooled: 0 MB, 1.73 / 0.00 ms  (average mu = 0.977, current mu = 0.977) task; 
+
+[242:0x3261d000]      235 ms: Scavenge 22.4 (31.7) -> 15.5 (32.7) MB, pooled: 0 MB, 1.72 / 0.00 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[242:0x3261d000]      262 ms: Scavenge 22.1 (32.7) -> 16.4 (32.7) MB, pooled: 0 MB, 0.83 / 0.00 ms  (average mu = 0.977, current mu = 0.977) task; 
+
+[242:0x3261d000]      280 ms: Mark-Compact 17.9 (33.7) -> 15.1 (33.4) MB, pooled: 0 MB, 1.45 / 0.01 ms  (+ 0.1 ms in 4 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 9 ms) (average mu = 0.981, current mu = 0.986) finalize incremental marking via task; GC in old space requested
+
+[242:0x3261d000]      307 ms: Scavenge 24.2 (33.9) -> 18.5 (33.9) MB, pooled: 0 MB, 1.45 / 0.00 ms  (average mu = 0.981, current mu = 0.986) allocation failure; 
+
+[242:0x3261d000]      322 ms: Scavenge 24.3 (34.1) -> 19.7 (51.9) MB, pooled: 0 MB, 3.20 / 0.00 ms  (average mu = 0.981, current mu = 0.986) allocation failure; 
+
+[242:0x3261d000]      397 ms: Mark-Compact 48.4 (66.1) -> 27.4 (60.9) MB, pooled: 12 MB, 5.88 / 0.01 ms  (+ 3.4 ms in 240 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 53 ms) (average mu = 0.954, current mu = 0.924) finalize incremental marking via task; GC in old space requested
+
+[242:0x3261d000]      462 ms: Scavenge 41.7 (60.9) -> 30.5 (60.9) MB, pooled: 12 MB, 4.67 / 0.00 ms  (average mu = 0.954, current mu = 0.924) task; 
+
+[242:0x3261d000]      501 ms: Scavenge 45.0 (61.9) -> 38.2 (96.1) MB, pooled: 0 MB, 4.05 / 0.00 ms  (average mu = 0.954, current mu = 0.924) allocation failure; 
+
+[242:0x3261d000]      574 ms: Mark-Compact 64.7 (97.4) -> 40.9 (107.1) MB, pooled: 0 MB, 8.43 / 0.28 ms  (+ 4.4 ms in 328 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 59 ms) (average mu = 0.939, current mu = 0.929) finalize incremental marking via stack guard; GC in old space requested
+
+[242:0x3261d000]      633 ms: Scavenge 73.1 (107.1) -> 50.4 (107.1) MB, pooled: 0 MB, 3.96 / 0.00 ms  (average mu = 0.939, current mu = 0.929) allocation failure; 
+
+[242:0x3261d000]      672 ms: Scavenge 73.5 (107.1) -> 55.7 (115.6) MB, pooled: 0 MB, 5.36 / 0.00 ms  (average mu = 0.939, current mu = 0.929) allocation failure; 
+
+[242:0x3261d000]      721 ms: Scavenge 83.2 (116.1) -> 61.9 (121.4) MB, pooled: 0 MB, 4.18 / 0.00 ms  (average mu = 0.939, current mu = 0.929) allocation failure; 
+
+[242:0x3261d000]      784 ms: Scavenge 88.7 (121.9) -> 67.8 (128.1) MB, pooled: 0 MB, 4.38 / 0.00 ms  (average mu = 0.939, current mu = 0.929) allocation failure; 
+
+[242:0x3261d000]      825 ms: Scavenge 95.0 (128.1) -> 74.2 (133.9) MB, pooled: 0 MB, 3.96 / 0.00 ms  (average mu = 0.939, current mu = 0.929) allocation failure; 
+
+[242:0x3261d000]      883 ms: Scavenge 101.5 (134.6) -> 84.5 (141.1) MB, pooled: 0 MB, 5.86 / 0.00 ms  (average mu = 0.939, current mu = 0.929) allocation failure; 
+
+[242:0x3261d000]      963 ms: Mark-Compact 114.2 (147.2) -> 53.1 (145.2) MB, pooled: 2 MB, 7.00 / 0.71 ms  (+ 0.9 ms in 134 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 38 ms) (average mu = 0.969, current mu = 0.980) finalize incremental marking via stack guard; GC in old space requested
+
+[242:0x3261d000]     1040 ms: Scavenge 87.5 (145.2) -> 71.3 (145.2) MB, pooled: 2 MB, 6.00 / 0.00 ms  (average mu = 0.969, current mu = 0.980) allocation failure; 
+
+[242:0x3261d000]     1080 ms: Scavenge 88.5 (145.4) -> 76.8 (145.4) MB, pooled: 2 MB, 6.88 / 0.00 ms  (average mu = 0.969, current mu = 0.980) allocation failure; 
+
+[242:0x3261d000]     1158 ms: Scavenge 104.3 (145.8) -> 86.8 (145.8) MB, pooled: 2 MB, 6.64 / 0.00 ms  (average mu = 0.969, current mu = 0.980) allocation failure; 
+
+[242:0x3261d000]     1220 ms: Scavenge 108.9 (146.0) -> 91.0 (150.0) MB, pooled: 0 MB, 10.79 / 0.00 ms  (average mu = 0.969, current mu = 0.980) allocation failure; 
+
+6:02:06 PM [vite] (client) [optimizer] scanning dependencies...
+
+[242:0x3261d000]     1312 ms: Mark-Compact 117.9 (151.8) -> 66.4 (160.4) MB, pooled: 0 MB, 11.81 / 4.01 ms  (+ 1.4 ms in 163 steps since start of marking, biggest step 0.2 ms, walltime since start of marking 50 ms) (average mu = 0.965, current mu = 0.963) finalize incremental marking via stack guard; GC in old space requested
+
+[242:0x3261d000]     1404 ms: Scavenge 100.6 (160.7) -> 79.6 (160.7) MB, pooled: 0 MB, 4.36 / 0.09 ms  (average mu = 0.965, current mu = 0.963) allocation failure; 
+
+[242:0x3261d000]     1461 ms: Scavenge 97.3 (160.9) -> 83.5 (160.9) MB, pooled: 0 MB, 10.54 / 0.10 ms  (average mu = 0.965, current mu = 0.963) task; 
+
+[242:0x3261d000]     1539 ms: Scavenge 111.3 (161.3) -> 88.2 (161.3) MB, pooled: 0 MB, 8.59 / 0.41 ms  (average mu = 0.965, current mu = 0.963) allocation failure; 
+
+[242:0x3261d000]     1607 ms: Scavenge 112.2 (161.3) -> 91.4 (161.3) MB, pooled: 0 MB, 3.73 / 0.83 ms  (average mu = 0.965, current mu = 0.963) task; 
+
+[242:0x3261d000]     1671 ms: Scavenge 123.0 (162.2) -> 100.5 (163.3) MB, pooled: 0 MB, 5.47 / 1.09 ms  (average mu = 0.965, current mu = 0.963) task; 
+
+[242:0x3261d000]     1729 ms: Scavenge 127.5 (168.1) -> 109.6 (172.8) MB, pooled: 0 MB, 5.67 / 0.76 ms  (average mu = 0.965, current mu = 0.963) task; 
+
+[242:0x3261d000]     1797 ms: Mark-Compact 127.7 (175.8) -> 57.6 (179.4) MB, pooled: 0 MB, 24.18 / 14.68 ms  (+ 1.4 ms in 189 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 58 ms) (average mu = 0.954, current mu = 0.948) finalize incremental marking via task; GC in old space requested
+
+[242:0x3261d000]     1893 ms: Scavenge 92.5 (179.4) -> 68.8 (179.4) MB, pooled: 0 MB, 4.11 / 1.22 ms  (average mu = 0.954, current mu = 0.948) task; 
+
+[242:0x3261d000]     1954 ms: Scavenge 97.1 (179.9) -> 78.1 (179.9) MB, pooled: 0 MB, 5.69 / 1.11 ms  (average mu = 0.954, current mu = 0.948) task; 
+
+[242:0x3261d000]     2026 ms: Scavenge 107.4 (179.9) -> 87.8 (179.9) MB, pooled: 0 MB, 6.19 / 0.40 ms  (average mu = 0.954, current mu = 0.948) task; 
+
+[242:0x3261d000]     2079 ms: Scavenge 107.3 (181.1) -> 89.1 (180.4) MB, pooled: 0 MB, 4.18 / 0.00 ms  (average mu = 0.954, current mu = 0.948) task; 
+
+[242:0x3261d000]     2164 ms: Scavenge 112.0 (180.4) -> 91.5 (180.4) MB, pooled: 0 MB, 3.36 / 0.47 ms  (average mu = 0.954, current mu = 0.948) task; 
+
+[242:0x3261d000]     2283 ms: Scavenge 121.7 (181.1) -> 107.3 (181.1) MB, pooled: 0 MB, 5.10 / 0.11 ms  (average mu = 0.954, current mu = 0.948) allocation failure; 
+
+[242:0x3261d000]     2327 ms: Scavenge 125.6 (181.3) -> 120.8 (181.3) MB, pooled: 0 MB, 7.00 / 0.00 ms  (average mu = 0.954, current mu = 0.948) allocation failure; 
+
+[242:0x3261d000]     2409 ms: Mark-Compact 134.5 (182.6) -> 89.0 (198.4) MB, pooled: 0 MB, 19.91 / 10.03 ms  (+ 0.9 ms in 148 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 71 ms) (average mu = 0.962, current mu = 0.966) finalize incremental marking via stack guard; GC in old space requested
+
+[242:0x3261d000]     2529 ms: Scavenge 121.5 (199.0) -> 95.0 (199.0) MB, pooled: 0 MB, 3.43 / 0.00 ms  (average mu = 0.962, current mu = 0.966) allocation failure; 
+
+[242:0x3261d000]     2601 ms: Scavenge 120.6 (199.1) -> 99.1 (199.1) MB, pooled: 0 MB, 5.31 / 0.00 ms  (average mu = 0.962, current mu = 0.966) task; 
+
+[242:0x3261d000]     2683 ms: Scavenge 131.0 (202.1) -> 110.5 (202.1) MB, pooled: 0 MB, 5.01 / 0.23 ms  (average mu = 0.962, current mu = 0.966) allocation failure; 
+
+[133:0x33723000]     3165 ms: Mark-Compact 21.9 (35.4) -> 18.4 (36.2) MB, pooled: 0 MB, 2.12 / 0.01 ms  (+ 5.3 ms in 111 steps since start of marking, biggest step 1.9 ms, walltime since start of marking 8 ms) (average mu = 0.997, current mu = 0.998) finalize incremental marking via task; GC in old space requested
+[242:0x3261d000]     2762 ms: Scavenge 137.3 (210.2) -> 119.8 (208.3) MB, pooled: 0 MB, 4.59 / 0.09 ms  (average mu = 0.962, current mu = 0.966) task; 
+
+[242:0x3261d000]     2838 ms: Scavenge 151.3 (208.8) -> 130.6 (208.5) MB, pooled: 0 MB, 6.97 / 0.64 ms  (average mu = 0.962, current mu = 0.966) allocation failure; 
+
+[242:0x3261d000]     2928 ms: Scavenge 172.7 (231.7) -> 138.4 (211.0) MB, pooled: 0 MB, 10.97 / 0.01 ms  (average mu = 0.962, current mu = 0.966) task; 
+
+[133:0x33723000]     3410 ms: Scavenge 25.1 (36.2) -> 20.7 (36.2) MB, pooled: 0 MB, 1.13 / 0.00 ms  (average mu = 0.997, current mu = 0.998) task; 
+[133:0x33723000]     3439 ms: Scavenge 25.2 (36.2) -> 22.2 (37.7) MB, pooled: 0 MB, 2.19 / 0.00 ms  (average mu = 0.997, current mu = 0.998) task; 
+[133:0x33723000]     3478 ms: Scavenge 27.2 (38.2) -> 23.8 (55.4) MB, pooled: 0 MB, 4.02 / 0.00 ms  (average mu = 0.997, current mu = 0.998) task; 
+[133:0x33723000]     3495 ms: Mark-Compact 24.5 (55.4) -> 22.7 (56.9) MB, pooled: 0 MB, 3.20 / 0.00 ms  (+ 1.6 ms in 41 steps since start of marking, biggest step 0.6 ms, walltime since start of marking 17 ms) (average mu = 0.996, current mu = 0.987) finalize incremental marking via task; GC in old space requested
+[133:0x33723000]     3573 ms: Scavenge 35.6 (56.9) -> 26.9 (56.9) MB, pooled: 0 MB, 1.98 / 0.00 ms  (average mu = 0.996, current mu = 0.987) task; 
+[133:0x33723000]     3641 ms: Scavenge 35.8 (56.9) -> 29.5 (60.4) MB, pooled: 0 MB, 4.38 / 0.00 ms  (average mu = 0.996, current mu = 0.987) task; 
+[133:0x33723000]     3741 ms: Scavenge 39.9 (60.4) -> 31.3 (94.7) MB, pooled: 0 MB, 4.29 / 0.00 ms  (average mu = 0.996, current mu = 0.987) task; 
+[133:0x33723000]     3754 ms: Mark-Compact 31.8 (94.7) -> 27.2 (95.2) MB, pooled: 0 MB, 2.24 / 0.00 ms  (+ 4.5 ms in 130 steps since start of marking, biggest step 0.6 ms, walltime since start of marking 13 ms) (average mu = 0.991, current mu = 0.974) finalize incremental marking via task; GC in old space requested
+[242:0x3261d000]     3508 ms: Scavenge 159.9 (211.3) -> 140.3 (211.3) MB, pooled: 0 MB, 4.83 / 0.36 ms  (average mu = 0.962, current mu = 0.966) task; 
+
+[242:0x3261d000]     3552 ms: Mark-Compact 141.2 (211.3) -> 61.0 (172.4) MB, pooled: 32 MB, 6.43 / 0.64 ms  (+ 19.7 ms in 228 steps since start of marking, biggest step 6.9 ms, walltime since start of marking 44 ms) (average mu = 0.973, current mu = 0.978) finalize incremental marking via task; GC in old space requested
+
+[133:0x33723000]     4046 ms: Scavenge 53.1 (95.2) -> 31.8 (95.2) MB, pooled: 0 MB, 3.15 / 0.00 ms  (average mu = 0.991, current mu = 0.974) task; 
+[133:0x33723000]     4932 ms: Scavenge 53.3 (95.7) -> 35.8 (97.9) MB, pooled: 0 MB, 3.77 / 0.00 ms  (average mu = 0.991, current mu = 0.974) task; 
+[133:0x33723000]     5168 ms: Scavenge 57.7 (97.9) -> 39.6 (101.7) MB, pooled: 0 MB, 5.59 / 0.00 ms  (average mu = 0.991, current mu = 0.974) task; 
+[242:0x3261d000]     4965 ms: Scavenge 87.6 (172.4) -> 68.2 (172.4) MB, pooled: 32 MB, 4.76 / 0.00 ms  (average mu = 0.973, current mu = 0.978) task; 
+
+[133:0x33723000]     5424 ms: Scavenge 61.6 (101.7) -> 43.3 (105.7) MB, pooled: 0 MB, 5.16 / 0.00 ms  (average mu = 0.991, current mu = 0.974) task; 
+[242:0x3261d000]     5214 ms: Scavenge 87.7 (172.4) -> 75.0 (172.4) MB, pooled: 32 MB, 7.60 / 0.00 ms  (average mu = 0.973, current mu = 0.978) task; 
+
+[133:0x33723000]     5767 ms: Scavenge 65.7 (105.7) -> 46.5 (108.9) MB, pooled: 0 MB, 4.66 / 0.00 ms  (average mu = 0.991, current mu = 0.974) task; 
+[133:0x33723000]     5783 ms: Mark-Compact 46.8 (108.9) -> 22.7 (97.9) MB, pooled: 11 MB, 5.06 / 0.00 ms  (+ 4.3 ms in 36 steps since start of marking, biggest step 3.3 ms, walltime since start of marking 15 ms) (average mu = 0.994, current mu = 0.995) finalize incremental marking via task; GC in old space requested
+[242:0x3261d000]     6126 ms: Scavenge 94.4 (172.4) -> 81.8 (172.4) MB, pooled: 32 MB, 4.63 / 0.00 ms  (average mu = 0.973, current mu = 0.978) task; 
+
+[242:0x3261d000]     6363 ms: Scavenge 101.0 (172.4) -> 88.6 (172.4) MB, pooled: 32 MB, 4.70 / 0.00 ms  (average mu = 0.973, current mu = 0.978) task; 
+
+[133:0x33723000]     7176 ms: Scavenge 48.6 (97.9) -> 27.1 (97.9) MB, pooled: 11 MB, 3.79 / 0.00 ms  (average mu = 0.994, current mu = 0.995) task; 
+6:02:12 PM [vite] (client) hmr update /src/f0.jsx
+
+[133:0x33723000]     7821 ms: Scavenge 48.8 (98.2) -> 29.7 (98.2) MB, pooled: 11 MB, 1.76 / 0.00 ms  (average mu = 0.994, current mu = 0.995) task; 
+6:02:13 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:02:13 PM [vite] (client) hmr update /src/f0.jsx
+
+6:02:14 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:02:14 PM [vite] (client) hmr update /src/f0.jsx
+
+6:02:15 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:02:16 PM [vite] (client) hmr update /src/f0.jsx
+
+[133:0x33723000]    11256 ms: Scavenge 53.1 (98.2) -> 32.3 (98.2) MB, pooled: 11 MB, 3.92 / 0.00 ms  (average mu = 0.994, current mu = 0.995) task; 
+[133:0x33723000]    11264 ms: Mark-Compact 33.2 (98.2) -> 14.9 (88.6) MB, pooled: 17 MB, 1.51 / 0.00 ms  (+ 2.1 ms in 99 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 8 ms) (average mu = 0.998, current mu = 0.999) finalize incremental marking via task; GC in old space requested
+6:02:16 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:02:17 PM [vite] (client) hmr update /src/f0.jsx
+
+6:02:17 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+success Vite 8.3.0 dev (cold, timing): 6708ms
+6:02:18 PM [vite] (client) hmr update /src/f0.jsx
+
+[133:0x33723000]    13324 ms: Scavenge 40.7 (88.6) -> 18.0 (88.6) MB, pooled: 17 MB, 0.69 / 0.00 ms  (average mu = 0.998, current mu = 0.999) task; 
+6:02:18 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+start   Running start command: start:vite
+Benchmark Start Time: 1792605740421
+
+[310:0x4089e000]       50 ms: Scavenge 6.4 (7.6) -> 5.8 (8.6) MB, pooled: 0 MB, 0.49 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[310:0x4089e000]       61 ms: Scavenge 6.9 (8.6) -> 6.6 (11.1) MB, pooled: 0 MB, 0.52 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[310:0x4089e000]      101 ms: Scavenge 10.0 (13.0) -> 9.1 (13.5) MB, pooled: 0 MB, 0.46 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[310:0x4089e000]      119 ms: Scavenge 11.2 (14.3) -> 10.5 (19.3) MB, pooled: 0 MB, 0.75 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[310:0x4089e000]      153 ms: Scavenge 14.4 (20.0) -> 13.0 (20.8) MB, pooled: 0 MB, 0.67 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+
+[310:0x4089e000]      159 ms: Mark-Compact 13.2 (20.8) -> 12.0 (21.8) MB, pooled: 0 MB, 1.48 / 0.01 ms  (+ 2.2 ms in 72 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 4 ms) (average mu = 0.977, current mu = 0.977) finalize incremental marking via task; GC in old space requested
+
+
+  VITE v8.3.0  ready in 181 ms
+
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+[310:0x4089e000]      210 ms: Scavenge 18.8 (25.0) -> 14.7 (23.4) MB, pooled: 0 MB, 0.78 / 0.00 ms  (average mu = 0.977, current mu = 0.977) task; 
+
+[310:0x4089e000]      223 ms: Scavenge 18.0 (23.7) -> 15.1 (32.4) MB, pooled: 0 MB, 1.34 / 0.00 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[310:0x4089e000]      242 ms: Scavenge 21.4 (32.4) -> 16.4 (32.4) MB, pooled: 0 MB, 0.68 / 0.00 ms  (average mu = 0.977, current mu = 0.977) task; 
+
+[310:0x4089e000]      255 ms: Scavenge 22.9 (32.4) -> 18.1 (33.4) MB, pooled: 0 MB, 1.63 / 0.00 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[310:0x4089e000]      270 ms: Scavenge 24.4 (33.9) -> 19.4 (35.9) MB, pooled: 0 MB, 1.09 / 0.00 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[310:0x4089e000]      327 ms: Mark-Compact 40.4 (51.2) -> 26.7 (60.4) MB, pooled: 0 MB, 5.80 / 0.01 ms  (+ 4.2 ms in 317 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 55 ms) (average mu = 0.959, current mu = 0.942) finalize incremental marking via task; GC in old space requested
+
+[310:0x4089e000]      378 ms: Scavenge 40.6 (60.7) -> 31.0 (60.7) MB, pooled: 0 MB, 1.52 / 0.00 ms  (average mu = 0.959, current mu = 0.942) task; 
+
+[310:0x4089e000]      433 ms: Scavenge 44.5 (61.9) -> 35.2 (65.4) MB, pooled: 0 MB, 2.71 / 0.01 ms  (average mu = 0.959, current mu = 0.942) allocation failure; 
+
+[310:0x4089e000]      456 ms: Scavenge 47.7 (65.4) -> 39.5 (100.6) MB, pooled: 0 MB, 4.66 / 0.00 ms  (average mu = 0.959, current mu = 0.942) allocation failure; 
+
+[310:0x4089e000]      516 ms: Mark-Compact 63.6 (100.9) -> 37.8 (104.6) MB, pooled: 0 MB, 5.67 / 0.00 ms  (+ 4.4 ms in 349 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 56 ms) (average mu = 0.953, current mu = 0.948) finalize incremental marking via stack guard; GC in old space requested
+
+[310:0x4089e000]      575 ms: Scavenge 70.1 (104.9) -> 46.0 (104.9) MB, pooled: 0 MB, 2.76 / 0.00 ms  (average mu = 0.953, current mu = 0.948) allocation failure; 
+
+[310:0x4089e000]      626 ms: Scavenge 70.6 (104.9) -> 51.6 (111.9) MB, pooled: 0 MB, 6.72 / 0.00 ms  (average mu = 0.953, current mu = 0.948) allocation failure; 
+
+[310:0x4089e000]      667 ms: Scavenge 78.8 (111.9) -> 57.7 (117.1) MB, pooled: 0 MB, 4.23 / 0.00 ms  (average mu = 0.953, current mu = 0.948) allocation failure; 
+
+[310:0x4089e000]      707 ms: Scavenge 84.4 (117.4) -> 63.6 (123.4) MB, pooled: 0 MB, 4.44 / 0.00 ms  (average mu = 0.953, current mu = 0.948) allocation failure; 
+
+[310:0x4089e000]      753 ms: Scavenge 85.5 (124.1) -> 71.5 (130.1) MB, pooled: 0 MB, 4.46 / 0.00 ms  (average mu = 0.953, current mu = 0.948) task; 
+
+[310:0x4089e000]      815 ms: Scavenge 98.1 (131.0) -> 83.3 (138.0) MB, pooled: 0 MB, 6.89 / 0.00 ms  (average mu = 0.953, current mu = 0.948) allocation failure; 
+
+[310:0x4089e000]      873 ms: Mark-Compact 99.1 (138.2) -> 45.2 (143.8) MB, pooled: 0 MB, 6.96 / 0.00 ms  (+ 5.0 ms in 144 steps since start of marking, biggest step 0.2 ms, walltime since start of marking 25 ms) (average mu = 0.962, current mu = 0.967) finalize incremental marking via task; GC in old space requested
+
+[310:0x4089e000]      951 ms: Scavenge 81.7 (173.1) -> 59.7 (157.2) MB, pooled: 0 MB, 2.37 / 0.02 ms  (average mu = 0.962, current mu = 0.967) allocation failure; 
+
+[310:0x4089e000]     1061 ms: Scavenge 92.6 (163.9) -> 68.8 (157.9) MB, pooled: 0 MB, 3.78 / 0.12 ms  (average mu = 0.962, current mu = 0.967) task; 
+
+[310:0x4089e000]     1113 ms: Scavenge 93.7 (158.2) -> 68.8 (158.2) MB, pooled: 0 MB, 2.71 / 0.03 ms  (average mu = 0.962, current mu = 0.967) allocation failure; 
+
+[310:0x4089e000]     1224 ms: Scavenge 95.5 (158.4) -> 72.1 (158.4) MB, pooled: 0 MB, 3.22 / 0.66 ms  (average mu = 0.962, current mu = 0.967) task; 
+
+[310:0x4089e000]     1321 ms: Scavenge 95.3 (158.4) -> 84.0 (158.4) MB, pooled: 0 MB, 4.40 / 0.02 ms  (average mu = 0.962, current mu = 0.967) task; 
+
+[310:0x4089e000]     1370 ms: Scavenge 104.3 (159.1) -> 98.6 (159.1) MB, pooled: 0 MB, 6.54 / 0.02 ms  (average mu = 0.962, current mu = 0.967) allocation failure; 
+
+[310:0x4089e000]     1465 ms: Mark-Compact 122.9 (166.9) -> 90.4 (162.7) MB, pooled: 0 MB, 8.51 / 0.09 ms  (+ 1.5 ms in 166 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 60 ms) (average mu = 0.977, current mu = 0.983) finalize incremental marking via stack guard; GC in old space requested
+
+[133:0x33723000]    16858 ms: Scavenge 41.1 (88.6) -> 24.6 (88.6) MB, pooled: 17 MB, 4.44 / 0.00 ms  (average mu = 0.998, current mu = 0.999) task; 
+[310:0x4089e000]     1552 ms: Scavenge 123.0 (163.4) -> 95.5 (163.4) MB, pooled: 0 MB, 2.43 / 0.03 ms  (average mu = 0.977, current mu = 0.983) allocation failure; 
+
+[310:0x4089e000]     1618 ms: Scavenge 123.4 (163.6) -> 100.0 (163.6) MB, pooled: 0 MB, 4.61 / 0.03 ms  (average mu = 0.977, current mu = 0.983) allocation failure; 
+
+[310:0x4089e000]     1696 ms: Scavenge 128.0 (164.3) -> 107.5 (166.6) MB, pooled: 0 MB, 5.13 / 0.22 ms  (average mu = 0.977, current mu = 0.983) task; 
+
+[310:0x4089e000]     1777 ms: Scavenge 133.6 (167.6) -> 113.9 (174.1) MB, pooled: 0 MB, 5.89 / 0.27 ms  (average mu = 0.977, current mu = 0.983) allocation failure; 
+
+[310:0x4089e000]     1833 ms: Scavenge 141.9 (176.6) -> 123.6 (181.6) MB, pooled: 0 MB, 5.82 / 0.49 ms  (average mu = 0.977, current mu = 0.983) task; 
+
+[133:0x33723000]    17288 ms: Scavenge 44.0 (88.6) -> 29.8 (90.1) MB, pooled: 15 MB, 7.68 / 0.00 ms  (average mu = 0.998, current mu = 0.999) task; 
+[133:0x33723000]    17307 ms: Mark-Compact 30.1 (90.1) -> 22.5 (93.8) MB, pooled: 11 MB, 5.61 / 0.00 ms  (+ 0.7 ms in 36 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 18 ms) (average mu = 0.999, current mu = 0.999) finalize incremental marking via task; GC in old space requested
+[310:0x4089e000]     2051 ms: Scavenge 141.5 (181.8) -> 124.1 (188.8) MB, pooled: 0 MB, 8.13 / 0.35 ms  (average mu = 0.977, current mu = 0.983) task; 
+
+[133:0x33723000]    17594 ms: Scavenge 48.4 (93.8) -> 27.3 (93.8) MB, pooled: 11 MB, 3.98 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+[133:0x33723000]    18507 ms: Scavenge 48.5 (93.8) -> 31.3 (93.8) MB, pooled: 11 MB, 3.36 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+[133:0x33723000]    18758 ms: Scavenge 53.2 (93.8) -> 35.3 (97.3) MB, pooled: 8 MB, 3.20 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+[310:0x4089e000]     3610 ms: Scavenge 149.2 (189.3) -> 128.5 (190.8) MB, pooled: 0 MB, 4.40 / 0.00 ms  (average mu = 0.977, current mu = 0.983) task; 
+
+[133:0x33723000]    19021 ms: Scavenge 57.1 (97.3) -> 39.3 (101.8) MB, pooled: 3 MB, 4.00 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+[133:0x33723000]    19041 ms: Mark-Compact 39.8 (101.8) -> 21.7 (97.1) MB, pooled: 8 MB, 7.51 / 0.00 ms  (+ 6.3 ms in 187 steps since start of marking, biggest step 0.2 ms, walltime since start of marking 20 ms) (average mu = 0.997, current mu = 0.992) finalize incremental marking via task; GC in old space requested
+[310:0x4089e000]     3921 ms: Scavenge 150.9 (190.8) -> 130.1 (194.6) MB, pooled: 0 MB, 4.21 / 0.00 ms  (average mu = 0.977, current mu = 0.983) task; 
+
+[133:0x33723000]    20229 ms: Scavenge 47.6 (97.1) -> 25.4 (97.1) MB, pooled: 8 MB, 1.38 / 0.00 ms  (average mu = 0.997, current mu = 0.992) task; 
+[310:0x4089e000]     5033 ms: Scavenge 154.9 (194.6) -> 131.8 (195.8) MB, pooled: 0 MB, 3.45 / 0.00 ms  (average mu = 0.977, current mu = 0.983) task; 
+
+[133:0x33723000]    20702 ms: Scavenge 47.7 (97.1) -> 29.4 (97.1) MB, pooled: 8 MB, 2.18 / 0.00 ms  (average mu = 0.997, current mu = 0.992) task; 
+success Vite 8.3.0 dev (warm, timing): 5632ms
+[310:0x4089e000]     6240 ms: Scavenge 163.6 (197.3) -> 140.7 (199.3) MB, pooled: 0 MB, 2.19 / 0.00 ms  (average mu = 0.977, current mu = 0.983) allocation failure; 
+
+start   Running build command: build:vite
+Benchmark Start Time: 1792605747747
+
+[364:0x21dbe000]       50 ms: Scavenge 6.4 (7.6) -> 5.9 (8.6) MB, pooled: 0 MB, 0.50 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[364:0x21dbe000]       60 ms: Scavenge 6.8 (8.6) -> 6.5 (11.1) MB, pooled: 0 MB, 0.54 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[364:0x21dbe000]       97 ms: Scavenge 10.0 (13.0) -> 9.1 (13.5) MB, pooled: 0 MB, 0.47 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[364:0x21dbe000]      116 ms: Scavenge 11.2 (14.3) -> 10.6 (19.3) MB, pooled: 0 MB, 0.76 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[364:0x21dbe000]      150 ms: Scavenge 14.4 (20.0) -> 13.0 (21.0) MB, pooled: 0 MB, 0.69 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+
+[364:0x21dbe000]      159 ms: Mark-Compact 13.2 (21.0) -> 12.0 (22.0) MB, pooled: 0 MB, 1.41 / 0.00 ms  (+ 2.3 ms in 77 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 5 ms) (average mu = 0.977, current mu = 0.977) finalize incremental marking via task; GC in old space requested
+
+vite v8.3.0 building client environment for production...
+
+transforming...
+
+✓ 20022 modules transformed.
+
+[364:0x21dbe000]      934 ms: Scavenge 21.5 (26.5) -> 16.5 (31.5) MB, pooled: 0 MB, 1.41 / 0.01 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[364:0x21dbe000]      956 ms: Scavenge 27.2 (36.1) -> 23.4 (36.1) MB, pooled: 0 MB, 2.17 / 0.00 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[364:0x21dbe000]      970 ms: Scavenge 29.6 (38.5) -> 27.1 (57.6) MB, pooled: 0 MB, 2.96 / 0.00 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[364:0x21dbe000]     1005 ms: Mark-Compact 44.3 (69.2) -> 41.6 (107.8) MB, pooled: 0 MB, 4.71 / 0.02 ms  (+ 1.5 ms in 100 steps since start of marking, biggest step 0.2 ms, walltime since start of marking 35 ms) (average mu = 0.990, current mu = 0.993) finalize incremental marking via stack guard; GC in old space requested
+
+rendering chunks...
+
+[364:0x21dbe000]     1111 ms: Scavenge 76.7 (139.7) -> 49.2 (113.4) MB, pooled: 0 MB, 3.56 / 0.01 ms  (average mu = 0.990, current mu = 0.993) allocation failure; 
+
+computing gzip size...
+
+dist/index.html                   0.45 kB │ gzip:   0.30 kB
+dist/assets/index-DIPTFHQ-.css    0.02 kB │ gzip:   0.04 kB
+dist/assets/f7-CF3KV3yN.js      480.79 kB │ gzip: 127.22 kB
+dist/assets/f5-ulTyHPMQ.js      490.53 kB │ gzip: 132.75 kB
+dist/assets/f4-CDmlGJVa.js      494.44 kB │ gzip: 134.53 kB
+dist/assets/f6-UTLG91yh.js      495.24 kB │ gzip: 135.23 kB
+dist/assets/f1-BWfmfotR.js      500.23 kB │ gzip: 135.78 kB
+dist/assets/f2-BBNK_IAS.js      512.10 kB │ gzip: 141.11 kB
+dist/assets/f3-C06QU5Wj.js      516.29 kB │ gzip: 143.62 kB
+dist/assets/index-BXzUHz4W.js   747.49 kB │ gzip: 215.55 kB
+dist/assets/f8-CwsyxxH9.js      994.66 kB │ gzip: 266.88 kB
+
+
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+✓ built in 964ms
+
+[133:0x33723000]    28722 ms: Mark-Compact 49.8 (101.1) -> 15.8 (26.2) MB, pooled: 80 MB, 3.07 / 0.01 ms  (+ 0.1 ms in 3 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 1355 ms) (average mu = 0.999, current mu = 1.000) finalize incremental marking via stack guard; GC in old space requested
+[133:0x33723000]    30133 ms: Scavenge 16.3 (26.7) -> 16.3 (29.7) MB, pooled: 77 MB, 0.24 / 0.00 ms  (average mu = 0.999, current mu = 1.000) allocation failure; 
+success Vite 8.3.0 built in 1220ms
+success Vite 8.3.0 output size: 5232.3kB
+success Vite 8.3.0 gzipped size: 1407.1kB
+start   Running build command: build:vite
+Benchmark Start Time: 1792605757187
+
+[404:0xa84c000]       52 ms: Scavenge 6.4 (7.6) -> 5.9 (8.6) MB, pooled: 0 MB, 0.48 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[404:0xa84c000]       62 ms: Scavenge 6.8 (8.6) -> 6.5 (11.1) MB, pooled: 0 MB, 0.55 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[404:0xa84c000]      102 ms: Scavenge 10.0 (12.5) -> 9.1 (13.0) MB, pooled: 0 MB, 0.41 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[404:0xa84c000]      121 ms: Scavenge 11.2 (14.0) -> 10.5 (18.8) MB, pooled: 0 MB, 0.72 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[404:0xa84c000]      155 ms: Scavenge 14.3 (20.0) -> 13.0 (20.5) MB, pooled: 0 MB, 0.65 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+
+[404:0xa84c000]      161 ms: Mark-Compact 13.1 (20.5) -> 12.0 (21.8) MB, pooled: 0 MB, 1.41 / 0.00 ms  (+ 2.4 ms in 76 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 5 ms) (average mu = 0.976, current mu = 0.976) finalize incremental marking via task; GC in old space requested
+
+vite v8.3.0 building client environment for production...
+
+transforming...
+
+✓ 20022 modules transformed.
+
+[404:0xa84c000]      918 ms: Scavenge 21.5 (26.5) -> 16.4 (31.5) MB, pooled: 0 MB, 1.51 / 0.01 ms  (average mu = 0.976, current mu = 0.976) allocation failure; 
+
+[404:0xa84c000]      941 ms: Scavenge 28.0 (36.9) -> 23.3 (35.8) MB, pooled: 0 MB, 2.14 / 0.00 ms  (average mu = 0.976, current mu = 0.976) allocation failure; 
+
+[404:0xa84c000]      954 ms: Scavenge 28.8 (37.4) -> 27.3 (57.9) MB, pooled: 0 MB, 2.88 / 0.00 ms  (average mu = 0.976, current mu = 0.976) allocation failure; 
+
+[404:0xa84c000]      998 ms: Mark-Compact 53.0 (77.9) -> 49.8 (115.6) MB, pooled: 0 MB, 4.80 / 0.02 ms  (+ 1.3 ms in 105 steps since start of marking, biggest step 0.2 ms, walltime since start of marking 43 ms) (average mu = 0.990, current mu = 0.993) finalize incremental marking via stack guard; GC in old space requested
+
+rendering chunks...
+
+computing gzip size...
+
+dist/index.html                   0.45 kB │ gzip:   0.30 kB
+dist/assets/index-DIPTFHQ-.css    0.02 kB │ gzip:   0.04 kB
+dist/assets/f7-CF3KV3yN.js      480.79 kB │ gzip: 127.22 kB
+dist/assets/f5-ulTyHPMQ.js      490.53 kB │ gzip: 132.75 kB
+dist/assets/f4-CDmlGJVa.js      494.44 kB │ gzip: 134.53 kB
+dist/assets/f6-UTLG91yh.js      495.24 kB │ gzip: 135.23 kB
+dist/assets/f1-BWfmfotR.js      500.23 kB │ gzip: 135.78 kB
+dist/assets/f2-BBNK_IAS.js      512.10 kB │ gzip: 141.11 kB
+dist/assets/f3-C06QU5Wj.js      516.29 kB │ gzip: 143.62 kB
+dist/assets/index-BXzUHz4W.js   747.49 kB │ gzip: 215.55 kB
+dist/assets/f8-CwsyxxH9.js      994.66 kB │ gzip: 266.88 kB
+
+
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+✓ built in 943ms
+
+success Vite 8.3.0 built with cache in 1207ms
+info    Vite 8.3.0: memory pass
+start   Running start command: start:vite
+Benchmark Start Time: 1792605759408
+
+[445:0x7a3c000]       52 ms: Scavenge 6.4 (7.6) -> 5.9 (8.6) MB, pooled: 0 MB, 0.50 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[445:0x7a3c000]       62 ms: Scavenge 6.8 (8.6) -> 6.5 (11.1) MB, pooled: 0 MB, 0.57 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[445:0x7a3c000]      100 ms: Scavenge 10.0 (12.5) -> 9.0 (13.0) MB, pooled: 0 MB, 0.46 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[445:0x7a3c000]      119 ms: Scavenge 11.2 (14.0) -> 10.5 (19.0) MB, pooled: 0 MB, 0.74 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[445:0x7a3c000]      154 ms: Scavenge 14.4 (20.0) -> 13.0 (21.0) MB, pooled: 0 MB, 0.69 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+
+[445:0x7a3c000]      160 ms: Mark-Compact 13.2 (21.0) -> 12.0 (21.8) MB, pooled: 0 MB, 1.49 / 0.00 ms  (+ 2.3 ms in 71 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 5 ms) (average mu = 0.977, current mu = 0.977) finalize incremental marking via task; GC in old space requested
+
+
+  VITE v8.3.0  ready in 189 ms
+
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+[445:0x7a3c000]      213 ms: Scavenge 19.6 (25.9) -> 14.9 (23.7) MB, pooled: 0 MB, 1.24 / 0.00 ms  (average mu = 0.977, current mu = 0.977) task; 
+
+[445:0x7a3c000]      225 ms: Scavenge 18.2 (23.7) -> 15.4 (32.4) MB, pooled: 0 MB, 5.60 / 0.00 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[445:0x7a3c000]      237 ms: Scavenge 21.9 (32.9) -> 15.5 (32.9) MB, pooled: 0 MB, 0.98 / 0.00 ms  (average mu = 0.977, current mu = 0.977) task; 
+
+[445:0x7a3c000]      257 ms: Mark-Compact 19.5 (33.9) -> 15.8 (33.4) MB, pooled: 0 MB, 2.66 / 0.01 ms  (+ 0.8 ms in 60 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 18 ms) (average mu = 0.972, current mu = 0.965) finalize incremental marking via task; GC in old space requested
+
+[445:0x7a3c000]      297 ms: Scavenge 25.2 (33.9) -> 19.2 (33.9) MB, pooled: 0 MB, 1.21 / 0.01 ms  (average mu = 0.972, current mu = 0.965) allocation failure; 
+
+[445:0x7a3c000]      309 ms: Scavenge 25.2 (33.9) -> 20.7 (36.4) MB, pooled: 0 MB, 1.44 / 0.00 ms  (average mu = 0.972, current mu = 0.965) allocation failure; 
+
+[445:0x7a3c000]      323 ms: Scavenge 27.2 (36.6) -> 22.0 (54.1) MB, pooled: 0 MB, 1.83 / 0.00 ms  (average mu = 0.972, current mu = 0.965) allocation failure; 
+
+[445:0x7a3c000]      351 ms: Scavenge 37.1 (54.1) -> 25.2 (55.6) MB, pooled: 0 MB, 2.02 / 0.00 ms  (average mu = 0.972, current mu = 0.965) allocation failure; 
+
+[445:0x7a3c000]      400 ms: Mark-Compact 38.4 (55.9) -> 26.6 (59.9) MB, pooled: 0 MB, 6.06 / 0.01 ms  (+ 3.3 ms in 171 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 46 ms) (average mu = 0.953, current mu = 0.936) finalize incremental marking via task; GC in old space requested
+
+[133:0x33723000]    34778 ms: Scavenge 19.4 (31.1) -> 18.1 (28.1) MB, pooled: 80 MB, 0.69 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[445:0x7a3c000]      477 ms: Scavenge 43.2 (60.1) -> 30.8 (92.1) MB, pooled: 0 MB, 3.48 / 0.00 ms  (average mu = 0.953, current mu = 0.936) allocation failure; 
+
+[445:0x7a3c000]      548 ms: Mark-Compact 61.0 (94.1) -> 36.4 (102.4) MB, pooled: 0 MB, 8.44 / 0.03 ms  (+ 4.3 ms in 354 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 59 ms) (average mu = 0.933, current mu = 0.915) finalize incremental marking via stack guard; GC in old space requested
+
+[445:0x7a3c000]      609 ms: Scavenge 68.7 (102.4) -> 45.3 (102.4) MB, pooled: 0 MB, 3.17 / 0.00 ms  (average mu = 0.933, current mu = 0.915) allocation failure; 
+
+[445:0x7a3c000]      657 ms: Scavenge 69.1 (102.4) -> 50.5 (110.9) MB, pooled: 0 MB, 6.47 / 0.00 ms  (average mu = 0.933, current mu = 0.915) allocation failure; 
+
+[445:0x7a3c000]      701 ms: Scavenge 78.1 (110.9) -> 56.7 (115.9) MB, pooled: 0 MB, 6.05 / 0.00 ms  (average mu = 0.933, current mu = 0.915) allocation failure; 
+
+[445:0x7a3c000]      742 ms: Scavenge 83.4 (116.1) -> 62.8 (122.1) MB, pooled: 0 MB, 4.21 / 0.00 ms  (average mu = 0.933, current mu = 0.915) allocation failure; 
+
+[445:0x7a3c000]      847 ms: Mark-Compact 106.8 (139.8) -> 54.0 (121.1) MB, pooled: 18 MB, 7.82 / 0.24 ms  (+ 2.4 ms in 253 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 59 ms) (average mu = 0.956, current mu = 0.966) finalize incremental marking via stack guard; GC in old space requested
+
+[133:0x33723000]    35234 ms: Scavenge 18.7 (28.1) -> 18.2 (31.1) MB, pooled: 77 MB, 0.66 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[445:0x7a3c000]      924 ms: Scavenge 87.8 (122.0) -> 68.9 (122.0) MB, pooled: 18 MB, 6.09 / 0.00 ms  (average mu = 0.956, current mu = 0.966) allocation failure; 
+
+[445:0x7a3c000]      964 ms: Scavenge 82.8 (123.0) -> 73.6 (135.5) MB, pooled: 6 MB, 5.76 / 0.01 ms  (average mu = 0.956, current mu = 0.966) task; 
+
+[445:0x7a3c000]     1041 ms: Scavenge 104.7 (137.9) -> 88.2 (140.6) MB, pooled: 0 MB, 5.13 / 0.00 ms  (average mu = 0.956, current mu = 0.966) allocation failure; 
+
+[445:0x7a3c000]     1087 ms: Scavenge 104.8 (141.1) -> 90.6 (150.1) MB, pooled: 0 MB, 9.90 / 0.00 ms  (average mu = 0.956, current mu = 0.966) task; 
+
+[445:0x7a3c000]     1162 ms: Scavenge 118.4 (151.5) -> 100.8 (155.5) MB, pooled: 0 MB, 6.53 / 0.00 ms  (average mu = 0.956, current mu = 0.966) allocation failure; 
+
+[445:0x7a3c000]     1223 ms: Mark-Compact 118.5 (156.7) -> 66.7 (166.4) MB, pooled: 0 MB, 11.56 / 2.85 ms  (+ 1.3 ms in 219 steps since start of marking, biggest step 0.2 ms, walltime since start of marking 52 ms) (average mu = 0.962, current mu = 0.966) finalize incremental marking via stack guard; GC in old space requested
+
+6:02:40 PM [vite] (client) [optimizer] scanning dependencies...
+
+[445:0x7a3c000]     1325 ms: Scavenge 99.0 (167.2) -> 79.5 (167.2) MB, pooled: 0 MB, 10.05 / 0.00 ms  (average mu = 0.962, current mu = 0.966) task; 
+
+[445:0x7a3c000]     1398 ms: Scavenge 103.1 (167.4) -> 89.1 (167.4) MB, pooled: 0 MB, 7.30 / 0.11 ms  (average mu = 0.962, current mu = 0.966) allocation failure; 
+
+[445:0x7a3c000]     1461 ms: Scavenge 111.5 (167.6) -> 93.2 (167.6) MB, pooled: 0 MB, 9.98 / 0.08 ms  (average mu = 0.962, current mu = 0.966) allocation failure; 
+
+[445:0x7a3c000]     1542 ms: Scavenge 120.6 (168.0) -> 97.6 (168.0) MB, pooled: 0 MB, 9.75 / 0.31 ms  (average mu = 0.962, current mu = 0.966) task; 
+
+[445:0x7a3c000]     1611 ms: Scavenge 124.7 (168.6) -> 101.2 (168.0) MB, pooled: 0 MB, 3.97 / 0.79 ms  (average mu = 0.962, current mu = 0.966) task; 
+
+[445:0x7a3c000]     1677 ms: Scavenge 130.5 (171.0) -> 111.8 (174.5) MB, pooled: 0 MB, 5.52 / 1.12 ms  (average mu = 0.962, current mu = 0.966) task; 
+
+[445:0x7a3c000]     1749 ms: Mark-Compact 128.3 (177.0) -> 56.2 (171.4) MB, pooled: 4 MB, 23.52 / 13.89 ms  (+ 1.5 ms in 171 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 62 ms) (average mu = 0.956, current mu = 0.953) finalize incremental marking via task; GC in old space requested
+
+[445:0x7a3c000]     1845 ms: Scavenge 91.4 (171.4) -> 68.9 (171.4) MB, pooled: 4 MB, 4.38 / 1.35 ms  (average mu = 0.956, current mu = 0.953) task; 
+
+[445:0x7a3c000]     1907 ms: Scavenge 96.2 (171.9) -> 78.3 (171.9) MB, pooled: 4 MB, 5.78 / 0.94 ms  (average mu = 0.956, current mu = 0.953) task; 
+
+[445:0x7a3c000]     1987 ms: Scavenge 110.6 (171.9) -> 93.0 (171.9) MB, pooled: 4 MB, 6.21 / 0.90 ms  (average mu = 0.956, current mu = 0.953) allocation failure; 
+
+[445:0x7a3c000]     2036 ms: Scavenge 115.6 (171.9) -> 94.8 (171.9) MB, pooled: 4 MB, 5.49 / 0.00 ms  (average mu = 0.956, current mu = 0.953) allocation failure; 
+
+[133:0x33723000]    36406 ms: Scavenge 19.8 (31.1) -> 18.4 (31.1) MB, pooled: 77 MB, 0.73 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[445:0x7a3c000]     2101 ms: Mark-Compact 107.3 (173.3) -> 60.8 (159.9) MB, pooled: 17 MB, 23.60 / 11.13 ms  (+ 0.5 ms in 130 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 59 ms) (average mu = 0.945, current mu = 0.932) finalize incremental marking via task; GC in old space requested
+
+[445:0x7a3c000]     2261 ms: Scavenge 89.0 (159.9) -> 67.2 (159.9) MB, pooled: 17 MB, 2.73 / 0.51 ms  (average mu = 0.945, current mu = 0.932) task; 
+
+[445:0x7a3c000]     2333 ms: Scavenge 96.2 (160.6) -> 85.7 (160.6) MB, pooled: 17 MB, 6.72 / 0.06 ms  (average mu = 0.945, current mu = 0.932) allocation failure; 
+
+[445:0x7a3c000]     2372 ms: Scavenge 100.8 (160.6) -> 97.0 (160.6) MB, pooled: 17 MB, 7.26 / 0.00 ms  (average mu = 0.945, current mu = 0.932) allocation failure; 
+
+[445:0x7a3c000]     2459 ms: Scavenge 118.9 (160.9) -> 103.2 (162.4) MB, pooled: 16 MB, 4.69 / 0.00 ms  (average mu = 0.945, current mu = 0.932) allocation failure; 
+
+[445:0x7a3c000]     2518 ms: Scavenge 127.3 (162.7) -> 104.6 (168.2) MB, pooled: 10 MB, 3.78 / 0.00 ms  (average mu = 0.945, current mu = 0.932) allocation failure; 
+
+[445:0x7a3c000]     2619 ms: Mark-Compact 138.3 (173.6) -> 80.2 (172.0) MB, pooled: 8 MB, 12.52 / 0.56 ms  (+ 0.5 ms in 122 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 49 ms) (average mu = 0.962, current mu = 0.975) finalize incremental marking via stack guard; GC in old space requested
+
+[445:0x7a3c000]     2683 ms: Scavenge 107.8 (172.3) -> 88.8 (172.3) MB, pooled: 8 MB, 4.06 / 0.23 ms  (average mu = 0.962, current mu = 0.975) task; 
+
+[133:0x33723000]    37058 ms: Scavenge 19.8 (31.1) -> 18.7 (31.1) MB, pooled: 77 MB, 0.78 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[445:0x7a3c000]     2807 ms: Scavenge 123.3 (180.7) -> 101.0 (178.5) MB, pooled: 8 MB, 5.79 / 0.28 ms  (average mu = 0.962, current mu = 0.975) allocation failure; 
+
+[445:0x7a3c000]     2855 ms: Scavenge 130.8 (178.5) -> 111.8 (180.2) MB, pooled: 7 MB, 6.11 / 0.22 ms  (average mu = 0.962, current mu = 0.975) allocation failure; 
+
+[133:0x33723000]    37210 ms: Scavenge 20.0 (31.1) -> 19.1 (31.1) MB, pooled: 77 MB, 3.64 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[133:0x33723000]    37245 ms: Scavenge 20.3 (31.4) -> 19.5 (35.4) MB, pooled: 73 MB, 0.87 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[133:0x33723000]    37297 ms: Scavenge 22.3 (35.4) -> 20.5 (35.4) MB, pooled: 73 MB, 0.97 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[133:0x33723000]    37317 ms: Scavenge 22.8 (35.4) -> 21.4 (35.4) MB, pooled: 73 MB, 4.14 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[133:0x33723000]    37337 ms: Mark-Compact 21.9 (35.4) -> 16.9 (35.8) MB, pooled: 69 MB, 6.33 / 0.01 ms  (+ 1.7 ms in 42 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 20 ms) (average mu = 0.999, current mu = 0.999) finalize incremental marking via task; GC in old space requested
+[133:0x33723000]    37377 ms: Scavenge 23.3 (35.8) -> 19.2 (35.8) MB, pooled: 69 MB, 2.06 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+[133:0x33723000]    37413 ms: Scavenge 23.4 (35.8) -> 20.7 (37.6) MB, pooled: 68 MB, 5.81 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+[445:0x7a3c000]     3118 ms: Scavenge 152.6 (204.2) -> 114.9 (183.5) MB, pooled: 6 MB, 13.89 / 0.32 ms  (average mu = 0.962, current mu = 0.975) task; 
+
+[133:0x33723000]    37452 ms: Scavenge 25.6 (37.6) -> 22.4 (54.3) MB, pooled: 51 MB, 1.99 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+[133:0x33723000]    37475 ms: Mark-Compact 22.5 (54.3) -> 20.5 (55.3) MB, pooled: 50 MB, 4.06 / 0.00 ms  (+ 7.9 ms in 15 steps since start of marking, biggest step 7.5 ms, walltime since start of marking 19 ms) (average mu = 0.997, current mu = 0.913) finalize incremental marking via task; GC in old space requested
+[133:0x33723000]    37573 ms: Scavenge 33.5 (55.8) -> 24.6 (55.8) MB, pooled: 50 MB, 1.68 / 0.00 ms  (average mu = 0.997, current mu = 0.913) task; 
+[133:0x33723000]    37677 ms: Scavenge 33.5 (55.8) -> 26.2 (59.3) MB, pooled: 46 MB, 3.15 / 0.00 ms  (average mu = 0.997, current mu = 0.913) task; 
+[133:0x33723000]    37820 ms: Scavenge 37.5 (59.3) -> 28.3 (60.8) MB, pooled: 45 MB, 2.99 / 0.00 ms  (average mu = 0.997, current mu = 0.913) task; 
+[133:0x33723000]    37949 ms: Scavenge 39.2 (60.8) -> 30.3 (94.8) MB, pooled: 11 MB, 3.34 / 0.00 ms  (average mu = 0.997, current mu = 0.913) task; 
+[133:0x33723000]    37971 ms: Mark-Compact 30.7 (94.8) -> 22.9 (94.6) MB, pooled: 11 MB, 3.35 / 0.00 ms  (+ 0.7 ms in 32 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 22 ms) (average mu = 0.997, current mu = 0.992) finalize incremental marking via task; GC in old space requested
+[133:0x33723000]    39072 ms: Scavenge 48.7 (94.6) -> 27.7 (94.6) MB, pooled: 11 MB, 2.61 / 0.00 ms  (average mu = 0.997, current mu = 0.992) task; 
+[445:0x7a3c000]     4911 ms: Scavenge 140.1 (183.7) -> 119.3 (184.2) MB, pooled: 6 MB, 3.80 / 0.00 ms  (average mu = 0.962, current mu = 0.975) task; 
+
+[445:0x7a3c000]     4944 ms: Mark-Compact 119.7 (184.2) -> 60.9 (173.7) MB, pooled: 10 MB, 4.44 / 0.09 ms  (+ 15.9 ms in 289 steps since start of marking, biggest step 4.5 ms, walltime since start of marking 33 ms) (average mu = 0.987, current mu = 0.991) finalize incremental marking via task; GC in old space requested
+
+[133:0x33723000]    39347 ms: Scavenge 48.9 (94.8) -> 31.7 (94.8) MB, pooled: 11 MB, 7.11 / 0.00 ms  (average mu = 0.997, current mu = 0.992) task; 
+[133:0x33723000]    39631 ms: Scavenge 53.6 (94.8) -> 35.3 (98.3) MB, pooled: 7 MB, 3.81 / 0.00 ms  (average mu = 0.997, current mu = 0.992) task; 
+[445:0x7a3c000]     5422 ms: Scavenge 87.0 (173.7) -> 63.3 (173.7) MB, pooled: 10 MB, 1.45 / 0.00 ms  (average mu = 0.987, current mu = 0.991) task; 
+
+[133:0x33723000]    40696 ms: Scavenge 57.7 (98.3) -> 38.7 (101.6) MB, pooled: 4 MB, 2.10 / 0.00 ms  (average mu = 0.997, current mu = 0.992) task; 
+[133:0x33723000]    40715 ms: Mark-Compact 38.8 (101.6) -> 18.2 (97.6) MB, pooled: 8 MB, 5.51 / 0.00 ms  (+ 7.6 ms in 49 steps since start of marking, biggest step 6.1 ms, walltime since start of marking 19 ms) (average mu = 0.996, current mu = 0.995) finalize incremental marking via task; GC in old space requested
+[445:0x7a3c000]     6445 ms: Scavenge 87.2 (173.7) -> 64.9 (173.7) MB, pooled: 10 MB, 4.03 / 0.00 ms  (average mu = 0.987, current mu = 0.991) task; 
+
+[133:0x33723000]    41440 ms: Scavenge 44.1 (97.6) -> 22.7 (97.6) MB, pooled: 8 MB, 3.20 / 0.00 ms  (average mu = 0.996, current mu = 0.995) task; 
+6:02:47 PM [vite] (client) hmr update /src/f0.jsx
+
+[445:0x7a3c000]     7643 ms: Scavenge 89.4 (173.7) -> 66.6 (173.7) MB, pooled: 10 MB, 1.64 / 0.00 ms  (average mu = 0.987, current mu = 0.991) task; 
+
+6:02:47 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:02:48 PM [vite] (client) hmr update /src/f0.jsx
+
+[133:0x33723000]    43131 ms: Scavenge 44.3 (97.8) -> 25.2 (97.8) MB, pooled: 8 MB, 6.73 / 0.00 ms  (average mu = 0.996, current mu = 0.995) task; 
+6:02:48 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:02:49 PM [vite] (client) hmr update /src/f0.jsx
+
+6:02:49 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:02:50 PM [vite] (client) hmr update /src/f0.jsx
+
+[133:0x33723000]    45219 ms: Scavenge 48.5 (97.8) -> 27.9 (97.8) MB, pooled: 8 MB, 4.08 / 0.00 ms  (average mu = 0.996, current mu = 0.995) task; 
+[133:0x33723000]    45229 ms: Mark-Compact 28.3 (97.8) -> 15.0 (89.1) MB, pooled: 16 MB, 1.78 / 0.00 ms  (+ 1.0 ms in 42 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 10 ms) (average mu = 0.998, current mu = 0.999) finalize incremental marking via task; GC in old space requested
+6:02:50 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:02:51 PM [vite] (client) hmr update /src/f0.jsx
+
+6:02:51 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+[133:0x33723000]    51233 ms: Scavenge 40.9 (89.1) -> 18.1 (89.1) MB, pooled: 16 MB, 1.37 / 0.00 ms  (average mu = 0.998, current mu = 0.999) task; 
+success Vite 8.3.0 dev (cold, memory): steady 1130.3 MiB, peak 1159.5 MiB
+6:02:59 PM [vite] (client) hmr update /src/f0.jsx
+
+6:02:59 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+start   Running start command: start:vite
+Benchmark Start Time: 1792605781386
+
+[897:0x137c1000]       52 ms: Scavenge 6.4 (7.6) -> 5.8 (8.6) MB, pooled: 0 MB, 0.47 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[897:0x137c1000]       65 ms: Scavenge 6.9 (8.8) -> 6.6 (11.1) MB, pooled: 0 MB, 0.55 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[897:0x137c1000]      103 ms: Scavenge 10.0 (12.5) -> 9.0 (13.0) MB, pooled: 0 MB, 0.45 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[897:0x137c1000]      121 ms: Scavenge 11.3 (14.0) -> 10.6 (19.0) MB, pooled: 0 MB, 0.74 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[897:0x137c1000]      156 ms: Scavenge 14.4 (20.0) -> 13.0 (21.0) MB, pooled: 0 MB, 0.68 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+
+[897:0x137c1000]      162 ms: Mark-Compact 13.2 (21.3) -> 12.0 (22.0) MB, pooled: 0 MB, 1.31 / 0.00 ms  (+ 2.5 ms in 71 steps since start of marking, biggest step 0.2 ms, walltime since start of marking 5 ms) (average mu = 0.977, current mu = 0.977) finalize incremental marking via task; GC in old space requested
+
+
+  VITE v8.3.0  ready in 182 ms
+
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+[897:0x137c1000]      222 ms: Scavenge 19.2 (25.0) -> 14.8 (23.4) MB, pooled: 0 MB, 1.73 / 0.00 ms  (average mu = 0.977, current mu = 0.977) task; 
+
+[897:0x137c1000]      231 ms: Scavenge 18.1 (23.7) -> 15.1 (32.7) MB, pooled: 0 MB, 1.23 / 0.00 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[897:0x137c1000]      270 ms: Scavenge 24.0 (33.4) -> 18.0 (33.4) MB, pooled: 0 MB, 0.92 / 0.01 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[897:0x137c1000]      324 ms: Mark-Compact 36.6 (46.6) -> 24.8 (58.4) MB, pooled: 0 MB, 5.81 / 0.01 ms  (+ 3.3 ms in 276 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 52 ms) (average mu = 0.961, current mu = 0.945) finalize incremental marking via task; GC in old space requested
+
+[897:0x137c1000]      357 ms: Scavenge 41.3 (58.4) -> 29.6 (58.4) MB, pooled: 0 MB, 2.34 / 0.00 ms  (average mu = 0.961, current mu = 0.945) allocation failure; 
+
+[897:0x137c1000]      398 ms: Scavenge 39.8 (58.4) -> 31.3 (61.9) MB, pooled: 0 MB, 2.60 / 0.00 ms  (average mu = 0.961, current mu = 0.945) task; 
+
+[897:0x137c1000]      441 ms: Scavenge 43.3 (62.1) -> 34.6 (64.6) MB, pooled: 0 MB, 2.90 / 0.00 ms  (average mu = 0.961, current mu = 0.945) task; 
+
+[897:0x137c1000]      468 ms: Scavenge 47.6 (64.6) -> 39.3 (100.1) MB, pooled: 0 MB, 4.39 / 0.00 ms  (average mu = 0.961, current mu = 0.945) allocation failure; 
+
+[897:0x137c1000]      546 ms: Mark-Compact 72.8 (106.9) -> 39.9 (105.6) MB, pooled: 3 MB, 7.10 / 0.00 ms  (+ 3.9 ms in 314 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 58 ms) (average mu = 0.956, current mu = 0.952) finalize incremental marking via stack guard; GC in old space requested
+
+[897:0x137c1000]      608 ms: Scavenge 72.4 (105.6) -> 47.0 (105.6) MB, pooled: 3 MB, 2.61 / 0.00 ms  (average mu = 0.956, current mu = 0.952) allocation failure; 
+
+[897:0x137c1000]      646 ms: Scavenge 71.1 (106.1) -> 52.5 (112.9) MB, pooled: 0 MB, 4.26 / 0.00 ms  (average mu = 0.956, current mu = 0.952) task; 
+
+[897:0x137c1000]      686 ms: Scavenge 79.8 (113.1) -> 58.6 (118.9) MB, pooled: 0 MB, 4.04 / 0.00 ms  (average mu = 0.956, current mu = 0.952) allocation failure; 
+
+[897:0x137c1000]      731 ms: Scavenge 85.5 (118.9) -> 64.9 (124.6) MB, pooled: 0 MB, 4.52 / 0.00 ms  (average mu = 0.956, current mu = 0.952) allocation failure; 
+
+[897:0x137c1000]      794 ms: Scavenge 92.4 (125.6) -> 76.4 (131.6) MB, pooled: 0 MB, 6.62 / 0.00 ms  (average mu = 0.956, current mu = 0.952) allocation failure; 
+
+[897:0x137c1000]      853 ms: Mark-Compact 96.7 (133.2) -> 52.8 (140.0) MB, pooled: 0 MB, 6.86 / 0.00 ms  (+ 2.8 ms in 297 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 57 ms) (average mu = 0.964, current mu = 0.969) finalize incremental marking via stack guard; GC in old space requested
+
+[897:0x137c1000]     1007 ms: Scavenge 95.7 (155.3) -> 70.0 (148.4) MB, pooled: 0 MB, 3.80 / 0.09 ms  (average mu = 0.964, current mu = 0.969) task; 
+
+[897:0x137c1000]     1060 ms: Scavenge 89.5 (148.4) -> 74.2 (148.4) MB, pooled: 0 MB, 4.82 / 0.02 ms  (average mu = 0.964, current mu = 0.969) task; 
+
+[133:0x33723000]    57403 ms: Scavenge 41.1 (89.1) -> 22.2 (89.1) MB, pooled: 16 MB, 4.38 / 0.00 ms  (average mu = 0.998, current mu = 0.999) task; 
+[897:0x137c1000]     1113 ms: Scavenge 95.3 (148.6) -> 74.5 (148.6) MB, pooled: 0 MB, 2.25 / 0.02 ms  (average mu = 0.964, current mu = 0.969) task; 
+
+[897:0x137c1000]     1225 ms: Scavenge 99.5 (148.6) -> 77.9 (148.6) MB, pooled: 0 MB, 2.92 / 0.67 ms  (average mu = 0.964, current mu = 0.969) task; 
+
+[897:0x137c1000]     1336 ms: Scavenge 106.7 (148.8) -> 94.8 (148.8) MB, pooled: 0 MB, 5.69 / 0.03 ms  (average mu = 0.964, current mu = 0.969) allocation failure; 
+
+[897:0x137c1000]     1376 ms: Scavenge 108.3 (148.8) -> 103.0 (159.0) MB, pooled: 0 MB, 6.85 / 0.01 ms  (average mu = 0.964, current mu = 0.969) task; 
+
+[897:0x137c1000]     1495 ms: Mark-Compact 132.5 (165.9) -> 90.8 (170.0) MB, pooled: 0 MB, 7.31 / 0.10 ms  (+ 0.8 ms in 161 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 57 ms) (average mu = 0.981, current mu = 0.988) finalize incremental marking via stack guard; GC in old space requested
+
+[897:0x137c1000]     1567 ms: Scavenge 123.6 (170.7) -> 95.7 (170.7) MB, pooled: 0 MB, 2.21 / 0.00 ms  (average mu = 0.981, current mu = 0.988) allocation failure; 
+
+[897:0x137c1000]     1650 ms: Scavenge 124.4 (170.9) -> 101.5 (170.9) MB, pooled: 0 MB, 5.69 / 0.10 ms  (average mu = 0.981, current mu = 0.988) allocation failure; 
+
+[897:0x137c1000]     1716 ms: Scavenge 125.1 (170.9) -> 107.5 (170.9) MB, pooled: 0 MB, 6.14 / 0.19 ms  (average mu = 0.981, current mu = 0.988) task; 
+
+[133:0x33723000]    58073 ms: Scavenge 44.0 (89.3) -> 28.1 (89.3) MB, pooled: 16 MB, 6.42 / 0.00 ms  (average mu = 0.998, current mu = 0.999) task; 
+[897:0x137c1000]     1827 ms: Scavenge 134.7 (171.6) -> 114.7 (174.6) MB, pooled: 0 MB, 7.10 / 0.31 ms  (average mu = 0.981, current mu = 0.988) allocation failure; 
+
+[897:0x137c1000]     1883 ms: Scavenge 141.6 (175.9) -> 120.5 (181.1) MB, pooled: 0 MB, 5.08 / 0.22 ms  (average mu = 0.981, current mu = 0.988) allocation failure; 
+
+[133:0x33723000]    58345 ms: Scavenge 47.3 (89.3) -> 31.6 (94.3) MB, pooled: 12 MB, 2.94 / 0.00 ms  (average mu = 0.998, current mu = 0.999) task; 
+[133:0x33723000]    58371 ms: Mark-Compact 32.4 (94.3) -> 22.4 (95.6) MB, pooled: 10 MB, 3.64 / 0.00 ms  (+ 1.7 ms in 73 steps since start of marking, biggest step 0.2 ms, walltime since start of marking 26 ms) (average mu = 0.999, current mu = 1.000) finalize incremental marking via task; GC in old space requested
+[133:0x33723000]    58676 ms: Scavenge 48.3 (95.6) -> 25.2 (95.6) MB, pooled: 10 MB, 1.98 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[897:0x137c1000]     2498 ms: Scavenge 141.2 (181.1) -> 121.8 (185.6) MB, pooled: 0 MB, 5.66 / 0.34 ms  (average mu = 0.981, current mu = 0.988) task; 
+
+[133:0x33723000]    58982 ms: Scavenge 48.4 (95.6) -> 27.8 (95.6) MB, pooled: 10 MB, 5.85 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[133:0x33723000]    60014 ms: Scavenge 51.0 (95.6) -> 30.7 (95.6) MB, pooled: 10 MB, 2.50 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[133:0x33723000]    60718 ms: Scavenge 53.7 (95.6) -> 34.0 (97.3) MB, pooled: 8 MB, 2.86 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+6:03:06 PM [vite] (client) hmr update /src/f0.jsx
+
+[133:0x33723000]    61363 ms: Scavenge 56.5 (97.3) -> 36.6 (100.6) MB, pooled: 5 MB, 1.87 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[133:0x33723000]    61370 ms: Mark-Compact 37.1 (100.6) -> 15.5 (91.8) MB, pooled: 14 MB, 1.55 / 0.00 ms  (+ 4.2 ms in 56 steps since start of marking, biggest step 2.8 ms, walltime since start of marking 7 ms) (average mu = 0.999, current mu = 0.998) finalize incremental marking via task; GC in old space requested
+6:03:06 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:03:07 PM [vite] (client) hmr update /src/f0.jsx
+
+6:03:07 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:03:08 PM [vite] (client) hmr update /src/f0.jsx
+
+6:03:08 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+[133:0x33723000]    64168 ms: Scavenge 41.2 (91.8) -> 18.5 (91.8) MB, pooled: 14 MB, 1.42 / 0.00 ms  (average mu = 0.999, current mu = 0.998) task; 
+6:03:09 PM [vite] (client) hmr update /src/f0.jsx
+
+6:03:10 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:03:10 PM [vite] (client) hmr update /src/f0.jsx
+
+[133:0x33723000]    66121 ms: Scavenge 41.3 (91.8) -> 21.2 (91.8) MB, pooled: 14 MB, 2.12 / 0.00 ms  (average mu = 0.999, current mu = 0.998) task; 
+6:03:11 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+success Vite 8.3.0 dev (warm, memory): steady 371.9 MiB, peak 371.9 MiB
+[897:0x137c1000]    17693 ms: Scavenge 153.9 (187.3) -> 133.6 (190.1) MB, pooled: 0 MB, 3.04 / 0.03 ms  (average mu = 0.981, current mu = 0.988) allocation failure; 
+
+start   Running build command: build:vite
+Benchmark Start Time: 1792605800162
+
+[1324:0x1d607000]       50 ms: Scavenge 6.4 (7.6) -> 5.9 (8.6) MB, pooled: 0 MB, 0.46 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1324:0x1d607000]       61 ms: Scavenge 6.8 (8.6) -> 6.5 (11.1) MB, pooled: 0 MB, 0.54 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1324:0x1d607000]      101 ms: Scavenge 10.0 (12.5) -> 9.1 (13.0) MB, pooled: 0 MB, 3.47 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1324:0x1d607000]      119 ms: Scavenge 11.2 (14.0) -> 10.5 (19.0) MB, pooled: 0 MB, 0.76 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1324:0x1d607000]      154 ms: Scavenge 14.3 (20.0) -> 13.0 (20.5) MB, pooled: 0 MB, 0.65 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+
+[1324:0x1d607000]      163 ms: Mark-Compact 13.3 (20.5) -> 12.2 (21.8) MB, pooled: 0 MB, 1.42 / 0.00 ms  (+ 2.6 ms in 80 steps since start of marking, biggest step 0.3 ms, walltime since start of marking 7 ms) (average mu = 0.977, current mu = 0.977) finalize incremental marking via task; GC in old space requested
+
+vite v8.3.0 building client environment for production...
+
+transforming...
+
+✓ 20022 modules transformed.
+
+[1324:0x1d607000]      937 ms: Scavenge 21.4 (26.5) -> 16.5 (31.5) MB, pooled: 0 MB, 1.53 / 0.01 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[1324:0x1d607000]      960 ms: Scavenge 28.2 (36.9) -> 23.5 (35.8) MB, pooled: 0 MB, 2.24 / 0.00 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[1324:0x1d607000]      972 ms: Scavenge 28.9 (37.7) -> 27.2 (58.4) MB, pooled: 0 MB, 2.84 / 0.00 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[1324:0x1d607000]     1017 ms: Mark-Compact 52.9 (78.2) -> 49.9 (115.4) MB, pooled: 0 MB, 4.91 / 0.02 ms  (+ 1.5 ms in 107 steps since start of marking, biggest step 0.2 ms, walltime since start of marking 45 ms) (average mu = 0.990, current mu = 0.993) finalize incremental marking via stack guard; GC in old space requested
+
+rendering chunks...
+
+computing gzip size...
+
+dist/index.html                   0.45 kB │ gzip:   0.30 kB
+dist/assets/index-DIPTFHQ-.css    0.02 kB │ gzip:   0.04 kB
+dist/assets/f7-CF3KV3yN.js      480.79 kB │ gzip: 127.22 kB
+dist/assets/f5-ulTyHPMQ.js      490.53 kB │ gzip: 132.75 kB
+dist/assets/f4-CDmlGJVa.js      494.44 kB │ gzip: 134.53 kB
+dist/assets/f6-UTLG91yh.js      495.24 kB │ gzip: 135.23 kB
+dist/assets/f1-BWfmfotR.js      500.23 kB │ gzip: 135.78 kB
+dist/assets/f2-BBNK_IAS.js      512.10 kB │ gzip: 141.11 kB
+dist/assets/f3-C06QU5Wj.js      516.29 kB │ gzip: 143.62 kB
+dist/assets/index-BXzUHz4W.js   747.49 kB │ gzip: 215.55 kB
+dist/assets/f8-CwsyxxH9.js      994.66 kB │ gzip: 266.88 kB
+
+
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+✓ built in 964ms
+
+success Vite 8.3.0 built in 1228ms
+success Vite 8.3.0 output size: 5232.3kB
+success Vite 8.3.0 gzipped size: 1407.1kB
+start   Running build command: build:vite
+Benchmark Start Time: 1792605802408
+
+[1389:0x26d7d000]       54 ms: Scavenge 6.4 (7.6) -> 5.8 (8.6) MB, pooled: 0 MB, 0.50 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1389:0x26d7d000]       67 ms: Scavenge 6.9 (8.8) -> 6.7 (11.1) MB, pooled: 0 MB, 0.56 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1389:0x26d7d000]      101 ms: Scavenge 10.0 (12.5) -> 9.1 (13.0) MB, pooled: 0 MB, 0.47 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1389:0x26d7d000]      120 ms: Scavenge 11.2 (14.0) -> 10.5 (18.8) MB, pooled: 0 MB, 0.76 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1389:0x26d7d000]      154 ms: Scavenge 14.3 (20.0) -> 13.0 (20.8) MB, pooled: 0 MB, 0.67 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+
+[1389:0x26d7d000]      164 ms: Mark-Compact 13.1 (20.8) -> 12.0 (21.8) MB, pooled: 0 MB, 1.52 / 0.00 ms  (+ 2.2 ms in 71 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 5 ms) (average mu = 0.977, current mu = 0.977) finalize incremental marking via task; GC in old space requested
+
+vite v8.3.0 building client environment for production...
+
+transforming...
+
+✓ 20022 modules transformed.
+
+[1389:0x26d7d000]      937 ms: Scavenge 21.5 (26.5) -> 16.5 (31.5) MB, pooled: 0 MB, 1.42 / 0.01 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[1389:0x26d7d000]      961 ms: Scavenge 28.0 (36.9) -> 23.4 (35.3) MB, pooled: 0 MB, 2.81 / 0.00 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[1389:0x26d7d000]      974 ms: Scavenge 28.8 (37.4) -> 27.2 (58.1) MB, pooled: 0 MB, 2.89 / 0.00 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[1389:0x26d7d000]     1007 ms: Mark-Compact 43.4 (69.1) -> 40.7 (106.5) MB, pooled: 0 MB, 4.68 / 0.02 ms  (+ 1.3 ms in 94 steps since start of marking, biggest step 0.2 ms, walltime since start of marking 34 ms) (average mu = 0.991, current mu = 0.993) finalize incremental marking via stack guard; GC in old space requested
+
+rendering chunks...
+
+[1389:0x26d7d000]     1112 ms: Scavenge 76.5 (138.5) -> 47.9 (111.3) MB, pooled: 0 MB, 3.62 / 0.02 ms  (average mu = 0.991, current mu = 0.993) allocation failure; 
+
+computing gzip size...
+
+dist/index.html                   0.45 kB │ gzip:   0.30 kB
+dist/assets/index-DIPTFHQ-.css    0.02 kB │ gzip:   0.04 kB
+dist/assets/f7-CF3KV3yN.js      480.79 kB │ gzip: 127.22 kB
+dist/assets/f5-ulTyHPMQ.js      490.53 kB │ gzip: 132.75 kB
+dist/assets/f4-CDmlGJVa.js      494.44 kB │ gzip: 134.53 kB
+dist/assets/f6-UTLG91yh.js      495.24 kB │ gzip: 135.23 kB
+dist/assets/f1-BWfmfotR.js      500.23 kB │ gzip: 135.78 kB
+dist/assets/f2-BBNK_IAS.js      512.10 kB │ gzip: 141.11 kB
+dist/assets/f3-C06QU5Wj.js      516.29 kB │ gzip: 143.62 kB
+dist/assets/index-BXzUHz4W.js   747.49 kB │ gzip: 215.55 kB
+dist/assets/f8-CwsyxxH9.js      994.66 kB │ gzip: 266.88 kB
+
+
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+✓ built in 961ms
+
+success Vite 8.3.0 built with cache in 1226ms
+info    Vite 8.3.0: timing pass
+start   Running start command: start:vite
+Benchmark Start Time: 1792605804687
+
+[1453:0x3f889000]       51 ms: Scavenge 6.4 (7.6) -> 5.9 (8.6) MB, pooled: 0 MB, 0.47 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1453:0x3f889000]       61 ms: Scavenge 6.8 (8.6) -> 6.5 (11.1) MB, pooled: 0 MB, 0.51 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1453:0x3f889000]       98 ms: Scavenge 10.0 (12.5) -> 9.1 (13.0) MB, pooled: 0 MB, 0.42 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1453:0x3f889000]      117 ms: Scavenge 11.2 (14.0) -> 10.5 (19.0) MB, pooled: 0 MB, 0.76 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1453:0x3f889000]      152 ms: Scavenge 14.4 (20.0) -> 13.0 (21.0) MB, pooled: 0 MB, 0.69 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+
+[1453:0x3f889000]      161 ms: Mark-Compact 13.2 (21.0) -> 12.0 (21.5) MB, pooled: 0 MB, 1.43 / 0.00 ms  (+ 2.2 ms in 76 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 4 ms) (average mu = 0.977, current mu = 0.977) finalize incremental marking via task; GC in old space requested
+
+
+  VITE v8.3.0  ready in 189 ms
+
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+[1453:0x3f889000]      215 ms: Scavenge 19.9 (25.4) -> 15.0 (23.2) MB, pooled: 0 MB, 1.43 / 0.00 ms  (average mu = 0.977, current mu = 0.977) task; 
+
+[1453:0x3f889000]      232 ms: Scavenge 17.8 (23.2) -> 15.5 (31.9) MB, pooled: 0 MB, 3.57 / 0.00 ms  (average mu = 0.977, current mu = 0.977) task; 
+
+[1453:0x3f889000]      242 ms: Scavenge 21.9 (32.4) -> 15.5 (32.4) MB, pooled: 0 MB, 0.61 / 0.00 ms  (average mu = 0.977, current mu = 0.977) task; 
+
+[1453:0x3f889000]      255 ms: Mark-Compact 18.8 (33.4) -> 15.4 (33.2) MB, pooled: 0 MB, 1.88 / 0.01 ms  (+ 0.3 ms in 37 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 8 ms) (average mu = 0.978, current mu = 0.978) finalize incremental marking via task; GC in old space requested
+
+[1453:0x3f889000]      291 ms: Scavenge 24.7 (34.1) -> 18.6 (34.1) MB, pooled: 0 MB, 0.89 / 0.01 ms  (average mu = 0.978, current mu = 0.978) allocation failure; 
+
+[1453:0x3f889000]      303 ms: Scavenge 24.5 (34.1) -> 20.1 (35.9) MB, pooled: 0 MB, 1.64 / 0.00 ms  (average mu = 0.978, current mu = 0.978) task; 
+
+[1453:0x3f889000]      319 ms: Scavenge 26.6 (36.1) -> 21.5 (53.4) MB, pooled: 0 MB, 1.81 / 0.00 ms  (average mu = 0.978, current mu = 0.978) allocation failure; 
+
+[1453:0x3f889000]      346 ms: Scavenge 36.5 (53.4) -> 24.6 (55.1) MB, pooled: 0 MB, 1.55 / 0.00 ms  (average mu = 0.978, current mu = 0.978) allocation failure; 
+
+[1453:0x3f889000]      393 ms: Mark-Compact 37.6 (55.6) -> 26.9 (60.4) MB, pooled: 0 MB, 4.86 / 0.01 ms  (+ 4.0 ms in 190 steps since start of marking, biggest step 0.3 ms, walltime since start of marking 45 ms) (average mu = 0.958, current mu = 0.940) finalize incremental marking via task; GC in old space requested
+
+[1453:0x3f889000]      471 ms: Scavenge 43.4 (60.4) -> 30.9 (92.4) MB, pooled: 0 MB, 3.91 / 0.00 ms  (average mu = 0.958, current mu = 0.940) allocation failure; 
+
+[1453:0x3f889000]      541 ms: Mark-Compact 56.7 (92.6) -> 34.5 (100.1) MB, pooled: 0 MB, 7.62 / 0.03 ms  (+ 3.8 ms in 282 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 58 ms) (average mu = 0.940, current mu = 0.924) finalize incremental marking via stack guard; GC in old space requested
+
+[1453:0x3f889000]      602 ms: Scavenge 66.6 (100.1) -> 43.9 (100.1) MB, pooled: 0 MB, 3.28 / 0.00 ms  (average mu = 0.940, current mu = 0.924) allocation failure; 
+
+[1453:0x3f889000]      642 ms: Scavenge 67.0 (100.1) -> 48.7 (109.9) MB, pooled: 0 MB, 4.91 / 0.00 ms  (average mu = 0.940, current mu = 0.924) allocation failure; 
+
+[1453:0x3f889000]      686 ms: Scavenge 76.8 (109.9) -> 55.0 (114.4) MB, pooled: 0 MB, 4.11 / 0.00 ms  (average mu = 0.940, current mu = 0.924) allocation failure; 
+
+[1453:0x3f889000]      726 ms: Scavenge 81.6 (114.6) -> 60.9 (120.6) MB, pooled: 0 MB, 4.22 / 0.00 ms  (average mu = 0.940, current mu = 0.924) allocation failure; 
+
+[1453:0x3f889000]      766 ms: Scavenge 83.8 (121.9) -> 69.8 (127.6) MB, pooled: 0 MB, 4.56 / 0.00 ms  (average mu = 0.940, current mu = 0.924) task; 
+
+[1453:0x3f889000]      822 ms: Mark-Compact 89.9 (128.1) -> 54.2 (128.1) MB, pooled: 0 MB, 5.49 / 0.20 ms  (+ 3.6 ms in 312 steps since start of marking, biggest step 0.2 ms, walltime since start of marking 56 ms) (average mu = 0.959, current mu = 0.968) finalize incremental marking via stack guard; GC in old space requested
+
+[1453:0x3f889000]      898 ms: Scavenge 88.5 (129.5) -> 69.6 (129.5) MB, pooled: 0 MB, 5.86 / 0.00 ms  (average mu = 0.959, current mu = 0.968) allocation failure; 
+
+[1453:0x3f889000]      953 ms: Scavenge 89.3 (129.5) -> 77.4 (135.7) MB, pooled: 0 MB, 9.23 / 0.00 ms  (average mu = 0.959, current mu = 0.968) allocation failure; 
+
+[1453:0x3f889000]     1036 ms: Scavenge 105.5 (138.5) -> 92.0 (144.0) MB, pooled: 0 MB, 6.61 / 0.00 ms  (average mu = 0.959, current mu = 0.968) allocation failure; 
+
+[1453:0x3f889000]     1080 ms: Scavenge 111.9 (144.6) -> 97.6 (155.6) MB, pooled: 0 MB, 6.29 / 0.00 ms  (average mu = 0.959, current mu = 0.968) allocation failure; 
+
+[1453:0x3f889000]     1138 ms: Mark-Compact 114.5 (157.0) -> 66.3 (166.7) MB, pooled: 0 MB, 11.58 / 1.90 ms  (+ 1.0 ms in 224 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 51 ms) (average mu = 0.960, current mu = 0.961) finalize incremental marking via stack guard; GC in old space requested
+
+[1453:0x3f889000]     1235 ms: Scavenge 97.7 (166.8) -> 78.6 (166.8) MB, pooled: 0 MB, 8.74 / 0.00 ms  (average mu = 0.960, current mu = 0.961) task; 
+
+6:03:25 PM [vite] (client) [optimizer] scanning dependencies...
+
+[1453:0x3f889000]     1311 ms: Scavenge 102.6 (167.2) -> 88.6 (167.2) MB, pooled: 0 MB, 6.90 / 0.00 ms  (average mu = 0.960, current mu = 0.961) allocation failure; 
+
+[1453:0x3f889000]     1371 ms: Scavenge 111.0 (167.4) -> 92.9 (167.4) MB, pooled: 0 MB, 8.03 / 0.04 ms  (average mu = 0.960, current mu = 0.961) allocation failure; 
+
+[1453:0x3f889000]     1440 ms: Scavenge 119.9 (167.6) -> 102.3 (167.6) MB, pooled: 0 MB, 5.48 / 0.11 ms  (average mu = 0.960, current mu = 0.961) allocation failure; 
+
+[1453:0x3f889000]     1497 ms: Scavenge 120.7 (167.7) -> 105.0 (167.7) MB, pooled: 0 MB, 10.27 / 0.12 ms  (average mu = 0.960, current mu = 0.961) task; 
+
+[1453:0x3f889000]     1569 ms: Scavenge 131.5 (169.7) -> 107.5 (172.4) MB, pooled: 0 MB, 8.60 / 0.39 ms  (average mu = 0.960, current mu = 0.961) task; 
+
+[1453:0x3f889000]     1635 ms: Mark-Compact 121.0 (174.4) -> 52.7 (170.0) MB, pooled: 3 MB, 17.62 / 9.86 ms  (+ 1.3 ms in 116 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 51 ms) (average mu = 0.961, current mu = 0.962) finalize incremental marking via task; GC in old space requested
+
+[1453:0x3f889000]     1717 ms: Scavenge 86.0 (170.2) -> 64.8 (170.2) MB, pooled: 3 MB, 4.37 / 1.31 ms  (average mu = 0.961, current mu = 0.962) task; 
+
+[1453:0x3f889000]     1779 ms: Scavenge 90.7 (170.2) -> 74.5 (170.2) MB, pooled: 3 MB, 5.98 / 0.94 ms  (average mu = 0.961, current mu = 0.962) task; 
+
+[1453:0x3f889000]     1838 ms: Scavenge 102.1 (170.2) -> 83.3 (170.2) MB, pooled: 3 MB, 5.25 / 0.87 ms  (average mu = 0.961, current mu = 0.962) task; 
+
+[1453:0x3f889000]     1962 ms: Mark-Compact 126.9 (179.6) -> 62.5 (161.4) MB, pooled: 18 MB, 22.25 / 10.81 ms  (+ 2.2 ms in 247 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 65 ms) (average mu = 0.945, current mu = 0.926) finalize incremental marking via task; GC in old space requested
+
+[1453:0x3f889000]     2056 ms: Scavenge 97.1 (161.7) -> 72.4 (161.7) MB, pooled: 18 MB, 3.95 / 0.46 ms  (average mu = 0.945, current mu = 0.926) allocation failure; 
+
+[1453:0x3f889000]     2154 ms: Scavenge 93.9 (162.6) -> 74.8 (161.9) MB, pooled: 18 MB, 10.96 / 1.20 ms  (average mu = 0.945, current mu = 0.926) task; 
+
+[1453:0x3f889000]     2277 ms: Scavenge 105.0 (162.2) -> 87.7 (162.2) MB, pooled: 18 MB, 4.54 / 0.12 ms  (average mu = 0.945, current mu = 0.926) allocation failure; 
+
+[1453:0x3f889000]     2330 ms: Scavenge 108.6 (162.3) -> 102.8 (162.3) MB, pooled: 18 MB, 7.16 / 0.00 ms  (average mu = 0.945, current mu = 0.926) allocation failure; 
+
+[1453:0x3f889000]     2400 ms: Scavenge 121.0 (162.9) -> 110.1 (167.1) MB, pooled: 14 MB, 5.56 / 0.00 ms  (average mu = 0.945, current mu = 0.926) allocation failure; 
+
+[1453:0x3f889000]     2455 ms: Scavenge 132.0 (167.1) -> 111.2 (174.6) MB, pooled: 6 MB, 3.39 / 0.00 ms  (average mu = 0.945, current mu = 0.926) allocation failure; 
+
+[1453:0x3f889000]     2541 ms: Mark-Compact 133.5 (175.4) -> 84.1 (175.6) MB, pooled: 5 MB, 14.10 / 3.27 ms  (+ 0.8 ms in 255 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 70 ms) (average mu = 0.964, current mu = 0.975) finalize incremental marking via stack guard; GC in old space requested
+
+[1453:0x3f889000]     2618 ms: Scavenge 113.5 (176.0) -> 92.1 (176.0) MB, pooled: 5 MB, 3.66 / 0.12 ms  (average mu = 0.964, current mu = 0.975) task; 
+
+[1453:0x3f889000]     2698 ms: Scavenge 112.0 (176.0) -> 96.8 (176.0) MB, pooled: 5 MB, 5.86 / 0.15 ms  (average mu = 0.964, current mu = 0.975) task; 
+
+[1453:0x3f889000]     2778 ms: Scavenge 130.5 (182.1) -> 109.5 (180.6) MB, pooled: 5 MB, 5.76 / 0.39 ms  (average mu = 0.964, current mu = 0.975) allocation failure; 
+
+[1453:0x3f889000]     2834 ms: Scavenge 139.8 (185.7) -> 122.8 (186.0) MB, pooled: 5 MB, 6.29 / 0.57 ms  (average mu = 0.964, current mu = 0.975) allocation failure; 
+
+[1453:0x3f889000]     2912 ms: Scavenge 150.4 (194.4) -> 125.6 (190.7) MB, pooled: 1 MB, 5.61 / 0.33 ms  (average mu = 0.964, current mu = 0.975) task; 
+
+[133:0x33723000]    82616 ms: Scavenge 44.4 (91.8) -> 25.9 (91.8) MB, pooled: 14 MB, 2.94 / 0.00 ms  (average mu = 0.999, current mu = 0.998) task; 
+[133:0x33723000]    82777 ms: Scavenge 46.9 (91.8) -> 32.4 (91.8) MB, pooled: 14 MB, 4.64 / 0.00 ms  (average mu = 0.999, current mu = 0.998) task; 
+[133:0x33723000]    82797 ms: Mark-Compact 32.8 (91.8) -> 23.1 (97.1) MB, pooled: 9 MB, 8.80 / 0.00 ms  (+ 1.0 ms in 36 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 20 ms) (average mu = 0.999, current mu = 1.000) finalize incremental marking via task; GC in old space requested
+[133:0x33723000]    83061 ms: Scavenge 49.1 (97.1) -> 28.5 (97.1) MB, pooled: 9 MB, 1.94 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[133:0x33723000]    83305 ms: Scavenge 49.2 (97.1) -> 32.3 (97.1) MB, pooled: 9 MB, 5.75 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[1453:0x3f889000]     4747 ms: Scavenge 165.0 (206.8) -> 131.5 (195.5) MB, pooled: 0 MB, 6.78 / 0.01 ms  (average mu = 0.964, current mu = 0.975) task; 
+
+[1453:0x3f889000]     4780 ms: Mark-Compact 131.9 (195.5) -> 60.8 (177.2) MB, pooled: 11 MB, 4.94 / 0.32 ms  (+ 12.3 ms in 295 steps since start of marking, biggest step 0.3 ms, walltime since start of marking 33 ms) (average mu = 0.987, current mu = 0.992) finalize incremental marking via task; GC in old space requested
+
+[133:0x33723000]    84484 ms: Scavenge 54.3 (97.1) -> 36.5 (98.6) MB, pooled: 7 MB, 5.65 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[133:0x33723000]    84731 ms: Scavenge 58.2 (98.6) -> 40.6 (103.1) MB, pooled: 3 MB, 3.48 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[133:0x33723000]    84747 ms: Mark-Compact 41.3 (103.1) -> 23.4 (102.8) MB, pooled: 3 MB, 3.33 / 0.00 ms  (+ 4.1 ms in 103 steps since start of marking, biggest step 0.7 ms, walltime since start of marking 16 ms) (average mu = 0.999, current mu = 0.996) finalize incremental marking via task; GC in old space requested
+[1453:0x3f889000]     5354 ms: Scavenge 87.0 (177.2) -> 63.7 (177.2) MB, pooled: 11 MB, 1.89 / 0.00 ms  (average mu = 0.987, current mu = 0.992) task; 
+
+[133:0x33723000]    85119 ms: Scavenge 49.3 (102.8) -> 27.2 (102.8) MB, pooled: 3 MB, 1.91 / 0.00 ms  (average mu = 0.999, current mu = 0.996) task; 
+[1453:0x3f889000]     6306 ms: Scavenge 87.2 (177.2) -> 65.3 (177.2) MB, pooled: 11 MB, 4.18 / 0.00 ms  (average mu = 0.987, current mu = 0.992) task; 
+
+[133:0x33723000]    86183 ms: Scavenge 49.4 (102.8) -> 31.0 (102.8) MB, pooled: 3 MB, 4.30 / 0.00 ms  (average mu = 0.999, current mu = 0.996) task; 
+[1453:0x3f889000]     6611 ms: Scavenge 90.1 (177.2) -> 66.9 (177.2) MB, pooled: 11 MB, 2.47 / 0.00 ms  (average mu = 0.987, current mu = 0.992) task; 
+
+6:03:32 PM [vite] (client) hmr update /src/f0.jsx
+
+[133:0x33723000]    87240 ms: Scavenge 53.1 (102.8) -> 34.0 (102.8) MB, pooled: 3 MB, 2.50 / 0.00 ms  (average mu = 0.999, current mu = 0.996) task; 
+6:03:32 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:03:33 PM [vite] (client) hmr update /src/f0.jsx
+
+6:03:33 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:03:34 PM [vite] (client) hmr update /src/f0.jsx
+
+[133:0x33723000]    89328 ms: Scavenge 56.8 (102.8) -> 36.6 (102.8) MB, pooled: 3 MB, 1.95 / 0.00 ms  (average mu = 0.999, current mu = 0.996) task; 
+[133:0x33723000]    89339 ms: Mark-Compact 37.6 (102.8) -> 16.2 (94.6) MB, pooled: 11 MB, 3.12 / 0.00 ms  (+ 3.5 ms in 125 steps since start of marking, biggest step 0.3 ms, walltime since start of marking 11 ms) (average mu = 0.999, current mu = 0.999) finalize incremental marking via task; GC in old space requested
+6:03:34 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:03:35 PM [vite] (client) hmr update /src/f0.jsx
+
+6:03:35 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:03:36 PM [vite] (client) hmr update /src/f0.jsx
+
+6:03:36 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+success Vite 8.3.0 dev (cold, timing): 6985ms
+6:03:37 PM [vite] (client) hmr update /src/f0.jsx
+
+[133:0x33723000]    92405 ms: Scavenge 41.9 (94.6) -> 19.2 (94.6) MB, pooled: 11 MB, 2.11 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+6:03:37 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+start   Running start command: start:vite
+Benchmark Start Time: 1792605819510
+
+[1510:0x1c4bc000]       50 ms: Scavenge 6.4 (7.6) -> 5.9 (8.6) MB, pooled: 0 MB, 0.46 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1510:0x1c4bc000]       61 ms: Scavenge 6.8 (8.6) -> 6.5 (11.1) MB, pooled: 0 MB, 0.55 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1510:0x1c4bc000]       97 ms: Scavenge 10.0 (12.5) -> 9.1 (13.0) MB, pooled: 0 MB, 0.42 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1510:0x1c4bc000]      116 ms: Scavenge 11.2 (14.0) -> 10.5 (19.0) MB, pooled: 0 MB, 0.73 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1510:0x1c4bc000]      150 ms: Scavenge 14.3 (20.0) -> 13.0 (21.0) MB, pooled: 0 MB, 0.63 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+
+[1510:0x1c4bc000]      156 ms: Mark-Compact 13.1 (21.0) -> 12.0 (22.0) MB, pooled: 0 MB, 1.38 / 0.00 ms  (+ 2.2 ms in 77 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 4 ms) (average mu = 0.977, current mu = 0.977) finalize incremental marking via task; GC in old space requested
+
+
+  VITE v8.3.0  ready in 178 ms
+
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+[1510:0x1c4bc000]      207 ms: Scavenge 19.1 (24.7) -> 14.8 (23.2) MB, pooled: 0 MB, 1.26 / 0.01 ms  (average mu = 0.977, current mu = 0.977) task; 
+
+[1510:0x1c4bc000]      218 ms: Scavenge 18.0 (23.2) -> 15.1 (31.7) MB, pooled: 0 MB, 1.31 / 0.00 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[1510:0x1c4bc000]      243 ms: Scavenge 22.9 (32.4) -> 17.0 (32.4) MB, pooled: 0 MB, 0.80 / 0.00 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[1510:0x1c4bc000]      272 ms: Scavenge 24.1 (32.9) -> 19.6 (35.4) MB, pooled: 0 MB, 3.70 / 0.01 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[1510:0x1c4bc000]      287 ms: Scavenge 26.0 (35.9) -> 20.8 (53.1) MB, pooled: 0 MB, 1.91 / 0.00 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[1510:0x1c4bc000]      361 ms: Mark-Compact 47.0 (65.6) -> 26.4 (60.6) MB, pooled: 10 MB, 5.89 / 0.01 ms  (+ 3.9 ms in 202 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 52 ms) (average mu = 0.964, current mu = 0.954) finalize incremental marking via task; GC in old space requested
+
+[1510:0x1c4bc000]      433 ms: Scavenge 43.0 (60.6) -> 30.2 (60.6) MB, pooled: 10 MB, 1.43 / 0.00 ms  (average mu = 0.964, current mu = 0.954) allocation failure; 
+
+[1510:0x1c4bc000]      458 ms: Scavenge 43.4 (60.6) -> 35.0 (95.4) MB, pooled: 0 MB, 3.82 / 0.00 ms  (average mu = 0.964, current mu = 0.954) allocation failure; 
+
+[1510:0x1c4bc000]      508 ms: Scavenge 61.9 (95.4) -> 42.7 (99.9) MB, pooled: 0 MB, 4.19 / 0.00 ms  (average mu = 0.964, current mu = 0.954) allocation failure; 
+
+[1510:0x1c4bc000]      571 ms: Mark-Compact 66.4 (100.4) -> 43.4 (109.1) MB, pooled: 0 MB, 7.19 / 0.00 ms  (+ 4.2 ms in 331 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 58 ms) (average mu = 0.955, current mu = 0.947) finalize incremental marking via stack guard; GC in old space requested
+
+[1510:0x1c4bc000]      624 ms: Scavenge 75.9 (109.1) -> 50.5 (109.1) MB, pooled: 0 MB, 2.45 / 0.00 ms  (average mu = 0.955, current mu = 0.947) allocation failure; 
+
+[1510:0x1c4bc000]      667 ms: Scavenge 76.4 (109.4) -> 56.3 (116.1) MB, pooled: 0 MB, 4.40 / 0.00 ms  (average mu = 0.955, current mu = 0.947) allocation failure; 
+
+[1510:0x1c4bc000]      708 ms: Scavenge 83.3 (116.4) -> 62.4 (121.9) MB, pooled: 0 MB, 4.04 / 0.00 ms  (average mu = 0.955, current mu = 0.947) allocation failure; 
+
+[1510:0x1c4bc000]      763 ms: Scavenge 90.0 (122.8) -> 72.0 (128.8) MB, pooled: 0 MB, 5.75 / 0.00 ms  (average mu = 0.955, current mu = 0.947) allocation failure; 
+
+[1510:0x1c4bc000]      824 ms: Scavenge 97.2 (130.2) -> 83.2 (138.7) MB, pooled: 0 MB, 8.78 / 0.00 ms  (average mu = 0.955, current mu = 0.947) allocation failure; 
+
+[1510:0x1c4bc000]      860 ms: Mark-Compact 94.5 (139.0) -> 47.3 (144.3) MB, pooled: 0 MB, 6.30 / 0.00 ms  (+ 0.2 ms in 120 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 27 ms) (average mu = 0.969, current mu = 0.978) finalize incremental marking via stack guard; GC in old space requested
+
+[1510:0x1c4bc000]     1012 ms: Scavenge 92.3 (159.1) -> 66.9 (152.2) MB, pooled: 0 MB, 3.89 / 0.11 ms  (average mu = 0.969, current mu = 0.978) task; 
+
+[1510:0x1c4bc000]     1071 ms: Scavenge 89.0 (152.4) -> 66.5 (152.7) MB, pooled: 0 MB, 4.95 / 0.03 ms  (average mu = 0.969, current mu = 0.978) allocation failure; 
+
+[1510:0x1c4bc000]     1156 ms: Scavenge 89.5 (152.9) -> 70.6 (152.9) MB, pooled: 0 MB, 6.35 / 0.03 ms  (average mu = 0.969, current mu = 0.978) task; 
+
+[133:0x33723000]    95603 ms: Scavenge 42.0 (94.6) -> 24.0 (94.6) MB, pooled: 11 MB, 10.46 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+[1510:0x1c4bc000]     1299 ms: Scavenge 95.9 (153.4) -> 77.4 (153.4) MB, pooled: 0 MB, 8.70 / 0.74 ms  (average mu = 0.969, current mu = 0.978) task; 
+
+[1510:0x1c4bc000]     1359 ms: Scavenge 102.8 (153.6) -> 95.7 (153.6) MB, pooled: 0 MB, 6.86 / 0.03 ms  (average mu = 0.969, current mu = 0.978) allocation failure; 
+
+[1510:0x1c4bc000]     1445 ms: Mark-Compact 116.7 (160.4) -> 91.9 (167.2) MB, pooled: 0 MB, 7.28 / 0.06 ms  (+ 0.5 ms in 192 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 64 ms) (average mu = 0.982, current mu = 0.987) finalize incremental marking via stack guard; GC in old space requested
+
+[1510:0x1c4bc000]     1530 ms: Scavenge 124.2 (167.2) -> 96.6 (167.2) MB, pooled: 0 MB, 2.52 / 0.00 ms  (average mu = 0.982, current mu = 0.987) allocation failure; 
+
+[1510:0x1c4bc000]     1599 ms: Scavenge 125.0 (167.7) -> 101.1 (167.7) MB, pooled: 0 MB, 4.51 / 0.02 ms  (average mu = 0.982, current mu = 0.987) allocation failure; 
+
+[1510:0x1c4bc000]     1681 ms: Scavenge 130.1 (168.1) -> 108.6 (168.4) MB, pooled: 0 MB, 6.27 / 0.17 ms  (average mu = 0.982, current mu = 0.987) allocation failure; 
+
+[1510:0x1c4bc000]     1766 ms: Scavenge 127.6 (169.1) -> 111.9 (174.4) MB, pooled: 0 MB, 6.71 / 0.07 ms  (average mu = 0.982, current mu = 0.987) task; 
+
+[1510:0x1c4bc000]     1835 ms: Scavenge 143.4 (177.1) -> 123.1 (179.6) MB, pooled: 0 MB, 5.82 / 0.52 ms  (average mu = 0.982, current mu = 0.987) allocation failure; 
+
+[133:0x33723000]    96299 ms: Scavenge 45.0 (94.6) -> 29.8 (94.6) MB, pooled: 11 MB, 10.03 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+[133:0x33723000]    96328 ms: Mark-Compact 31.3 (94.6) -> 23.3 (94.8) MB, pooled: 11 MB, 10.58 / 0.00 ms  (+ 2.8 ms in 103 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 26 ms) (average mu = 0.998, current mu = 0.998) finalize incremental marking via task; GC in old space requested
+[1510:0x1c4bc000]     1896 ms: Scavenge 140.6 (180.6) -> 127.6 (189.4) MB, pooled: 0 MB, 7.31 / 0.04 ms  (average mu = 0.982, current mu = 0.987) task; 
+
+[133:0x33723000]    96634 ms: Scavenge 49.3 (94.8) -> 26.4 (94.8) MB, pooled: 11 MB, 3.80 / 0.00 ms  (average mu = 0.998, current mu = 0.998) task; 
+[133:0x33723000]    96925 ms: Scavenge 49.4 (94.8) -> 28.8 (94.8) MB, pooled: 11 MB, 3.85 / 0.00 ms  (average mu = 0.998, current mu = 0.998) task; 
+[133:0x33723000]    97241 ms: Scavenge 52.2 (94.8) -> 31.7 (95.3) MB, pooled: 10 MB, 1.76 / 0.00 ms  (average mu = 0.998, current mu = 0.998) task; 
+[1510:0x1c4bc000]     2850 ms: Scavenge 150.0 (189.9) -> 130.5 (193.4) MB, pooled: 0 MB, 7.35 / 0.33 ms  (average mu = 0.982, current mu = 0.987) task; 
+
+[133:0x33723000]    98326 ms: Scavenge 54.7 (95.3) -> 34.7 (97.8) MB, pooled: 8 MB, 5.12 / 0.00 ms  (average mu = 0.998, current mu = 0.998) task; 
+[133:0x33723000]    98816 ms: Scavenge 57.5 (97.8) -> 37.7 (100.8) MB, pooled: 5 MB, 1.12 / 0.00 ms  (average mu = 0.998, current mu = 0.998) task; 
+[133:0x33723000]    98822 ms: Mark-Compact 38.6 (100.8) -> 16.2 (91.8) MB, pooled: 14 MB, 1.27 / 0.00 ms  (+ 2.5 ms in 104 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 6 ms) (average mu = 0.998, current mu = 0.999) finalize incremental marking via task; GC in old space requested
+success Vite 8.3.0 dev (warm, timing): 4357ms
+start   Running build command: build:vite
+Benchmark Start Time: 1792605825555
+
+[1563:0xad2a000]       51 ms: Scavenge 6.4 (7.6) -> 5.9 (8.6) MB, pooled: 0 MB, 0.46 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1563:0xad2a000]       62 ms: Scavenge 6.8 (8.6) -> 6.5 (11.1) MB, pooled: 0 MB, 0.55 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1563:0xad2a000]       99 ms: Scavenge 10.0 (12.5) -> 9.1 (13.0) MB, pooled: 0 MB, 0.44 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1563:0xad2a000]      117 ms: Scavenge 11.2 (14.0) -> 10.5 (19.0) MB, pooled: 0 MB, 0.74 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1563:0xad2a000]      151 ms: Scavenge 14.3 (20.0) -> 13.0 (21.0) MB, pooled: 0 MB, 0.62 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+
+[1563:0xad2a000]      161 ms: Mark-Compact 13.1 (21.0) -> 12.0 (21.8) MB, pooled: 0 MB, 1.45 / 0.00 ms  (+ 2.2 ms in 78 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 4 ms) (average mu = 0.977, current mu = 0.977) finalize incremental marking via task; GC in old space requested
+
+vite v8.3.0 building client environment for production...
+
+transforming...
+
+✓ 20022 modules transformed.
+
+[1563:0xad2a000]      907 ms: Scavenge 21.5 (26.5) -> 16.4 (31.5) MB, pooled: 0 MB, 1.52 / 0.01 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[1563:0xad2a000]      930 ms: Scavenge 28.0 (36.9) -> 23.4 (35.8) MB, pooled: 0 MB, 2.10 / 0.00 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[1563:0xad2a000]      943 ms: Scavenge 28.8 (37.7) -> 27.3 (57.9) MB, pooled: 0 MB, 2.94 / 0.00 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[1563:0xad2a000]      978 ms: Mark-Compact 44.5 (69.7) -> 41.6 (107.8) MB, pooled: 0 MB, 4.91 / 0.02 ms  (+ 1.0 ms in 99 steps since start of marking, biggest step 0.2 ms, walltime since start of marking 36 ms) (average mu = 0.991, current mu = 0.993) finalize incremental marking via stack guard; GC in old space requested
+
+rendering chunks...
+
+[1563:0xad2a000]     1093 ms: Scavenge 76.7 (139.7) -> 49.2 (113.4) MB, pooled: 0 MB, 3.87 / 0.01 ms  (average mu = 0.991, current mu = 0.993) allocation failure; 
+
+computing gzip size...
+
+dist/index.html                   0.45 kB │ gzip:   0.30 kB
+dist/assets/index-DIPTFHQ-.css    0.02 kB │ gzip:   0.04 kB
+dist/assets/f7-CF3KV3yN.js      480.79 kB │ gzip: 127.22 kB
+dist/assets/f5-ulTyHPMQ.js      490.53 kB │ gzip: 132.75 kB
+dist/assets/f4-CDmlGJVa.js      494.44 kB │ gzip: 134.53 kB
+dist/assets/f6-UTLG91yh.js      495.24 kB │ gzip: 135.23 kB
+dist/assets/f1-BWfmfotR.js      500.23 kB │ gzip: 135.78 kB
+dist/assets/f2-BBNK_IAS.js      512.10 kB │ gzip: 141.11 kB
+dist/assets/f3-C06QU5Wj.js      516.29 kB │ gzip: 143.62 kB
+dist/assets/index-BXzUHz4W.js   747.49 kB │ gzip: 215.55 kB
+dist/assets/f8-CwsyxxH9.js      994.66 kB │ gzip: 266.88 kB
+
+
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+✓ built in 948ms
+
+success Vite 8.3.0 built in 1206ms
+success Vite 8.3.0 output size: 5232.3kB
+success Vite 8.3.0 gzipped size: 1407.1kB
+start   Running build command: build:vite
+Benchmark Start Time: 1792605827772
+
+[1603:0x39772000]       50 ms: Scavenge 6.4 (7.6) -> 5.9 (8.6) MB, pooled: 0 MB, 0.48 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1603:0x39772000]       61 ms: Scavenge 6.8 (8.6) -> 6.5 (11.1) MB, pooled: 0 MB, 0.54 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1603:0x39772000]      101 ms: Scavenge 10.0 (12.5) -> 9.1 (13.0) MB, pooled: 0 MB, 0.43 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1603:0x39772000]      119 ms: Scavenge 11.2 (14.0) -> 10.5 (18.8) MB, pooled: 0 MB, 0.76 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1603:0x39772000]      153 ms: Scavenge 14.4 (20.0) -> 13.0 (20.5) MB, pooled: 0 MB, 0.64 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+
+[1603:0x39772000]      159 ms: Mark-Compact 13.1 (20.5) -> 12.0 (21.8) MB, pooled: 0 MB, 1.45 / 0.00 ms  (+ 1.9 ms in 71 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 4 ms) (average mu = 0.979, current mu = 0.979) finalize incremental marking via task; GC in old space requested
+
+vite v8.3.0 building client environment for production...
+
+transforming...
+
+✓ 20022 modules transformed.
+
+[1603:0x39772000]      915 ms: Scavenge 21.5 (26.5) -> 16.5 (31.5) MB, pooled: 0 MB, 1.39 / 0.01 ms  (average mu = 0.979, current mu = 0.979) allocation failure; 
+
+[1603:0x39772000]      936 ms: Scavenge 27.2 (36.1) -> 23.4 (36.1) MB, pooled: 0 MB, 1.90 / 0.00 ms  (average mu = 0.979, current mu = 0.979) allocation failure; 
+
+[1603:0x39772000]      949 ms: Scavenge 28.8 (37.7) -> 27.1 (57.6) MB, pooled: 0 MB, 3.19 / 0.00 ms  (average mu = 0.979, current mu = 0.979) allocation failure; 
+
+[1603:0x39772000]      995 ms: Mark-Compact 53.8 (78.3) -> 50.8 (116.7) MB, pooled: 0 MB, 4.95 / 0.03 ms  (+ 1.6 ms in 108 steps since start of marking, biggest step 0.2 ms, walltime since start of marking 46 ms) (average mu = 0.990, current mu = 0.993) finalize incremental marking via stack guard; GC in old space requested
+
+rendering chunks...
+
+computing gzip size...
+
+dist/index.html                   0.45 kB │ gzip:   0.30 kB
+dist/assets/index-DIPTFHQ-.css    0.02 kB │ gzip:   0.04 kB
+dist/assets/f7-CF3KV3yN.js      480.79 kB │ gzip: 127.22 kB
+dist/assets/f5-ulTyHPMQ.js      490.53 kB │ gzip: 132.75 kB
+dist/assets/f4-CDmlGJVa.js      494.44 kB │ gzip: 134.53 kB
+dist/assets/f6-UTLG91yh.js      495.24 kB │ gzip: 135.23 kB
+dist/assets/f1-BWfmfotR.js      500.23 kB │ gzip: 135.78 kB
+dist/assets/f2-BBNK_IAS.js      512.10 kB │ gzip: 141.11 kB
+dist/assets/f3-C06QU5Wj.js      516.29 kB │ gzip: 143.62 kB
+dist/assets/index-BXzUHz4W.js   747.49 kB │ gzip: 215.55 kB
+dist/assets/f8-CwsyxxH9.js      994.66 kB │ gzip: 266.88 kB
+
+
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+✓ built in 939ms
+
+success Vite 8.3.0 built with cache in 1198ms
+info    Vite 8.3.0: memory pass
+start   Running start command: start:vite
+Benchmark Start Time: 1792605829984
+
+[1644:0x1d6ff000]       51 ms: Scavenge 6.4 (7.6) -> 5.9 (8.6) MB, pooled: 0 MB, 0.49 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1644:0x1d6ff000]       62 ms: Scavenge 6.8 (8.6) -> 6.5 (11.1) MB, pooled: 0 MB, 0.54 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1644:0x1d6ff000]       99 ms: Scavenge 10.0 (12.5) -> 9.1 (13.0) MB, pooled: 0 MB, 0.44 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1644:0x1d6ff000]      117 ms: Scavenge 11.2 (14.0) -> 10.5 (19.0) MB, pooled: 0 MB, 0.69 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[1644:0x1d6ff000]      153 ms: Scavenge 14.4 (20.0) -> 13.0 (21.0) MB, pooled: 0 MB, 0.64 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+
+[1644:0x1d6ff000]      162 ms: Mark-Compact 13.2 (21.0) -> 12.0 (21.8) MB, pooled: 0 MB, 1.43 / 0.00 ms  (+ 2.2 ms in 74 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 4 ms) (average mu = 0.977, current mu = 0.977) finalize incremental marking via task; GC in old space requested
+
+
+  VITE v8.3.0  ready in 191 ms
+
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+[1644:0x1d6ff000]      214 ms: Scavenge 19.6 (25.9) -> 14.9 (23.7) MB, pooled: 0 MB, 1.05 / 0.00 ms  (average mu = 0.977, current mu = 0.977) task; 
+
+[1644:0x1d6ff000]      224 ms: Scavenge 17.9 (23.7) -> 15.4 (32.4) MB, pooled: 0 MB, 4.15 / 0.00 ms  (average mu = 0.977, current mu = 0.977) task; 
+
+[1644:0x1d6ff000]      241 ms: Scavenge 22.1 (32.7) -> 15.5 (32.7) MB, pooled: 0 MB, 1.33 / 0.00 ms  (average mu = 0.977, current mu = 0.977) task; 
+
+[1644:0x1d6ff000]      262 ms: Mark-Compact 21.1 (34.4) -> 15.4 (33.4) MB, pooled: 0 MB, 2.27 / 0.01 ms  (+ 0.1 ms in 26 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 9 ms) (average mu = 0.977, current mu = 0.977) finalize incremental marking via task; GC in old space requested
+
+[1644:0x1d6ff000]      295 ms: Scavenge 24.6 (34.4) -> 18.8 (34.4) MB, pooled: 0 MB, 1.27 / 0.01 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[1644:0x1d6ff000]      310 ms: Scavenge 24.7 (34.4) -> 20.0 (36.1) MB, pooled: 0 MB, 1.77 / 0.00 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[1644:0x1d6ff000]      321 ms: Scavenge 26.7 (36.1) -> 21.4 (53.6) MB, pooled: 0 MB, 1.70 / 0.00 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[1644:0x1d6ff000]      395 ms: Mark-Compact 45.8 (63.1) -> 26.8 (60.4) MB, pooled: 8 MB, 5.91 / 0.01 ms  (+ 3.8 ms in 202 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 55 ms) (average mu = 0.952, current mu = 0.929) finalize incremental marking via task; GC in old space requested
+
+[1644:0x1d6ff000]      459 ms: Scavenge 40.3 (60.4) -> 29.7 (60.4) MB, pooled: 8 MB, 1.18 / 0.00 ms  (average mu = 0.952, current mu = 0.929) task; 
+
+[1644:0x1d6ff000]      488 ms: Scavenge 43.8 (60.4) -> 35.3 (94.1) MB, pooled: 0 MB, 3.83 / 0.00 ms  (average mu = 0.952, current mu = 0.929) allocation failure; 
+
+[1644:0x1d6ff000]      540 ms: Scavenge 61.4 (94.1) -> 42.5 (99.4) MB, pooled: 0 MB, 4.39 / 0.00 ms  (average mu = 0.952, current mu = 0.929) allocation failure; 
+
+[1644:0x1d6ff000]      611 ms: Mark-Compact 70.5 (103.9) -> 44.9 (110.6) MB, pooled: 0 MB, 7.93 / 0.05 ms  (+ 3.3 ms in 325 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 58 ms) (average mu = 0.950, current mu = 0.949) finalize incremental marking via stack guard; GC in old space requested
+
+[1644:0x1d6ff000]      668 ms: Scavenge 77.5 (110.6) -> 52.4 (110.6) MB, pooled: 0 MB, 2.61 / 0.00 ms  (average mu = 0.950, current mu = 0.949) allocation failure; 
+
+[1644:0x1d6ff000]      709 ms: Scavenge 77.9 (110.9) -> 58.0 (118.4) MB, pooled: 0 MB, 4.55 / 0.00 ms  (average mu = 0.950, current mu = 0.949) allocation failure; 
+
+[1644:0x1d6ff000]      753 ms: Scavenge 85.1 (118.4) -> 64.2 (123.6) MB, pooled: 0 MB, 5.20 / 0.00 ms  (average mu = 0.950, current mu = 0.949) allocation failure; 
+
+[1644:0x1d6ff000]      812 ms: Scavenge 91.8 (124.6) -> 74.2 (130.8) MB, pooled: 0 MB, 5.91 / 0.00 ms  (average mu = 0.950, current mu = 0.949) allocation failure; 
+
+[1644:0x1d6ff000]      871 ms: Scavenge 99.0 (132.0) -> 85.3 (140.7) MB, pooled: 0 MB, 7.61 / 0.00 ms  (average mu = 0.950, current mu = 0.949) allocation failure; 
+
+[1644:0x1d6ff000]      925 ms: Mark-Compact 102.0 (142.2) -> 52.5 (146.3) MB, pooled: 0 MB, 9.41 / 0.26 ms  (+ 0.3 ms in 119 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 34 ms) (average mu = 0.963, current mu = 0.969) finalize incremental marking via stack guard; GC in old space requested
+
+[1644:0x1d6ff000]     1009 ms: Scavenge 84.4 (146.8) -> 66.4 (146.8) MB, pooled: 0 MB, 4.46 / 0.00 ms  (average mu = 0.963, current mu = 0.969) task; 
+
+[1644:0x1d6ff000]     1066 ms: Scavenge 89.4 (146.9) -> 77.0 (146.9) MB, pooled: 0 MB, 7.00 / 0.00 ms  (average mu = 0.963, current mu = 0.969) allocation failure; 
+
+[1644:0x1d6ff000]     1132 ms: Scavenge 99.1 (147.1) -> 81.2 (147.1) MB, pooled: 0 MB, 8.82 / 0.00 ms  (average mu = 0.963, current mu = 0.969) task; 
+
+[1644:0x1d6ff000]     1201 ms: Scavenge 108.7 (147.3) -> 91.4 (147.3) MB, pooled: 0 MB, 5.97 / 0.00 ms  (average mu = 0.963, current mu = 0.969) allocation failure; 
+
+6:03:51 PM [vite] (client) [optimizer] scanning dependencies...
+
+[1644:0x1d6ff000]     1264 ms: Scavenge 110.3 (147.6) -> 95.6 (154.6) MB, pooled: 0 MB, 10.39 / 0.00 ms  (average mu = 0.963, current mu = 0.969) task; 
+
+[1644:0x1d6ff000]     1370 ms: Mark-Compact 125.7 (159.1) -> 68.0 (167.4) MB, pooled: 0 MB, 15.64 / 4.99 ms  (+ 1.6 ms in 215 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 67 ms) (average mu = 0.962, current mu = 0.962) finalize incremental marking via stack guard; GC in old space requested
+
+[1644:0x1d6ff000]     1472 ms: Scavenge 100.0 (167.7) -> 80.2 (167.7) MB, pooled: 0 MB, 10.24 / 0.13 ms  (average mu = 0.962, current mu = 0.962) task; 
+
+[1644:0x1d6ff000]     1545 ms: Scavenge 104.6 (168.3) -> 85.0 (167.7) MB, pooled: 0 MB, 5.89 / 0.32 ms  (average mu = 0.962, current mu = 0.962) allocation failure; 
+
+[1644:0x1d6ff000]     1611 ms: Scavenge 110.6 (168.2) -> 86.9 (168.2) MB, pooled: 0 MB, 3.24 / 0.60 ms  (average mu = 0.962, current mu = 0.962) task; 
+
+[1644:0x1d6ff000]     1673 ms: Scavenge 115.9 (168.2) -> 97.2 (168.2) MB, pooled: 0 MB, 5.27 / 1.42 ms  (average mu = 0.962, current mu = 0.962) task; 
+
+[1644:0x1d6ff000]     1741 ms: Scavenge 126.4 (168.4) -> 107.8 (170.4) MB, pooled: 0 MB, 6.53 / 1.16 ms  (average mu = 0.962, current mu = 0.962) task; 
+
+[1644:0x1d6ff000]     1810 ms: Scavenge 136.2 (174.9) -> 117.4 (179.9) MB, pooled: 0 MB, 6.85 / 0.75 ms  (average mu = 0.962, current mu = 0.962) task; 
+
+[1644:0x1d6ff000]     1879 ms: Mark-Compact 130.3 (181.9) -> 54.7 (174.2) MB, pooled: 7 MB, 27.01 / 17.09 ms  (+ 1.2 ms in 120 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 59 ms) (average mu = 0.952, current mu = 0.945) finalize incremental marking via task; GC in old space requested
+
+[1644:0x1d6ff000]     1992 ms: Scavenge 92.9 (174.6) -> 72.5 (174.6) MB, pooled: 7 MB, 5.62 / 1.12 ms  (average mu = 0.952, current mu = 0.945) allocation failure; 
+
+[1644:0x1d6ff000]     2045 ms: Scavenge 92.9 (174.6) -> 75.4 (174.6) MB, pooled: 7 MB, 10.65 / 0.36 ms  (average mu = 0.952, current mu = 0.945) task; 
+
+[1644:0x1d6ff000]     2130 ms: Scavenge 101.9 (175.6) -> 80.8 (174.9) MB, pooled: 7 MB, 6.57 / 0.01 ms  (average mu = 0.952, current mu = 0.945) task; 
+
+[1644:0x1d6ff000]     2251 ms: Scavenge 104.5 (175.1) -> 85.0 (175.1) MB, pooled: 7 MB, 3.72 / 0.45 ms  (average mu = 0.952, current mu = 0.945) task; 
+
+[1644:0x1d6ff000]     2323 ms: Scavenge 114.2 (175.5) -> 105.8 (175.5) MB, pooled: 7 MB, 6.87 / 0.00 ms  (average mu = 0.952, current mu = 0.945) allocation failure; 
+
+[1644:0x1d6ff000]     2361 ms: Scavenge 118.3 (176.0) -> 113.9 (176.0) MB, pooled: 7 MB, 6.21 / 0.00 ms  (average mu = 0.952, current mu = 0.945) allocation failure; 
+
+[1644:0x1d6ff000]     2439 ms: Mark-Compact 127.0 (177.1) -> 88.5 (185.2) MB, pooled: 0 MB, 12.39 / 5.13 ms  (+ 1.5 ms in 156 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 63 ms) (average mu = 0.965, current mu = 0.976) finalize incremental marking via stack guard; GC in old space requested
+
+[1644:0x1d6ff000]     2557 ms: Scavenge 121.4 (185.7) -> 94.7 (185.7) MB, pooled: 0 MB, 3.62 / 0.00 ms  (average mu = 0.965, current mu = 0.976) allocation failure; 
+
+[1644:0x1d6ff000]     2625 ms: Scavenge 121.9 (185.9) -> 100.1 (185.9) MB, pooled: 0 MB, 6.21 / 0.06 ms  (average mu = 0.965, current mu = 0.976) allocation failure; 
+
+[1644:0x1d6ff000]     2697 ms: Scavenge 127.9 (186.1) -> 108.6 (186.1) MB, pooled: 0 MB, 5.46 / 0.17 ms  (average mu = 0.965, current mu = 0.976) allocation failure; 
+
+[1644:0x1d6ff000]     2787 ms: Scavenge 139.3 (197.1) -> 119.1 (193.1) MB, pooled: 0 MB, 6.13 / 0.09 ms  (average mu = 0.965, current mu = 0.976) task; 
+
+[1644:0x1d6ff000]     2847 ms: Scavenge 150.3 (193.1) -> 130.3 (193.1) MB, pooled: 0 MB, 5.88 / 0.75 ms  (average mu = 0.965, current mu = 0.976) allocation failure; 
+
+[1644:0x1d6ff000]     2948 ms: Scavenge 174.8 (216.6) -> 136.5 (200.1) MB, pooled: 0 MB, 11.41 / 0.18 ms  (average mu = 0.965, current mu = 0.976) task; 
+
+[133:0x33723000]   108009 ms: Scavenge 42.0 (91.8) -> 23.4 (91.8) MB, pooled: 14 MB, 6.09 / 0.00 ms  (average mu = 0.998, current mu = 0.999) task; 
+[133:0x33723000]   108169 ms: Scavenge 42.1 (91.8) -> 28.1 (91.8) MB, pooled: 14 MB, 8.39 / 0.00 ms  (average mu = 0.998, current mu = 0.999) task; 
+[133:0x33723000]   108409 ms: Scavenge 48.3 (91.8) -> 31.8 (94.1) MB, pooled: 12 MB, 4.32 / 0.00 ms  (average mu = 0.998, current mu = 0.999) task; 
+[133:0x33723000]   108428 ms: Mark-Compact 32.1 (94.1) -> 24.0 (95.3) MB, pooled: 10 MB, 3.60 / 0.00 ms  (+ 0.8 ms in 29 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 18 ms) (average mu = 0.999, current mu = 1.000) finalize incremental marking via task; GC in old space requested
+[1644:0x1d6ff000]     3718 ms: Scavenge 159.2 (200.9) -> 139.6 (204.4) MB, pooled: 0 MB, 5.83 / 0.21 ms  (average mu = 0.965, current mu = 0.976) task; 
+
+[133:0x33723000]   109553 ms: Scavenge 49.8 (95.3) -> 28.8 (95.3) MB, pooled: 10 MB, 4.14 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[133:0x33723000]   109803 ms: Scavenge 49.9 (95.3) -> 32.7 (95.3) MB, pooled: 10 MB, 5.33 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[1644:0x1d6ff000]     5143 ms: Mark-Compact 155.0 (204.9) -> 61.0 (180.7) MB, pooled: 18 MB, 5.70 / 0.67 ms  (+ 17.7 ms in 379 steps since start of marking, biggest step 1.9 ms, walltime since start of marking 37 ms) (average mu = 0.987, current mu = 0.991) finalize incremental marking via task; GC in old space requested
+
+[133:0x33723000]   110089 ms: Scavenge 54.6 (95.3) -> 36.9 (99.1) MB, pooled: 6 MB, 6.21 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[1644:0x1d6ff000]     5482 ms: Scavenge 86.9 (180.7) -> 62.8 (180.7) MB, pooled: 18 MB, 1.56 / 0.00 ms  (average mu = 0.987, current mu = 0.991) task; 
+
+[133:0x33723000]   110419 ms: Scavenge 58.6 (99.1) -> 39.9 (102.8) MB, pooled: 3 MB, 2.99 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[133:0x33723000]   110432 ms: Mark-Compact 40.3 (102.8) -> 20.5 (98.8) MB, pooled: 7 MB, 3.30 / 0.00 ms  (+ 4.1 ms in 147 steps since start of marking, biggest step 0.3 ms, walltime since start of marking 12 ms) (average mu = 0.999, current mu = 0.996) finalize incremental marking via task; GC in old space requested
+[1644:0x1d6ff000]     6561 ms: Scavenge 87.3 (180.7) -> 64.4 (180.7) MB, pooled: 18 MB, 3.37 / 0.00 ms  (average mu = 0.987, current mu = 0.991) task; 
+
+[133:0x33723000]   111658 ms: Scavenge 46.5 (98.8) -> 25.1 (98.8) MB, pooled: 7 MB, 4.71 / 0.00 ms  (average mu = 0.999, current mu = 0.996) task; 
+6:03:57 PM [vite] (client) hmr update /src/f0.jsx
+
+[133:0x33723000]   112690 ms: Scavenge 46.5 (98.8) -> 27.8 (98.8) MB, pooled: 7 MB, 4.02 / 0.00 ms  (average mu = 0.999, current mu = 0.996) task; 
+6:03:58 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:03:58 PM [vite] (client) hmr update /src/f0.jsx
+
+6:03:59 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:03:59 PM [vite] (client) hmr update /src/f0.jsx
+
+[133:0x33723000]   114773 ms: Scavenge 50.9 (98.8) -> 30.4 (98.8) MB, pooled: 7 MB, 5.23 / 0.00 ms  (average mu = 0.999, current mu = 0.996) task; 
+6:04:00 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:04:00 PM [vite] (client) hmr update /src/f0.jsx
+
+6:04:01 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:04:01 PM [vite] (client) hmr update /src/f0.jsx
+
+[1644:0x1d6ff000]    11881 ms: Scavenge 89.3 (180.7) -> 66.3 (180.7) MB, pooled: 18 MB, 1.72 / 0.03 ms  (average mu = 0.987, current mu = 0.991) task; 
+
+[1644:0x1d6ff000]    11908 ms: Mark-Compact 66.9 (180.7) -> 61.1 (136.9) MB, pooled: 62 MB, 7.33 / 1.06 ms  (+ 12.1 ms in 344 steps since start of marking, biggest step 0.4 ms, walltime since start of marking 26 ms) (average mu = 0.995, current mu = 0.997) finalize incremental marking via task; GC in old space requested
+
+[133:0x33723000]   116947 ms: Scavenge 53.5 (98.8) -> 33.1 (98.8) MB, pooled: 7 MB, 2.14 / 0.00 ms  (average mu = 0.999, current mu = 0.996) task; 
+[133:0x33723000]   116957 ms: Mark-Compact 33.3 (98.8) -> 15.9 (92.8) MB, pooled: 13 MB, 1.58 / 0.00 ms  (+ 0.4 ms in 21 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 10 ms) (average mu = 0.999, current mu = 1.000) finalize incremental marking via task; GC in old space requested
+6:04:02 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+success Vite 8.3.0 dev (cold, memory): steady 1158.1 MiB, peak 1177.3 MiB
+6:04:09 PM [vite] (client) hmr update /src/f0.jsx
+
+6:04:10 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+start   Running start command: start:vite
+Benchmark Start Time: 1792605852079
+
+[2100:0x3d105000]       55 ms: Scavenge 6.4 (7.6) -> 5.9 (8.6) MB, pooled: 0 MB, 0.51 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2100:0x3d105000]       66 ms: Scavenge 6.8 (8.6) -> 6.5 (11.1) MB, pooled: 0 MB, 0.54 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2100:0x3d105000]      103 ms: Scavenge 10.0 (12.5) -> 9.1 (13.0) MB, pooled: 0 MB, 0.44 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2100:0x3d105000]      122 ms: Scavenge 11.2 (14.0) -> 10.5 (19.0) MB, pooled: 0 MB, 0.72 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2100:0x3d105000]      157 ms: Scavenge 14.4 (20.0) -> 13.0 (20.8) MB, pooled: 0 MB, 0.65 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+
+[2100:0x3d105000]      166 ms: Mark-Compact 13.1 (20.8) -> 12.0 (21.8) MB, pooled: 0 MB, 1.43 / 0.01 ms  (+ 2.4 ms in 72 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 5 ms) (average mu = 0.976, current mu = 0.976) finalize incremental marking via task; GC in old space requested
+
+
+  VITE v8.3.0  ready in 182 ms
+
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+[2100:0x3d105000]      217 ms: Scavenge 18.7 (25.2) -> 14.6 (23.7) MB, pooled: 0 MB, 1.78 / 0.00 ms  (average mu = 0.976, current mu = 0.976) task; 
+
+[133:0x33723000]   127215 ms: Scavenge 41.6 (92.8) -> 18.9 (92.8) MB, pooled: 13 MB, 2.90 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[2100:0x3d105000]      230 ms: Scavenge 17.8 (23.9) -> 15.0 (32.4) MB, pooled: 0 MB, 1.92 / 0.00 ms  (average mu = 0.976, current mu = 0.976) task; 
+
+[2100:0x3d105000]      253 ms: Scavenge 22.9 (32.4) -> 16.8 (32.4) MB, pooled: 0 MB, 0.72 / 0.00 ms  (average mu = 0.976, current mu = 0.976) allocation failure; 
+
+[2100:0x3d105000]      266 ms: Scavenge 23.0 (32.4) -> 18.4 (34.4) MB, pooled: 0 MB, 1.37 / 0.00 ms  (average mu = 0.976, current mu = 0.976) allocation failure; 
+
+[2100:0x3d105000]      327 ms: Mark-Compact 40.2 (50.7) -> 26.3 (60.2) MB, pooled: 0 MB, 5.61 / 0.01 ms  (+ 4.0 ms in 327 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 56 ms) (average mu = 0.959, current mu = 0.942) finalize incremental marking via stack guard; GC in old space requested
+
+[2100:0x3d105000]      359 ms: Scavenge 39.6 (60.2) -> 31.4 (60.2) MB, pooled: 0 MB, 1.67 / 0.00 ms  (average mu = 0.959, current mu = 0.942) task; 
+
+[2100:0x3d105000]      416 ms: Scavenge 41.4 (60.9) -> 33.3 (65.6) MB, pooled: 0 MB, 3.55 / 0.01 ms  (average mu = 0.959, current mu = 0.942) task; 
+
+[2100:0x3d105000]      448 ms: Scavenge 48.1 (65.9) -> 39.3 (98.9) MB, pooled: 0 MB, 4.88 / 0.00 ms  (average mu = 0.959, current mu = 0.942) task; 
+
+[2100:0x3d105000]      503 ms: Scavenge 65.4 (98.9) -> 46.5 (103.4) MB, pooled: 0 MB, 4.41 / 0.00 ms  (average mu = 0.959, current mu = 0.942) allocation failure; 
+
+[2100:0x3d105000]      553 ms: Mark-Compact 65.2 (103.4) -> 37.8 (111.1) MB, pooled: 0 MB, 4.96 / 0.00 ms  (+ 0.8 ms in 17 steps since start of marking, biggest step 0.7 ms, walltime since start of marking 18 ms) (average mu = 0.970, current mu = 0.978) finalize incremental marking via stack guard; GC in old space requested
+
+[2100:0x3d105000]      610 ms: Scavenge 70.3 (111.1) -> 44.5 (111.1) MB, pooled: 0 MB, 2.38 / 0.00 ms  (average mu = 0.970, current mu = 0.978) allocation failure; 
+
+[2100:0x3d105000]      656 ms: Scavenge 70.8 (111.1) -> 50.4 (111.1) MB, pooled: 0 MB, 4.14 / 0.00 ms  (average mu = 0.970, current mu = 0.978) allocation failure; 
+
+[2100:0x3d105000]      695 ms: Scavenge 77.3 (111.1) -> 56.4 (116.4) MB, pooled: 0 MB, 5.07 / 0.00 ms  (average mu = 0.970, current mu = 0.978) allocation failure; 
+
+[2100:0x3d105000]      738 ms: Scavenge 80.1 (116.4) -> 62.2 (122.6) MB, pooled: 0 MB, 5.04 / 0.00 ms  (average mu = 0.970, current mu = 0.978) task; 
+
+[2100:0x3d105000]      805 ms: Scavenge 90.3 (123.3) -> 74.3 (128.8) MB, pooled: 0 MB, 7.22 / 0.00 ms  (average mu = 0.970, current mu = 0.978) allocation failure; 
+
+[2100:0x3d105000]      866 ms: Scavenge 96.9 (130.0) -> 84.4 (140.7) MB, pooled: 0 MB, 13.72 / 0.00 ms  (average mu = 0.970, current mu = 0.978) allocation failure; 
+
+[2100:0x3d105000]      894 ms: Mark-Compact 87.8 (141.0) -> 45.3 (144.8) MB, pooled: 0 MB, 3.35 / 0.00 ms  (+ 4.8 ms in 140 steps since start of marking, biggest step 0.2 ms, walltime since start of marking 22 ms) (average mu = 0.974, current mu = 0.977) finalize incremental marking via task; GC in old space requested
+
+[2100:0x3d105000]     1047 ms: Scavenge 93.0 (159.8) -> 62.7 (152.9) MB, pooled: 0 MB, 3.78 / 0.11 ms  (average mu = 0.974, current mu = 0.977) allocation failure; 
+
+[2100:0x3d105000]     1102 ms: Scavenge 87.2 (153.2) -> 62.8 (153.2) MB, pooled: 0 MB, 2.96 / 0.04 ms  (average mu = 0.974, current mu = 0.977) allocation failure; 
+
+[2100:0x3d105000]     1205 ms: Scavenge 84.1 (153.2) -> 65.4 (153.2) MB, pooled: 0 MB, 5.80 / 0.29 ms  (average mu = 0.974, current mu = 0.977) task; 
+
+[2100:0x3d105000]     1317 ms: Scavenge 94.5 (153.4) -> 79.2 (153.4) MB, pooled: 0 MB, 6.16 / 0.16 ms  (average mu = 0.974, current mu = 0.977) allocation failure; 
+
+[2100:0x3d105000]     1364 ms: Scavenge 97.1 (153.8) -> 90.7 (153.8) MB, pooled: 0 MB, 6.62 / 0.02 ms  (average mu = 0.974, current mu = 0.977) allocation failure; 
+
+[2100:0x3d105000]     1418 ms: Scavenge 110.1 (154.4) -> 98.4 (155.7) MB, pooled: 0 MB, 5.33 / 0.01 ms  (average mu = 0.974, current mu = 0.977) allocation failure; 
+
+[2100:0x3d105000]     1489 ms: Mark-Compact 115.4 (156.2) -> 89.4 (165.5) MB, pooled: 0 MB, 8.19 / 0.12 ms  (+ 0.8 ms in 189 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 59 ms) (average mu = 0.982, current mu = 0.985) finalize incremental marking via stack guard; GC in old space requested
+
+[133:0x33723000]   128545 ms: Scavenge 41.7 (92.8) -> 25.1 (92.8) MB, pooled: 13 MB, 5.42 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[2100:0x3d105000]     1573 ms: Scavenge 122.1 (165.6) -> 95.3 (165.6) MB, pooled: 0 MB, 2.49 / 0.05 ms  (average mu = 0.982, current mu = 0.985) allocation failure; 
+
+[2100:0x3d105000]     1644 ms: Scavenge 122.3 (165.8) -> 100.2 (165.8) MB, pooled: 0 MB, 4.59 / 0.06 ms  (average mu = 0.982, current mu = 0.985) task; 
+
+[2100:0x3d105000]     1704 ms: Scavenge 121.4 (165.8) -> 105.0 (167.1) MB, pooled: 0 MB, 3.85 / 0.16 ms  (average mu = 0.982, current mu = 0.985) task; 
+
+[2100:0x3d105000]     1807 ms: Scavenge 133.8 (168.1) -> 113.5 (172.3) MB, pooled: 0 MB, 7.10 / 0.35 ms  (average mu = 0.982, current mu = 0.985) allocation failure; 
+
+[2100:0x3d105000]     1859 ms: Scavenge 136.9 (174.1) -> 121.4 (180.1) MB, pooled: 0 MB, 7.15 / 0.35 ms  (average mu = 0.982, current mu = 0.985) task; 
+
+[133:0x33723000]   128959 ms: Scavenge 44.6 (92.8) -> 29.6 (92.8) MB, pooled: 13 MB, 12.86 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[133:0x33723000]   128976 ms: Mark-Compact 30.6 (92.8) -> 23.7 (93.6) MB, pooled: 12 MB, 2.23 / 0.00 ms  (+ 4.6 ms in 88 steps since start of marking, biggest step 2.9 ms, walltime since start of marking 17 ms) (average mu = 0.999, current mu = 0.999) finalize incremental marking via task; GC in old space requested
+[133:0x33723000]   129273 ms: Scavenge 49.6 (93.6) -> 26.4 (93.6) MB, pooled: 12 MB, 3.32 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+[2100:0x3d105000]     2304 ms: Scavenge 140.1 (180.3) -> 122.3 (186.8) MB, pooled: 0 MB, 8.79 / 0.34 ms  (average mu = 0.982, current mu = 0.985) task; 
+
+[133:0x33723000]   129572 ms: Scavenge 49.7 (93.6) -> 29.0 (93.6) MB, pooled: 12 MB, 6.87 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+[133:0x33723000]   129884 ms: Scavenge 52.2 (93.6) -> 31.8 (95.1) MB, pooled: 10 MB, 4.72 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+[133:0x33723000]   131070 ms: Scavenge 54.8 (95.1) -> 34.9 (97.8) MB, pooled: 8 MB, 7.35 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+6:04:17 PM [vite] (client) hmr update /src/f0.jsx
+
+[133:0x33723000]   132102 ms: Scavenge 57.6 (97.8) -> 37.8 (101.1) MB, pooled: 4 MB, 2.37 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+[133:0x33723000]   132112 ms: Mark-Compact 38.4 (101.1) -> 16.3 (93.3) MB, pooled: 12 MB, 2.36 / 0.00 ms  (+ 1.7 ms in 72 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 10 ms) (average mu = 0.999, current mu = 0.999) finalize incremental marking via task; GC in old space requested
+6:04:17 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:04:18 PM [vite] (client) hmr update /src/f0.jsx
+
+6:04:18 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:04:19 PM [vite] (client) hmr update /src/f0.jsx
+
+[133:0x33723000]   134432 ms: Scavenge 42.0 (93.3) -> 19.3 (93.3) MB, pooled: 12 MB, 2.87 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+6:04:19 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:04:20 PM [vite] (client) hmr update /src/f0.jsx
+
+6:04:20 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:04:21 PM [vite] (client) hmr update /src/f0.jsx
+
+[133:0x33723000]   136484 ms: Scavenge 42.1 (93.3) -> 22.0 (93.3) MB, pooled: 12 MB, 2.02 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+6:04:21 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+success Vite 8.3.0 dev (warm, memory): steady 375.5 MiB, peak 375.5 MiB
+[2100:0x3d105000]    17422 ms: Scavenge 154.6 (188.3) -> 132.6 (190.3) MB, pooled: 0 MB, 2.81 / 0.03 ms  (average mu = 0.982, current mu = 0.985) allocation failure; 
+
+start   Running build command: build:vite
+Benchmark Start Time: 1792605870592
+
+[2502:0x15caa000]       51 ms: Scavenge 6.4 (7.6) -> 5.9 (8.6) MB, pooled: 0 MB, 0.46 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2502:0x15caa000]       62 ms: Scavenge 6.8 (8.6) -> 6.5 (11.1) MB, pooled: 0 MB, 0.55 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2502:0x15caa000]       99 ms: Scavenge 10.0 (12.5) -> 9.0 (13.0) MB, pooled: 0 MB, 0.45 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2502:0x15caa000]      117 ms: Scavenge 11.2 (14.0) -> 10.6 (19.0) MB, pooled: 0 MB, 0.77 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2502:0x15caa000]      151 ms: Scavenge 14.3 (20.0) -> 13.0 (21.3) MB, pooled: 0 MB, 0.81 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+
+[2502:0x15caa000]      161 ms: Mark-Compact 13.2 (21.3) -> 12.0 (21.5) MB, pooled: 0 MB, 1.53 / 0.01 ms  (+ 2.3 ms in 83 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 5 ms) (average mu = 0.976, current mu = 0.976) finalize incremental marking via task; GC in old space requested
+
+vite v8.3.0 building client environment for production...
+
+transforming...
+
+✓ 20022 modules transformed.
+
+[2502:0x15caa000]      944 ms: Scavenge 21.5 (26.5) -> 16.6 (31.5) MB, pooled: 0 MB, 1.41 / 0.01 ms  (average mu = 0.976, current mu = 0.976) allocation failure; 
+
+[2502:0x15caa000]      965 ms: Scavenge 27.2 (36.1) -> 23.4 (35.6) MB, pooled: 0 MB, 2.12 / 0.00 ms  (average mu = 0.976, current mu = 0.976) allocation failure; 
+
+[2502:0x15caa000]      977 ms: Scavenge 28.8 (37.5) -> 27.0 (57.6) MB, pooled: 0 MB, 2.69 / 0.00 ms  (average mu = 0.976, current mu = 0.976) allocation failure; 
+
+[2502:0x15caa000]     1014 ms: Mark-Compact 45.1 (70.2) -> 42.4 (108.7) MB, pooled: 0 MB, 5.00 / 0.02 ms  (+ 1.6 ms in 100 steps since start of marking, biggest step 0.2 ms, walltime since start of marking 37 ms) (average mu = 0.990, current mu = 0.993) finalize incremental marking via stack guard; GC in old space requested
+
+rendering chunks...
+
+[2502:0x15caa000]     1125 ms: Scavenge 77.6 (140.3) -> 50.0 (113.9) MB, pooled: 0 MB, 3.51 / 0.01 ms  (average mu = 0.990, current mu = 0.993) allocation failure; 
+
+computing gzip size...
+
+dist/index.html                   0.45 kB │ gzip:   0.30 kB
+dist/assets/index-DIPTFHQ-.css    0.02 kB │ gzip:   0.04 kB
+dist/assets/f7-CF3KV3yN.js      480.79 kB │ gzip: 127.22 kB
+dist/assets/f5-ulTyHPMQ.js      490.53 kB │ gzip: 132.75 kB
+dist/assets/f4-CDmlGJVa.js      494.44 kB │ gzip: 134.53 kB
+dist/assets/f6-UTLG91yh.js      495.24 kB │ gzip: 135.23 kB
+dist/assets/f1-BWfmfotR.js      500.23 kB │ gzip: 135.78 kB
+dist/assets/f2-BBNK_IAS.js      512.10 kB │ gzip: 141.11 kB
+dist/assets/f3-C06QU5Wj.js      516.29 kB │ gzip: 143.62 kB
+dist/assets/index-BXzUHz4W.js   747.49 kB │ gzip: 215.55 kB
+dist/assets/f8-CwsyxxH9.js      994.66 kB │ gzip: 266.88 kB
+
+
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+✓ built in 977ms
+
+success Vite 8.3.0 built in 1239ms
+success Vite 8.3.0 output size: 5232.3kB
+success Vite 8.3.0 gzipped size: 1407.1kB
+start   Running build command: build:vite
+Benchmark Start Time: 1792605872866
+
+[2567:0x29229000]       52 ms: Scavenge 6.4 (7.6) -> 5.9 (8.6) MB, pooled: 0 MB, 0.46 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2567:0x29229000]       62 ms: Scavenge 6.8 (8.6) -> 6.5 (11.1) MB, pooled: 0 MB, 0.51 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2567:0x29229000]       99 ms: Scavenge 10.0 (12.5) -> 9.0 (13.0) MB, pooled: 0 MB, 0.43 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2567:0x29229000]      118 ms: Scavenge 11.2 (14.0) -> 10.6 (19.0) MB, pooled: 0 MB, 0.77 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2567:0x29229000]      152 ms: Scavenge 14.3 (20.0) -> 13.0 (20.8) MB, pooled: 0 MB, 0.69 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+
+[2567:0x29229000]      158 ms: Mark-Compact 13.1 (21.0) -> 12.0 (21.8) MB, pooled: 0 MB, 1.26 / 0.00 ms  (+ 2.2 ms in 73 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 5 ms) (average mu = 0.978, current mu = 0.978) finalize incremental marking via task; GC in old space requested
+
+vite v8.3.0 building client environment for production...
+
+transforming...
+
+✓ 20022 modules transformed.
+
+[2567:0x29229000]      935 ms: Scavenge 21.5 (26.5) -> 16.5 (31.5) MB, pooled: 0 MB, 4.49 / 0.01 ms  (average mu = 0.978, current mu = 0.978) allocation failure; 
+
+[2567:0x29229000]      959 ms: Scavenge 28.1 (36.9) -> 23.3 (35.6) MB, pooled: 0 MB, 2.65 / 0.00 ms  (average mu = 0.978, current mu = 0.978) allocation failure; 
+
+[2567:0x29229000]      972 ms: Scavenge 28.8 (37.7) -> 27.3 (57.9) MB, pooled: 0 MB, 3.02 / 0.00 ms  (average mu = 0.978, current mu = 0.978) allocation failure; 
+
+[2567:0x29229000]     1004 ms: Mark-Compact 42.5 (68.0) -> 39.7 (73.7) MB, pooled: 0 MB, 3.50 / 0.02 ms  (+ 1.2 ms in 91 steps since start of marking, biggest step 0.2 ms, walltime since start of marking 32 ms) (average mu = 0.992, current mu = 0.995) finalize incremental marking via stack guard; GC in old space requested
+
+[2567:0x29229000]     1022 ms: Scavenge 54.9 (88.6) -> 42.5 (108.6) MB, pooled: 0 MB, 2.67 / 0.01 ms  (average mu = 0.992, current mu = 0.995) allocation failure; 
+
+rendering chunks...
+
+computing gzip size...
+
+dist/index.html                   0.45 kB │ gzip:   0.30 kB
+dist/assets/index-DIPTFHQ-.css    0.02 kB │ gzip:   0.04 kB
+dist/assets/f7-CF3KV3yN.js      480.79 kB │ gzip: 127.22 kB
+dist/assets/f5-ulTyHPMQ.js      490.53 kB │ gzip: 132.75 kB
+dist/assets/f4-CDmlGJVa.js      494.44 kB │ gzip: 134.53 kB
+dist/assets/f6-UTLG91yh.js      495.24 kB │ gzip: 135.23 kB
+dist/assets/f1-BWfmfotR.js      500.23 kB │ gzip: 135.78 kB
+dist/assets/f2-BBNK_IAS.js      512.10 kB │ gzip: 141.11 kB
+dist/assets/f3-C06QU5Wj.js      516.29 kB │ gzip: 143.62 kB
+dist/assets/index-BXzUHz4W.js   747.49 kB │ gzip: 215.55 kB
+dist/assets/f8-CwsyxxH9.js      994.66 kB │ gzip: 266.88 kB
+
+
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+✓ built in 967ms
+
+success Vite 8.3.0 built with cache in 1228ms
+info    Vite 8.3.0: timing pass
+start   Running start command: start:vite
+Benchmark Start Time: 1792605875145
+
+[2631:0x44cae000]       50 ms: Scavenge 6.4 (7.6) -> 5.9 (8.6) MB, pooled: 0 MB, 0.46 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2631:0x44cae000]       61 ms: Scavenge 6.8 (8.6) -> 6.5 (11.1) MB, pooled: 0 MB, 0.52 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2631:0x44cae000]      101 ms: Scavenge 10.0 (13.0) -> 9.1 (13.5) MB, pooled: 0 MB, 0.48 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2631:0x44cae000]      119 ms: Scavenge 11.2 (14.3) -> 10.5 (19.3) MB, pooled: 0 MB, 0.73 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2631:0x44cae000]      153 ms: Scavenge 14.4 (20.0) -> 13.0 (21.0) MB, pooled: 0 MB, 0.66 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+
+[2631:0x44cae000]      160 ms: Mark-Compact 13.1 (21.0) -> 12.0 (21.5) MB, pooled: 0 MB, 1.40 / 0.01 ms  (+ 0.0 ms in 2 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 5 ms) (average mu = 0.991, current mu = 0.991) finalize incremental marking via task; GC in old space requested
+
+
+  VITE v8.3.0  ready in 188 ms
+
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+[2631:0x44cae000]      211 ms: Scavenge 19.6 (25.4) -> 14.9 (23.2) MB, pooled: 0 MB, 1.22 / 0.00 ms  (average mu = 0.991, current mu = 0.991) task; 
+
+[2631:0x44cae000]      227 ms: Scavenge 17.6 (23.2) -> 15.4 (31.9) MB, pooled: 0 MB, 3.01 / 0.00 ms  (average mu = 0.991, current mu = 0.991) task; 
+
+[2631:0x44cae000]      243 ms: Scavenge 22.4 (32.4) -> 15.6 (32.4) MB, pooled: 0 MB, 0.69 / 0.00 ms  (average mu = 0.991, current mu = 0.991) task; 
+
+[2631:0x44cae000]      264 ms: Mark-Compact 19.7 (33.4) -> 16.0 (33.9) MB, pooled: 0 MB, 2.42 / 0.01 ms  (+ 0.7 ms in 62 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 17 ms) (average mu = 0.983, current mu = 0.971) finalize incremental marking via task; GC in old space requested
+
+[2631:0x44cae000]      300 ms: Scavenge 25.3 (34.4) -> 19.3 (34.4) MB, pooled: 0 MB, 0.83 / 0.01 ms  (average mu = 0.983, current mu = 0.971) allocation failure; 
+
+[2631:0x44cae000]      311 ms: Scavenge 24.6 (34.4) -> 20.6 (36.4) MB, pooled: 0 MB, 1.17 / 0.00 ms  (average mu = 0.983, current mu = 0.971) task; 
+
+[2631:0x44cae000]      325 ms: Scavenge 27.3 (36.6) -> 22.0 (53.9) MB, pooled: 0 MB, 2.05 / 0.00 ms  (average mu = 0.983, current mu = 0.971) allocation failure; 
+
+[2631:0x44cae000]      353 ms: Scavenge 37.1 (53.9) -> 25.2 (55.6) MB, pooled: 0 MB, 1.39 / 0.00 ms  (average mu = 0.983, current mu = 0.971) allocation failure; 
+
+[2631:0x44cae000]      397 ms: Mark-Compact 38.0 (56.1) -> 26.7 (60.1) MB, pooled: 0 MB, 5.01 / 0.01 ms  (+ 3.1 ms in 184 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 42 ms) (average mu = 0.962, current mu = 0.941) finalize incremental marking via task; GC in old space requested
+
+[2631:0x44cae000]      469 ms: Scavenge 43.3 (60.1) -> 30.8 (92.1) MB, pooled: 0 MB, 3.24 / 0.00 ms  (average mu = 0.962, current mu = 0.941) allocation failure; 
+
+[2631:0x44cae000]      540 ms: Mark-Compact 58.4 (92.4) -> 35.3 (101.1) MB, pooled: 0 MB, 7.61 / 0.03 ms  (+ 4.2 ms in 311 steps since start of marking, biggest step 0.2 ms, walltime since start of marking 58 ms) (average mu = 0.940, current mu = 0.920) finalize incremental marking via stack guard; GC in old space requested
+
+[2631:0x44cae000]      604 ms: Scavenge 67.5 (101.1) -> 44.6 (101.1) MB, pooled: 0 MB, 3.17 / 0.00 ms  (average mu = 0.940, current mu = 0.920) allocation failure; 
+
+[2631:0x44cae000]      642 ms: Scavenge 67.9 (101.1) -> 49.4 (110.1) MB, pooled: 0 MB, 5.33 / 0.00 ms  (average mu = 0.940, current mu = 0.920) allocation failure; 
+
+[2631:0x44cae000]      684 ms: Scavenge 77.4 (110.4) -> 55.7 (115.1) MB, pooled: 0 MB, 4.05 / 0.00 ms  (average mu = 0.940, current mu = 0.920) allocation failure; 
+
+[2631:0x44cae000]      725 ms: Scavenge 82.3 (115.1) -> 61.6 (121.1) MB, pooled: 0 MB, 4.51 / 0.00 ms  (average mu = 0.940, current mu = 0.920) allocation failure; 
+
+[2631:0x44cae000]      767 ms: Scavenge 85.5 (122.6) -> 70.9 (128.6) MB, pooled: 0 MB, 4.64 / 0.00 ms  (average mu = 0.940, current mu = 0.920) task; 
+
+[2631:0x44cae000]      823 ms: Mark-Compact 90.4 (129.4) -> 54.4 (126.6) MB, pooled: 2 MB, 5.71 / 0.29 ms  (+ 3.9 ms in 305 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 56 ms) (average mu = 0.958, current mu = 0.967) finalize incremental marking via stack guard; GC in old space requested
+
+[2631:0x44cae000]      899 ms: Scavenge 88.7 (128.0) -> 69.8 (128.0) MB, pooled: 2 MB, 6.08 / 0.00 ms  (average mu = 0.958, current mu = 0.967) allocation failure; 
+
+[2631:0x44cae000]      950 ms: Scavenge 88.6 (128.2) -> 76.5 (136.2) MB, pooled: 0 MB, 8.58 / 0.00 ms  (average mu = 0.958, current mu = 0.967) task; 
+
+[2631:0x44cae000]     1034 ms: Scavenge 105.6 (138.5) -> 91.1 (143.0) MB, pooled: 0 MB, 6.33 / 0.00 ms  (average mu = 0.958, current mu = 0.967) allocation failure; 
+
+[2631:0x44cae000]     1086 ms: Scavenge 110.1 (143.9) -> 93.7 (152.6) MB, pooled: 0 MB, 10.89 / 0.00 ms  (average mu = 0.958, current mu = 0.967) task; 
+
+[2631:0x44cae000]     1169 ms: Mark-Compact 122.2 (155.2) -> 66.7 (163.3) MB, pooled: 0 MB, 9.54 / 2.35 ms  (+ 0.4 ms in 192 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 47 ms) (average mu = 0.967, current mu = 0.972) finalize incremental marking via stack guard; GC in old space requested
+
+6:04:36 PM [vite] (client) [optimizer] scanning dependencies...
+
+[2631:0x44cae000]     1278 ms: Scavenge 100.2 (163.7) -> 79.2 (163.7) MB, pooled: 0 MB, 9.59 / 0.00 ms  (average mu = 0.967, current mu = 0.972) task; 
+
+[2631:0x44cae000]     1350 ms: Scavenge 102.9 (163.9) -> 88.9 (163.9) MB, pooled: 0 MB, 7.41 / 0.09 ms  (average mu = 0.967, current mu = 0.972) allocation failure; 
+
+[2631:0x44cae000]     1413 ms: Scavenge 111.3 (164.1) -> 93.1 (164.1) MB, pooled: 0 MB, 9.02 / 0.12 ms  (average mu = 0.967, current mu = 0.972) allocation failure; 
+
+[2631:0x44cae000]     1483 ms: Scavenge 120.2 (164.2) -> 101.2 (164.2) MB, pooled: 0 MB, 5.21 / 0.19 ms  (average mu = 0.967, current mu = 0.972) allocation failure; 
+
+[2631:0x44cae000]     1542 ms: Scavenge 121.3 (165.2) -> 102.2 (166.4) MB, pooled: 0 MB, 8.49 / 0.25 ms  (average mu = 0.967, current mu = 0.972) task; 
+
+[2631:0x44cae000]     1628 ms: Scavenge 133.3 (171.2) -> 110.3 (172.7) MB, pooled: 0 MB, 4.35 / 1.09 ms  (average mu = 0.967, current mu = 0.972) task; 
+
+[2631:0x44cae000]     1690 ms: Mark-Compact 122.7 (174.9) -> 52.8 (171.0) MB, pooled: 3 MB, 19.53 / 10.44 ms  (+ 1.0 ms in 115 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 51 ms) (average mu = 0.963, current mu = 0.961) finalize incremental marking via task; GC in old space requested
+
+[2631:0x44cae000]     1785 ms: Scavenge 87.0 (171.2) -> 65.6 (171.2) MB, pooled: 3 MB, 4.71 / 1.35 ms  (average mu = 0.963, current mu = 0.961) task; 
+
+[2631:0x44cae000]     1850 ms: Scavenge 93.4 (171.2) -> 74.6 (171.2) MB, pooled: 3 MB, 6.40 / 1.08 ms  (average mu = 0.963, current mu = 0.961) task; 
+
+[2631:0x44cae000]     1926 ms: Scavenge 105.8 (171.6) -> 85.7 (171.6) MB, pooled: 3 MB, 5.86 / 1.18 ms  (average mu = 0.963, current mu = 0.961) task; 
+
+[2631:0x44cae000]     1983 ms: Scavenge 109.0 (172.1) -> 97.2 (172.1) MB, pooled: 3 MB, 6.28 / 0.47 ms  (average mu = 0.963, current mu = 0.961) task; 
+
+[2631:0x44cae000]     2077 ms: Mark-Compact 126.7 (177.4) -> 64.6 (158.9) MB, pooled: 18 MB, 30.61 / 16.70 ms  (+ 1.3 ms in 231 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 68 ms) (average mu = 0.941, current mu = 0.918) finalize incremental marking via task; GC in old space requested
+
+[2631:0x44cae000]     2251 ms: Scavenge 98.0 (159.9) -> 71.5 (159.2) MB, pooled: 18 MB, 2.73 / 0.52 ms  (average mu = 0.941, current mu = 0.918) task; 
+
+[2631:0x44cae000]     2335 ms: Scavenge 97.3 (159.3) -> 88.0 (159.3) MB, pooled: 18 MB, 6.64 / 0.00 ms  (average mu = 0.941, current mu = 0.918) task; 
+
+[2631:0x44cae000]     2381 ms: Scavenge 105.0 (159.3) -> 100.5 (159.3) MB, pooled: 18 MB, 6.90 / 0.00 ms  (average mu = 0.941, current mu = 0.918) allocation failure; 
+
+[2631:0x44cae000]     2461 ms: Scavenge 120.9 (159.9) -> 106.0 (165.1) MB, pooled: 12 MB, 5.21 / 0.00 ms  (average mu = 0.941, current mu = 0.918) allocation failure; 
+
+[2631:0x44cae000]     2516 ms: Scavenge 127.5 (165.5) -> 107.5 (171.0) MB, pooled: 7 MB, 3.66 / 0.00 ms  (average mu = 0.941, current mu = 0.918) task; 
+
+[2631:0x44cae000]     2595 ms: Scavenge 136.7 (171.3) -> 113.4 (175.0) MB, pooled: 3 MB, 4.13 / 0.02 ms  (average mu = 0.941, current mu = 0.918) allocation failure; 
+
+[2631:0x44cae000]     2679 ms: Mark-Compact 137.1 (175.8) -> 71.1 (171.4) MB, pooled: 6 MB, 15.01 / 1.41 ms  (+ 0.4 ms in 118 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 47 ms) (average mu = 0.961, current mu = 0.975) finalize incremental marking via stack guard; GC in old space requested
+
+[2631:0x44cae000]     2793 ms: Scavenge 105.9 (177.5) -> 83.6 (176.0) MB, pooled: 6 MB, 3.15 / 0.12 ms  (average mu = 0.961, current mu = 0.975) task; 
+
+[2631:0x44cae000]     2845 ms: Scavenge 111.5 (181.1) -> 94.8 (179.6) MB, pooled: 6 MB, 7.90 / 0.52 ms  (average mu = 0.961, current mu = 0.975) task; 
+
+[2631:0x44cae000]     2889 ms: Scavenge 114.6 (179.8) -> 102.0 (179.8) MB, pooled: 6 MB, 5.81 / 0.00 ms  (average mu = 0.961, current mu = 0.975) task; 
+
+[133:0x33723000]   153077 ms: Scavenge 45.3 (93.8) -> 26.0 (93.8) MB, pooled: 12 MB, 2.76 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+[133:0x33723000]   153259 ms: Scavenge 47.8 (93.8) -> 32.8 (93.8) MB, pooled: 12 MB, 11.50 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+[133:0x33723000]   153279 ms: Mark-Compact 33.6 (93.8) -> 23.4 (97.6) MB, pooled: 8 MB, 6.56 / 0.00 ms  (+ 9.2 ms in 63 steps since start of marking, biggest step 4.1 ms, walltime since start of marking 20 ms) (average mu = 0.999, current mu = 0.999) finalize incremental marking via task; GC in old space requested
+[2631:0x44cae000]     3261 ms: Scavenge 144.9 (203.6) -> 105.4 (182.6) MB, pooled: 6 MB, 5.62 / 0.38 ms  (average mu = 0.961, current mu = 0.975) task; 
+
+[133:0x33723000]   153538 ms: Scavenge 49.4 (97.6) -> 29.3 (97.6) MB, pooled: 8 MB, 2.15 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+[133:0x33723000]   153781 ms: Scavenge 49.4 (97.6) -> 33.0 (97.6) MB, pooled: 8 MB, 4.49 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+[133:0x33723000]   154809 ms: Scavenge 55.1 (97.6) -> 37.2 (99.1) MB, pooled: 7 MB, 2.24 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+[2631:0x44cae000]     4921 ms: Scavenge 130.3 (182.8) -> 110.1 (182.8) MB, pooled: 6 MB, 4.65 / 0.00 ms  (average mu = 0.961, current mu = 0.975) task; 
+
+[2631:0x44cae000]     4960 ms: Mark-Compact 111.0 (182.8) -> 61.3 (161.7) MB, pooled: 22 MB, 7.72 / 0.34 ms  (+ 23.7 ms in 315 steps since start of marking, biggest step 4.1 ms, walltime since start of marking 40 ms) (average mu = 0.982, current mu = 0.986) finalize incremental marking via task; GC in old space requested
+
+[133:0x33723000]   155091 ms: Scavenge 58.9 (99.1) -> 41.3 (103.6) MB, pooled: 2 MB, 3.18 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+[133:0x33723000]   155117 ms: Mark-Compact 41.7 (103.8) -> 24.1 (101.8) MB, pooled: 4 MB, 5.50 / 0.00 ms  (+ 7.1 ms in 30 steps since start of marking, biggest step 5.6 ms, walltime since start of marking 26 ms) (average mu = 0.999, current mu = 0.993) finalize incremental marking via task; GC in old space requested
+[2631:0x44cae000]     5372 ms: Scavenge 87.3 (161.7) -> 63.6 (161.7) MB, pooled: 22 MB, 3.12 / 0.00 ms  (average mu = 0.982, current mu = 0.986) task; 
+
+[133:0x33723000]   155474 ms: Scavenge 49.9 (101.8) -> 28.0 (101.8) MB, pooled: 4 MB, 1.91 / 0.00 ms  (average mu = 0.999, current mu = 0.993) task; 
+[2631:0x44cae000]     6205 ms: Scavenge 87.6 (161.7) -> 65.3 (161.7) MB, pooled: 22 MB, 2.62 / 0.00 ms  (average mu = 0.982, current mu = 0.986) task; 
+
+[133:0x33723000]   156380 ms: Scavenge 50.1 (101.8) -> 31.7 (101.8) MB, pooled: 4 MB, 2.68 / 0.00 ms  (average mu = 0.999, current mu = 0.993) task; 
+[133:0x33723000]   156903 ms: Scavenge 53.9 (101.8) -> 34.9 (101.8) MB, pooled: 4 MB, 1.17 / 0.00 ms  (average mu = 0.999, current mu = 0.993) task; 
+6:04:42 PM [vite] (client) hmr update /src/f0.jsx
+
+6:04:42 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:04:43 PM [vite] (client) hmr update /src/f0.jsx
+
+[2631:0x44cae000]     8385 ms: Scavenge 89.9 (161.7) -> 67.3 (161.7) MB, pooled: 22 MB, 2.63 / 0.01 ms  (average mu = 0.982, current mu = 0.986) task; 
+
+[2631:0x44cae000]     8409 ms: Mark-Compact 67.3 (161.7) -> 60.7 (135.9) MB, pooled: 48 MB, 3.89 / 0.07 ms  (+ 16.6 ms in 437 steps since start of marking, biggest step 0.3 ms, walltime since start of marking 24 ms) (average mu = 0.991, current mu = 0.994) finalize incremental marking via task; GC in old space requested
+
+6:04:44 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:04:44 PM [vite] (client) hmr update /src/f0.jsx
+
+[133:0x33723000]   159610 ms: Scavenge 57.5 (101.8) -> 37.5 (101.8) MB, pooled: 4 MB, 2.72 / 0.00 ms  (average mu = 0.999, current mu = 0.993) task; 
+[133:0x33723000]   159628 ms: Mark-Compact 37.9 (101.8) -> 16.5 (93.3) MB, pooled: 12 MB, 4.79 / 0.00 ms  (+ 2.7 ms in 44 steps since start of marking, biggest step 0.2 ms, walltime since start of marking 18 ms) (average mu = 0.999, current mu = 0.998) finalize incremental marking via task; GC in old space requested
+6:04:45 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:04:45 PM [vite] (client) hmr update /src/f0.jsx
+
+6:04:46 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:04:46 PM [vite] (client) hmr update /src/f0.jsx
+
+[133:0x33723000]   161675 ms: Scavenge 42.2 (93.3) -> 19.5 (93.3) MB, pooled: 12 MB, 0.66 / 0.00 ms  (average mu = 0.999, current mu = 0.998) task; 
+6:04:47 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+success Vite 8.3.0 dev (cold, timing): 6797ms
+6:04:47 PM [vite] (client) hmr update /src/f0.jsx
+
+6:04:48 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+start   Running start command: start:vite
+Benchmark Start Time: 1792605889796
+
+[2688:0x1b84c000]       50 ms: Scavenge 6.4 (7.6) -> 5.9 (8.6) MB, pooled: 0 MB, 0.52 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2688:0x1b84c000]       61 ms: Scavenge 6.8 (8.6) -> 6.5 (11.1) MB, pooled: 0 MB, 0.55 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2688:0x1b84c000]       98 ms: Scavenge 10.0 (12.5) -> 9.1 (13.0) MB, pooled: 0 MB, 0.42 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2688:0x1b84c000]      116 ms: Scavenge 11.2 (14.0) -> 10.5 (18.8) MB, pooled: 0 MB, 0.76 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2688:0x1b84c000]      151 ms: Scavenge 14.4 (20.0) -> 13.0 (21.0) MB, pooled: 0 MB, 0.67 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+
+[2688:0x1b84c000]      160 ms: Mark-Compact 13.1 (21.0) -> 12.0 (21.8) MB, pooled: 0 MB, 1.53 / 0.00 ms  (+ 2.2 ms in 76 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 5 ms) (average mu = 0.977, current mu = 0.977) finalize incremental marking via task; GC in old space requested
+
+
+  VITE v8.3.0  ready in 182 ms
+
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+[2688:0x1b84c000]      220 ms: Scavenge 19.3 (25.2) -> 14.9 (31.7) MB, pooled: 0 MB, 3.43 / 0.00 ms  (average mu = 0.977, current mu = 0.977) task; 
+
+[2688:0x1b84c000]      258 ms: Scavenge 22.9 (32.6) -> 16.9 (33.1) MB, pooled: 0 MB, 2.07 / 0.01 ms  (average mu = 0.977, current mu = 0.977) task; 
+
+[2688:0x1b84c000]      271 ms: Scavenge 23.9 (33.1) -> 18.8 (33.6) MB, pooled: 0 MB, 1.23 / 0.00 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[2688:0x1b84c000]      330 ms: Mark-Compact 38.0 (47.9) -> 26.0 (59.9) MB, pooled: 0 MB, 7.71 / 0.01 ms  (+ 4.1 ms in 295 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 58 ms) (average mu = 0.954, current mu = 0.932) finalize incremental marking via stack guard; GC in old space requested
+
+[2688:0x1b84c000]      362 ms: Scavenge 41.4 (60.1) -> 31.0 (60.1) MB, pooled: 0 MB, 1.69 / 0.00 ms  (average mu = 0.954, current mu = 0.932) task; 
+
+[2688:0x1b84c000]      404 ms: Scavenge 40.6 (60.1) -> 32.2 (64.1) MB, pooled: 0 MB, 2.33 / 0.00 ms  (average mu = 0.954, current mu = 0.932) task; 
+
+[2688:0x1b84c000]      441 ms: Scavenge 45.0 (64.1) -> 36.7 (65.9) MB, pooled: 0 MB, 2.40 / 0.00 ms  (average mu = 0.954, current mu = 0.932) task; 
+
+[2688:0x1b84c000]      464 ms: Scavenge 48.5 (65.9) -> 40.6 (101.9) MB, pooled: 0 MB, 4.49 / 0.00 ms  (average mu = 0.954, current mu = 0.932) allocation failure; 
+
+[2688:0x1b84c000]      564 ms: Mark-Compact 80.7 (114.1) -> 41.9 (107.4) MB, pooled: 8 MB, 8.03 / 0.00 ms  (+ 3.4 ms in 291 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 59 ms) (average mu = 0.953, current mu = 0.952) finalize incremental marking via stack guard; GC in old space requested
+
+[2688:0x1b84c000]      621 ms: Scavenge 74.5 (107.6) -> 48.9 (107.6) MB, pooled: 8 MB, 2.61 / 0.00 ms  (average mu = 0.953, current mu = 0.952) allocation failure; 
+
+[2688:0x1b84c000]      659 ms: Scavenge 74.9 (107.9) -> 54.7 (114.6) MB, pooled: 1 MB, 3.60 / 0.00 ms  (average mu = 0.953, current mu = 0.952) allocation failure; 
+
+[2688:0x1b84c000]      699 ms: Scavenge 81.7 (114.6) -> 60.8 (120.4) MB, pooled: 0 MB, 3.91 / 0.00 ms  (average mu = 0.953, current mu = 0.952) allocation failure; 
+
+[2688:0x1b84c000]      750 ms: Scavenge 87.9 (120.9) -> 68.9 (126.9) MB, pooled: 0 MB, 5.02 / 0.00 ms  (average mu = 0.953, current mu = 0.952) allocation failure; 
+
+[2688:0x1b84c000]      811 ms: Scavenge 94.7 (127.6) -> 80.1 (135.3) MB, pooled: 0 MB, 7.17 / 0.00 ms  (average mu = 0.953, current mu = 0.952) allocation failure; 
+
+[2688:0x1b84c000]      850 ms: Mark-Compact 92.4 (136.5) -> 47.1 (144.3) MB, pooled: 0 MB, 7.58 / 0.00 ms  (+ 0.3 ms in 126 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 31 ms) (average mu = 0.965, current mu = 0.973) finalize incremental marking via stack guard; GC in old space requested
+
+[2688:0x1b84c000]      989 ms: Scavenge 89.7 (159.6) -> 63.8 (152.7) MB, pooled: 0 MB, 3.38 / 0.11 ms  (average mu = 0.965, current mu = 0.973) task; 
+
+[2688:0x1b84c000]     1058 ms: Scavenge 88.8 (152.7) -> 67.7 (152.7) MB, pooled: 0 MB, 8.95 / 0.01 ms  (average mu = 0.965, current mu = 0.973) allocation failure; 
+
+[2688:0x1b84c000]     1111 ms: Scavenge 90.2 (152.9) -> 69.4 (152.9) MB, pooled: 0 MB, 3.52 / 0.04 ms  (average mu = 0.965, current mu = 0.973) task; 
+
+[133:0x33723000]   165842 ms: Scavenge 42.3 (93.3) -> 23.8 (93.3) MB, pooled: 12 MB, 5.63 / 0.00 ms  (average mu = 0.999, current mu = 0.998) task; 
+[2688:0x1b84c000]     1257 ms: Scavenge 97.4 (153.4) -> 76.5 (153.4) MB, pooled: 0 MB, 4.07 / 0.61 ms  (average mu = 0.965, current mu = 0.973) allocation failure; 
+
+[2688:0x1b84c000]     1318 ms: Scavenge 101.4 (153.6) -> 93.2 (153.6) MB, pooled: 0 MB, 6.68 / 0.02 ms  (average mu = 0.965, current mu = 0.973) allocation failure; 
+
+[2688:0x1b84c000]     1361 ms: Scavenge 107.9 (154.2) -> 102.8 (157.9) MB, pooled: 0 MB, 7.64 / 0.01 ms  (average mu = 0.965, current mu = 0.973) allocation failure; 
+
+[2688:0x1b84c000]     1447 ms: Mark-Compact 120.8 (158.2) -> 90.0 (171.5) MB, pooled: 0 MB, 11.82 / 0.09 ms  (+ 0.9 ms in 158 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 64 ms) (average mu = 0.975, current mu = 0.979) finalize incremental marking via stack guard; GC in old space requested
+
+[2688:0x1b84c000]     1526 ms: Scavenge 122.9 (172.0) -> 95.5 (172.0) MB, pooled: 0 MB, 2.26 / 0.02 ms  (average mu = 0.975, current mu = 0.979) allocation failure; 
+
+[2688:0x1b84c000]     1598 ms: Scavenge 123.4 (172.1) -> 100.0 (172.1) MB, pooled: 0 MB, 4.57 / 0.04 ms  (average mu = 0.975, current mu = 0.979) allocation failure; 
+
+[2688:0x1b84c000]     1672 ms: Scavenge 127.4 (172.1) -> 107.2 (172.1) MB, pooled: 0 MB, 4.40 / 0.21 ms  (average mu = 0.975, current mu = 0.979) task; 
+
+[2688:0x1b84c000]     1765 ms: Scavenge 133.6 (172.1) -> 113.9 (174.6) MB, pooled: 0 MB, 9.61 / 0.27 ms  (average mu = 0.975, current mu = 0.979) allocation failure; 
+
+[133:0x33723000]   166504 ms: Scavenge 45.2 (93.3) -> 29.6 (93.3) MB, pooled: 12 MB, 3.68 / 0.00 ms  (average mu = 0.999, current mu = 0.998) task; 
+[2688:0x1b84c000]     1822 ms: Scavenge 141.6 (176.4) -> 123.5 (181.1) MB, pooled: 0 MB, 7.61 / 0.57 ms  (average mu = 0.975, current mu = 0.979) task; 
+
+[133:0x33723000]   166764 ms: Scavenge 49.0 (93.3) -> 32.8 (95.3) MB, pooled: 10 MB, 7.95 / 0.00 ms  (average mu = 0.999, current mu = 0.998) task; 
+[133:0x33723000]   166794 ms: Mark-Compact 33.2 (95.3) -> 23.4 (96.6) MB, pooled: 9 MB, 6.60 / 0.00 ms  (+ 8.6 ms in 39 steps since start of marking, biggest step 7.4 ms, walltime since start of marking 30 ms) (average mu = 0.998, current mu = 0.998) finalize incremental marking via task; GC in old space requested
+[2688:0x1b84c000]     2180 ms: Scavenge 141.3 (181.4) -> 124.2 (188.4) MB, pooled: 0 MB, 10.56 / 0.32 ms  (average mu = 0.975, current mu = 0.979) task; 
+
+[133:0x33723000]   167071 ms: Scavenge 49.2 (96.6) -> 26.1 (96.6) MB, pooled: 9 MB, 2.20 / 0.00 ms  (average mu = 0.998, current mu = 0.998) task; 
+[133:0x33723000]   167360 ms: Scavenge 49.3 (96.6) -> 28.8 (96.6) MB, pooled: 9 MB, 3.50 / 0.00 ms  (average mu = 0.998, current mu = 0.998) task; 
+[133:0x33723000]   168542 ms: Scavenge 52.0 (96.6) -> 31.8 (96.6) MB, pooled: 9 MB, 3.08 / 0.00 ms  (average mu = 0.998, current mu = 0.998) task; 
+[133:0x33723000]   169136 ms: Scavenge 54.6 (96.6) -> 34.9 (98.1) MB, pooled: 8 MB, 2.20 / 0.00 ms  (average mu = 0.998, current mu = 0.998) task; 
+success Vite 8.3.0 dev (warm, timing): 4398ms
+start   Running build command: build:vite
+Benchmark Start Time: 1792605895883
+
+[2743:0x2a32e000]       49 ms: Scavenge 6.4 (7.6) -> 5.9 (8.6) MB, pooled: 0 MB, 0.47 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2743:0x2a32e000]       60 ms: Scavenge 6.8 (8.6) -> 6.5 (11.1) MB, pooled: 0 MB, 0.50 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2743:0x2a32e000]       97 ms: Scavenge 10.0 (12.5) -> 9.1 (13.0) MB, pooled: 0 MB, 0.43 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2743:0x2a32e000]      116 ms: Scavenge 11.2 (14.0) -> 10.5 (18.8) MB, pooled: 0 MB, 0.73 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2743:0x2a32e000]      150 ms: Scavenge 14.3 (20.0) -> 13.0 (21.0) MB, pooled: 0 MB, 0.68 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+
+[2743:0x2a32e000]      156 ms: Mark-Compact 13.2 (21.0) -> 12.0 (21.8) MB, pooled: 0 MB, 1.33 / 0.01 ms  (+ 2.2 ms in 71 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 4 ms) (average mu = 0.978, current mu = 0.978) finalize incremental marking via task; GC in old space requested
+
+vite v8.3.0 building client environment for production...
+
+transforming...
+
+✓ 20022 modules transformed.
+
+[2743:0x2a32e000]      911 ms: Scavenge 21.5 (26.5) -> 16.5 (31.5) MB, pooled: 0 MB, 1.47 / 0.01 ms  (average mu = 0.978, current mu = 0.978) allocation failure; 
+
+[2743:0x2a32e000]      933 ms: Scavenge 27.2 (36.1) -> 23.4 (35.6) MB, pooled: 0 MB, 2.20 / 0.00 ms  (average mu = 0.978, current mu = 0.978) allocation failure; 
+
+[2743:0x2a32e000]      946 ms: Scavenge 28.8 (37.5) -> 27.3 (58.1) MB, pooled: 0 MB, 3.51 / 0.00 ms  (average mu = 0.978, current mu = 0.978) allocation failure; 
+
+[2743:0x2a32e000]      987 ms: Mark-Compact 50.1 (75.3) -> 47.0 (113.0) MB, pooled: 0 MB, 4.63 / 0.02 ms  (+ 1.6 ms in 106 steps since start of marking, biggest step 0.2 ms, walltime since start of marking 40 ms) (average mu = 0.990, current mu = 0.993) finalize incremental marking via stack guard; GC in old space requested
+
+rendering chunks...
+
+computing gzip size...
+
+dist/index.html                   0.45 kB │ gzip:   0.30 kB
+dist/assets/index-DIPTFHQ-.css    0.02 kB │ gzip:   0.04 kB
+dist/assets/f7-CF3KV3yN.js      480.79 kB │ gzip: 127.22 kB
+dist/assets/f5-ulTyHPMQ.js      490.53 kB │ gzip: 132.75 kB
+dist/assets/f4-CDmlGJVa.js      494.44 kB │ gzip: 134.53 kB
+dist/assets/f6-UTLG91yh.js      495.24 kB │ gzip: 135.23 kB
+dist/assets/f1-BWfmfotR.js      500.23 kB │ gzip: 135.78 kB
+dist/assets/f2-BBNK_IAS.js      512.10 kB │ gzip: 141.11 kB
+dist/assets/f3-C06QU5Wj.js      516.29 kB │ gzip: 143.62 kB
+dist/assets/index-BXzUHz4W.js   747.49 kB │ gzip: 215.55 kB
+dist/assets/f8-CwsyxxH9.js      994.66 kB │ gzip: 266.88 kB
+
+
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+✓ built in 941ms
+
+success Vite 8.3.0 built in 1194ms
+success Vite 8.3.0 output size: 5232.3kB
+success Vite 8.3.0 gzipped size: 1407.1kB
+start   Running build command: build:vite
+Benchmark Start Time: 1792605898092
+
+[2783:0x13764000]       50 ms: Scavenge 6.4 (7.6) -> 5.9 (8.6) MB, pooled: 0 MB, 0.49 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2783:0x13764000]       61 ms: Scavenge 6.8 (8.6) -> 6.5 (11.1) MB, pooled: 0 MB, 0.54 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2783:0x13764000]       98 ms: Scavenge 10.0 (13.0) -> 9.0 (13.5) MB, pooled: 0 MB, 0.48 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2783:0x13764000]      116 ms: Scavenge 11.2 (14.3) -> 10.6 (19.3) MB, pooled: 0 MB, 0.73 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2783:0x13764000]      150 ms: Scavenge 14.3 (20.0) -> 13.0 (21.0) MB, pooled: 0 MB, 0.68 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+
+[2783:0x13764000]      157 ms: Mark-Compact 13.1 (21.0) -> 12.0 (21.8) MB, pooled: 0 MB, 1.31 / 0.01 ms  (+ 2.6 ms in 80 steps since start of marking, biggest step 0.2 ms, walltime since start of marking 5 ms) (average mu = 0.977, current mu = 0.977) finalize incremental marking via task; GC in old space requested
+
+vite v8.3.0 building client environment for production...
+
+transforming...
+
+✓ 20022 modules transformed.
+
+[2783:0x13764000]      907 ms: Scavenge 21.5 (26.5) -> 16.5 (31.5) MB, pooled: 0 MB, 1.46 / 0.01 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[2783:0x13764000]      930 ms: Scavenge 28.0 (36.9) -> 23.3 (35.8) MB, pooled: 0 MB, 1.98 / 0.00 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[2783:0x13764000]      943 ms: Scavenge 28.8 (37.7) -> 27.2 (58.1) MB, pooled: 0 MB, 3.00 / 0.00 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[2783:0x13764000]      986 ms: Mark-Compact 52.8 (78.2) -> 49.9 (115.6) MB, pooled: 0 MB, 4.87 / 0.02 ms  (+ 1.2 ms in 104 steps since start of marking, biggest step 0.2 ms, walltime since start of marking 43 ms) (average mu = 0.991, current mu = 0.993) finalize incremental marking via stack guard; GC in old space requested
+
+rendering chunks...
+
+computing gzip size...
+
+dist/index.html                   0.45 kB │ gzip:   0.30 kB
+dist/assets/index-DIPTFHQ-.css    0.02 kB │ gzip:   0.04 kB
+dist/assets/f7-CF3KV3yN.js      480.79 kB │ gzip: 127.22 kB
+dist/assets/f5-ulTyHPMQ.js      490.53 kB │ gzip: 132.75 kB
+dist/assets/f4-CDmlGJVa.js      494.44 kB │ gzip: 134.53 kB
+dist/assets/f6-UTLG91yh.js      495.24 kB │ gzip: 135.23 kB
+dist/assets/f1-BWfmfotR.js      500.23 kB │ gzip: 135.78 kB
+dist/assets/f2-BBNK_IAS.js      512.10 kB │ gzip: 141.11 kB
+dist/assets/f3-C06QU5Wj.js      516.29 kB │ gzip: 143.62 kB
+dist/assets/index-BXzUHz4W.js   747.49 kB │ gzip: 215.55 kB
+dist/assets/f8-CwsyxxH9.js      994.66 kB │ gzip: 266.88 kB
+
+
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+✓ built in 932ms
+
+success Vite 8.3.0 built with cache in 1192ms
+info    Vite 8.3.0: memory pass
+start   Running start command: start:vite
+Benchmark Start Time: 1792605900297
+
+[2824:0xeb3c000]       52 ms: Scavenge 6.4 (7.6) -> 5.9 (8.6) MB, pooled: 0 MB, 0.50 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2824:0xeb3c000]       63 ms: Scavenge 6.8 (8.6) -> 6.5 (11.1) MB, pooled: 0 MB, 0.54 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2824:0xeb3c000]      100 ms: Scavenge 10.0 (12.5) -> 9.1 (13.0) MB, pooled: 0 MB, 0.46 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2824:0xeb3c000]      118 ms: Scavenge 11.2 (14.0) -> 10.5 (18.8) MB, pooled: 0 MB, 0.75 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[2824:0xeb3c000]      153 ms: Scavenge 14.4 (20.0) -> 13.0 (20.8) MB, pooled: 0 MB, 0.67 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+
+[2824:0xeb3c000]      163 ms: Mark-Compact 13.1 (20.8) -> 12.0 (21.8) MB, pooled: 0 MB, 1.51 / 0.01 ms  (+ 2.2 ms in 77 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 5 ms) (average mu = 0.977, current mu = 0.977) finalize incremental marking via task; GC in old space requested
+
+
+  VITE v8.3.0  ready in 190 ms
+
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+[2824:0xeb3c000]      215 ms: Scavenge 19.9 (25.7) -> 14.9 (23.4) MB, pooled: 0 MB, 1.16 / 0.00 ms  (average mu = 0.977, current mu = 0.977) task; 
+
+[2824:0xeb3c000]      232 ms: Scavenge 17.8 (23.7) -> 15.5 (32.4) MB, pooled: 0 MB, 3.97 / 0.00 ms  (average mu = 0.977, current mu = 0.977) task; 
+
+[2824:0xeb3c000]      244 ms: Scavenge 21.9 (32.7) -> 15.5 (32.7) MB, pooled: 0 MB, 0.88 / 0.00 ms  (average mu = 0.977, current mu = 0.977) task; 
+
+[2824:0xeb3c000]      260 ms: Mark-Compact 20.8 (33.9) -> 15.3 (33.2) MB, pooled: 0 MB, 1.79 / 0.01 ms  (+ 0.1 ms in 25 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 8 ms) (average mu = 0.978, current mu = 0.981) finalize incremental marking via task; GC in old space requested
+
+[2824:0xeb3c000]      297 ms: Scavenge 24.6 (34.4) -> 18.7 (34.4) MB, pooled: 0 MB, 2.16 / 0.01 ms  (average mu = 0.978, current mu = 0.981) allocation failure; 
+
+[2824:0xeb3c000]      312 ms: Scavenge 24.7 (34.4) -> 20.1 (36.1) MB, pooled: 0 MB, 1.62 / 0.00 ms  (average mu = 0.978, current mu = 0.981) allocation failure; 
+
+[2824:0xeb3c000]      324 ms: Scavenge 26.7 (36.1) -> 21.3 (53.9) MB, pooled: 0 MB, 1.81 / 0.00 ms  (average mu = 0.978, current mu = 0.981) allocation failure; 
+
+[2824:0xeb3c000]      397 ms: Mark-Compact 47.6 (65.1) -> 26.9 (60.4) MB, pooled: 11 MB, 7.23 / 0.01 ms  (+ 2.8 ms in 189 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 49 ms) (average mu = 0.952, current mu = 0.928) finalize incremental marking via task; GC in old space requested
+
+[2824:0xeb3c000]      474 ms: Scavenge 43.4 (60.4) -> 30.8 (60.4) MB, pooled: 11 MB, 1.69 / 0.00 ms  (average mu = 0.952, current mu = 0.928) allocation failure; 
+
+[2824:0xeb3c000]      499 ms: Scavenge 43.8 (60.4) -> 35.3 (94.9) MB, pooled: 0 MB, 4.66 / 0.00 ms  (average mu = 0.952, current mu = 0.928) allocation failure; 
+
+[2824:0xeb3c000]      550 ms: Scavenge 62.1 (94.9) -> 43.0 (99.9) MB, pooled: 0 MB, 5.14 / 0.00 ms  (average mu = 0.952, current mu = 0.928) allocation failure; 
+
+[2824:0xeb3c000]      603 ms: Mark-Compact 62.1 (100.1) -> 43.3 (109.4) MB, pooled: 0 MB, 7.57 / 0.22 ms  (+ 0.4 ms in 73 steps since start of marking, biggest step 0.3 ms, walltime since start of marking 25 ms) (average mu = 0.959, current mu = 0.963) finalize incremental marking via stack guard; GC in old space requested
+
+[2824:0xeb3c000]      657 ms: Scavenge 75.9 (109.4) -> 50.6 (109.4) MB, pooled: 0 MB, 2.68 / 0.00 ms  (average mu = 0.959, current mu = 0.963) allocation failure; 
+
+[2824:0xeb3c000]      705 ms: Scavenge 76.3 (109.6) -> 56.4 (116.4) MB, pooled: 0 MB, 5.99 / 0.00 ms  (average mu = 0.959, current mu = 0.963) allocation failure; 
+
+[2824:0xeb3c000]      745 ms: Scavenge 83.4 (116.4) -> 62.4 (122.1) MB, pooled: 0 MB, 4.66 / 0.00 ms  (average mu = 0.959, current mu = 0.963) allocation failure; 
+
+[2824:0xeb3c000]      804 ms: Scavenge 89.7 (122.6) -> 70.7 (128.9) MB, pooled: 0 MB, 6.58 / 0.00 ms  (average mu = 0.959, current mu = 0.963) allocation failure; 
+
+[2824:0xeb3c000]      867 ms: Scavenge 96.6 (129.3) -> 81.9 (137.3) MB, pooled: 0 MB, 7.63 / 0.00 ms  (average mu = 0.959, current mu = 0.963) allocation failure; 
+
+[2824:0xeb3c000]      925 ms: Scavenge 105.3 (138.2) -> 92.2 (148.5) MB, pooled: 0 MB, 7.87 / 0.00 ms  (average mu = 0.959, current mu = 0.963) allocation failure; 
+
+[2824:0xeb3c000]      983 ms: Mark-Compact 105.2 (148.7) -> 53.8 (152.0) MB, pooled: 0 MB, 10.76 / 0.09 ms  (+ 0.3 ms in 125 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 49 ms) (average mu = 0.967, current mu = 0.971) finalize incremental marking via stack guard; GC in old space requested
+
+[2824:0xeb3c000]     1052 ms: Scavenge 83.7 (152.7) -> 70.2 (152.7) MB, pooled: 0 MB, 5.01 / 0.00 ms  (average mu = 0.967, current mu = 0.971) task; 
+
+[2824:0xeb3c000]     1100 ms: Scavenge 85.8 (152.9) -> 72.6 (152.9) MB, pooled: 0 MB, 11.44 / 0.00 ms  (average mu = 0.967, current mu = 0.971) task; 
+
+[2824:0xeb3c000]     1167 ms: Scavenge 100.3 (153.1) -> 82.6 (153.1) MB, pooled: 0 MB, 4.66 / 0.00 ms  (average mu = 0.967, current mu = 0.971) allocation failure; 
+
+[2824:0xeb3c000]     1224 ms: Scavenge 101.5 (153.3) -> 86.7 (153.3) MB, pooled: 0 MB, 10.97 / 0.00 ms  (average mu = 0.967, current mu = 0.971) task; 
+
+6:05:01 PM [vite] (client) [optimizer] scanning dependencies...
+
+[2824:0xeb3c000]     1297 ms: Scavenge 114.4 (153.6) -> 97.0 (153.6) MB, pooled: 0 MB, 4.96 / 0.00 ms  (average mu = 0.967, current mu = 0.971) allocation failure; 
+
+[2824:0xeb3c000]     1372 ms: Mark-Compact 115.4 (154.3) -> 67.2 (164.4) MB, pooled: 0 MB, 19.44 / 5.22 ms  (+ 1.4 ms in 233 steps since start of marking, biggest step 0.2 ms, walltime since start of marking 66 ms) (average mu = 0.956, current mu = 0.947) finalize incremental marking via task; GC in old space requested
+
+[2824:0xeb3c000]     1467 ms: Scavenge 98.5 (164.7) -> 79.2 (164.7) MB, pooled: 0 MB, 9.25 / 0.14 ms  (average mu = 0.956, current mu = 0.947) task; 
+
+[2824:0xeb3c000]     1543 ms: Scavenge 103.1 (164.7) -> 83.9 (164.7) MB, pooled: 0 MB, 5.63 / 0.31 ms  (average mu = 0.956, current mu = 0.947) allocation failure; 
+
+[2824:0xeb3c000]     1621 ms: Scavenge 110.0 (166.0) -> 85.8 (165.4) MB, pooled: 0 MB, 3.06 / 0.61 ms  (average mu = 0.956, current mu = 0.947) task; 
+
+[2824:0xeb3c000]     1683 ms: Scavenge 115.1 (165.4) -> 96.2 (165.4) MB, pooled: 0 MB, 4.96 / 1.21 ms  (average mu = 0.956, current mu = 0.947) task; 
+
+[2824:0xeb3c000]     1752 ms: Scavenge 125.5 (165.6) -> 106.7 (169.4) MB, pooled: 0 MB, 8.37 / 1.07 ms  (average mu = 0.956, current mu = 0.947) task; 
+
+[2824:0xeb3c000]     1818 ms: Scavenge 134.9 (173.6) -> 116.4 (178.9) MB, pooled: 0 MB, 6.04 / 0.74 ms  (average mu = 0.956, current mu = 0.947) task; 
+
+[2824:0xeb3c000]     1894 ms: Mark-Compact 133.7 (181.4) -> 57.8 (174.7) MB, pooled: 6 MB, 27.70 / 17.35 ms  (+ 1.8 ms in 180 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 65 ms) (average mu = 0.948, current mu = 0.944) finalize incremental marking via task; GC in old space requested
+
+[2824:0xeb3c000]     2010 ms: Scavenge 96.2 (175.1) -> 75.0 (175.1) MB, pooled: 6 MB, 5.49 / 1.23 ms  (average mu = 0.948, current mu = 0.944) allocation failure; 
+
+[2824:0xeb3c000]     2058 ms: Scavenge 91.5 (175.1) -> 77.1 (175.1) MB, pooled: 6 MB, 7.69 / 0.24 ms  (average mu = 0.948, current mu = 0.944) task; 
+
+[2824:0xeb3c000]     2134 ms: Scavenge 101.5 (176.1) -> 82.0 (175.4) MB, pooled: 6 MB, 7.28 / 0.01 ms  (average mu = 0.948, current mu = 0.944) task; 
+
+[2824:0xeb3c000]     2263 ms: Scavenge 106.9 (175.6) -> 85.9 (175.6) MB, pooled: 6 MB, 4.48 / 0.65 ms  (average mu = 0.948, current mu = 0.944) task; 
+
+[2824:0xeb3c000]     2338 ms: Scavenge 115.1 (176.0) -> 105.0 (176.0) MB, pooled: 6 MB, 6.55 / 0.07 ms  (average mu = 0.948, current mu = 0.944) allocation failure; 
+
+[2824:0xeb3c000]     2373 ms: Scavenge 116.7 (176.3) -> 113.7 (176.3) MB, pooled: 6 MB, 7.61 / 0.00 ms  (average mu = 0.948, current mu = 0.944) task; 
+
+[2824:0xeb3c000]     2494 ms: Mark-Compact 138.5 (178.1) -> 89.6 (184.5) MB, pooled: 0 MB, 14.92 / 5.88 ms  (+ 1.6 ms in 175 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 67 ms) (average mu = 0.963, current mu = 0.973) finalize incremental marking via stack guard; GC in old space requested
+
+[2824:0xeb3c000]     2570 ms: Scavenge 122.3 (185.0) -> 95.5 (185.0) MB, pooled: 0 MB, 3.58 / 0.00 ms  (average mu = 0.963, current mu = 0.973) allocation failure; 
+
+[2824:0xeb3c000]     2679 ms: Scavenge 125.7 (187.9) -> 104.3 (187.9) MB, pooled: 0 MB, 7.27 / 0.10 ms  (average mu = 0.963, current mu = 0.973) allocation failure; 
+
+[2824:0xeb3c000]     2750 ms: Scavenge 132.6 (189.4) -> 112.6 (189.4) MB, pooled: 0 MB, 5.88 / 0.22 ms  (average mu = 0.963, current mu = 0.973) task; 
+
+[2824:0xeb3c000]     2851 ms: Scavenge 146.5 (196.6) -> 125.9 (195.8) MB, pooled: 0 MB, 5.74 / 0.30 ms  (average mu = 0.963, current mu = 0.973) allocation failure; 
+
+[2824:0xeb3c000]     2902 ms: Scavenge 156.1 (203.8) -> 134.7 (196.6) MB, pooled: 0 MB, 6.48 / 0.37 ms  (average mu = 0.963, current mu = 0.973) task; 
+
+[133:0x33723000]   178229 ms: Scavenge 57.6 (98.3) -> 39.3 (101.3) MB, pooled: 5 MB, 5.61 / 0.00 ms  (average mu = 0.998, current mu = 0.998) task; 
+[133:0x33723000]   178253 ms: Mark-Compact 40.6 (101.3) -> 19.3 (97.3) MB, pooled: 9 MB, 7.29 / 0.00 ms  (+ 3.2 ms in 93 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 23 ms) (average mu = 0.999, current mu = 0.999) finalize incremental marking via task; GC in old space requested
+[2824:0xeb3c000]     3113 ms: Scavenge 169.9 (212.4) -> 138.2 (203.8) MB, pooled: 0 MB, 7.43 / 0.38 ms  (average mu = 0.963, current mu = 0.973) task; 
+
+[133:0x33723000]   178458 ms: Scavenge 45.2 (97.3) -> 28.2 (97.3) MB, pooled: 9 MB, 5.15 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+[133:0x33723000]   178666 ms: Scavenge 45.4 (97.3) -> 31.4 (97.3) MB, pooled: 9 MB, 8.99 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+[133:0x33723000]   178941 ms: Scavenge 54.0 (97.3) -> 35.6 (97.6) MB, pooled: 8 MB, 3.83 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+[133:0x33723000]   178966 ms: Mark-Compact 36.2 (97.6) -> 24.8 (98.1) MB, pooled: 8 MB, 4.61 / 0.00 ms  (+ 1.2 ms in 56 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 23 ms) (average mu = 0.998, current mu = 0.992) finalize incremental marking via task; GC in old space requested
+[133:0x33723000]   179927 ms: Scavenge 50.6 (98.1) -> 29.7 (98.1) MB, pooled: 8 MB, 5.45 / 0.00 ms  (average mu = 0.998, current mu = 0.992) task; 
+[2824:0xeb3c000]     4732 ms: Scavenge 162.8 (204.3) -> 142.5 (206.6) MB, pooled: 0 MB, 4.91 / 0.00 ms  (average mu = 0.963, current mu = 0.973) task; 
+
+[2824:0xeb3c000]     4766 ms: Mark-Compact 142.9 (206.8) -> 60.9 (182.7) MB, pooled: 16 MB, 6.17 / 0.57 ms  (+ 12.6 ms in 240 steps since start of marking, biggest step 3.6 ms, walltime since start of marking 34 ms) (average mu = 0.986, current mu = 0.992) finalize incremental marking via task; GC in old space requested
+
+[133:0x33723000]   180206 ms: Scavenge 50.7 (98.3) -> 33.7 (98.3) MB, pooled: 8 MB, 4.97 / 0.00 ms  (average mu = 0.998, current mu = 0.992) task; 
+[2824:0xeb3c000]     5291 ms: Scavenge 86.8 (182.7) -> 63.3 (182.7) MB, pooled: 16 MB, 3.10 / 0.00 ms  (average mu = 0.986, current mu = 0.992) task; 
+
+[133:0x33723000]   180538 ms: Scavenge 55.5 (98.3) -> 36.8 (100.1) MB, pooled: 6 MB, 6.14 / 0.00 ms  (average mu = 0.998, current mu = 0.992) task; 
+[2824:0xeb3c000]     5851 ms: Scavenge 87.2 (182.7) -> 64.9 (182.7) MB, pooled: 16 MB, 3.12 / 0.00 ms  (average mu = 0.986, current mu = 0.992) task; 
+
+[133:0x33723000]   181184 ms: Scavenge 59.6 (100.1) -> 40.5 (103.3) MB, pooled: 3 MB, 2.62 / 0.00 ms  (average mu = 0.998, current mu = 0.992) task; 
+[2824:0xeb3c000]     6164 ms: Scavenge 89.6 (182.7) -> 66.6 (182.7) MB, pooled: 16 MB, 2.51 / 0.00 ms  (average mu = 0.986, current mu = 0.992) task; 
+
+[133:0x33723000]   181747 ms: Scavenge 62.7 (103.3) -> 43.9 (107.1) MB, pooled: 0 MB, 1.66 / 0.00 ms  (average mu = 0.998, current mu = 0.992) task; 
+[133:0x33723000]   181754 ms: Mark-Compact 45.0 (107.1) -> 17.2 (99.8) MB, pooled: 7 MB, 1.68 / 0.00 ms  (+ 2.5 ms in 128 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 7 ms) (average mu = 0.998, current mu = 0.999) finalize incremental marking via task; GC in old space requested
+6:05:07 PM [vite] (client) hmr update /src/f0.jsx
+
+6:05:07 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:05:08 PM [vite] (client) hmr update /src/f0.jsx
+
+6:05:08 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:05:09 PM [vite] (client) hmr update /src/f0.jsx
+
+[133:0x33723000]   184721 ms: Scavenge 43.0 (99.8) -> 20.3 (99.8) MB, pooled: 7 MB, 3.28 / 0.00 ms  (average mu = 0.998, current mu = 0.999) task; 
+6:05:10 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:05:10 PM [vite] (client) hmr update /src/f0.jsx
+
+6:05:11 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:05:11 PM [vite] (client) hmr update /src/f0.jsx
+
+[133:0x33723000]   186738 ms: Scavenge 43.1 (99.8) -> 22.9 (99.8) MB, pooled: 7 MB, 3.52 / 0.00 ms  (average mu = 0.998, current mu = 0.999) task; 
+6:05:12 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+success Vite 8.3.0 dev (cold, memory): steady 1169.8 MiB, peak 1188.1 MiB
+6:05:19 PM [vite] (client) hmr update /src/f0.jsx
+
+[133:0x33723000]   194852 ms: Scavenge 46.0 (99.8) -> 25.5 (99.8) MB, pooled: 7 MB, 1.57 / 0.00 ms  (average mu = 0.998, current mu = 0.999) task; 
+[133:0x33723000]   194858 ms: Mark-Compact 26.3 (99.8) -> 17.1 (89.1) MB, pooled: 18 MB, 1.38 / 0.00 ms  (+ 2.9 ms in 88 steps since start of marking, biggest step 1.2 ms, walltime since start of marking 6 ms) (average mu = 0.999, current mu = 1.000) finalize incremental marking via task; GC in old space requested
+6:05:20 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+start   Running start command: start:vite
+Benchmark Start Time: 1792605921950
+
+[3270:0x2d345000]       50 ms: Scavenge 6.4 (7.6) -> 5.9 (8.6) MB, pooled: 0 MB, 0.46 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[3270:0x2d345000]       60 ms: Scavenge 6.8 (8.6) -> 6.5 (11.1) MB, pooled: 0 MB, 0.51 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[3270:0x2d345000]       98 ms: Scavenge 10.0 (12.5) -> 9.1 (13.0) MB, pooled: 0 MB, 0.47 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[3270:0x2d345000]      116 ms: Scavenge 11.2 (14.0) -> 10.5 (19.0) MB, pooled: 0 MB, 0.81 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[3270:0x2d345000]      151 ms: Scavenge 14.4 (20.0) -> 13.0 (20.8) MB, pooled: 0 MB, 0.74 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+
+[3270:0x2d345000]      161 ms: Mark-Compact 13.2 (20.8) -> 12.0 (21.5) MB, pooled: 0 MB, 1.57 / 0.00 ms  (+ 2.4 ms in 71 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 5 ms) (average mu = 0.976, current mu = 0.976) finalize incremental marking via task; GC in old space requested
+
+
+  VITE v8.3.0  ready in 182 ms
+
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+[3270:0x2d345000]      210 ms: Scavenge 18.8 (25.2) -> 14.7 (23.7) MB, pooled: 0 MB, 3.70 / 0.01 ms  (average mu = 0.976, current mu = 0.976) task; 
+
+[3270:0x2d345000]      223 ms: Scavenge 18.0 (23.7) -> 15.1 (32.4) MB, pooled: 0 MB, 1.75 / 0.00 ms  (average mu = 0.976, current mu = 0.976) allocation failure; 
+
+[3270:0x2d345000]      249 ms: Scavenge 22.9 (32.4) -> 16.9 (32.4) MB, pooled: 0 MB, 0.76 / 0.00 ms  (average mu = 0.976, current mu = 0.976) allocation failure; 
+
+[3270:0x2d345000]      260 ms: Scavenge 23.1 (32.4) -> 18.5 (34.2) MB, pooled: 0 MB, 1.22 / 0.00 ms  (average mu = 0.976, current mu = 0.976) allocation failure; 
+
+[3270:0x2d345000]      324 ms: Mark-Compact 35.9 (46.1) -> 24.7 (58.1) MB, pooled: 0 MB, 4.89 / 0.01 ms  (+ 3.1 ms in 218 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 55 ms) (average mu = 0.964, current mu = 0.953) finalize incremental marking via stack guard; GC in old space requested
+
+[3270:0x2d345000]      359 ms: Scavenge 41.0 (58.4) -> 29.9 (58.4) MB, pooled: 0 MB, 1.76 / 0.00 ms  (average mu = 0.964, current mu = 0.953) allocation failure; 
+
+[3270:0x2d345000]      405 ms: Scavenge 39.0 (58.4) -> 30.9 (62.6) MB, pooled: 0 MB, 2.26 / 0.00 ms  (average mu = 0.964, current mu = 0.953) task; 
+
+[3270:0x2d345000]      442 ms: Scavenge 45.9 (62.9) -> 36.3 (96.4) MB, pooled: 0 MB, 3.87 / 0.00 ms  (average mu = 0.964, current mu = 0.953) allocation failure; 
+
+[3270:0x2d345000]      508 ms: Mark-Compact 62.7 (96.4) -> 36.3 (102.4) MB, pooled: 0 MB, 6.46 / 0.01 ms  (+ 4.4 ms in 350 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 57 ms) (average mu = 0.952, current mu = 0.942) finalize incremental marking via stack guard; GC in old space requested
+
+[3270:0x2d345000]      558 ms: Scavenge 64.2 (102.4) -> 43.8 (102.4) MB, pooled: 0 MB, 2.51 / 0.00 ms  (average mu = 0.952, current mu = 0.942) task; 
+
+[3270:0x2d345000]      604 ms: Scavenge 68.9 (102.4) -> 49.3 (109.9) MB, pooled: 0 MB, 4.73 / 0.00 ms  (average mu = 0.952, current mu = 0.942) allocation failure; 
+
+[3270:0x2d345000]      648 ms: Scavenge 76.7 (109.9) -> 55.5 (115.1) MB, pooled: 0 MB, 4.90 / 0.00 ms  (average mu = 0.952, current mu = 0.942) allocation failure; 
+
+[3270:0x2d345000]      691 ms: Scavenge 82.2 (115.1) -> 61.6 (121.4) MB, pooled: 0 MB, 5.52 / 0.00 ms  (average mu = 0.952, current mu = 0.942) allocation failure; 
+
+[3270:0x2d345000]      737 ms: Scavenge 86.7 (121.6) -> 68.3 (127.4) MB, pooled: 0 MB, 4.48 / 0.00 ms  (average mu = 0.952, current mu = 0.942) task; 
+
+[3270:0x2d345000]      802 ms: Scavenge 95.4 (128.3) -> 80.1 (135.1) MB, pooled: 0 MB, 7.15 / 0.00 ms  (average mu = 0.952, current mu = 0.942) allocation failure; 
+
+[3270:0x2d345000]      888 ms: Mark-Compact 110.9 (144.1) -> 52.9 (150.4) MB, pooled: 0 MB, 8.82 / 0.00 ms  (+ 4.7 ms in 135 steps since start of marking, biggest step 0.3 ms, walltime since start of marking 40 ms) (average mu = 0.961, current mu = 0.965) finalize incremental marking via task; GC in old space requested
+
+[3270:0x2d345000]     1035 ms: Scavenge 94.3 (159.3) -> 69.8 (158.8) MB, pooled: 0 MB, 4.58 / 0.06 ms  (average mu = 0.961, current mu = 0.965) allocation failure; 
+
+[3270:0x2d345000]     1099 ms: Scavenge 94.5 (158.8) -> 70.1 (158.8) MB, pooled: 0 MB, 3.36 / 0.04 ms  (average mu = 0.961, current mu = 0.965) task; 
+
+[3270:0x2d345000]     1211 ms: Scavenge 95.3 (159.0) -> 73.3 (159.0) MB, pooled: 0 MB, 3.33 / 0.55 ms  (average mu = 0.961, current mu = 0.965) task; 
+
+[133:0x33723000]   198132 ms: Scavenge 42.9 (89.1) -> 23.4 (89.1) MB, pooled: 18 MB, 5.00 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[3270:0x2d345000]     1320 ms: Scavenge 101.9 (159.4) -> 87.7 (159.4) MB, pooled: 0 MB, 5.48 / 0.02 ms  (average mu = 0.961, current mu = 0.965) allocation failure; 
+
+[3270:0x2d345000]     1365 ms: Scavenge 105.3 (159.7) -> 95.9 (159.7) MB, pooled: 0 MB, 5.70 / 0.02 ms  (average mu = 0.961, current mu = 0.965) allocation failure; 
+
+[3270:0x2d345000]     1477 ms: Mark-Compact 126.8 (168.7) -> 88.2 (158.2) MB, pooled: 3 MB, 8.92 / 0.20 ms  (+ 1.5 ms in 167 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 60 ms) (average mu = 0.976, current mu = 0.983) finalize incremental marking via stack guard; GC in old space requested
+
+[3270:0x2d345000]     1561 ms: Scavenge 120.7 (158.6) -> 93.3 (158.6) MB, pooled: 3 MB, 2.52 / 0.03 ms  (average mu = 0.976, current mu = 0.983) allocation failure; 
+
+[3270:0x2d345000]     1623 ms: Scavenge 119.8 (159.1) -> 98.1 (159.6) MB, pooled: 2 MB, 4.53 / 0.07 ms  (average mu = 0.976, current mu = 0.983) task; 
+
+[3270:0x2d345000]     1695 ms: Scavenge 120.4 (160.1) -> 103.4 (163.3) MB, pooled: 0 MB, 8.00 / 0.17 ms  (average mu = 0.976, current mu = 0.983) task; 
+
+[3270:0x2d345000]     1791 ms: Scavenge 131.6 (165.1) -> 111.5 (169.8) MB, pooled: 0 MB, 5.47 / 0.34 ms  (average mu = 0.976, current mu = 0.983) allocation failure; 
+
+[3270:0x2d345000]     1843 ms: Scavenge 135.0 (171.8) -> 119.6 (178.1) MB, pooled: 0 MB, 6.65 / 0.27 ms  (average mu = 0.976, current mu = 0.983) task; 
+
+[133:0x33723000]   198765 ms: Scavenge 42.9 (89.1) -> 28.3 (89.1) MB, pooled: 18 MB, 8.04 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[133:0x33723000]   199002 ms: Scavenge 48.7 (89.1) -> 30.3 (94.3) MB, pooled: 12 MB, 7.01 / 0.00 ms  (average mu = 0.999, current mu = 1.000) task; 
+[133:0x33723000]   199017 ms: Mark-Compact 31.2 (94.3) -> 23.4 (94.3) MB, pooled: 12 MB, 2.71 / 0.00 ms  (+ 3.8 ms in 128 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 15 ms) (average mu = 0.999, current mu = 0.998) finalize incremental marking via task; GC in old space requested
+[3270:0x2d345000]     2278 ms: Scavenge 138.4 (178.1) -> 120.6 (184.3) MB, pooled: 0 MB, 11.89 / 0.33 ms  (average mu = 0.976, current mu = 0.983) task; 
+
+[133:0x33723000]   199342 ms: Scavenge 49.2 (94.3) -> 26.3 (94.3) MB, pooled: 12 MB, 1.78 / 0.00 ms  (average mu = 0.999, current mu = 0.998) task; 
+[133:0x33723000]   199645 ms: Scavenge 49.3 (94.3) -> 28.9 (94.3) MB, pooled: 12 MB, 6.33 / 0.00 ms  (average mu = 0.999, current mu = 0.998) task; 
+[133:0x33723000]   200782 ms: Scavenge 52.1 (94.3) -> 32.0 (95.3) MB, pooled: 12 MB, 8.51 / 0.00 ms  (average mu = 0.999, current mu = 0.998) task; 
+[133:0x33723000]   201288 ms: Scavenge 54.8 (95.3) -> 35.0 (98.6) MB, pooled: 8 MB, 2.29 / 0.00 ms  (average mu = 0.999, current mu = 0.998) task; 
+6:05:26 PM [vite] (client) hmr update /src/f0.jsx
+
+6:05:27 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:05:27 PM [vite] (client) hmr update /src/f0.jsx
+
+[133:0x33723000]   202969 ms: Scavenge 57.8 (98.6) -> 37.7 (101.3) MB, pooled: 6 MB, 1.45 / 0.00 ms  (average mu = 0.999, current mu = 0.998) task; 
+[133:0x33723000]   202978 ms: Mark-Compact 38.4 (101.3) -> 17.1 (91.8) MB, pooled: 15 MB, 1.84 / 0.00 ms  (+ 2.9 ms in 121 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 9 ms) (average mu = 0.999, current mu = 0.999) finalize incremental marking via task; GC in old space requested
+6:05:28 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:05:28 PM [vite] (client) hmr update /src/f0.jsx
+
+6:05:29 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:05:29 PM [vite] (client) hmr update /src/f0.jsx
+
+6:05:30 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+6:05:30 PM [vite] (client) hmr update /src/f0.jsx
+
+[133:0x33723000]   206038 ms: Scavenge 42.9 (91.8) -> 20.2 (91.8) MB, pooled: 15 MB, 3.15 / 0.00 ms  (average mu = 0.999, current mu = 0.999) task; 
+6:05:31 PM [vite] (client) hmr update /src/d0/d0/d0/f0.jsx
+
+success Vite 8.3.0 dev (warm, memory): steady 370.3 MiB, peak 370.3 MiB
+[3270:0x2d345000]    17139 ms: Scavenge 152.8 (186.0) -> 130.9 (188.3) MB, pooled: 0 MB, 2.88 / 0.04 ms  (average mu = 0.976, current mu = 0.983) allocation failure; 
+
+start   Running build command: build:vite
+Benchmark Start Time: 1792605940187
+
+[3665:0x76ca000]       51 ms: Scavenge 6.4 (7.6) -> 5.9 (8.6) MB, pooled: 0 MB, 0.51 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[3665:0x76ca000]       62 ms: Scavenge 6.8 (8.6) -> 6.5 (11.1) MB, pooled: 0 MB, 0.53 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[3665:0x76ca000]      102 ms: Scavenge 10.0 (12.5) -> 9.1 (13.0) MB, pooled: 0 MB, 0.43 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[3665:0x76ca000]      120 ms: Scavenge 11.2 (14.0) -> 10.5 (19.0) MB, pooled: 0 MB, 0.71 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[3665:0x76ca000]      154 ms: Scavenge 14.3 (20.0) -> 13.0 (20.5) MB, pooled: 0 MB, 0.66 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+
+[3665:0x76ca000]      161 ms: Mark-Compact 13.1 (20.5) -> 12.0 (21.8) MB, pooled: 0 MB, 1.49 / 0.01 ms  (+ 2.2 ms in 74 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 4 ms) (average mu = 0.977, current mu = 0.977) finalize incremental marking via task; GC in old space requested
+
+vite v8.3.0 building client environment for production...
+
+transforming...
+
+✓ 20022 modules transformed.
+
+[3665:0x76ca000]      939 ms: Scavenge 21.5 (26.5) -> 16.4 (31.5) MB, pooled: 0 MB, 1.44 / 0.01 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[3665:0x76ca000]      962 ms: Scavenge 28.0 (36.9) -> 23.2 (35.3) MB, pooled: 0 MB, 2.64 / 0.00 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[3665:0x76ca000]      976 ms: Scavenge 28.8 (37.7) -> 27.3 (57.9) MB, pooled: 0 MB, 3.02 / 0.00 ms  (average mu = 0.977, current mu = 0.977) allocation failure; 
+
+[3665:0x76ca000]     1019 ms: Mark-Compact 52.8 (77.9) -> 50.0 (115.9) MB, pooled: 0 MB, 4.93 / 0.02 ms  (+ 1.2 ms in 104 steps since start of marking, biggest step 0.2 ms, walltime since start of marking 43 ms) (average mu = 0.991, current mu = 0.993) finalize incremental marking via stack guard; GC in old space requested
+
+rendering chunks...
+
+computing gzip size...
+
+dist/index.html                   0.45 kB │ gzip:   0.30 kB
+dist/assets/index-DIPTFHQ-.css    0.02 kB │ gzip:   0.04 kB
+dist/assets/f7-CF3KV3yN.js      480.79 kB │ gzip: 127.22 kB
+dist/assets/f5-ulTyHPMQ.js      490.53 kB │ gzip: 132.75 kB
+dist/assets/f4-CDmlGJVa.js      494.44 kB │ gzip: 134.53 kB
+dist/assets/f6-UTLG91yh.js      495.24 kB │ gzip: 135.23 kB
+dist/assets/f1-BWfmfotR.js      500.23 kB │ gzip: 135.78 kB
+dist/assets/f2-BBNK_IAS.js      512.10 kB │ gzip: 141.11 kB
+dist/assets/f3-C06QU5Wj.js      516.29 kB │ gzip: 143.62 kB
+dist/assets/index-BXzUHz4W.js   747.49 kB │ gzip: 215.55 kB
+dist/assets/f8-CwsyxxH9.js      994.66 kB │ gzip: 266.88 kB
+
+
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+✓ built in 966ms
+
+success Vite 8.3.0 built in 1228ms
+success Vite 8.3.0 output size: 5232.3kB
+success Vite 8.3.0 gzipped size: 1407.1kB
+start   Running build command: build:vite
+Benchmark Start Time: 1792605942469
+
+[3730:0x29943000]       52 ms: Scavenge 6.4 (7.6) -> 5.9 (8.6) MB, pooled: 0 MB, 0.49 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[3730:0x29943000]       63 ms: Scavenge 6.8 (8.6) -> 6.5 (11.1) MB, pooled: 0 MB, 0.51 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[3730:0x29943000]      100 ms: Scavenge 10.0 (13.0) -> 9.1 (13.5) MB, pooled: 0 MB, 0.46 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[3730:0x29943000]      118 ms: Scavenge 11.2 (14.5) -> 10.5 (19.5) MB, pooled: 0 MB, 0.72 / 0.00 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+[3730:0x29943000]      153 ms: Scavenge 14.3 (20.0) -> 13.0 (20.5) MB, pooled: 0 MB, 0.65 / 0.00 ms  (average mu = 1.000, current mu = 1.000) task; 
+
+[3730:0x29943000]      162 ms: Mark-Compact 13.1 (20.5) -> 12.0 (21.8) MB, pooled: 0 MB, 1.62 / 0.00 ms  (+ 2.2 ms in 73 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 5 ms) (average mu = 0.976, current mu = 0.976) finalize incremental marking via task; GC in old space requested
+
+vite v8.3.0 building client environment for production...
+
+transforming...
+
+✓ 20022 modules transformed.
+
+[3730:0x29943000]      946 ms: Scavenge 21.5 (26.5) -> 16.5 (31.5) MB, pooled: 0 MB, 1.51 / 0.01 ms  (average mu = 0.976, current mu = 0.976) allocation failure; 
+
+[3730:0x29943000]      969 ms: Scavenge 28.0 (36.9) -> 23.3 (35.8) MB, pooled: 0 MB, 2.25 / 0.00 ms  (average mu = 0.976, current mu = 0.976) allocation failure; 
+
+[3730:0x29943000]      982 ms: Scavenge 28.8 (37.4) -> 27.3 (58.1) MB, pooled: 0 MB, 2.99 / 0.00 ms  (average mu = 0.976, current mu = 0.976) allocation failure; 
+
+[3730:0x29943000]     1017 ms: Mark-Compact 44.4 (69.9) -> 41.6 (107.6) MB, pooled: 0 MB, 4.83 / 0.02 ms  (+ 1.4 ms in 97 steps since start of marking, biggest step 0.2 ms, walltime since start of marking 34 ms) (average mu = 0.990, current mu = 0.993) finalize incremental marking via stack guard; GC in old space requested
+
+rendering chunks...
+
+[3730:0x29943000]     1123 ms: Scavenge 76.8 (139.5) -> 49.2 (113.1) MB, pooled: 0 MB, 3.58 / 0.01 ms  (average mu = 0.990, current mu = 0.993) allocation failure; 
+
+computing gzip size...
+
+dist/index.html                   0.45 kB │ gzip:   0.30 kB
+dist/assets/index-DIPTFHQ-.css    0.02 kB │ gzip:   0.04 kB
+dist/assets/f7-CF3KV3yN.js      480.79 kB │ gzip: 127.22 kB
+dist/assets/f5-ulTyHPMQ.js      490.53 kB │ gzip: 132.75 kB
+dist/assets/f4-CDmlGJVa.js      494.44 kB │ gzip: 134.53 kB
+dist/assets/f6-UTLG91yh.js      495.24 kB │ gzip: 135.23 kB
+dist/assets/f1-BWfmfotR.js      500.23 kB │ gzip: 135.78 kB
+dist/assets/f2-BBNK_IAS.js      512.10 kB │ gzip: 141.11 kB
+dist/assets/f3-C06QU5Wj.js      516.29 kB │ gzip: 143.62 kB
+dist/assets/index-BXzUHz4W.js   747.49 kB │ gzip: 215.55 kB
+dist/assets/f8-CwsyxxH9.js      994.66 kB │ gzip: 266.88 kB
+
+
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+✓ built in 972ms
+
+success Vite 8.3.0 built with cache in 1231ms
+[133:0x33723000]   219783 ms: Scavenge 49.4 (92.1) -> 28.3 (92.1) MB, pooled: 15 MB, 5.03 / 0.00 ms  (average mu = 0.999, current mu = 0.999) allocation failure; 
+
+success Benchmark finished!
+
+Development metrics:
+
+| Name       | Startup (no cache) | Startup (with cache) | HMR    | Ready (no cache) | Page (no cache) |
+| ---------- | ------------------ | -------------------- | ------ | ---------------- | --------------- |
+| Vite 8.3.0 | 6797ms🥇           | 4398ms🥇             | 11ms🥇 | 192ms🥇          | 6606ms🥇        |
+
+Build metrics:
+
+| Name       | Build (no cache) | Build (with cache) | Output size | Gzipped size | Brotli size |
+| ---------- | ---------------- | ------------------ | ----------- | ------------ | ----------- |
+| Vite 8.3.0 | 1206ms🥇         | 1198ms🥇           | 5232.3kB🥇  | 1407.1kB🥇   | 1000.2kB🥇  |
+
+Dev memory (MiB):
+
+| Name       | Steady (no cache) | Steady (with cache) | Peak (no cache) | Peak (with cache) |
+| ---------- | ----------------- | ------------------- | --------------- | ----------------- |
+| Vite 8.3.0 | 1158.1🥇          | 371.9🥇             | 1177.3🥇        | 371.9🥇           |
+
+Build memory (MiB):
+
+| Name       | Peak (no cache) | Peak (with cache) |
+| ---------- | --------------- | ----------------- |
+| Vite 8.3.0 | 1403.8🥇        | 1402.6🥇          |
+

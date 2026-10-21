@@ -1,0 +1,3 @@
+node v24.22.0
+pnpm 12.5.1
+Google Chrome for Testing 142.0.7444.175 

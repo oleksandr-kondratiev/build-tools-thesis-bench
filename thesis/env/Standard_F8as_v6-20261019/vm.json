@@ -1,0 +1,16 @@
+{
+  "provider": "azure",
+  "vmSize": "Standard_F8as_v6",
+  "location": "SwedenCentral",
+  "zone": "",
+  "image": {
+    "publisher": "Canonical",
+    "offer": "ubuntu-24_04-lts",
+    "sku": "server",
+    "version": "latest"
+  },
+  "osDisk": {
+    "sizeGB": "128",
+    "type": "Premium_LRS"
+  }
+}

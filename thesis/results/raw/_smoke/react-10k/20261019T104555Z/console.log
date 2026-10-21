@@ -1,0 +1,260 @@
+Scope: all 19 workspace projects
+✓ Lockfile passes supply-chain policies (verified 26m ago)
+Progress: resolved 0, reused 806, downloaded 0, added 0
+Progress: resolved 0, reused 924, downloaded 2, added 0
+Progress: resolved 0, reused 930, downloaded 2, added 0
+[WARN] 4 deprecated subdependencies found: basic-ftp@5.1.0, intersection-observer@0.12.2, stable@0.1.8, uuid@8.3.2
+Already up to date
+Progress: resolved 0, reused 963, downloaded 5, added 0, done
+.../node_modules/puppeteer postinstall$ node install.mjs
+.../node_modules/puppeteer postinstall: **INFO** Skipping downloading browsers as instructed.
+.../node_modules/puppeteer postinstall: Done
+[WARN] Issues with peer dependencies found. Run "pnpm peers check" to list them.
+Done in 5.3s using pnpm v12.5.1
+$ node ./scripts/benchmark.ts
+info    Setup bin file for webpack 5.111.1 (webpack-cli/bin/cli.js)
+info    Setup bin file for webpack 5.111.1 (Babel) (webpack-cli/bin/cli.js)
+info    Setup bin file for Vite 8.3.0 (vite/bin/vite.js)
+info    Setup bin file for Vite 7.3.7 (vite/bin/vite.js)
+info    Memory: process-tree RSS; raw results: /results
+info    webpack 5.111.1: timing pass
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-10k/public' directory
+
+stderr: <i> [webpack-dev-middleware] wait until bundle finished: /
+
+success webpack 5.111.1 dev (cold, timing): 16588ms
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-10k/public' directory
+
+success webpack 5.111.1 dev (warm, timing): 7608ms
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running build command: build:webpack
+success webpack 5.111.1 built in 16638ms
+success webpack 5.111.1 output size: 5638.3kB
+success webpack 5.111.1 gzipped size: 1361.1kB
+start   Running build command: build:webpack
+success webpack 5.111.1 built with cache in 5498ms
+info    webpack 5.111.1: memory pass
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+
+stderr: <i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-10k/public' directory
+
+success webpack 5.111.1 dev (cold, memory): steady 2623.2 MiB, peak 2732.3 MiB
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-10k/public' directory
+
+success webpack 5.111.1 dev (warm, memory): steady 2515.7 MiB, peak 2579.7 MiB
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running build command: build:webpack
+success webpack 5.111.1 built in 17109ms
+success webpack 5.111.1 output size: 5638.3kB
+success webpack 5.111.1 gzipped size: 1361.1kB
+start   Running build command: build:webpack
+success webpack 5.111.1 built with cache in 5478ms
+info    webpack 5.111.1 (Babel): timing pass
+start   Running start command: start:webpack-babel
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-10k/public' directory
+
+success webpack 5.111.1 (Babel) dev (cold, timing): 25533ms
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running start command: start:webpack-babel
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-10k/public' directory
+
+success webpack 5.111.1 (Babel) dev (warm, timing): 7899ms
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running build command: build:webpack-babel
+success webpack 5.111.1 (Babel) built in 48953ms
+success webpack 5.111.1 (Babel) output size: 5658.9kB
+success webpack 5.111.1 (Babel) gzipped size: 1343.4kB
+start   Running build command: build:webpack-babel
+success webpack 5.111.1 (Babel) built with cache in 5679ms
+info    webpack 5.111.1 (Babel): memory pass
+start   Running start command: start:webpack-babel
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-10k/public' directory
+
+success webpack 5.111.1 (Babel) dev (cold, memory): steady 2619.0 MiB, peak 2775.4 MiB
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running start command: start:webpack-babel
+stderr: <i> [webpack-dev-server] Project is running at:
+<i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-10k/public' directory
+
+success webpack 5.111.1 (Babel) dev (warm, memory): steady 2507.4 MiB, peak 2595.1 MiB
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running build command: build:webpack-babel
+success webpack 5.111.1 (Babel) built in 47689ms
+success webpack 5.111.1 (Babel) output size: 5658.9kB
+success webpack 5.111.1 (Babel) gzipped size: 1343.4kB
+start   Running build command: build:webpack-babel
+success webpack 5.111.1 (Babel) built with cache in 5745ms
+info    Vite 8.3.0: timing pass
+start   Running start command: start:vite
+success Vite 8.3.0 dev (cold, timing): 6308ms
+start   Running start command: start:vite
+success Vite 8.3.0 dev (warm, timing): 5215ms
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built in 1202ms
+success Vite 8.3.0 output size: 5232.3kB
+success Vite 8.3.0 gzipped size: 1407.1kB
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built with cache in 1186ms
+info    Vite 8.3.0: memory pass
+start   Running start command: start:vite
+success Vite 8.3.0 dev (cold, memory): steady 1296.7 MiB, peak 1317.1 MiB
+start   Running start command: start:vite
+success Vite 8.3.0 dev (warm, memory): steady 453.8 MiB, peak 453.8 MiB
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built in 1266ms
+success Vite 8.3.0 output size: 5232.3kB
+success Vite 8.3.0 gzipped size: 1407.1kB
+start   Running build command: build:vite
+stderr: [plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 8.3.0 built with cache in 1257ms
+info    Vite 7.3.7: timing pass
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (cold, timing): 8122ms
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (warm, timing): 5662ms
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built in 10728ms
+success Vite 7.3.7 output size: 5147.2kB
+success Vite 7.3.7 gzipped size: 1402.4kB
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built with cache in 10833ms
+info    Vite 7.3.7: memory pass
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (cold, memory): steady 1030.0 MiB, peak 1030.0 MiB
+start   Running start command: start:vite7
+success Vite 7.3.7 dev (warm, memory): steady 447.1 MiB, peak 457.6 MiB
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built in 11006ms
+success Vite 7.3.7 output size: 5147.2kB
+success Vite 7.3.7 gzipped size: 1402.4kB
+start   Running build command: build:vite7
+stderr: 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+success Vite 7.3.7 built with cache in 11102ms
+
+success Benchmark finished!
+
+Development metrics:
+
+| Name                    | Startup (no cache) | Startup (with cache) | HMR      | Ready (no cache) | Page (no cache) |
+| ----------------------- | ------------------ | -------------------- | -------- | ---------------- | --------------- |
+| webpack 5.111.1         | 16588ms🥉          | 7608ms🥉             | 1718ms🥉 | 13516ms🥉        | 3072ms🥈        |
+| webpack 5.111.1 (Babel) | 25533ms            | 7899ms               | 1903ms   | 24302ms          | 1231ms🥇        |
+| Vite 8.3.0              | 6308ms🥇           | 5215ms🥇             | 11ms🥇   | 166ms🥈          | 6142ms🥉        |
+| Vite 7.3.7              | 8122ms🥈           | 5662ms🥈             | 13ms🥈   | 137ms🥇          | 7985ms          |
+
+Build metrics:
+
+| Name                    | Build (no cache) | Build (with cache) | Output size | Gzipped size | Brotli size |
+| ----------------------- | ---------------- | ------------------ | ----------- | ------------ | ----------- |
+| webpack 5.111.1         | 16638ms🥉        | 5498ms🥈           | 5638.3kB🥉  | 1361.1kB🥈   | 1044.0kB    |
+| webpack 5.111.1 (Babel) | 48953ms          | 5679ms🥉           | 5658.9kB    | 1343.4kB🥇   | 1040.6kB🥉  |
+| Vite 8.3.0              | 1202ms🥇         | 1186ms🥇           | 5232.3kB🥈  | 1407.1kB     | 1000.2kB🥇  |
+| Vite 7.3.7              | 10728ms🥈        | 10833ms            | 5147.2kB🥇  | 1402.4kB🥉   | 1001.5kB🥈  |
+
+Dev memory (MiB):
+
+| Name                    | Steady (no cache) | Steady (with cache) | Peak (no cache) | Peak (with cache) |
+| ----------------------- | ----------------- | ------------------- | --------------- | ----------------- |
+| webpack 5.111.1         | 2623.2            | 2515.7              | 2732.3🥉        | 2579.7🥉          |
+| webpack 5.111.1 (Babel) | 2619.0🥉          | 2507.4🥉            | 2775.4          | 2595.1            |
+| Vite 8.3.0              | 1296.7🥈          | 453.8🥈             | 1317.1🥈        | 453.8🥇           |
+| Vite 7.3.7              | 1030.0🥇          | 447.1🥇             | 1030.0🥇        | 457.6🥈           |
+
+Build memory (MiB):
+
+| Name                    | Peak (no cache) | Peak (with cache) |
+| ----------------------- | --------------- | ----------------- |
+| webpack 5.111.1         | 2226.5🥉        | 1536.8            |
+| webpack 5.111.1 (Babel) | 2504.8          | 1516.1🥉          |
+| Vite 8.3.0              | 1376.4🥇        | 1394.1🥇          |
+| Vite 7.3.7              | 1612.3🥈        | 1430.8🥈          |
+

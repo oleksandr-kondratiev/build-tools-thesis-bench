@@ -1,0 +1,150 @@
+[
+  {
+    "webpack 5.111.1": {
+      "prodBuild": 5101,
+      "prodHotBuild": 1326
+    },
+    "Vite 8.3.0": {
+      "prodBuild": 931,
+      "prodHotBuild": 936
+    },
+    "webpack 5.111.1 (Babel)": {
+      "prodBuild": 17545,
+      "prodHotBuild": 1349
+    },
+    "Vite 7.3.7": {
+      "prodBuild": 6288,
+      "prodHotBuild": 6309
+    }
+  },
+  {
+    "webpack 5.111.1": {
+      "prodBuild": 5119,
+      "prodHotBuild": 1336,
+      "buildColdPeak": 999.8125,
+      "buildHotPeak": 492.44140625
+    },
+    "webpack 5.111.1 (Babel)": {
+      "prodBuild": 17479,
+      "prodHotBuild": 1319,
+      "buildColdPeak": 1690.6328125,
+      "buildHotPeak": 491.42578125
+    },
+    "Vite 7.3.7": {
+      "prodBuild": 6280,
+      "prodHotBuild": 6238,
+      "buildColdPeak": 1202.6875,
+      "buildHotPeak": 1176.65234375
+    },
+    "Vite 8.3.0": {
+      "prodBuild": 926,
+      "prodHotBuild": 912,
+      "buildColdPeak": 984.8203125,
+      "buildHotPeak": 953.03125
+    }
+  },
+  {
+    "Vite 7.3.7": {
+      "prodBuild": 6306,
+      "prodHotBuild": 6277,
+      "buildColdPeak": 1178.51953125,
+      "buildHotPeak": 1180.73828125
+    },
+    "webpack 5.111.1 (Babel)": {
+      "prodBuild": 17331,
+      "prodHotBuild": 1351,
+      "buildColdPeak": 1916,
+      "buildHotPeak": 493.14453125
+    },
+    "webpack 5.111.1": {
+      "prodBuild": 5170,
+      "prodHotBuild": 1322,
+      "buildColdPeak": 994.30859375,
+      "buildHotPeak": 495.1953125
+    },
+    "Vite 8.3.0": {
+      "prodBuild": 914,
+      "prodHotBuild": 929,
+      "buildColdPeak": 991.15234375,
+      "buildHotPeak": 980.77734375
+    }
+  },
+  {
+    "webpack 5.111.1 (Babel)": {
+      "prodBuild": 17623,
+      "prodHotBuild": 1357,
+      "buildColdPeak": 1782.92578125,
+      "buildHotPeak": 491.47265625
+    },
+    "Vite 7.3.7": {
+      "prodBuild": 6292,
+      "prodHotBuild": 6325,
+      "buildColdPeak": 1187.265625,
+      "buildHotPeak": 1168.9375
+    },
+    "Vite 8.3.0": {
+      "prodBuild": 929,
+      "prodHotBuild": 912,
+      "buildColdPeak": 983.0546875,
+      "buildHotPeak": 984.625
+    },
+    "webpack 5.111.1": {
+      "prodBuild": 5097,
+      "prodHotBuild": 1318,
+      "buildColdPeak": 978.9921875,
+      "buildHotPeak": 491.24609375
+    }
+  },
+  {
+    "webpack 5.111.1": {
+      "prodBuild": 5106,
+      "prodHotBuild": 1337,
+      "buildColdPeak": 951.05078125,
+      "buildHotPeak": 493.46484375
+    },
+    "Vite 7.3.7": {
+      "prodBuild": 6392,
+      "prodHotBuild": 6276,
+      "buildColdPeak": 1186.2109375,
+      "buildHotPeak": 1207.9375
+    },
+    "Vite 8.3.0": {
+      "prodBuild": 946,
+      "prodHotBuild": 916,
+      "buildColdPeak": 964.3046875,
+      "buildHotPeak": 984.5078125
+    },
+    "webpack 5.111.1 (Babel)": {
+      "prodBuild": 17267,
+      "prodHotBuild": 1334,
+      "buildColdPeak": 1693.6796875,
+      "buildHotPeak": 492.07421875
+    }
+  },
+  {
+    "Vite 8.3.0": {
+      "prodBuild": 907,
+      "prodHotBuild": 921,
+      "buildColdPeak": 977.578125,
+      "buildHotPeak": 973.2578125
+    },
+    "Vite 7.3.7": {
+      "prodBuild": 6526,
+      "prodHotBuild": 6327,
+      "buildColdPeak": 1200.6953125,
+      "buildHotPeak": 1179.5390625
+    },
+    "webpack 5.111.1 (Babel)": {
+      "prodBuild": 17496,
+      "prodHotBuild": 1344,
+      "buildColdPeak": 1640.65625,
+      "buildHotPeak": 492.55859375
+    },
+    "webpack 5.111.1": {
+      "prodBuild": 5177,
+      "prodHotBuild": 1316,
+      "buildColdPeak": 979.16015625,
+      "buildHotPeak": 495.37890625
+    }
+  }
+]

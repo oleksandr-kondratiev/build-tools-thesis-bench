@@ -1,0 +1,9 @@
+CPU CORE SOCKET NODE ONLINE MAXMHZ
+  0    0      0    0    yes      -
+  1    1      0    0    yes      -
+  2    2      0    0    yes      -
+  3    3      0    0    yes      -
+  4    4      0    0    yes      -
+  5    5      0    0    yes      -
+  6    6      0    0    yes      -
+  7    7      0    0    yes      -

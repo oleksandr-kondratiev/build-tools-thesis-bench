@@ -1,0 +1,1 @@
+{"tool":"Vite 7.3.7","phase":"dev-cold","iteration":4,"warmup":false,"measurement":"timing","succeeded":true,"startupTime":7245,"readyTime":132,"pageTime":7113,"hmrTimes":[23,19,17,7,255,7,17,7,17,6],"hubHmrTimes":[],"attempt":1,"lastPhase":"HMR (benchmark-restored-1)","phaseElapsedMs":508,"elapsedMs":14335,"exit":{"code":null,"signal":"SIGTERM"}}

@@ -1,0 +1,347 @@
+Scope: all 19 workspace projects
+✓ Lockfile passes supply-chain policies (verified 6m ago)
+Progress: resolved 0, reused 651, downloaded 0, added 0
+Progress: resolved 0, reused 874, downloaded 2, added 0
+Progress: resolved 0, reused 927, downloaded 2, added 0
+Progress: resolved 0, reused 957, downloaded 5, added 0
+[WARN] 4 deprecated subdependencies found: basic-ftp@5.1.0, intersection-observer@0.12.2, stable@0.1.8, uuid@8.3.2
+Already up to date
+Progress: resolved 0, reused 963, downloaded 5, added 0, done
+.../node_modules/puppeteer postinstall$ node install.mjs
+.../node_modules/puppeteer postinstall: **INFO** Skipping downloading browsers as instructed.
+.../node_modules/puppeteer postinstall: Done
+[WARN] Issues with peer dependencies found. Run "pnpm peers check" to list them.
+Done in 7.4s using pnpm v12.5.1
+$ node ./scripts/benchmark.ts
+info    Setup bin file for webpack 5.111.1 (webpack-cli/bin/cli.js)
+info    Memory: process-tree RSS; raw results: /results
+info    webpack 5.111.1: timing pass
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-5k/public' directory
+
+stderr: <i> [webpack-dev-middleware] wait until bundle finished: /
+
+success webpack 5.111.1 dev (cold, timing): 9906ms
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-5k/public' directory
+
+success webpack 5.111.1 dev (warm, timing): 4774ms
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running build command: build:webpack
+success webpack 5.111.1 built in 9215ms
+success webpack 5.111.1 output size: 2710.7kB
+success webpack 5.111.1 gzipped size: 682.1kB
+start   Running build command: build:webpack
+success webpack 5.111.1 built with cache in 3239ms
+info    webpack 5.111.1: timing pass
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-5k/public' directory
+
+success webpack 5.111.1 dev (cold, timing): 8866ms
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-5k/public' directory
+
+success webpack 5.111.1 dev (warm, timing): 5304ms
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running build command: build:webpack
+success webpack 5.111.1 built in 9190ms
+success webpack 5.111.1 output size: 2710.7kB
+success webpack 5.111.1 gzipped size: 682.1kB
+start   Running build command: build:webpack
+success webpack 5.111.1 built with cache in 3205ms
+info    webpack 5.111.1: memory pass
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+<i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-5k/public' directory
+
+success webpack 5.111.1 dev (cold, memory): steady 1576.3 MiB, peak 1610.6 MiB
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+<i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-5k/public' directory
+
+success webpack 5.111.1 dev (warm, memory): steady 1435.8 MiB, peak 1537.0 MiB
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running build command: build:webpack
+success webpack 5.111.1 built in 9227ms
+success webpack 5.111.1 output size: 2710.7kB
+success webpack 5.111.1 gzipped size: 682.1kB
+start   Running build command: build:webpack
+success webpack 5.111.1 built with cache in 3304ms
+info    webpack 5.111.1: timing pass
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-5k/public' directory
+
+success webpack 5.111.1 dev (cold, timing): 9243ms
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-5k/public' directory
+
+success webpack 5.111.1 dev (warm, timing): 5352ms
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running build command: build:webpack
+success webpack 5.111.1 built in 9301ms
+success webpack 5.111.1 output size: 2710.7kB
+success webpack 5.111.1 gzipped size: 682.1kB
+start   Running build command: build:webpack
+success webpack 5.111.1 built with cache in 3241ms
+info    webpack 5.111.1: memory pass
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+
+stderr: <i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-5k/public' directory
+
+success webpack 5.111.1 dev (cold, memory): steady 1637.0 MiB, peak 1651.3 MiB
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+
+stderr: <i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+
+stderr: <i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-5k/public' directory
+
+success webpack 5.111.1 dev (warm, memory): steady 1046.4 MiB, peak 1429.7 MiB
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running build command: build:webpack
+success webpack 5.111.1 built in 9435ms
+success webpack 5.111.1 output size: 2710.7kB
+success webpack 5.111.1 gzipped size: 682.1kB
+start   Running build command: build:webpack
+success webpack 5.111.1 built with cache in 3319ms
+info    webpack 5.111.1: timing pass
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-5k/public' directory
+
+success webpack 5.111.1 dev (cold, timing): 8920ms
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-5k/public' directory
+
+success webpack 5.111.1 dev (warm, timing): 5372ms
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running build command: build:webpack
+success webpack 5.111.1 built in 9074ms
+success webpack 5.111.1 output size: 2710.7kB
+success webpack 5.111.1 gzipped size: 682.1kB
+start   Running build command: build:webpack
+success webpack 5.111.1 built with cache in 3282ms
+info    webpack 5.111.1: memory pass
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-5k/public' directory
+
+success webpack 5.111.1 dev (cold, memory): steady 1618.8 MiB, peak 1631.9 MiB
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+
+stderr: <i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-5k/public' directory
+
+success webpack 5.111.1 dev (warm, memory): steady 1057.9 MiB, peak 1419.8 MiB
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running build command: build:webpack
+success webpack 5.111.1 built in 9419ms
+success webpack 5.111.1 output size: 2710.7kB
+success webpack 5.111.1 gzipped size: 682.1kB
+start   Running build command: build:webpack
+success webpack 5.111.1 built with cache in 3260ms
+info    webpack 5.111.1: timing pass
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-5k/public' directory
+
+success webpack 5.111.1 dev (cold, timing): 8932ms
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-5k/public' directory
+
+success webpack 5.111.1 dev (warm, timing): 5268ms
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running build command: build:webpack
+success webpack 5.111.1 built in 9260ms
+success webpack 5.111.1 output size: 2710.7kB
+success webpack 5.111.1 gzipped size: 682.1kB
+start   Running build command: build:webpack
+success webpack 5.111.1 built with cache in 3233ms
+info    webpack 5.111.1: memory pass
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-5k/public' directory
+
+success webpack 5.111.1 dev (cold, memory): steady 1624.0 MiB, peak 1640.6 MiB
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-5k/public' directory
+
+success webpack 5.111.1 dev (warm, memory): steady 1057.9 MiB, peak 1476.8 MiB
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running build command: build:webpack
+success webpack 5.111.1 built in 9407ms
+success webpack 5.111.1 output size: 2710.7kB
+success webpack 5.111.1 gzipped size: 682.1kB
+start   Running build command: build:webpack
+success webpack 5.111.1 built with cache in 3295ms
+info    webpack 5.111.1: timing pass
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-5k/public' directory
+
+success webpack 5.111.1 dev (cold, timing): 8911ms
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-5k/public' directory
+
+success webpack 5.111.1 dev (warm, timing): 5310ms
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running build command: build:webpack
+success webpack 5.111.1 built in 9292ms
+success webpack 5.111.1 output size: 2710.7kB
+success webpack 5.111.1 gzipped size: 682.1kB
+start   Running build command: build:webpack
+success webpack 5.111.1 built with cache in 3271ms
+info    webpack 5.111.1: memory pass
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+
+stderr: <i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-5k/public' directory
+
+success webpack 5.111.1 dev (cold, memory): steady 1603.9 MiB, peak 1621.6 MiB
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running start command: start:webpack
+stderr: <i> [webpack-dev-server] Project is running at:
+
+stderr: <i> [webpack-dev-server] Loopback: http://localhost:8080/, http://[::1]:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:8080/
+
+stderr: <i> [webpack-dev-server] Content not from webpack is served from '/bench/cases/react-5k/public' directory
+
+success webpack 5.111.1 dev (warm, memory): steady 1402.6 MiB, peak 1516.6 MiB
+stderr: <i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+
+start   Running build command: build:webpack
+success webpack 5.111.1 built in 9411ms
+success webpack 5.111.1 output size: 2710.7kB
+success webpack 5.111.1 gzipped size: 682.1kB
+start   Running build command: build:webpack
+success webpack 5.111.1 built with cache in 3302ms
+
+success Benchmark finished!
+
+Development metrics:
+
+| Name            | Startup (no cache) | Startup (with cache) | HMR     | Ready (no cache) | Page (no cache) |
+| --------------- | ------------------ | -------------------- | ------- | ---------------- | --------------- |
+| webpack 5.111.1 | 8920ms🥇           | 5310ms🥇             | 906ms🥇 | 7922ms🥇         | 1008ms🥇        |
+
+Build metrics:
+
+| Name            | Build (no cache) | Build (with cache) | Output size | Gzipped size | Brotli size |
+| --------------- | ---------------- | ------------------ | ----------- | ------------ | ----------- |
+| webpack 5.111.1 | 9260ms🥇         | 3241ms🥇           | 2710.7kB🥇  | 682.1kB🥇    | 555.1kB🥇   |
+
+Dev memory (MiB):
+
+| Name            | Steady (no cache) | Steady (with cache) | Peak (no cache) | Peak (with cache) |
+| --------------- | ----------------- | ------------------- | --------------- | ----------------- |
+| webpack 5.111.1 | 1618.8🥇          | 1057.9🥇            | 1631.9🥇        | 1476.8🥇          |
+
+Build memory (MiB):
+
+| Name            | Peak (no cache) | Peak (with cache) |
+| --------------- | --------------- | ----------------- |
+| webpack 5.111.1 | 1261.4🥇        | 760.2🥇           |
+

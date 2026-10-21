@@ -1,0 +1,56 @@
+[
+  {
+    "webpack 5.111.1 (Babel)": {
+      "devColdStart": 16361,
+      "devColdReady": 14152,
+      "devColdPage": 2209,
+      "rootHmr": 1020,
+      "leafHmr": 977,
+      "hmr": 998.5,
+      "devHotStart": 4830,
+      "devHotReady": 3855,
+      "devHotPage": 975,
+      "prodBuild": 23511,
+      "prodHotBuild": 3293
+    },
+    "Vite 7.3.7": {
+      "devColdStart": 5141,
+      "devColdReady": 135,
+      "devColdPage": 5006,
+      "rootHmr": 14,
+      "leafHmr": 9,
+      "hmr": 11.5,
+      "devHotStart": 4067,
+      "devHotReady": 125,
+      "devHotPage": 3942,
+      "prodBuild": 5833,
+      "prodHotBuild": 5745
+    },
+    "Vite 8.3.0": {
+      "devColdStart": 4208,
+      "devColdReady": 161,
+      "devColdPage": 4047,
+      "rootHmr": 13,
+      "leafHmr": 7,
+      "hmr": 10,
+      "devHotStart": 3527,
+      "devHotReady": 153,
+      "devHotPage": 3374,
+      "prodBuild": 706,
+      "prodHotBuild": 703
+    },
+    "webpack 5.111.1": {
+      "devColdStart": 8853,
+      "devColdReady": 7889,
+      "devColdPage": 964,
+      "rootHmr": 979,
+      "leafHmr": 899,
+      "hmr": 939,
+      "devHotStart": 5354,
+      "devHotReady": 4277,
+      "devHotPage": 1077,
+      "prodBuild": 9155,
+      "prodHotBuild": 3260
+    }
+  }
+]

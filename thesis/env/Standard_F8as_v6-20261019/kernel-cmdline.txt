@@ -1,0 +1,1 @@
+BOOT_IMAGE=/vmlinuz-7.0.0-1017-azure root=<redacted> ro console=tty1 console=ttyS0 earlyprintk=ttyS0 nvme_core.io_timeout=240 panic=-1

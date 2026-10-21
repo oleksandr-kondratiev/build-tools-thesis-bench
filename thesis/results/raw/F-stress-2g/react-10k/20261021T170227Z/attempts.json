@@ -1,0 +1,11 @@
+[
+  {
+    "tool": "webpack 5.111.1 (Babel)",
+    "measurement": "timing",
+    "unit": "dev",
+    "iteration": 0,
+    "attempt": 1,
+    "succeeded": false,
+    "error": "Error: Server exited during startup: {\"code\":1,\"signal\":null}"
+  }
+]

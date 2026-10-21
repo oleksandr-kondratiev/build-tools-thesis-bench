@@ -1,0 +1,545 @@
+{
+  "case": "react-1k-hub",
+  "memoryKind": "RSS",
+  "sampleIntervalMs": 50,
+  "steadyIdleMs": 5000,
+  "steadyWindowMs": 2000,
+  "hmrUpdates": 10,
+  "hubFile": "hub.js",
+  "hubHmrUpdates": 5,
+  "allRoutes": false,
+  "gitSha": "99ef321f983e4896b96b93bb85ab271f6a434c5b",
+  "timeouts": {
+    "startup": 60000,
+    "page": 60000,
+    "hmr": 60000,
+    "build": 180000,
+    "shutdown": 30000
+  },
+  "maxAttempts": 2,
+  "measurements": [
+    "timing",
+    "memory"
+  ],
+  "warmupTimes": 0,
+  "runTimes": 1,
+  "node": "v24.22.0",
+  "platform": "linux",
+  "release": "7.0.0-1017-azure",
+  "arch": "x64",
+  "cpus": 8,
+  "cpuModel": "AMD EPYC 9V74 80-Core Processor",
+  "totalMemory": 33645174784,
+  "attempts": [
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 8.3.0",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "Vite 7.3.7",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "dev",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "timing",
+      "unit": "build",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "memory",
+      "unit": "dev",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    },
+    {
+      "tool": "webpack 5.111.1 (Babel)",
+      "measurement": "memory",
+      "unit": "build",
+      "iteration": 0,
+      "attempt": 1,
+      "succeeded": true
+    }
+  ],
+  "tools": {
+    "webpack 5.111.1": {
+      "outputSize": "866.4",
+      "gzippedSize": "230.7",
+      "brotliSize": "177.2",
+      "devColdStart": {
+        "median": 4217,
+        "min": 4217,
+        "max": 4217
+      },
+      "devColdReady": {
+        "median": 3156,
+        "min": 3156,
+        "max": 3156
+      },
+      "devColdPage": {
+        "median": 1061,
+        "min": 1061,
+        "max": 1061
+      },
+      "rootHmr": {
+        "median": 306,
+        "min": 306,
+        "max": 306
+      },
+      "leafHmr": {
+        "median": 307,
+        "min": 307,
+        "max": 307
+      },
+      "hmr": {
+        "median": 306.5,
+        "min": 306.5,
+        "max": 306.5
+      },
+      "hubHmr": {
+        "median": 347,
+        "min": 347,
+        "max": 347
+      },
+      "devHotStart": {
+        "median": 2863,
+        "min": 2863,
+        "max": 2863
+      },
+      "devHotReady": {
+        "median": 1787,
+        "min": 1787,
+        "max": 1787
+      },
+      "devHotPage": {
+        "median": 1076,
+        "min": 1076,
+        "max": 1076
+      },
+      "prodBuild": {
+        "median": 3860,
+        "min": 3860,
+        "max": 3860
+      },
+      "prodHotBuild": {
+        "median": 1442,
+        "min": 1442,
+        "max": 1442
+      },
+      "devColdSteady": {
+        "median": 1088.8203125,
+        "min": 1088.8203125,
+        "max": 1088.8203125
+      },
+      "devColdPeak": {
+        "median": 1193.69921875,
+        "min": 1193.69921875,
+        "max": 1193.69921875
+      },
+      "devHotSteady": {
+        "median": 933.3984375,
+        "min": 933.3984375,
+        "max": 933.3984375
+      },
+      "devHotPeak": {
+        "median": 965.8046875,
+        "min": 965.8046875,
+        "max": 965.8046875
+      },
+      "buildColdPeak": {
+        "median": 853.0078125,
+        "min": 853.0078125,
+        "max": 853.0078125
+      },
+      "buildHotPeak": {
+        "median": 475.9765625,
+        "min": 475.9765625,
+        "max": 475.9765625
+      }
+    },
+    "webpack 5.111.1 (Babel)": {
+      "outputSize": "872.5",
+      "gzippedSize": "229.1",
+      "brotliSize": "176.8",
+      "devColdStart": {
+        "median": 6359,
+        "min": 6359,
+        "max": 6359
+      },
+      "devColdReady": {
+        "median": 5238,
+        "min": 5238,
+        "max": 5238
+      },
+      "devColdPage": {
+        "median": 1121,
+        "min": 1121,
+        "max": 1121
+      },
+      "rootHmr": {
+        "median": 293,
+        "min": 293,
+        "max": 293
+      },
+      "leafHmr": {
+        "median": 302,
+        "min": 302,
+        "max": 302
+      },
+      "hmr": {
+        "median": 297.5,
+        "min": 297.5,
+        "max": 297.5
+      },
+      "hubHmr": {
+        "median": 356,
+        "min": 356,
+        "max": 356
+      },
+      "devHotStart": {
+        "median": 2884,
+        "min": 2884,
+        "max": 2884
+      },
+      "devHotReady": {
+        "median": 1753,
+        "min": 1753,
+        "max": 1753
+      },
+      "devHotPage": {
+        "median": 1131,
+        "min": 1131,
+        "max": 1131
+      },
+      "prodBuild": {
+        "median": 13016,
+        "min": 13016,
+        "max": 13016
+      },
+      "prodHotBuild": {
+        "median": 1394,
+        "min": 1394,
+        "max": 1394
+      },
+      "devColdSteady": {
+        "median": 1118.9140625,
+        "min": 1118.9140625,
+        "max": 1118.9140625
+      },
+      "devColdPeak": {
+        "median": 1246.48828125,
+        "min": 1246.48828125,
+        "max": 1246.48828125
+      },
+      "devHotSteady": {
+        "median": 952.89453125,
+        "min": 952.89453125,
+        "max": 952.89453125
+      },
+      "devHotPeak": {
+        "median": 983.71484375,
+        "min": 983.71484375,
+        "max": 983.71484375
+      },
+      "buildColdPeak": {
+        "median": 1026.00390625,
+        "min": 1026.00390625,
+        "max": 1026.00390625
+      },
+      "buildHotPeak": {
+        "median": 504.84375,
+        "min": 504.84375,
+        "max": 504.84375
+      }
+    },
+    "Vite 8.3.0": {
+      "outputSize": "838.6",
+      "gzippedSize": "226.2",
+      "brotliSize": "174.9",
+      "devColdStart": {
+        "median": 6104,
+        "min": 6104,
+        "max": 6104
+      },
+      "devColdReady": {
+        "median": 168,
+        "min": 168,
+        "max": 168
+      },
+      "devColdPage": {
+        "median": 5936,
+        "min": 5936,
+        "max": 5936
+      },
+      "rootHmr": {
+        "median": 17,
+        "min": 17,
+        "max": 17
+      },
+      "leafHmr": {
+        "median": 6,
+        "min": 6,
+        "max": 6
+      },
+      "hmr": {
+        "median": 11.5,
+        "min": 11.5,
+        "max": 11.5
+      },
+      "hubHmr": {
+        "median": 2102,
+        "min": 2102,
+        "max": 2102
+      },
+      "devHotStart": {
+        "median": 5303,
+        "min": 5303,
+        "max": 5303
+      },
+      "devHotReady": {
+        "median": 154,
+        "min": 154,
+        "max": 154
+      },
+      "devHotPage": {
+        "median": 5149,
+        "min": 5149,
+        "max": 5149
+      },
+      "prodBuild": {
+        "median": 415,
+        "min": 415,
+        "max": 415
+      },
+      "prodHotBuild": {
+        "median": 423,
+        "min": 423,
+        "max": 423
+      },
+      "devColdSteady": {
+        "median": 664.32421875,
+        "min": 664.32421875,
+        "max": 664.32421875
+      },
+      "devColdPeak": {
+        "median": 665.9921875,
+        "min": 665.9921875,
+        "max": 665.9921875
+      },
+      "devHotSteady": {
+        "median": 434.3828125,
+        "min": 434.3828125,
+        "max": 434.3828125
+      },
+      "devHotPeak": {
+        "median": 436.86328125,
+        "min": 436.86328125,
+        "max": 436.86328125
+      },
+      "buildColdPeak": {
+        "median": 456.61328125,
+        "min": 456.61328125,
+        "max": 456.61328125
+      },
+      "buildHotPeak": {
+        "median": 474.8671875,
+        "min": 474.8671875,
+        "max": 474.8671875
+      }
+    },
+    "Vite 7.3.7": {
+      "outputSize": "827.6",
+      "gzippedSize": "227.9",
+      "brotliSize": "176.0",
+      "devColdStart": {
+        "median": 5929,
+        "min": 5929,
+        "max": 5929
+      },
+      "devColdReady": {
+        "median": 135,
+        "min": 135,
+        "max": 135
+      },
+      "devColdPage": {
+        "median": 5794,
+        "min": 5794,
+        "max": 5794
+      },
+      "rootHmr": {
+        "median": 18,
+        "min": 18,
+        "max": 18
+      },
+      "leafHmr": {
+        "median": 8,
+        "min": 8,
+        "max": 8
+      },
+      "hmr": {
+        "median": 13,
+        "min": 13,
+        "max": 13
+      },
+      "hubHmr": {
+        "median": 1534,
+        "min": 1534,
+        "max": 1534
+      },
+      "devHotStart": {
+        "median": 5535,
+        "min": 5535,
+        "max": 5535
+      },
+      "devHotReady": {
+        "median": 125,
+        "min": 125,
+        "max": 125
+      },
+      "devHotPage": {
+        "median": 5410,
+        "min": 5410,
+        "max": 5410
+      },
+      "prodBuild": {
+        "median": 2484,
+        "min": 2484,
+        "max": 2484
+      },
+      "prodHotBuild": {
+        "median": 2500,
+        "min": 2500,
+        "max": 2500
+      },
+      "devColdSteady": {
+        "median": 529.4453125,
+        "min": 529.4453125,
+        "max": 529.4453125
+      },
+      "devColdPeak": {
+        "median": 533.27734375,
+        "min": 533.27734375,
+        "max": 533.27734375
+      },
+      "devHotSteady": {
+        "median": 426.99609375,
+        "min": 426.99609375,
+        "max": 426.99609375
+      },
+      "devHotPeak": {
+        "median": 437.50390625,
+        "min": 437.50390625,
+        "max": 437.50390625
+      },
+      "buildColdPeak": {
+        "median": 587.265625,
+        "min": 587.265625,
+        "max": 587.265625
+      },
+      "buildHotPeak": {
+        "median": 594.7578125,
+        "min": 594.7578125,
+        "max": 594.7578125
+      }
+    }
+  }
+}

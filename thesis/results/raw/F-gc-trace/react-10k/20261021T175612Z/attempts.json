@@ -1,0 +1,20 @@
+[
+  {
+    "tool": "webpack 5.111.1",
+    "measurement": "timing",
+    "unit": "dev",
+    "iteration": 0,
+    "attempt": 1,
+    "succeeded": false,
+    "error": "Error: Dev server exited: {\"code\":1,\"signal\":null}"
+  },
+  {
+    "tool": "webpack 5.111.1",
+    "measurement": "timing",
+    "unit": "dev",
+    "iteration": 0,
+    "attempt": 2,
+    "succeeded": false,
+    "error": "Error: Server exited during startup: {\"code\":1,\"signal\":null}"
+  }
+]

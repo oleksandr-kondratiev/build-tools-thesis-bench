@@ -1,0 +1,11 @@
+[
+  {
+    "tool": "webpack 5.111.1",
+    "measurement": "timing",
+    "unit": "dev",
+    "iteration": 0,
+    "attempt": 1,
+    "succeeded": false,
+    "error": "Error: net::ERR_CONNECTION_REFUSED at http://localhost:8080"
+  }
+]

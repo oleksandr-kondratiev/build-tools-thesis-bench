@@ -9,8 +9,7 @@ dist-*
 .turbopack
 tsconfig.tsbuildinfo
 
-results/
-results/
+/results/
 thesis/**/tmp/
 thesis/analysis/.venv/
 thesis/analysis/__pycache__/
